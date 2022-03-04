@@ -1,0 +1,84 @@
+<div id="provider_details">
+  <h2>
+    View Scheduled Training Courses: <span type="form" name="provider_instance:providertraining" />
+  </h2>
+  <div class="recordsData">
+    <h3>
+      <a name="jump_instance">Scheduled Training Details</a>
+    </h3>
+    <p class="editRecordsData">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('instance_details', this );">Hide</a>
+      <span task="provider_can_edit_participants" type="form" href="editparticipants?id=" name="provider_instance:id">Add Participants</span>
+      <span task="provider_can_edit_participants" type="form" href="uploadparticipants?id=" name="provider_instance:id">Upload Participants</span>
+      
+    </p>
+    
+    <div id="instance_details">
+      
+      <div class="editRecord">
+        <p>Edit This Information</p>
+        <ul>
+          <li task='provider_can_edit_child_form_provider_instance'>
+            <span type="form" ifset="provider_instance:id" name="provider_instance:id" href="provider_instance?id=" parent="true">
+              Update this Information
+            </span>
+          </li>
+        </ul>
+      </div> <!-- editRecord -->
+      
+      <div class="dataTable">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th colspan="2">Scheduled Training</th>
+          </tr>
+          <span type="form" name="provider_instance:providertraining" showhead="default" class="even"></span>
+          <span type="form" name="provider_instance:start_date" showhead="default"></span>
+          <span type="form" name="provider_instance:end_date" showhead="default" class="even"></span>
+          <span type="form" name="provider_instance:job" ifset="true" showhead="default" ></span>
+          <span type="form" name="provider_instance:funder" ifset="true" showhead="default" ></span>
+          <span type="form" name="provider_instance:district" showhead="default" class="even"></span>
+          <span type="form" name="provider_instance:location" showhead="default" class="even"></span>
+          <span type="form" name="provider_instance:trainer" showhead="default"></span>
+	  <span type="form" name="provider_instance:trainer_tel" showhead="default"></span>
+	  <span type="form" name="provider_instance:cancelled" ifset="true" showhead="default"></span>
+        </table>
+      </div> <!-- dataTable -->
+    </div>
+    <br style="clear: both;" />
+  </div> <!-- recordsData -->
+
+  <div class="recordsData">
+    
+    
+    <br style="clear: both;" />
+  </div> <!-- recordsData -->
+   
+  <div class="recordsData">
+    <h3>
+      <a name="jump_participants">Participant Details</a>
+    </h3>
+    <p class="editRecordsData">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('participant_details', this );">Hide</a>
+      <!--<span type="form" name="provider_instance:id" href="editexams/exam_number?id=">Add Exam Numbers</span>-->
+      
+    </p>
+    
+    <div class="dataList">
+      <div id="participant_details" class="dataTable">
+        <table border="0" cellspacing="0" cellpadding="0" id="participant_details_table">
+          <tr>
+            <th class="editRecord">Edit This Information</th>
+            <th>First Name</th>
+            <th>Surname</th>
+            <th>Pre Test</th>
+            <th>Post Test</th>
+            <th>Comments</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <br style="clear: both;" />
+  </div> <!-- recordsData -->
+  
+</div>

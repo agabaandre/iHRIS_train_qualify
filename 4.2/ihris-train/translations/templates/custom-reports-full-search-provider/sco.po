@@ -1,0 +1,145 @@
+# Translation of iHRIS Train - Custom Reports Full Seach Provider to Scots (Scots)
+# Exported from translatewiki.net
+#
+# Author: John Reid
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 12:19:56+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sco\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-08-24 05:43+0000\n"
+"X-Generator: MediaWiki 1.28.0-alpha; Translate 2016-04-06\n"
+"X-POT-Import-Date: 2014-03-23 19:24:56+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L11
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L40
+#: 40]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L122
+#: 122]
+#, no-c-format
+msgid "Search Training Provider"
+msgstr "Rake Trainin Provider"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 14]
+#, no-c-format
+msgid "search Relationship for all training provider records"
+msgstr "rake Relationship fer aw trainin provider records"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L19
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 19]
+#, no-c-format
+msgid "Shows the trainings assigned to a provider"
+msgstr "Shaws the trainins assigned til ae provider"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L22
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 22]
+#, no-c-format
+msgid "Provider Training"
+msgstr "Provider Trainin"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L27
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 27]
+#, no-c-format
+msgid "Shows the instances of the trainings"
+msgstr "Shaws the instances o the trainins"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L30
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 30]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L105
+#: 105]
+#, no-c-format
+msgid "Training Instance"
+msgstr "Trainin Instance"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L43
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 43]
+#, no-c-format
+msgid "Search all training provider records"
+msgstr "Rake aw trainin provider records"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L53
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 53]
+#, no-c-format
+msgid "Training Provider Name"
+msgstr "Trainin Provider Name"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L58
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 58]
+#, no-c-format
+msgid "Name"
+msgstr "Name"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L65
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 65]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L70
+#: 70]
+#, no-c-format
+msgid "Training Provider Type"
+msgstr "Trainin Provider Type"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L81
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 81]
+#, no-c-format
+msgid "Training Information"
+msgstr "Trainin Information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L86
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 86]
+#, no-c-format
+msgid "Training"
+msgstr "Trainin"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L95
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 95]
+#, no-c-format
+msgid "Training End Date"
+msgstr "Trainin End Date"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L100
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 100]
+#, no-c-format
+msgid "Location Details"
+msgstr "Location Details"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L110
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 110]
+#, no-c-format
+msgid "Training Start Date"
+msgstr "Trainin Stairt Date"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml#L119
+#: ihris-train/4.0-dev/annotate/head%3A/modules/SearchProvider/configs/en_US/CustomReports-full-search_provider.xml
+#: line 119]
+#, no-c-format
+msgid "Search all training Providers in the system"
+msgstr "Rake aw trainin Providers in the system"

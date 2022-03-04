@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="STSPerson">
+  <metadata>
+    <displayName>Student Tracking System Person</displayName>
+    <category>Application Component</category>
+    <description>The person module customized according to the requirements of IHS</description>
+    <creator>Ally Shaban</creator>
+    <email>allyshaban5@gmail.com</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="STSRegistration">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="PersonTrain">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <erase path="/modules/forms/formClasses/iHRIS_Person/fields/residence">
+    <lessThan version="4.2.0.12" />
+  </erase>
+  <configurationGroup name="STSPerson" path="/I2CE">
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_title" values="many">
+        <version>4.2.0.10</version>
+        <value>can_view_database_list_title</value>
+        <value>can_edit_database_lists</value>
+      </configuration>
+      <configuration name="can_view_database_list_title" values="many">
+        <version>4.2.0.10</version>
+        <value>can_view_database_lists</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Person">
+          <version>4.2.0.15</version>
+          <displayName>Configuration for the class 'iHRIS_Person'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="title">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Title</value>
+              </configuration>
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="gender">
+              <displayName>The field 'gender'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Gender</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="date_of_birth">
+              <displayName>The field 'date_of_birth'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Date Of Birth</value>
+              </configuration>
+              <configuration name="default_eval">
+                <displayName>The default Value as an eval string</displayName>
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="nationality">
+              <displayName>The field 'nationality'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>country</value>
+                </configuration>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>country</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Country of Citizenship</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <displayName>The field 'location'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>county</value>
+                  <value>district</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="default">
+                    <configurationGroup name="country">
+                      <configuration name="operator">
+                        <value>FIELD_LIMIT</value>
+                      </configuration>
+                      <configuration name="field">
+                        <value>location</value>
+                      </configuration>
+                      <configuration name="style">
+                        <value>yes</value>
+                      </configuration>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>county:district:[region]:country</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Place Of Birth</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/forms/formClasses-->
+    </configurationGroup>
+    <!-- end of /modules/forms-->
+    <!-- person -->
+    <configurationGroup name="page">
+      <version>4.2.0.14</version>
+      <displayName>Pages</displayName>
+      <description>Information about various pages made available by the system</description>
+      <status>required:true</status>
+      <configurationGroup name="person">
+        <displayName>Person Page</displayName>
+        <description>The page 'person' which has the action of: Add/Update Person</description>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <version>4.2.0.14</version>
+          <status>required:true</status>
+          <value>STS_PageFormPerson</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Person</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_can_edit</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <displayName>Default HTML File</displayName>
+            <description>The default HTML File for this page</description>
+            <status>required:true</status>
+            <value>form_person.html</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- person -->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

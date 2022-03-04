@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports-full-out_migration">
+  <metadata>
+    <displayName>Relationship: out_migration</displayName>
+    <description>Relationship 'out_migration' and all reports and report views.</description>
+    <version>4.0.11.2012.05.10</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/out_migration">
+    <lessThan version="4.0.11.2012.05.10" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/out_migration">
+    <lessThan version="4.0.11.2012.05.10" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/1336632562">
+    <lessThan version="4.0.11.2012.05.10" />
+  </erase>
+  <configurationGroup name="CustomReports-full-out_migration" path="/modules/CustomReports">
+    <configurationGroup name="out_migration" path="//modules/CustomReports/relationships/out_migration">
+      <displayName>Export</displayName>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>out_migration</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Out Migration</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Relationship for Out migration</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>person</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Associates the Person</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Person</value>
+          </configuration>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="training">
+              <displayName>Training</displayName>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>training</value>
+              </configuration>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Associates the training to the person</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Traaning</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <displayName>Joins</displayName>
+                <configurationGroup name="registration">
+                  <displayName>Registration</displayName>
+                  <configuration name="limit_one">
+                    <displayName>Limit One</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="form">
+                    <displayName>Form</displayName>
+                    <value>registration</value>
+                  </configuration>
+                  <configuration name="description" locale="en_US">
+                    <displayName>Description</displayName>
+                    <value>Associates the Registration to the persn via the training</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <displayName>Display Name</displayName>
+                    <value>Registration</value>
+                  </configuration>
+                  <configuration name="join_style">
+                    <displayName>Join Style</displayName>
+                    <value>child</value>
+                  </configuration>
+                  <configuration name="drop_empty">
+                    <displayName>Drop Empty</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="demographic">
+              <displayName>Demographic</displayName>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>demographic</value>
+              </configuration>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Associates the demorgraphic information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Demographic</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="person_license">
+              <displayName>Person License</displayName>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_license</value>
+              </configuration>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Assiociates tehe person's license</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Person License</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="out_migration" path="//modules/CustomReports/reports/out_migration">
+      <displayName>Export</displayName>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>out_migration</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Out Migration</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Reports Related to Out Migration</value>
+        </configuration>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Person Reports</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="country">
+              <displayName>Country</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Destination</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Destination</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="expiry_date">
+              <displayName>Expiry Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Expiry Date</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_migration_reason">
+              <displayName>Out Migration Reason</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Purpose</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Purpose</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="receipt_number">
+              <displayName>Receipt Number</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Receipt Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="request_date">
+              <displayName>Request Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Date Issued</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="serial_number">
+              <displayName>Serial Number</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Serial Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="firstname">
+              <displayName>Firstname</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>First Name</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>First Name</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="othername">
+              <displayName>Othername</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Other Names</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="surname">
+              <displayName>Surname</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Surname</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Surname</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_license">
+          <displayName>Person License</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="license_number">
+              <displayName>License Number</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>License Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="demographic">
+          <displayName>Demographic</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="gender">
+              <displayName>Gender</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Gender</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training">
+          <displayName>Training</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="qualification">
+              <displayName>Qualification</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Qualification</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Qualification</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration">
+          <displayName>Registration</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="registration_number">
+              <displayName>Registration Number</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Registration Number</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Registration Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="1336632562" path="//modules/CustomReports/reportViews/1336632562">
+      <displayName>Export</displayName>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>out_migration</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of people who have out migrated</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Cerificate Of Good Standing</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="primary_form+country">
+          <displayName>Primary Form Country</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+expiry_date">
+          <displayName>Primary Form Expiry Date</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+out_migration_reason">
+          <displayName>Primary Form Out Migration Reason</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+receipt_number">
+          <displayName>Primary Form Receipt Number</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+request_date">
+          <displayName>Primary Form Request Date</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+serial_number">
+          <displayName>Primary Form Serial Number</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+firstname">
+          <displayName>Person Firstname</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="demographic+gender">
+          <displayName>Demographic Gender</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training+qualification">
+          <displayName>Training Qualification</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration+registration_number">
+          <displayName>Registration Registration Number</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+surname">
+          <displayName>Person Surname</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>person+surname,person+firstname,demographic+gender,person+othername,registration+registration_number,training+qualification,primary_form+country,primary_form+request_date,primary_form+out_migration_reason,primary_form+expiry_date,primary_form+serial_number,primary_form+receipt_number,person_license+license_number</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>1</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

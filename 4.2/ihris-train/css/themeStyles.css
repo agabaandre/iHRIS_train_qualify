@@ -1,0 +1,94 @@
+/* Main Background Color ------------------------ */
+body {
+	background-color: #69808f;
+}
+
+/* Page Header and subheads --------------------- */
+h1 {
+	color: #1e5483;
+}
+#siteContent h2, h2, #siteContent h2 a {
+	color: #a30649;
+}
+h3 {
+	color: #036;
+}
+h4 {
+	color: #369;
+}
+
+/* page links colors ---------------------------- */
+a {
+	color: #996;
+}
+a:hover {
+	color: #069;
+}
+a:visited {
+	color: #39C;
+}
+a:visited:hover {
+	color: #39C;
+}
+
+/* site banner name colors --------------------- */
+#siteHeader p#siteName {
+	color: #09345f;
+}
+#siteHeader p#siteTag {
+	color: #1e5483;
+} 
+
+/* Horizontal NavBar --------------------------- */
+
+#inlineNavBar {
+	background-color: #db0862;
+}
+#inlineNavBar ul li a {
+	color: #fff;
+	border-right-color: #800539;
+}
+
+#inlineNavBar ul li a:hover {
+	color: #fff;
+	background-color: #a30649;
+}
+
+#inlineNavBar ul li a.active,
+#inlineNavBar ul li a.active:hover {
+	color: #800539;
+}
+#inlineNavBar ul#sysUser li a:hover {
+	background-color: #800539;
+}
+
+#inlineNavBar ul#sysUser li a {
+	border-left-color: #800539;
+}
+
+/* laft-hand NavBar ---------------------------- */
+#navBar li a {
+	color: #333;
+	border-bottom-color: #e0e0e0;
+}
+#navBar li a:hover,
+#navBar li a.active:hover {
+	color: #088edb;
+}
+#navBar li a.active {
+    color: #db0862;
+}
+/* -- subNav -- */
+#navBar ul ul li a {
+	color: #db0862;
+}
+#navBar ul ul li a.active {
+	background-color: #eaddea;
+}
+
+/* misc ----------------------------------------- */
+p.printPage a,
+p.printPage a:visited {
+	color: #930;
+}
+

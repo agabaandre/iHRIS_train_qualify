@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="TrainPosition">
+  <metadata>
+    <displayName>iHRIS TrainPerson Position</displayName>
+    <className>iHRIS_Module_TrainPosition</className>
+    <category>Application Component</category>
+    <description>A Person's Position</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="ihris-common-Job">
+      <atLeast version="4.2" />
+      <lessThan version="4.4" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="TrainPosition" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <version>4.1.1</version>
+      <configuration name="person_can_view_child_form_position" locale="en_US">
+        <value>Can view position child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_position" locale="en_US">
+        <value>Can edit position child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_position" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_position" values="many">
+        <value>person_can_view_child_form_position</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <version>4.1.1</version>
+        <value>person_can_view_child_form_position</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <version>4.1.1</version>
+        <value>person_can_edit_child_form_position</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <version>4.1.1.1</version>
+      <configurationGroup name="position">
+        <displayName>Position Page</displayName>
+        <description>The page 'position' which has the action of: Add/Update Position Information</description>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <value>iHRIS_PageFormParentPerson</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Position Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>position</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- position -->
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.1</version>
+        <configurationGroup name="position">
+          <displayName>Position Information</displayName>
+          <description>The Position Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_Position</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Position Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- position -->
+        <configurationGroup name="person">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <status>uniquemerge:true</status>
+              <value>position</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- person -->
+      </configurationGroup>
+      <!-- end of  forms-->
+      <configurationGroup name="formClasses">
+        <version>4.1.1</version>
+        <configurationGroup name="iHRIS_Position">
+          <version>4.1.1</version>
+          <displayName>Configuration for the class 'iHRIS_Position'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>4.1.6.0</version>
+            <configurationGroup name="health_facility">
+              <displayName>The field 'health_facility'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Health Facility</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <displayName>The field 'job'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Job/Post Title</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job_code">
+              <displayName>The field 'job_code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Job/Post Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <displayName>The field 'start_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Date of Current Appointment</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_Position -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

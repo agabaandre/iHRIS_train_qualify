@@ -1,0 +1,237 @@
+# Translation Template of ihris-train module (ihris-train-AutoList Version 4.2.0)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@ihris-train-AutoList 4.2.0\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L22 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 22]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L33 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 33]
+#, no-c-format
+msgid "2. Jobs/Post"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L25 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 25]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L36 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 36]
+#, no-c-format
+msgid "Create Job Structure"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 17]
+#, no-c-format
+msgid "Cadres"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L28 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 28]
+#, no-c-format
+msgid "Job Classifications"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L39 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 39]
+#, no-c-format
+msgid "Jobs"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L44 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 44]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L55 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 55]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L66 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 66]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L77 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 77]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L88 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 88]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L99 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 99]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L110 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 110]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L121 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 121]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L132 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 132]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L143 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 143]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L154 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 154]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L165 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 165]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L176 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 176]
+#, no-c-format
+msgid "3. Other Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L47 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 47]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L58 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 58]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L69 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 69]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L80 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 80]
+#, no-c-format
+msgid "3. Organization Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L50 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 50]
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L61 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 61]
+#, no-c-format
+msgid "Facility Ownership/Affiliation"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L72 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 72]
+#, no-c-format
+msgid "Health Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L83 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 83]
+#, no-c-format
+msgid "Registration Councils"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L91 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 91]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L102 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 102]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L113 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 113]
+#, no-c-format
+msgid "2. Academic Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L94 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 94]
+#, no-c-format
+msgid "Academic Level"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L105 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 105]
+#, no-c-format
+msgid "Qualification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L116 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 116]
+#, no-c-format
+msgid "Identification Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L124 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 124]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L135 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 135]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L146 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 146]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L157 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 157]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L168 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 168]
+#, no-c-format
+msgid "4. Geographic Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L127 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 127]
+#, no-c-format
+msgid "Country"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L138 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 138]
+#, no-c-format
+msgid "Region"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L149 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 149]
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L160 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 160]
+#, no-c-format
+msgid "Sub-County"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L171 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 171]
+#, no-c-format
+msgid "Currency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L179 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 179]
+#, no-c-format
+msgid "1. Person Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L182 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 182]
+#, no-c-format
+msgid "Marital Status"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L187 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 187]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L198 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 198]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L209 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 209]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L220 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 220]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L231 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 231]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L242 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 242]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L253 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 253]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L264 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 264]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L275 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 275]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L286 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 286]
+#, no-c-format
+msgid "1. Trainings"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L190 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 190]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L201 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 201]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L212 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 212]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L223 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 223]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L234 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 234]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L245 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 245]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L256 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 256]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L267 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 267]
+#, no-c-format
+msgid "1. Training Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L193 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 193]
+#, no-c-format
+msgid "Training Classification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L204 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 204]
+#, no-c-format
+msgid "Training Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L215 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 215]
+#, no-c-format
+msgid "Training Provider Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L226 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 226]
+#, no-c-format
+msgid "Training Courses"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L237 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 237]
+#, no-c-format
+msgid "Exam Paper"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L248 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 248]
+#, no-c-format
+msgid "Funder"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L259 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 259]
+#, no-c-format
+msgid "Assign Provider Trainings"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L270 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 270]
+#, no-c-format
+msgid "Fee Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L278 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 278]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L289 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 289]
+#, no-c-format
+msgid "2. Training Competencies"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L281 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 281]
+#, no-c-format
+msgid "Competency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml#L292 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAutoList/configs/en_US/TrainAutoList.xml line 292]
+#, no-c-format
+msgid "Competency Type"
+msgstr ""
+

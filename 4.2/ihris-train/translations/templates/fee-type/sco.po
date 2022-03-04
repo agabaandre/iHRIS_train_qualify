@@ -1,0 +1,157 @@
+# Translation of iHRIS Train - Fee Type to Scots (Scots)
+# Exported from translatewiki.net
+#
+# Author: John Reid
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 12:19:59+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sco\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-08-24 05:43+0000\n"
+"X-Generator: MediaWiki 1.28.0-alpha; Translate 2016-04-06\n"
+"X-POT-Import-Date: 2014-03-23 19:25:00+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L11
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 11]
+#, no-c-format
+msgid "Edit the Fee Type list"
+msgstr "Eedit the Fee type leet"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 14]
+#, no-c-format
+msgid "View the Fee Type list"
+msgstr "See the Fee Type leet"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L21
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 21]
+#, no-c-format
+msgid "Total"
+msgstr "Total"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L26
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 26]
+#, no-c-format
+msgid "Per Day"
+msgstr "Per Day"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L31
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 31]
+#, no-c-format
+msgid "Per Student Day"
+msgstr "Per Student Day"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L36
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 36]
+#, no-c-format
+msgid "Per Facilitator Per Day"
+msgstr "Per Faceelitater Per Day"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L41
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 41]
+#, no-c-format
+msgid "Per Student"
+msgstr "Per Student"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L46
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 46]
+#, no-c-format
+msgid "Per Facilitator"
+msgstr "Per Faceeleetater"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L55
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 55]
+#, no-c-format
+msgid "Fees Information"
+msgstr "Fees Information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L60
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 60]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L74
+#: 74]
+#, no-c-format
+msgid "Unit"
+msgstr "Unit"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L69
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 69]
+#, no-c-format
+msgid "Name"
+msgstr "Name"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml#L79
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/configs/en_US/Costing.xml
+#: line 79]
+#, no-c-format
+msgid "Training Length Type"
+msgstr "Trainin Length Type"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html
+#: line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Eedit This Information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html#L6
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html
+#: line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html#L6
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html
+#, no-c-format
+msgid "Update this Information"
+msgstr "Update this Information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html#L7
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html
+#: line 7]
+#, no-c-format
+msgid "Select another Fee Type"
+msgstr "Select anither Fee Type"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_fee_type.html
+#: line 14]
+#, no-c-format
+msgid "Fee Type Information"
+msgstr "Fee Type Information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html#L7
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html
+#: line 7]
+#, no-c-format
+msgid "Select another unit"
+msgstr "Select anither unit"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/FeeType/templates/en_US/view_list_unit.html
+#: line 14]
+#, no-c-format
+msgid "Unit Information"
+msgstr "Unit Information"

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="TrainingClassification">
+  <metadata>
+    <displayName>iHRIS Training Classification</displayName>
+    <className>iHRIS_Module_TrainingClassification</className>
+    <classification>Application Component</classification>
+    <description>A Person's Training Classification</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="forms-storage">
+      <atLeast version="4.1.8.0" />
+    </requirement>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="TrainingClassification" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_training_classification" locale="en_US">
+        <version>4.1.0.1</version>
+        <value>Edit the Training Classification list</value>
+      </configuration>
+      <configuration name="can_view_database_list_training_classification" locale="en_US">
+        <version>4.1.0.1</version>
+        <value>View the Training Classification list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.6.0</version>
+      <configuration name="can_edit_database_list_training_classification" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_training_classification</value>
+      </configuration>
+      <configuration name="can_view_database_list_training_classification" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <value>can_edit_database_list_training_classification</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <value>can_view_database_list_training_classification</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.0.1</version>
+        <configurationGroup name="training_classification">
+          <displayName>Training Classification Information</displayName>
+          <description>The Training Classification Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Training Classification Information</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Form Storage</displayName>
+            <description>The form storage to use for this form</description>
+            <version>4.1.8.0</version>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- training_classification -->
+      </configurationGroup>
+      <!-- end of  forms-->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

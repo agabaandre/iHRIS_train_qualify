@@ -1,0 +1,162 @@
+# Translation Template of ihris-train module (ihris-train-CustomReports-scheduled-training Version 4.2.0)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@ihris-train-CustomReports-scheduled-training 4.2.0\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 11]
+#, no-c-format
+msgid "Relationship for all scheduled trainings."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L66 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 66]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L235 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 235]
+#, no-c-format
+msgid "Scheduled Trainings"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L19 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 19]
+#, no-c-format
+msgid "The funder for this training."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L22 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 22]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L74 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 74]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L105 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 105]
+#, no-c-format
+msgid "Funder"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L27 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 27]
+#, no-c-format
+msgid "The link from the provider to the training details."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 30]
+#, no-c-format
+msgid "Provider Training Link"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 35]
+#, no-c-format
+msgid "The training details."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 38]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L143 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 143]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L154 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 154]
+#, no-c-format
+msgid "Training"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L45 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 45]
+#, no-c-format
+msgid "The training provider for this training."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L48 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 48]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L197 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 197]
+#, no-c-format
+msgid "Training Provider"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L55 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 55]
+#, no-c-format
+msgid "Set to yes if this training has been completed."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L63 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 63]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L232 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 232]
+#, no-c-format
+msgid "A list of all scheduled trainings."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L83 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 83]
+#, no-c-format
+msgid "End Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L88 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 88]
+#, no-c-format
+msgid "End Date After"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L93 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 93]
+#, no-c-format
+msgid "End Date Before"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L100 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 100]
+#, no-c-format
+msgid "Funder ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L112 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 112]
+#, no-c-format
+msgid "Start Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L117 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 117]
+#, no-c-format
+msgid "Start Date After"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L122 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 122]
+#, no-c-format
+msgid "Start Date After Today"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L127 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 127]
+#, no-c-format
+msgid "Start Date Before"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L138 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 138]
+#, no-c-format
+msgid "Training ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L159 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 159]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L164 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 164]
+#, no-c-format
+msgid "Training Classification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L171 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 171]
+#, no-c-format
+msgid "Duration of Training"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L176 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 176]
+#, no-c-format
+msgid "Duration Unit"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L181 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 181]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L186 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 186]
+#, no-c-format
+msgid "Training Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L202 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 202]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L207 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 207]
+#, no-c-format
+msgid "Training Provider Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L218 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 218]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml#L223 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-scheduled-training/configs/en_US/TrainCustomReports-scheduled-training.xml line 223]
+#, no-c-format
+msgid "Completed?"
+msgstr ""
+

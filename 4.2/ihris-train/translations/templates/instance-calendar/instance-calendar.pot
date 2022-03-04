@@ -1,0 +1,30 @@
+# Translation Template of ihris-train module (InstanceCalendar Version 4.2.0)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@InstanceCalendar 4.2.0\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/configs/en_US/InstanceCalendar.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/configs/en_US/InstanceCalendar.xml line 11]
+#, no-c-format
+msgid "View the Instance Calendar"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/configs/en_US/InstanceCalendar.xml#L18 ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/configs/en_US/InstanceCalendar.xml line 18]
+#, no-c-format
+msgid "Training Instance Calendar"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/templates/en_US/calendar_provider_instance.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/InstanceCalendar/templates/en_US/calendar_provider_instance.html line 2]
+#, no-c-format
+msgid "Training Instances Calendar"
+msgstr ""
+

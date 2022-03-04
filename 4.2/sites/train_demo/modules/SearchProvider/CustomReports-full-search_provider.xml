@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports-full-search_provider">
+  <metadata>
+    <displayName>Relationship: search_provider</displayName>
+    <description>Relationship 'search_provider' and all reports and report views.</description>
+    <version>4.0.11.2012.08.28</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/search_provider">
+    <lessThan version="4.0.11.2012.08.27" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/search_training_provider">
+    <lessThan version="4.0.11.2012.08.27" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/search_training_provider">
+    <lessThan version="4.0.11.2012.08.27" />
+  </erase>
+  <configurationGroup name="CustomReports-full-search_provider" path="/modules/CustomReports">
+    <configurationGroup name="search_provider" path="//modules/CustomReports/relationships/search_provider">
+      <displayName>Export</displayName>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>trainingprovider</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Search Training Provider</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>search Relationship for all training provider records</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <!--<configurationGroup name="provider_contact">
+          <displayName>Provider Contact</displayName>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>training_provider_contact</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>shows training provider contact</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Trainin Provider Contact</value>
+          </configuration>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>child</value>
+          </configuration>
+        </configurationGroup>-->
+        <configurationGroup name="provider_training">
+          <displayName>Provider Training</displayName>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>providertraining</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Shows the trainings assigned to a provider</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Provider Training</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>trainingprovider</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>child_field</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="provider_instance">
+              <displayName>Provider Instance</displayName>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>provider_instance</value>
+              </configuration>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Shows the instances of the trainings</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Training Instance</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>providertraining</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child_field</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="search_training_provider" path="//modules/CustomReports/reports/search_training_provider">
+      <displayName>Export</displayName>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>search_provider</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Search Training Provider</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Search all training provider records</value>
+        </configuration>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Search</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Training Provider Name</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Name</value>
+              </configuration>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>viewprovider?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>primary_form+id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="trainingprovider_type">
+              <displayName>Trainingprovider Type</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Training Provider Type</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Training Provider Type</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="provider_training">
+          <displayName>Provider Training</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="training">
+              <displayName>Training</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Training Information</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Training</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="provider_instance">
+          <displayName>Provider Instance</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="end_date">
+              <displayName>End Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Training End Date</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <displayName>Location</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Location Details</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="providertraining">
+              <displayName>Providertraining</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Training Instance</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <displayName>Start Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Training Start Date</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="search_training_provider" path="//modules/CustomReports/reportViews/search_training_provider">
+    <version>4.0.11.2012.08.28</version>
+      <displayName>Export</displayName>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>search_training_provider</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Search all training Providers in the system</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Search Training Provider</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="primary_form+name">
+          <displayName>Primary Form Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+trainingprovider_type">
+          <displayName>Primary Form Trainingprovider Type</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="provider_training+training">
+          <displayName>Provider Training Training</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="provider_instance+providertraining">
+          <displayName>Provider Instance Providertraining</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>primary_form+name,primary_form+trainingprovider_type,provider_training+training,provider_instance+end_date,provider_instance+location,provider_instance+start_date,provider_instance+providertraining</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

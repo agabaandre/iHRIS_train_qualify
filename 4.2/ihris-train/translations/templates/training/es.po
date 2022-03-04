@@ -1,0 +1,223 @@
+# Translation of iHRIS Train - Training to Spanish (español)
+# Exported from translatewiki.net
+#
+# Author: Fitoschido
+# Author: VegaDark
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 12:20:05+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-08-24 05:43+0000\n"
+"X-Generator: MediaWiki 1.28.0-alpha; Translate 2016-04-06\n"
+"X-POT-Import-Date: 2014-03-23 19:25:08+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L11
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 11]
+#, no-c-format
+msgid "Edit the Training list"
+msgstr "Editar la lista de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 14]
+#, no-c-format
+msgid "View the Training list"
+msgstr "Ver la lista de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L21
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 21]
+#, no-c-format
+msgid "In-Service Training (Short)"
+msgstr "Capacitación en servicio (corto)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L26
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 26]
+#, no-c-format
+msgid "Post Basic/In-service Training (Long)"
+msgstr "Capacitación post básica/en servicio (largo)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L31
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 31]
+#, no-c-format
+msgid "Pre Service Training"
+msgstr "Capacitación en preservicio"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L38
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 38]
+#, no-c-format
+msgid "Day(s)"
+msgstr "Día(s)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L43
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 43]
+#, no-c-format
+msgid "Hour(s)"
+msgstr "Hora(s)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L48
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 48]
+#, no-c-format
+msgid "Week(s)"
+msgstr "Semana(s)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L53
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 53]
+#, no-c-format
+msgid "Month(s)"
+msgstr "Mes(es)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L58
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 58]
+#, no-c-format
+msgid "Year(s)"
+msgstr "Año(s)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L67
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 67]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html
+#: 14]
+#, no-c-format
+msgid "Training Information"
+msgstr "Información de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L72
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 72]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L111
+#: 111]
+#, no-c-format
+msgid "Training Type"
+msgstr "Tipo de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L77
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 77]
+#, no-c-format
+msgid "Training Length Type"
+msgstr "Tipo de duración de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L86
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 86]
+#, no-c-format
+msgid "Name"
+msgstr "Nombre"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L91
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 91]
+#, no-c-format
+msgid "Accreditation Code/Number"
+msgstr "Código/número de acreditación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L96
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 96]
+#, no-c-format
+msgid "Training Classification"
+msgstr "Clasificación de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L101
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 101]
+#, no-c-format
+msgid "Unit"
+msgstr "Unidad"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L106
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 106]
+#, no-c-format
+msgid "Duration of Training"
+msgstr "Duración de la capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L116
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 116]
+#, no-c-format
+msgid "CPD Credit Hours"
+msgstr "Horas de crédito de CPD"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml#L121
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/configs/en_US/Training.xml
+#: line 121]
+#, no-c-format
+msgid "Training Course Summary"
+msgstr "Resumen del curso de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html
+#: line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Editar esta información"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html#L6
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html
+#: line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html#L6
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html#L6
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html
+#, no-c-format
+msgid "Update this Information"
+msgstr "Actualizar esta información"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html#L7
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html
+#: line 7]
+#, no-c-format
+msgid "Select another Training Type"
+msgstr "Seleccionar otro tipo de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html
+#: line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_type.html
+#, no-c-format
+msgid "Training Type Information"
+msgstr "Información del tipo de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html#L7
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training_length_type.html
+#: line 7]
+#, no-c-format
+msgid "Select another Training Length Type"
+msgstr "Seleccionar otro tipo de duración de capacitación"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html#L7
+#: ihris-train/4.0-dev/annotate/head%3A/modules/Training/templates/en_US/view_list_training.html
+#: line 7]
+#, no-c-format
+msgid "Select another Training"
+msgstr "Seleccionar otra capacitación"

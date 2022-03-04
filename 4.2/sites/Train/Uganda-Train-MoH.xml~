@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-train-site-moh">
+  <metadata>
+    <displayName>iHRIS Train Uganda MoH</displayName>
+    <category>Site</category>
+    <description>The iHRIS Manage Uganda Ministry of Health Site</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-manage</link>
+    <version>4.2.0.12</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-train">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <conflict name="sample-staff-printed-form" >
+      <lessThan version="4.2" />
+    </conflict>
+   <conflict name="ihris-manage-CustomReports-staff-reports" >
+     <lessThan version="4.2" />
+    </conflict>
+    <!-- <enable name="sample-staff-printed-form" />-->
+    <enable name="Uganda-manage-data" />
+    <enable name="CustomReports_PieChart" />
+    <enable name="CustomReports_Export" />
+    <enable name="CustomReports_PDF" />
+    <enable name="UserStatistics" />
+    <enable name="CustomReports-full-search_provider" />
+    <enable name="CustomReports-full-search_person" />
+    <enable name="CustomReports-full-scheduled" />
+    <enable name="CustomReports-full-trainingproviders" />
+    <enable name="CustomReports-full-provider_training" />
+    <enable name="CustomReports-full-past_training" />
+    <enable name="CustomReports-full-output" />
+    <enable name="CustomReports-full-current_students" />
+    <enable name="CustomReports-full-former_students" />
+    <enable name="CustomReports-full-future_students" />
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <path name="pages">
+      <value>./pages</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+   <erase path="/modules/forms/formClasses/iHRIS_Training/fields/training_length_type">
+    <lessThan version="4.1.6.35" />
+  </erase>
+  <erase path="/modules/forms/formClasses/iHRIS_Training/fields/training_length">
+    <lessThan version="4.1.6.35" />
+  </erase>
+    <erase path="/modules/forms/formClasses/iHRIS_Training/fields/cpd_credit">
+    <lessThan version="4.1.6.36" />
+     </erase>
+<erase path="/modules/forms/formClasses/iHRIS_PersonInstance/fields/funder">
+    <lessThan version="4.2.0.3" />
+     </erase>
+<erase path="/modules/forms/formClasses/iHRIS_PersonInstance/fields/exam_number">
+    <lessThan version="4.2.0.3" />
+     </erase>
+  <configurationGroup name="Uganda-train-site-moh" path="/I2CE">
+    <displayName>iHRIS Manage Uganda MoH Site</displayName>
+    <status>advanced:false</status>
+    <configurationGroup name="feedback">
+      <displayName>Feedback Information</displayName>
+      <status>required:false</status>
+      <configuration name="email" path="to" values="single">
+        <displayName>Email Address</displayName>
+        <value>helpdesk.hris@health.go.ug</value>
+      </configuration>
+      <configuration name="subject" values="single">
+        <displayName>Subject Line</displayName>
+        <value>iHRIS Train Uganda MoH Feedback</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="template">
+      <displayName>Template Information</displayName>
+      <description>Various Default Information About The Templating System</description>
+      <status>advanced:false</status>
+      <status>required:true</status>
+      <configuration name="prefix_title" values="single" locale="en_US">
+        <displayName>Page title prefix</displayName>
+        <description>Page titile prefix</description>
+        <value>In-Service Training</value>
+      </configuration>
+    </configurationGroup>
+    
+    <configurationGroup name="image" path="/modules/forms/formClasses/iHRIS_Photo/fields/image">
+      <version>4.2.0</version>
+     <configurationGroup name="meta">
+		 <version>4.2.0</version>
+       <configuration name="max_height">
+         <value>128</value>
+       </configuration>
+       <configuration name="max_width">
+         <value>136</value>
+       </configuration>
+     </configurationGroup>
+     <displayName>The field 'image'</displayName>
+     <configuration name="formfield">
+		 <version>4.2.0</version>
+       <displayName>The form field type</displayName>
+       <value>PASSPORT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+		 <version>4.2.0</version>
+       <displayName>The headers for this field.</displayName>
+       <value>default:Passport</value>
+     </configuration>
+   </configurationGroup>
+  
+  <configurationGroup name="auto_list" path="/modules/Lists/auto_list">
+       <version>4.2.0</version>
+   <configurationGroup name="training">
+	 <version>4.2.0</version>
+     <configuration name="form">
+        <value>training</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_training</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Courses</value>
+      </configuration>
+    </configurationGroup>
+
+   </configurationGroup>
+
+    <configurationGroup name="pre_test" path="/modules/forms/formClasses/iHRIS_PersonInstance/fields/pre_test">
+       <version>4.2.0.5</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>PERCENT_INT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Pre Test</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="district" path="/modules/forms/formClasses/iHRIS_ProviderInstance/fields/district">
+       <version>4.2.0.7</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:District of Training</value>
+     </configuration>
+   </configurationGroup>
+
+
+
+
+<configurationGroup name="home" path="/modules/forms/formClasses/iHRIS_Person/fields/home">
+    <version>4.2.0.12</version>
+    <configuration name="formfield">
+        <displayName>The form field type</displayName>
+        <value>MAP</value>
+    </configuration>
+    <configurationGroup name="meta">
+		<configuration name="form" values="many">
+		  <value>county</value>
+		  <value>district</value>
+		</configuration>
+		<configurationGroup name="limits">
+		  <version>4.1.9.5</version>
+		  <configurationGroup name="default">
+			<configurationGroup name="country">
+			  <configuration name="operator">
+				<value>FIELD_LIMIT</value>
+			  </configuration>
+			  <configuration name="field">
+				<value>location</value>
+			  </configuration>
+			  <configuration name="style">
+				<value>yes</value>
+			  </configuration>
+			</configurationGroup>
+		  </configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="display">
+		  <configurationGroup name="default">
+			<configuration name="fields">
+			  <value>county:district:[region]:country</value>
+			</configuration>
+		  </configurationGroup>
+		</configurationGroup>
+	  </configurationGroup>
+     <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Home District</value>
+     </configuration>
+    </configurationGroup>
+
+
+ <configurationGroup name="post_test" path="/modules/forms/formClasses/iHRIS_PersonInstance/fields/post_test">
+       <version>4.2.0.5</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>PERCENT_INT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Post Test</value>
+     </configuration>
+   </configurationGroup>
+            <configurationGroup name="cpd_credit" path="/modules/forms/formClasses/iHRIS_ProviderTraining/fields/cpd_credit">
+              <displayName>The field 'cpd_credit'</displayName>
+              <version>4.2.0</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.6.35</version>
+                <value>default:CPD Credit Hours</value>
+              </configuration>
+            </configurationGroup>
+      
+    <configurationGroup name="custom_report_pdf_options" path="/modules/CustomReports/displays/PDF/display_options">
+      <displayName>PDF Options</displayName>
+      <configurationGroup name="header">
+        <displayName>Header Options</displayName>
+        <configuration name="text_prefix" locale="en_US">
+          <displayName>Header Text</displayName>
+          <value>In-Service Training</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name='maani-charts'>
+      <displayName>Chart Configuration</displayName>
+      <description>configuration options for charts using the maani flash charts.</description>
+      <configuration name='license' values='single' path='/modules/maani-charts/license'>
+        <displayName>Maani License</displayName>
+        <description>Enter a license to enable full charting capability</description>
+        <status>overwrite:true</status>
+        <value>G1XHF6MC7ZL.HSK5T4Q79KLYCK07EK</value>
+      </configuration>
+    </configurationGroup>
+
+
+
+  </configurationGroup>
+</I2CEConfiguration>

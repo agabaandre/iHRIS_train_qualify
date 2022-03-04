@@ -1,0 +1,30 @@
+# Translation Template of ihris-train module (CourseTypes Version 4.2.0.1)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@CourseTypes 4.2.0.1\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml line 11]
+#, no-c-format
+msgid "Can edit course types database list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml line 14]
+#, no-c-format
+msgid "Can view course types database list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/CourseType/configs/en_US/CourseType.xml line 21]
+#, no-c-format
+msgid "Training Course Types"
+msgstr ""
+
