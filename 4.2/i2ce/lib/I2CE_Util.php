@@ -311,16 +311,16 @@ class I2CE_Util {
                     $beg_qry = $i+1; //beginning of query is next line
                 }
                 if ($in_comment || $in_comment_ml ||$in_string_single !== false || $in_string_double || $in_string_back) {
-                    continue;
+                    continue 2;
                 }
                 if (preg_match('/^DELIMITER (.)$/',trim(substr($sql,$beg_qry,$i - $beg_qry )), $matches)) {
                     $delimiter = $matches[1];
                     $beg_qry = $i+1; //beginning of query is next line
                 }
-                continue;
+                continue 2;
             case "-":
                 if ($in_comment || $in_comment_ml ||$in_string_single !== false || $in_string_double || $in_string_back) {
-                    continue;
+                    continue 2;
                 }
                 if ($i > 0 && $sql[$i-1] == '-') {
                     $in_comment = true;
@@ -330,7 +330,7 @@ class I2CE_Util {
                 break;
             case "#":
                 if ($in_comment || $in_comment_ml ||$in_string_single !== false|| $in_string_double || $in_string_back) {
-                    continue;
+                    continue 2;
                 }
                 $in_comment = true;
                 $t_qry .= $t_qry . trim(substr($sql,$beg_qry,$i - $beg_qry ));
@@ -338,7 +338,7 @@ class I2CE_Util {
                 break;
             case '*':
                 if ($in_comment || $in_string_single !== false|| $in_string_double || $in_string_back) {
-                    continue;
+                    continue 2;
                 }
                 if ($in_comment_ml) {
                     if ($i +2 < $len && $sql[$i+1] == '/') {
@@ -352,11 +352,11 @@ class I2CE_Util {
                         $beg_qry = $i +1;
                     }
                 }
-                continue;
+                continue 2;
                 break;
             case "`":
                 if ($in_comment || $in_comment_ml) {
-                    continue;
+                    continue 2;
                 }
                 if ($in_string_back) {
                     $in_escape_slash = false;
@@ -378,11 +378,11 @@ class I2CE_Util {
                 } else if ($in_string_single ===FALSE && !$in_string_double) {
                     $in_string_back = true;
                 }
-                continue;
+                continue 2;
                 break;
             case '"':
                 if ($in_comment || $in_comment_ml) {
-                    continue;
+                    continue 2;
                 }
                 if ($in_string_double) {
                     $in_escape_slash = false;
@@ -405,7 +405,7 @@ class I2CE_Util {
                 } else  if ($in_string_single=== false && !$in_string_back) {
                     $in_string_double = true;
                 }
-                continue;
+                continue 2;
                 break;
             case "'":
                 if ($in_comment || $in_comment_ml) {
