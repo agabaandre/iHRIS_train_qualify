@@ -48,7 +48,7 @@
  * You might need to set this depending on your installation
  *    Default value is  ../../../../I2CE
  */
-$i2ce_site_i2ce_path = "/var/lib/iHRIS/releases/4.2/i2ce";
+$i2ce_site_i2ce_path = "/var/lib/iHRIS/iHRIS_train_qualify/4.2/i2ce";
 
 
 /**
