@@ -878,7 +878,7 @@ class I2CE_Module_Tags extends I2CE_Module {
                     continue;
                 } else {
                     $func .= $c;
-                    continue;
+                    continue 2;
                 }
                 break;
             case self::VARIABLE:
