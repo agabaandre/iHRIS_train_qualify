@@ -148,7 +148,7 @@ class iHRIS_Module_UserStatistics extends I2CE_Module {
                 I2CE::raiseError("Updated User Statistics report at " . date('r', $config->end ) );
             } catch ( PDOException $e ) {
                 I2CE::pdoError( $e, "Unable to populate user statistics cache table." );
-               @$cache->failed = time();
+              // @$cache->failed = time();
                 return false;
             }
         }
