@@ -219,7 +219,7 @@ class iHRIS_Module_PersonLeave extends I2CE_Module {
         }
     }
     
-     /**
+     /*/**
      * Call a alert after a form is saved.
      * @param array $form
      
