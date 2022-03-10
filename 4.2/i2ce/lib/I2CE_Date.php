@@ -713,7 +713,7 @@ class I2CE_Date {
         case self::DATE_TIME :
             return sprintf( "%04d-%02d-%02d %02d:%02d:%02d", $this->year, $this->month, $this->day, $this->hour, $this->minute, $this->second );
         case self::TIME_ONLY :
-            return sprintf( "0000-00-00 %02d:%02d:%02d", $this->hour, $this->minute, $this->second );
+            return sprintf( "1970-01-01 %02d:%02d:%02d", $this->hour, $this->minute, $this->second );
         default :
             I2CE::raiseError( "An invalid date type was used for I2CE_Date::dbFormat.", E_USER_WARNING );
             return "1970-01-01 00:00:00";

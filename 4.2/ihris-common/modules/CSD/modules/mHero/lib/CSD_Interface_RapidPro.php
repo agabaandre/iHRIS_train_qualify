@@ -259,7 +259,7 @@ class CSD_Interface_RapidPro {
             $created=$this->formatFlowDate($flow["created_on"]);
             $created=explode(" ",$created);
             $created_date=$created[0];
-            $created_time="0000-00-00 ".$created[1];
+            $created_time="1970-01-01 ".$created[1];
             $responded=$this->hasResponded($flow["steps"]);
             $session_number=$this->getSessionNumber($workflows_form,$created_date,$created_time);
             $flowRunObj->getField("workflows")->setFromDB($workflows_form);
