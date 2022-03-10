@@ -508,7 +508,7 @@ class I2CE_Date {
      * @return I2CE_Date
      */
     public static function fromDB( $dateString, $type = null ) {
-        if ( !$dateString || !isset( $dateString) || $dateString == "" || $dateString == '0000-00-00 00:00:00' ) {
+        if ( !$dateString || !isset( $dateString) || $dateString == "" || $dateString == '1970-01-01 00:00:00' ) {
             if ($type !== null) {
                 return self::blank($type);
             } else {
@@ -686,14 +686,14 @@ class I2CE_Date {
      * Formats the date to be saved to MySQL
      * 
      * Formats the date object to a string that MySQL will recognize based on the date type.
-     * @param boolean $allow_blank.  Defaults to false. If true we allow blank values in which case we return  "0000-00-00 00:00:00"
+     * @param boolean $allow_blank.  Defaults to false. If true we allow blank values in which case we return  "1970-01-01 00:00:00"
      * @return string
      */
     public function dbFormat($allow_blank = false) {
 
         if ($this->isBlank()) {            
             if ($allow_blank) {
-                return "0000-00-00 00:00:00";
+                return "1970-01-01 00:00:00";
             } else {
                 return null;
             }
@@ -716,7 +716,7 @@ class I2CE_Date {
             return sprintf( "0000-00-00 %02d:%02d:%02d", $this->hour, $this->minute, $this->second );
         default :
             I2CE::raiseError( "An invalid date type was used for I2CE_Date::dbFormat.", E_USER_WARNING );
-            return "0000-00-00 00:00:00";
+            return "1970-01-01 00:00:00";
         }
     }
 

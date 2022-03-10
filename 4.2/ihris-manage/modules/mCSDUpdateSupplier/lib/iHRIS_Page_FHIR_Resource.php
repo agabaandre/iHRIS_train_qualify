@@ -289,11 +289,11 @@ class iHRIS_Page_FHIR_Resource extends I2CE_Page{
         $where = '';
         $params = array();
         if ( $this->since ) {
-            $where = "WHERE GREATEST(person.last_modified, IFNULL(demographic.last_modified,'0000-00-00 00:00:00'), IFNULL(personal.last_modified,'0000-00-00 00:00:00'), IFNULL(work.last_modified,'0000-00-00 00:00:00')) >= ?";
+            $where = "WHERE GREATEST(person.last_modified, IFNULL(demographic.last_modified,'1970-01-01 00:00:00'), IFNULL(personal.last_modified,'1970-01-01 00:00:00'), IFNULL(work.last_modified,'1970-01-01 00:00:00')) >= ?";
             $params = array( $this->since );
         }
 
-        $qry = "SELECT person.csd_uuid AS uuid, DATE_FORMAT(GREATEST(person.last_modified, IFNULL(demographic.last_modified,'0000-00-00 00:00:00'), IFNULL(personal.last_modified,'0000-00-00 00:00:00'), IFNULL(work.last_modified,'0000-00-00 00:00:00')), '%Y-%m-%d %T') AS lastupdated, person.id, person.surname AS family, person.firstname AS given, person.othername AS given2, demographic.gender, DATE_FORMAT(demographic.birth_date,'%Y-%m-%d') AS birthdate, personal.telephone AS home_phone, personal.mobile_phone AS home_mobile, personal.email AS hoome_email, personal.address AS home_address, work.telephone AS work_phone, work.mobile_phone AS work_mobile, work.email AS work_email, work.address AS work_address FROM hippo_person AS person LEFT JOIN hippo_demographic AS demographic ON demographic.parent = person.id LEFT JOIN hippo_person_contact_personal AS personal ON personal.parent = person.id LEFT JOIN hippo_person_contact_work AS work ON work.parent = person.ID $where ORDER BY lastupdated ASC";
+        $qry = "SELECT person.csd_uuid AS uuid, DATE_FORMAT(GREATEST(person.last_modified, IFNULL(demographic.last_modified,'1970-01-01 00:00:00'), IFNULL(personal.last_modified,'1970-01-01 00:00:00'), IFNULL(work.last_modified,'1970-01-01 00:00:00')), '%Y-%m-%d %T') AS lastupdated, person.id, person.surname AS family, person.firstname AS given, person.othername AS given2, demographic.gender, DATE_FORMAT(demographic.birth_date,'%Y-%m-%d') AS birthdate, personal.telephone AS home_phone, personal.mobile_phone AS home_mobile, personal.email AS hoome_email, personal.address AS home_address, work.telephone AS work_phone, work.mobile_phone AS work_mobile, work.email AS work_email, work.address AS work_address FROM hippo_person AS person LEFT JOIN hippo_demographic AS demographic ON demographic.parent = person.id LEFT JOIN hippo_person_contact_personal AS personal ON personal.parent = person.id LEFT JOIN hippo_person_contact_work AS work ON work.parent = person.ID $where ORDER BY lastupdated ASC";
 
         try {
             $db = I2CE::PDO();
@@ -1101,7 +1101,7 @@ class iHRIS_Page_FHIR_Resource extends I2CE_Page{
                 $data['lastUpdated'] = $lastUpdated->format('c');
                 $data['id_system'] = $this->getSiteBase();
                 $data['id_code'] = $row->id;
-                if ( !$row->end_date || $row->end_date == '0000-00-00 00:00:00' ) {
+                if ( !$row->end_date || $row->end_date == '1970-01-01 00:00:00' ) {
                     $data['active'] = 'false';
                 } else {
                     $data['active'] = 'true';

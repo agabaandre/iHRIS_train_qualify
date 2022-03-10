@@ -86,7 +86,7 @@
             <configuration name="qry">
               <displayName>Qry</displayName>
               <version>4.1.1.1</version>
-              <value>CASE WHEN `last_person_position+end_date` IS NOT NULL AND `last_person_position+end_date` != '0000-00-00 00:00:00' THEN 'employee_status|old_employee' WHEN `application+position` IS NOT NULL AND `application+position` != '' THEN 'employee_status|applicant' WHEN `last_person_position+start_date` IS NOT NULL THEN 'employee_status|employee' ELSE 'employee_status|old_applicant' END</value>
+              <value>CASE WHEN `last_person_position+end_date` IS NOT NULL AND `last_person_position+end_date` != '1970-01-01 00:00:00' THEN 'employee_status|old_employee' WHEN `application+position` IS NOT NULL AND `application+position` != '' THEN 'employee_status|applicant' WHEN `last_person_position+start_date` IS NOT NULL THEN 'employee_status|employee' ELSE 'employee_status|old_applicant' END</value>
             </configuration>
             <configuration name="description" locale="en_US">
               <displayName>Description</displayName>

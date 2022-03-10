@@ -499,7 +499,7 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
         foreach ($fields as $field) {
             $d_fields[] = "IFNULL(`$field`, ?) as `$field`";
         }
-        $select = "SELECT  concat('{$this->form}|',id) as id, parent , IFNULL(`last_modified`,'1900-01-01 00:00:00') as `last_modified`, IFNULL(`created`,'0000-00-00 00:00:00') as `created`, " . implode(',',$d_fields) . " FROM ($subselect) AS cached_table";
+        $select = "SELECT  concat('{$this->form}|',id) as id, parent , IFNULL(`last_modified`,'1900-01-01 00:00:00') as `last_modified`, IFNULL(`created`,'1970-01-01 00:00:00') as `created`, " . implode(',',$d_fields) . " FROM ($subselect) AS cached_table";
         $db = I2CE::PDO();
         if ($id ) {
             $select .= " WHERE cached_table.id = " . $db->quote($id);
@@ -560,7 +560,7 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
             $default_values[$field] = $fieldObj->getDBValue();
         }
         $default_values['last_modified'] = '1900-01-01 00:00:00';
-        $default_values['created'] = '0000-00-00 00:00:00';
+        $default_values['created'] = '1970-01-01 00:00:00';
         $default_values['parent'] = '|';
         $insert_fields = $fields;
         $insert_fields[] = 'last_modified';
@@ -653,7 +653,7 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
         $createFields[] = '`parent` varchar(255) default "|" ';
         $createFields[] = 'INDEX (`parent`)';
         $createFields[] = '`last_modified` datetime default \'1900-01-01 00:00:00\'' ;
-        $createFields[] = '`created` datetime default \'0000-00-00 00:00:00\'' ;
+        $createFields[] = '`created` datetime default \'1970-01-01 00:00:00\'' ;
         $createFields[] = 'INDEX (`last_modified`)';
         $field_defs = array();
         foreach ($this->formObj as $field=>$fieldObj) {

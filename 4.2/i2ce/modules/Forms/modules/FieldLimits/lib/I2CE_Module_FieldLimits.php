@@ -1148,14 +1148,14 @@ class I2CE_Module_FieldLimits extends I2CE_Module {
     }
 
     public function generateLimit_DB_DATE_null($fieldObj,$vals,$ref, $parent_ref =null) {
-        return ' ( ISNULL( ' . $ref . ') OR ' . $ref . ' = \'0000-00-00 00:00:00\' ) ';
+        return ' ( ISNULL( ' . $ref . ') OR ' . $ref . ' = \'1970-01-01 00:00:00\' ) ';
     }
     public function checkLimitString_DB_DATE_null($fieldObj,$vals,$ref) {
-        return  "$ref == null || $ref == '0000-00-00 00:00:00'";
+        return  "$ref == null || $ref == '1970-01-01 00:00:00'";
     }
     public function checkLimitFunction_DB_DATE_null($fieldObj,$vals,$ref) {
         return function($data) use ($ref) {
-            return  $data[$ref] == null || $data[$ref] == '0000-00-00 00:00:00';
+            return  $data[$ref] == null || $data[$ref] == '1970-01-01 00:00:00';
         };
     }
     public function checkLimit_DB_DATE_null($fieldObj,$vals) {
@@ -1181,14 +1181,14 @@ class I2CE_Module_FieldLimits extends I2CE_Module {
     }
 
     public function generateLimit_DB_DATE_not_null($fieldObj,$vals,$ref,$parent_ref =null) {
-        return ' NOT (ISNULL(' . $ref . ') OR ' . $ref . ' = \'0000-00-00 00:00:00\' )';
+        return ' NOT (ISNULL(' . $ref . ') OR ' . $ref . ' = \'1970-01-01 00:00:00\' )';
     }
     public function checkLimitString_DB_DATE_not_null($fieldObj,$vals,$ref) {
-        return  "$ref != null && $ref != '0000-00-00 00:00:00'";
+        return  "$ref != null && $ref != '1970-01-01 00:00:00'";
     }
     public function checkLimitFunction_DB_DATE_not_null($fieldObj,$vals,$ref) {
         return function($data) use($ref) {
-            return  $data[$ref] != null && $data[$ref] != '0000-00-00 00:00:00';
+            return  $data[$ref] != null && $data[$ref] != '1970-01-01 00:00:00';
         };
     }
     public function checkLimit_DB_DATE_not_null($fieldObj,$vals) {

@@ -140,7 +140,7 @@ class iHRIS_Module_PersonLeave extends I2CE_Module {
           return null;
         }
         $date = current($start_dates);
-        return $date['start_date']; //0000-00-00 00:00:00
+        return $date['start_date']; //1970-01-01 00:00:00
     }
 
 

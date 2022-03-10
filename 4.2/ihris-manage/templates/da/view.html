@@ -130,7 +130,7 @@
     <p class="editRecordsData">
       <a href="" class="hide" title="Hide" onclick="return hideDiv('position', this );">Skjul</a>
       <span task="person_can_edit_child_form_person_position" ifset="!person_position:id" type="form" name="person:id" href="make_offer?parent=">Set Position</span>
-      <span task="person_can_edit_child_form_person_position" ifset="person_position:end_date" ifvalue="!0000-00-00 00:00:00" type="form" name="person:id" href="make_offer?parent=">Set Position</span>
+      <span task="person_can_edit_child_form_person_position" ifset="person_position:end_date" ifvalue="!1970-01-01 00:00:00" type="form" name="person:id" href="make_offer?parent=">Set Position</span>
        <span task="person_can_edit_child_form_benefit" type="form" name="person:id" href="benefit?parent=">Tilføj belønning/særlige belønninger</span>
     </p>
     

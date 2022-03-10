@@ -236,7 +236,7 @@ class I2CE_Form extends I2CE_FieldContainer {
       */
      protected function setupCreatedField() {
          $this->createdField = new I2CE_FormField_DATE_TIME( "created", array( 'in_db' => false ) );
-         $this->createdField->setFromDB( '0000-00-00 00:00:00' );
+         $this->createdField->setFromDB( '1970-01-01 00:00:00' );
          $this->createdField->setContainer( $this );
          return true;
      }
@@ -246,7 +246,7 @@ class I2CE_Form extends I2CE_FieldContainer {
       */
      protected function setupLastModifiedField() {
          $this->lastModifiedField = new I2CE_FormField_DATE_TIME( "last_modified", array( 'in_db' => false ) );
-         $this->lastModifiedField->setFromDB( '0000-00-00 00:00:00' );
+         $this->lastModifiedField->setFromDB( '1970-01-01 00:00:00' );
          $this->lastModifiedField->setContainer( $this );
          return true;
      }
