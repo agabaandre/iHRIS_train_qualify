@@ -551,6 +551,7 @@ class I2CE_Page_CachedForm extends I2CE_Page{
         if (array_key_exists('HTTP_HOST',$_SERVER)) {
             $this->redirect("CachedForms");
         }
+        //
         
     }
 
