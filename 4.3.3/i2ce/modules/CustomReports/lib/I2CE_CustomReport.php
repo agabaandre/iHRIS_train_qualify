@@ -495,7 +495,7 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
                         array_key_exists( 'insert_nolimit', $this->populate_queries[$counter] ) ) {
                     $md5_key = 'md5';
                 } else {
-                    if ( array_key_exists( 'update_set_md5', $this->populate_queries[$counter-1] ) ) {
+                    if ( array_key_exists( 'update_set_md5',array($this->populate_queries[$counter-1]) ) ) {
                         unset( $this->populate_queries[$counter-1]['update_set_md5'] );
                     }
                 }
