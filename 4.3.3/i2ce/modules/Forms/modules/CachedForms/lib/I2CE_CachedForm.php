@@ -653,7 +653,7 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
         $createFields[] = '`parent` varchar(255) default "|" ';
         $createFields[] = 'INDEX (`parent`)';
         $createFields[] = '`last_modified` datetime default \'1900-01-01 00:00:00\'' ;
-        $createFields[] = '`created` datetime default \'1900-01-01 00:00:00\'' ;
+        $createFields[] = '`created` datetime default \'1970-01-01 00:00:00\'' ;
         $createFields[] = 'INDEX (`last_modified`)';
         $field_defs = array();
         foreach ($this->formObj as $field=>$fieldObj) {
@@ -668,9 +668,7 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
         $createQuery =  "CREATE TABLE  " . $this->table_name ." ( "  .  implode(',', $createFields) . ")  ENGINE=InnoDB DEFAULT CHARSET=utf8  DEFAULT COLLATE=utf8_bin";        
         I2CE::raiseError("Creating table for {$this->form} as:\n$createQuery");
         try {
-
             $db =  I2CE::PDO();
-            $result =$db->exec("SET SQL_MODE='ALLOW_INVALID_DATES");
             $result =$db->exec($createQuery);
         } catch (PDOException $e ) {
             I2CE::pdoError($e,"Cannot create cached table for {$this->form}:\n$createQuery");

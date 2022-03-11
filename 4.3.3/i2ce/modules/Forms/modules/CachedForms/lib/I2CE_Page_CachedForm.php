@@ -505,6 +505,8 @@ class I2CE_Page_CachedForm extends I2CE_Page{
         I2CE::raiseError("Caching all");
         $config = I2CE::getConfig()->modules->CachedForms;
         $factory = I2CE_FormFactory::instance();
+        $db =  I2CE::PDO();
+        $result =$db->exec("SET sql_mode = ''");
         if ($forms === null) {
             $forms = $factory->getNames();
         }
