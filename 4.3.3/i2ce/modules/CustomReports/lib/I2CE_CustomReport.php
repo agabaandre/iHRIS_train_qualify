@@ -682,7 +682,7 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
                 I2CE::raiseError("$formName in report references $form which could no be instantiated:" .get_class($formObj));
                 return false;
             }
-            }
+            
             $parentFormName = $this->rel->getParentFormNames($formName);
             $parentForm = $this->rel->getForm($parentFormName);
             //$parentFormReference = $this->rel->getReferencedForm($parentForm);
@@ -1166,7 +1166,7 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
         //$this->populate_queries[] = "ALTER TABLE {$curr_tmp_table} DROP  last_md5 ";                    
         return $curr_tmp_table;
     }
-
+    }
 
 
 
