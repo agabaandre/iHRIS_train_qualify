@@ -10,7 +10,7 @@
       <value>./configs</value>
     </path>
     <requirement name="ihris-qualify-uganda">
-      <atLeast version="4.2" />
+      <atLeast version="4.3" />
     </requirement>
     <requirement name="ihris-qualify">
       <atLeast version="4.2" />

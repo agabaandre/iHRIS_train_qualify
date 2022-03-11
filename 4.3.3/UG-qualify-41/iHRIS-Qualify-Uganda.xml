@@ -25,7 +25,7 @@
     <enable name="magicDataBrowser" />
     <enable name="Uganda-manage-data" />
     <requirement name="ihris-qualify-UgandaReports">
-      <atLeast version='4.1'/>
+      <atLeast version='4.2'/>
     </requirement>
     <enable name="ihris-common-MassDeletePerson" />
     <enable name="ihris-qualify-UgandaReports-person-extra" />
