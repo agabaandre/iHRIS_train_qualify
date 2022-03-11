@@ -676,10 +676,12 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
             $last_create_fields = $create_fields;
             $form = $this->rel->getForm($formName);
             $formReference = $this->rel->getReferencedForm($form);
-            $formObj = $factory->createContainer($form); 
+            $formObj = $factory->createContainer($form);
+            if(is_object($formObj)){
             if (!$formObj instanceof I2CE_Form) {
                 I2CE::raiseError("$formName in report references $form which could no be instantiated:" .get_class($formObj));
                 return false;
+            }
             }
             $parentFormName = $this->rel->getParentFormNames($formName);
             $parentForm = $this->rel->getForm($parentFormName);
