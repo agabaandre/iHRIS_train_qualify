@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-qualify" path="/I2CE">
+  <metadata>
+    <version>4.3.3.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-qualify" path="/I2CE" locale="gl">
+    <version>4.3.0.1</version>
+    <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="gl">
+      <configuration name="training_disrupt" path="training_disrupt/disruption_date/bad_date" values="single" type="string">
+        <value>A data de interrupción debe ser posterior á data de admisión nesta formación.</value>
+      </configuration>
+      <configuration name="training_resume" path="training_disrupt/resumption_date/required" values="single" type="string">
+        <value>Campo obrigatorio</value>
+      </configuration>
+      <configuration name="training_resume" path="training_disrupt/resumption_date/bad_date" values="single" type="string">
+        <value>A data de reanudación debe ser posterior á data de interrupción.</value>
+      </configuration>
+      <configuration name="license_date" path="license/end_date/bad_date" values="single" type="string">
+        <value>A data de fin debe ser posterior á data de inicio.</value>
+      </configuration>
+      <configuration name="registration_date" path="registration/registration_date/bad_date" values="single" type="string">
+        <value>A data de rexistro debe ser posterior á data de inscrición.</value>
+      </configuration>
+      <configuration name="exam_date" path="exam/exam_date/bad_date" values="single" type="string">
+        <value>A data de exame debe ser posterior á data de inscrición.</value>
+      </configuration>
+      <configuration name="training_program" path="training/training_program/bad_cadre" values="single" type="string">
+        <value>Cómpre seleccionar un posto en "Formado no país" ou "Formado fóra do país"</value>
+      </configuration>
+      <configuration name="training_out_country" path="training/out_country/bad_country" values="single" type="string">
+        <value>Cómpre seleccionar o país onde se recibiu a formación.</value>
+      </configuration>
+      <configuration name="training_graduation_req" path="training/graduation/required_out" values="single" type="string">
+        <value>Este campo é obrigatorio ao seleccionar a formación fóra do país.</value>
+      </configuration>
+      <configuration name="training_graduation_date" path="training/graduation/bad_date" values="single" type="string">
+        <value>A data de graduación debe ser posterior á data de admisión.</value>
+      </configuration>
+      <configuration name="pp_date" path="private_practice/end_date/bad_date" values="single" type="string">
+        <value>A data de fin debe ser posterior á data de inicio.</value>
+      </configuration>
+      <configuration name="disp_date" path="disciplinary_action/reinstate_date/bad_date_action" values="single" type="string">
+        <value>A data de reincorporación debe ser posterior á data de acción inicial.</value>
+      </configuration>
+      <configuration name="disp_req" path="disciplinary_action/reinstate_date/required" values="single" type="string">
+        <value>Campo obrigatorio</value>
+      </configuration>
+      <configuration name="disp_date" path="disciplinary_action/reinstate_date/bad_date_action" values="single" type="string">
+        <value>A data de reincorporación debe ser posterior á data de acción disciplinaria.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="gl">
+      <configuration name="person_can_view_child_form_person_disciplinary_action" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de accións disciplinarias.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_disciplinary_action" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_out_migration" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de migracións.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_out_migration" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_training" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de formacións.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_training" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_license" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de licenzas.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_license" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_education" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de educación.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_education" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_person_license" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de licenzas persoais.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_license" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_record_verify" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de verificación do rexistro.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_record_verify" locale="gl" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_deployment" locale="gl" values="single" type="string">
+        <value>Pode ollar o formulario de lanzamentos.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_deployment" locale="gl" values="single" type="string"></configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="exam_try">
+        <configurationGroup name="first">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Primeiro intento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="retry">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Segundo intento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="final">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Último intento</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam_result">
+        <configurationGroup name="pass">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Aprobado</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="fail">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Suspenso</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="notake">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Non presentado ao exame</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration_type">
+        <configurationGroup name="permanent">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Permanente</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="temporary">
+          <configuration name="fields" value="many" type="delimited" locale="gl" values="single">
+            <value>name:Temporal</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Cadre">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="isco">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Código de clasificación ISCO</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="qualification">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cualificación mínima necesaria</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Certificate">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="academic_level">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nivel académico</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Deployment">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Establecemento sanitario</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job_title">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Título do emprego/posto</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job_code">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Código do emprego/posto</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="deployment_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data do lanzamento</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_DisciplinaryAction">
+          <configurationGroup name="fields">
+            <configurationGroup name="disciplinary_action_reason">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Motivo para a acción disciplinaria</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="action_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de aplicación da acción disciplinaria</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="notes">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Notas</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="reinstate_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de reincorporación</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_DisciplinaryActionReason">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="disciplinary_action_category">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Categoría de acción disciplinaria</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_SecondaryEducation">
+          <configurationGroup name="fields">
+            <configurationGroup name="sec_school">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome do centro de ensinanza secundaria</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="certificate">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Certificado</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="grade">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Grao obtido</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="certificate_number">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Número de certificado</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Exam">
+          <configurationGroup name="fields">
+            <configurationGroup name="application_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de inscrición</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="materials_received">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Recibíronse os materiais?</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="materials_approved">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Aprobáronse os materiais?</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome do examinador</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de aprobación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_qualifications">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cualificacións do examinador</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="exam_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data do exame</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="try">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Intento de exame</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="results">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Resultados do exame</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="exam_number">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Número de exame</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Establecemento sanitario</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="active">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Activo?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitutionEditFacility">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Establecemento sanitario</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitutionEditInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Establecemento sanitario</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_HealthFacility">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="id_code">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Código de identificación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Localización</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_agent">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Axente do establecemento</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_status">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Estado do establecemento</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_InstitutionInspection">
+          <configurationGroup name="fields">
+            <configurationGroup name="date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data da inspección</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="notes">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Notas</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="pass">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Aprobado?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_License">
+          <configurationGroup name="fields">
+            <configurationGroup name="license_number">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Número de licenza</value>
+                <value>generate:Xerar este número</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de inicio</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de fin</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="suspend">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Suspendido?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_OutMigration">
+          <configurationGroup name="fields">
+            <configurationGroup name="country">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:País</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="new_address">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Enderezo no novo país</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_migration_reason">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Motivo da migración</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="organization">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Organización que solicita a verificación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="request_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de solicitude</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_PrivatePractice">
+          <configurationGroup name="fields">
+            <configurationGroup name="license_number">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Número de licenza</value>
+                <value>generate:Xerar este número</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de inicio</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de fin</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="inspection_results">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Resultados da inspección</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="inspection_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data da inspección</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Establecemento sanitario</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyDemographic">
+          <configurationGroup name="fields">
+            <configurationGroup name="birth_location">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Lugar de nacemento</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyPerson">
+          <configurationGroup name="fields">
+            <configurationGroup name="home">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Inicio</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Registration">
+          <configurationGroup name="fields">
+            <configurationGroup name="registration_number">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Número de rexistro</value>
+                <value>generate:Xerar este número</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="application_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de inscrición</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="registration_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de rexistro</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="practice_type">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Tipo de práctica</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingDisruptionReason">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Nome</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_disruption_category">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Categoría de interrupción da formación</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingDisrupt">
+          <configurationGroup name="fields">
+            <configurationGroup name="disruption_reason">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Motivo da interrupción</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="disruption_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data da interrupción</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="resumption_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data da reanudación</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyTrainingInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="id_code">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Código de identificación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_agent">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Axente do establecemento</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_status">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Estado do establecemento</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Training">
+          <configurationGroup name="fields">
+            <configurationGroup name="index_num">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Número de índice</value>
+                <value>generate:Xerar o seguinte número de índice</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cadro</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="intake_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de admisión</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="graduation">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de graduación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="trained_outside">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Formado fóra deste país</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_program">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Programa de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" values="many" locale="gl">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="in_cadre">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cadro</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_country">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:País de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_institution">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_cadre">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cadro</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingProgram">
+          <configurationGroup name="fields">
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Institución de formación</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Cadro</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de inicio</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Data de fin</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="num_students">
+              <configuration name="headers" type="delimited" locale="gl" values="single">
+                <value>default:Número de estudantes</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="forms">
+        <configurationGroup name="academic_level">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Nivel académico</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action_category">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Categoría de acción disciplinaria</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_agent">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Axente do establecemento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_status">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Estado do establecemento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="out_migration_reason">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Motivo da migración</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disruption_category">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Categoría de interrupción da formación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="qualification">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Cualificación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="cadre">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Cadro</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="certificate">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Certificado</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action_reason">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Motivo para a acción disciplinaria</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disruption_reason">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Motivo de interrupción da formación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="health_facility">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Establecemento sanitario</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_program">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Programa de formación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="institution_inspection">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Inspección da institución</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Institución do establecemento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution_edit_fac">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Editar o establecemento para ligar os establecementos coas institucións</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution_edit_inst">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Editar a institución para ligar os establecementos e as institucións</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Persoa</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="education">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Historial educativo</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Formación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disrupt">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Interrupción da formación</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam_try">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Intento de exame</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam_result">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Resultado do exame</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Exame</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration_type">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Tipo de rexistro</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Rexistro</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="license">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Licenza</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="private_practice">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Licenza de tratamento privada</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="deployment">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Lanzamento</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="out_migration">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Migración externa</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action">
+          <configuration name="display" values="single" locale="gl" type="string">
+            <value>Acción disciplinaria</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="roles" path="/I2CE/formsData/forms/role">
+      <configurationGroup name="manager">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="gl" type="string">
+            <value>Administrador das operacións de datos</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="gl" type="string">
+            <value>Supervisor do rexistro</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="records">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="gl" type="string">
+            <value>Encargado dos rexistros</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="decision_maker">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="gl" type="string">
+            <value>Tomador de decisións</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="continuing_education">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información sobre a educación continua</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="deployment">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar o lanzamento</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="disciplinary_action">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a acción disciplinaria</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="disciplinary_reinstate">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Restablecer a licenza despois da acción disciplinaria</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="education">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información educativa</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información do exame</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="facility_institution">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Establecemento sanitario/Institución de formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="graduate">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir a data de graduación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="history">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Ver o historial</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="history_training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Ver o historial</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="institution_inspection">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a inspección da institución de formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="license">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información da licenza</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="out_migration">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información de migración</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="private_practice">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información da licenza de tratamento privada</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a información do rexistro</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="renew">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Renovar a información da licenza</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_disrupt">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a interrupción da formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar a formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_program">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Engadir/Actualizar o programa de formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_resume">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Reanucar a interrupción da formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="view_training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="gl" type="string">
+            <value>Ver a formación</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="search_reports" path="/modules/CustomReports/search_reports">
+      <configuration name="search_people" values="many" type="delimited" locale="gl">
+        <value>name:Procurar persoas</value>
+        <value>description:Atope o rexistro de calquera persoa no sistema que revisar, imprimir ou actualizar.</value>
+      </configuration>
+      <configuration name="search_training" values="many" type="delimited" locale="gl">
+        <value>name:Procurar formacións</value>
+        <value>description:Atope o rexistro de calquera persoa no sistema por información de formación. Unha mesma persoa pode aparecer varias veces se ten moitas formacións.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="recent_forms" path="/modules/RecentForm/forms">
+      <configurationGroup name="training">
+        <configuration name="display" values="single" locale="gl" type="string">
+          <value>Número de índice: %1$s - Cadro: %2$s - Data de admisión: %3$s</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

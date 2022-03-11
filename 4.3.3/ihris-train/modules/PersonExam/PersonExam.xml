@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="PersonExam">
+  <metadata>
+    <displayName>Instance Participants</displayName>
+    <className>iHRIS_Module_PersonExam</className>
+    <category>UG Train Modules</category>
+    <description>Attach an Instance to a participant</description>
+    <creator>UCP</creator>
+    <email>helpdesk.hris@health.go.ug</email>
+    <link>https://launchpad.net/Uganda</link>
+    <version>4.3.0</version>
+    <requirement name="Percent" />
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <erase path="/modules/forms/formClasses/iHRIS_PersonExam/fields/try/unique">
+    <lessThan version="4.1.6.6" />
+  </erase>
+  <erase path="/modules/forms/formClasses/iHRIS_PersonExam/fields/try/unique_field">
+    <lessThan version="4.1.6.6" />
+  </erase>
+  <configurationGroup name="PersonExam" path="/I2CE">
+    <version>4.1.1.2</version>
+    <displayName>Participant's Exam</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_person_exam">
+        <value>Can view person_exam child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_exam">
+        <value>Can edit person_exam child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_person_exam" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_exam" values="many">
+        <value>person_can_view_child_form_person_exam</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_person_exam</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_person_exam</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <displayName>Forms Data</displayName>
+      <description>Form data saved in magic data</description>
+      <version>4.1.6.0</version>
+      <configurationGroup name="exam_try">
+        <displayName>Exam Try</displayName>
+        <description>The exam try form data</description>
+        <configurationGroup name="first">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:1st Attempt</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="retry">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:2nd Attempt</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="final">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Final Attempt</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="paper">
+        <displayName>Paper</displayName>
+        <version>4.1.6.2</version>
+        <description>The paper form data</description>
+        <configurationGroup name="paper_i">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper I</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paper_ii">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper II</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paper_iii">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper III</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paper_iv">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper IV</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam_grade">
+        <displayName>Exam Result</displayName>
+        <description>The exam result form data</description>
+        <version>4.1.5.3</version>
+        <configurationGroup name="grade_1">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_2">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:2</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_3">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:3</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_4">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:4</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_5">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:5</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_6">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:6</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_7">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:7</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade_8">
+          <configuration name="last_modified">
+            <value>2013-03-14 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:8</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <!-- end formsData/forms -->
+    <configurationGroup name="forms" path="/modules/forms">
+      <displayName>Forms</displayName>
+      <description>Information about the forms made available by PersonExam</description>
+      <version>4.1.1.2</version>
+      <configurationGroup name="forms">
+        <displayName>Forms available to the form factory</displayName>
+        <status>advanced:true</status>
+        <status>required:true</status>
+        <!-- This section is to add a new form called person_exam with the associated
+             class.  The class will be defined in the classes section below. -->
+        <configurationGroup name="exam_try">
+          <displayName>Exam Try</displayName>
+          <description>The exam try form</description>
+          <version>4.1.3</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <description>The display name for this form</description>
+            <value>Exam Try</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam_grade">
+          <displayName>Exam Result</displayName>
+          <description>The exam result form</description>
+          <version>4.1.5.3</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <description>The display name for this form</description>
+            <value>Exam Grade</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paper">
+          <displayName>Exam Result</displayName>
+          <description>The exam result form</description>
+          <version>4.1.6.2</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <description>The display name for this form</description>
+            <value>Paper</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_exam">
+          <displayName>Exam</displayName>
+          <description>The Exam Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_PersonExam</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Exam</value>
+          </configuration>
+        </configurationGroup>
+        <!-- This section will modify the existing information for the person form to include
+             two new child forms which are the new forms created for this module. -->
+        <configurationGroup name="person_instance_meta" path="/modules/forms/forms/person_instance/meta">
+          <displayName>MetaData on the form</displayName>
+          <configuration name="child_forms" values="many">
+            <displayName>Child Forms</displayName>
+            <status>uniquemerge:true</status>
+            <value>person_exam</value>
+          </configuration>
+        </configurationGroup>
+        <!-- person_meta -->
+      </configurationGroup>
+      <!-- End /modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <displayName>Form Class Configuration</displayName>
+        <!-- This section will define the person_exam form class with all the fields and field types. 
+             This class will be created dynamically since no extra funcationality needs to be added for it. -->
+        <configurationGroup name="iHRIS_PersonExam">
+          <displayName>Configuration for the class 'iHRIS_Exam'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="exam_date">
+              <displayName>The field 'exam_date'</displayName>
+              <version>4.1.6.4</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Exam Date</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="try">
+              <displayName>The field 'try'</displayName>
+              <version>4.1.6.4</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>exam_try</value>
+                </configuration>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>exam_try</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Exam Try</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="results">
+              <displayName>The field 'results'</displayName>
+              <version>4.1.6.4</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>PERCENT_INT</value>
+              </configuration>
+              <!--<configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>exam_result</value>
+                </configuration>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>exam_result</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>-->
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.3</version>
+                <value>default:Exam Results</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="paper">
+              <displayName>The field 'paper'</displayName>
+              <version>4.1.6.4</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Paper</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <version>4.1.6.5</version>
+                <value>true</value>
+              </configuration>
+              <configuration name="unique_field">
+                <version>4.1.6.5</version>
+                <value>parent</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="exam_grade">
+              <displayName>The field 'exam_number'</displayName>
+              <version>4.1.6.4</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.5.3</version>
+                <value>default:Exam Grade</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- End /modules/forms/formClasses -->
+    </configurationGroup>
+    <!-- End /modules/forms -->
+    <configurationGroup name="page">
+      <displayName>Pages</displayName>
+      <description>Information about various pages made available by the system</description>
+      <version>4.1.1.1</version>
+      <status>required:true</status>
+      <!-- This section will create the person_exam page so that new professional development
+           forms can be created and assigned to a person's record. -->
+      <configurationGroup name="person_exam">
+        <displayName>Person Exam Page</displayName>
+        <description>The page 'person_exam' which has the action of: Add/Update Exam Information</description>
+        <version>4.1.5.0</version>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <value>iHRIS_PageFormPersonExam</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>shell</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="defaultHTMLFile" values="many">
+            <version>4.1.5.1</version>
+            <value>form_person_exam.html</value>
+          </configuration>
+          <configuration name="title" values="single">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Exam Information</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- person_exam -->
+    </configurationGroup>
+    <!-- page -->
+  </configurationGroup>
+  <!-- PersonExam -->
+</I2CEConfiguration>

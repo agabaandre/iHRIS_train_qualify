@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ParticipantUploadTrigger" path="/modules/UserTriggers">
+  <metadata>
+    <version>4.3.0</version>
+  </metadata>
+  <configurationGroup name="ParticipantUploadTrigger" path="/modules/UserTriggers" locale="en_US">
+    <version>4.3.0</version>
+    <configurationGroup name="triggers">
+      <configurationGroup name="participant_upload_save">
+        <configuration name="display" locale="en_US">
+          <value>Participant Upload Completed</value>
+        </configuration>
+        <configuration name="message" type="delimited" locale="en_US">
+          <value>prefix:Participants have been added by CSV upload.</value>
+          <value>link_text:Training Instance</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

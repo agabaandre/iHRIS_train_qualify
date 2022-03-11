@@ -1,0 +1,56 @@
+# Translation Template of ihris-train module (TrainAccessProvider Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@TrainAccessProvider 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml#L12 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml line 12]
+#, no-c-format
+msgid "User Access Provider"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml line 21]
+#, no-c-format
+msgid "Provider"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml#L31 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/configs/en_US/TrainAccessProvider.xml line 31]
+#, no-c-format
+msgid "Add/Update Provider Access"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_link_access_provider.html#L1 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_link_access_provider.html line 1]
+#, no-c-format
+msgid "Add Provider"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_form_access_provider.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_form_access_provider.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html#L12 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html line 12]
+#, no-c-format
+msgid "Provider Access"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider.html line 5]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider_top.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/TrainAccessProvider/templates/en_US/user_view_access_provider_top.html line 2]
+#, no-c-format
+msgid "Provider Access Information"
+msgstr ""
+

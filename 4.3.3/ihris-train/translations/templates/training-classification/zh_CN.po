@@ -1,0 +1,55 @@
+# Translation of iHRIS Train - Classification to Simplified Chinese (中文（简体）‎)
+# Exported from translatewiki.net
+#
+# Author: Liuxinyu970226
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-10-06 18:25+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: zh_cn\n"
+"X-POT-Import-Date: 2014-03-23 19:24:54+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 11]
+#, no-c-format
+msgid "Edit the Training Classification list"
+msgstr "编辑培训类别列表"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 14]
+#, no-c-format
+msgid "View the Training Classification list"
+msgstr "查看培训类别列表"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 14]
+#, no-c-format
+msgid "Training Classification Information"
+msgstr "培训类别信息"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "编辑此信息"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "更新此信息"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 7]
+#, no-c-format
+msgid "Select another Training Classification"
+msgstr "选择其他培训类别"

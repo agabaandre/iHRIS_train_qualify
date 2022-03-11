@@ -1,0 +1,7 @@
+Rihris-qualify-site-demo (4.3.3.0~bionic) bionic; urgency=medium
+
+  * Ubuntu Release Version 4.3.3.0
+    -Initial Packaging
+    --http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.3-dev
+
+ -- Nobert Mijumbi <nobertmn@gmail.com>  Wed, 13 June 2018 08:08:59 -0500

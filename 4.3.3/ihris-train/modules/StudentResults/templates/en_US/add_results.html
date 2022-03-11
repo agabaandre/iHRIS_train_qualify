@@ -1,0 +1,52 @@
+<div id="siteContent">
+<script type="text/javascript">
+function verify()
+{
+var error_found=false;
+var len=document.getElementsByClassName("results").length;
+
+for (k=0;k<len;k++)
+{
+var value=document.getElementsByClassName("results")[k].value;
+var inputname=document.getElementsByClassName("results")[k].name;
+
+//clear error msgs first
+document.getElementById(inputname).innerHTML="";
+var assessments_array=inputname.split("/");
+var assessment=assessments_array[0];
+var assessment_array=assessment.split("|");
+assessment=assessment_array[1];
+if(value!=NaN && isNaN(value))
+{
+document.getElementById(inputname).innerHTML="This is not a number ";
+error_found=true;
+}
+
+value=parseFloat(value);
+//check if the mark enterd exceeds the assessment max mark and display an error
+if(!isNaN(value) && parseFloat(document.getElementById(assessment).value) < value)
+{
+document.getElementById(inputname).innerHTML="Mark Exceeds Assessment Maximum Marks ("+document.getElementById(assessment).value+")";
+error_found=true;
+}
+}
+
+if(error_found==true)
+return false;
+}
+
+</script>
+  <p>
+    <h2 id="course">Students Enrolled For This Course:</h2>
+    <div id="errmsg"></div>
+<form name="add_results" method="POST" action="add_results_process">
+    <div id='students_list'>
+
+    </div>
+<div id="hidden_data">
+
+</div>
+</form>
+  </p>
+
+</div>

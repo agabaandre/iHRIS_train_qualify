@@ -1,0 +1,79 @@
+<div id="siteContent">
+<br style="clear: both;"><div role="records">
+<h2><a href="person" class="updateRecords">Додати особу</a></h2>
+<p>
+Додати новий запис студента або працівника охорони здоров'я. Для вже наявного виправити інформацію про людину і контактні дані; додати детальну інформацію про поточні або завершені навчальні програми; ввести заявки і результати іспитів; видання реєстрації та ліцензії, поновлення терміну дії ліцензії, ліцензії на приватну практику, запити перевірки міграції, дисциплінарні заходи, а також впровадження.
+</p>
+
+<hr></div>
+
+<span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+  <span type="module" name="SelfService" if="!userHasRecord()">
+    
+  </span>
+  <span type="module" name="SelfService" if="userHasRecord()">
+    <h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">View Your Record</span></h2>
+    <p>
+      View your own details.
+    </p>
+  </span>
+</span>
+
+<div task="custom_reports_can_access">
+<h2><a href="search" class="searchRecords">Пошук записів</a></h2>
+<p>
+Виявити які-небудь записи людини в системі для перегляду, друку або оновлення.
+</p>
+</div>
+
+
+<span type="module" name="CustomReports" ifenabled="true">
+  <div role="manager|decision_maker">
+    <hr><h2><a href="CustomReports/view/reportViews" class="createRecords">Перегляд звітів</a></h2>
+    <p>
+      Звітів забезпечують аналіз людських ресурсів різними способами. Налаштовуйте, відображайте та друкуйте списки медичних працівників або студентів, статистичних діаграм і інших стандартних звітів. Доступ наданий тільки менеджерам операційних даних та керівникам.
+    </p>
+  </div>
+</span>
+
+
+  <span role="admin" type="module" name="mHero" ifenabled="true">      
+    <h2>
+      <a href="mHero">mHero</a>
+    </h2>
+    <p>
+      <span style="display:inline-block">
+	<a href="mHero_person_workflow" target="_mHero">
+	  <img text="mHero" style="width:10em;" src="file/mHero.png"></a>
+      </span>
+      Use the mHero intgerated health system communications platform for personnel records
+
+    </p>
+  </span>
+  <span role="admin" type="module" name="mHero-csd-provider" ifenabled="true">      
+    <h2>
+      <a href="mHero">mHero</a>
+    </h2>
+    <p>
+      <span style="display:inline-block">
+	<a type="form" href="mhero_search_providerd=" target="_mHero">
+	  <img text="mHero" style="width:10em;" src="file/mHero.png"></a>
+      
+      </span>
+      Use the mHero intgerated health system communications platform with a Health Worker Registry
+
+    </p>
+  </span>
+
+<div role="manager">
+<hr><h2><a href="configure" class="adminDatabase">Налаштування системи</a></h2>
+<p>
+Налаштуйте модулі, управляйте базою даних і створюйте або оновлюйте облікові записи користувачів.
+</p>
+</div>
+
+
+
+<hr><h2><a href="password">Змінити пароль</a></h2>
+
+</div>

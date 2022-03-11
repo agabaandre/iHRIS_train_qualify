@@ -1,0 +1,21 @@
+ihris-train-site (4.3.2.1~trusty) trusty; urgency=medium
+
+  * Ubuntu Site Release Version 4.3.2.1 400: Nobert Mijumbi 2018-04-10
+    {4.3.2.1-ubuntu-site-release} "Ubuntu Site Release Version 4.3.2.1"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Wed, 18 Apr 2018 20:36:03 +0000
+
+ihris-train-site (4.3.1.2~trusty) trusty; urgency=medium
+
+  * Ubuntu Site Release Version 4.3.1.2 400: Nobert Mijumbi 2018-04-10
+    {4.3.1.1-ubuntu-site-release} "Ubuntu Site Release Version 4.3.1.1"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 10 Apr 2018 20:36:03 +0000
+
+ihris-train-site (4.3.0.0~trusty) trusty; urgency=medium
+
+  * Ubuntu release Version 4.3.0.0
+    - Initial Packaging
+    --http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.3-dev
+
+ -- Nobert Mijumbi <nobertmn@gmail.com>  Fri, 02 Mar 2018 17:28:00 +0000

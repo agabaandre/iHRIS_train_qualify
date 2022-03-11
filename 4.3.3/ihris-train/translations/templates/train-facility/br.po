@@ -1,0 +1,113 @@
+# Translation of iHRIS Train - Facility to Breton (brezhoneg)
+# Exported from translatewiki.net
+#
+# Author: Fohanno
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-04-22 01:02+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: br\n"
+"X-POT-Import-Date: 2014-03-23 19:24:59+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 11]
+#, no-c-format
+msgid "Edit the facility list"
+msgstr "Aozañ roll an diazezadurioù"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 14]
+#, no-c-format
+msgid "View the facility list"
+msgstr "Gwelet roll an diazezadurioù"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 17]
+#, no-c-format
+msgid "Edit the facility agent list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 20]
+#, no-c-format
+msgid "View the facility agent list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L23 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 23]
+#, no-c-format
+msgid "Edit the facility type list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L26 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 26]
+#, no-c-format
+msgid "View the facility type list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L33 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 33]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L67 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 67]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html line 14]
+#, no-c-format
+msgid "Facility Type"
+msgstr "Seurt diazezadur"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 38]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L62 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 62]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html#L15 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html line 15]
+#, no-c-format
+msgid "Facility Ownership/Affiliation"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L43 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 43]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html#L15 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html line 15]
+#, no-c-format
+msgid "Health Facility"
+msgstr "Diazezadur yec'hed"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L52 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 52]
+#, no-c-format
+msgid "Identification Code"
+msgstr "Kod anaout"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml#L57 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/configs/en_US/TrainFacility.xml line 57]
+#, no-c-format
+msgid "Location"
+msgstr "Lec'hiadur"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Aozañ an titour-mañ"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Hizivaat an titour-mañ"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_type.html line 7]
+#, no-c-format
+msgid "Select another Facility Type"
+msgstr "Diuzañ ur seurt diazezadur all"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_health_facility.html line 7]
+#, no-c-format
+msgid "Select another Health Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainFacility/templates/en_US/view_list_facility_owner.html line 7]
+#, no-c-format
+msgid "Select another Facility Ownership/Affiliation"
+msgstr ""

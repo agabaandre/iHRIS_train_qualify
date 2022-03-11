@@ -1,0 +1,36 @@
+# Translation Template of ihris-train module (RescheduleCourse Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@RescheduleCourse 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml line 11]
+#, no-c-format
+msgid "Can View Reschedule Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml line 14]
+#, no-c-format
+msgid "Can Edit Reschedule Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/configs/en_US/RescheduleCourse.xml line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/templates/en_US/form_reschedule_course.html#L9 ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/templates/en_US/form_reschedule_course.html line 9]
+#, no-c-format
+msgid "Reschedule Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/templates/en_US/form_reschedule_course.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/RescheduleCourse/templates/en_US/form_reschedule_course.html line 2]
+#, no-c-format
+msgid "Reschedule Course To Other Semesters"
+msgstr ""
+

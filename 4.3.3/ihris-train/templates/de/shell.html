@@ -1,0 +1,38 @@
+<div id="siteInnerWrap">
+  
+  <div id="navBar">
+    <ul id="navBarUL"><li><span type="module" name="TrainAccessProvider" call="linkToProvider('viewprovider?id=')" class="updateRecords">Meinen Anbieter anzeigen</span></li>
+      <li id="menu_trainingprovider" task="person_can_view">
+        <a href="manage?action=provider">Schulungen verwalten</a>
+      </li>
+      <li id="menuManage" task="person_can_view">
+        <a href="manage">Mitarbeiter verwalten</a>
+      </li>
+      <span type="module" name="CustomReports" ifenabled="true">
+        <li id="menuSearch" task="custom_reports_can_access">
+          <a href="search">Datensätze suchen</a>
+        </li>
+        <li id="menuCustomReports" task="custom_reports_can_view_reportViews">
+          <a href="CustomReports/view/reportViews">Berichte anzeigen</a>
+        </li>
+      </span>
+      <li id="menuConfigure" task="can_configure_system">
+        <a href="configure">System einrichten</a>
+      </li>
+      <li id="menuPassword" task="can_change_own_password">
+        <a href="password">Kennwort ändern</a>
+      </li>
+      <span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+        <span type="module" name="SelfService" if="userHasRecord()">
+          <li>
+            <span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">Deinen Datensatz anzeigen</span>
+          </li>
+        </span>
+      </span>
+      
+    </ul></div>
+  
+  <div id="siteContent"></div>
+  
+  <br style="clear: both;"></div>
+<!-- /siteInnerWrap -->

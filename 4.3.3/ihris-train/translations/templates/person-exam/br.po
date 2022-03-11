@@ -1,0 +1,148 @@
+# Translation of iHRIS Train - Person Exam to Breton (brezhoneg)
+# Exported from translatewiki.net
+#
+# Author: Fohanno
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-04-22 00:55+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: br\n"
+"X-POT-Import-Date: 2014-03-23 19:25:02+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 11]
+#, no-c-format
+msgid "Can view person_exam child form of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 14]
+#, no-c-format
+msgid "Can edit person_exam child forms of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 21]
+#, no-c-format
+msgid "1st Attempt"
+msgstr "1añ taol-esae"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L26 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 26]
+#, no-c-format
+msgid "2nd Attempt"
+msgstr "2l taol-esae"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L31 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 31]
+#, no-c-format
+msgid "Final Attempt"
+msgstr "Taol esae diwezhañ"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 38]
+#, no-c-format
+msgid "Paper I"
+msgstr "Paper I"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L43 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 43]
+#, no-c-format
+msgid "Paper II"
+msgstr "Paper II"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L48 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 48]
+#, no-c-format
+msgid "Paper III"
+msgstr "Paper III"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L53 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 53]
+#, no-c-format
+msgid "Paper IV"
+msgstr "Paper IV"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L104 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 104]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L133 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 133]
+#, no-c-format
+msgid "Exam Try"
+msgstr "Tremen an arnodenn"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L109 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 109]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L148 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 148]
+#, no-c-format
+msgid "Exam Grade"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L114 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 114]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L143 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 143]
+#, no-c-format
+msgid "Paper"
+msgstr "Paper"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L119 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 119]
+#, no-c-format
+msgid "Exam"
+msgstr "Arnodenn"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L128 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 128]
+#, no-c-format
+msgid "Exam Date"
+msgstr "Deiziad an arnodenn"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml#L138 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/configs/en_US/PersonExam.xml line 138]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html line 13]
+#, no-c-format
+msgid "Exam Results"
+msgstr "Disoc'hoù an arnodenn"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Aozañ an titour-mañ"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Hizivaat an titour-mañ"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam.html line 13]
+#, no-c-format
+msgid "Exam Information"
+msgstr "Titouroù diwar-benn an arnodenn"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html line 2]
+#, no-c-format
+msgid "Exam Results For Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html#L16 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/form_person_exam.html line 16]
+#, no-c-format
+msgid "Passing Score: %d"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/button_confirm_person_exam.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/button_confirm_person_exam.html line 5]
+#, no-c-format
+msgid "Confirm"
+msgstr "Kadarnaat"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/button_confirm_person_exam.html#L10 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/button_confirm_person_exam.html line 10]
+#, no-c-format
+msgid "return (do not save changes)"
+msgstr "Distreiñ (chom hep saveteiñ ar c'hemmoù)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam_hide.html#L1 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam_hide.html line 1]
+#, no-c-format
+msgid "Hide Exams"
+msgstr "Kuzhat an arnodennoù"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam_link.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/PersonExam/templates/en_US/view_person_exam_link.html line 2]
+#, no-c-format
+msgid "Add Exam Information"
+msgstr "Ouzhpennañ titouroù diwar-benn an arnodenn"

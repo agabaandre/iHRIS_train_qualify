@@ -1,3 +1,0 @@
-var/lib/* var/lib
-etc/php/7.0/mods-available/* etc/*
-usr/bin/* usr/bin

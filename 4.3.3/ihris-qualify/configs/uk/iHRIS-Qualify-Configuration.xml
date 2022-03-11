@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-qualify" path="/I2CE">
+  <metadata>
+    <version>4.3.3.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-qualify" path="/I2CE" locale="uk">
+    <version>4.3.0.1</version>
+    <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="uk">
+      <configuration name="training_disrupt" path="training_disrupt/disruption_date/bad_date" values="single" type="string">
+        <value>Дата порушення має бути після дати прийому на цей курс.</value>
+      </configuration>
+      <configuration name="training_resume" path="training_disrupt/resumption_date/required" values="single" type="string">
+        <value>Обов'язкове поле</value>
+      </configuration>
+      <configuration name="training_resume" path="training_disrupt/resumption_date/bad_date" values="single" type="string">
+        <value>Дата поновлення має бути після дати порушення.</value>
+      </configuration>
+      <configuration name="license_date" path="license/end_date/bad_date" values="single" type="string">
+        <value>Дата завершення має бути пізнішою за дату початку.</value>
+      </configuration>
+      <configuration name="registration_date" path="registration/registration_date/bad_date" values="single" type="string">
+        <value>Дата реєстрації слід після дати подачі заявки.</value>
+      </configuration>
+      <configuration name="exam_date" path="exam/exam_date/bad_date" values="single" type="string">
+        <value>Дата екзамену має бути пізнішою за дату подання заявки.</value>
+      </configuration>
+      <configuration name="training_program" path="training/training_program/bad_cadre" values="single" type="string">
+        <value>Потрібно вибрати кадр, підготовлений у вашій країні або підготовлений за межами країни</value>
+      </configuration>
+      <configuration name="training_out_country" path="training/out_country/bad_country" values="single" type="string">
+        <value>Необхідно вибрати країну, де навчання було отримано.</value>
+      </configuration>
+      <configuration name="training_graduation_req" path="training/graduation/required_out" values="single" type="string">
+        <value>Це поле обов'язкове для заповнення, якщо ви вибрали навчання за межами країни.</value>
+      </configuration>
+      <configuration name="training_graduation_date" path="training/graduation/bad_date" values="single" type="string">
+        <value>Дата випуску має бути після дати прийому.</value>
+      </configuration>
+      <configuration name="pp_date" path="private_practice/end_date/bad_date" values="single" type="string">
+        <value>Дата завершення має бути пізнішою за дату початку.</value>
+      </configuration>
+      <configuration name="disp_date" path="disciplinary_action/reinstate_date/bad_date_action" values="single" type="string">
+        <value>Дата відновлення має йти після дати початкової дії.</value>
+      </configuration>
+      <configuration name="disp_req" path="disciplinary_action/reinstate_date/required" values="single" type="string">
+        <value>Обов'язкове поле</value>
+      </configuration>
+      <configuration name="disp_date" path="disciplinary_action/reinstate_date/bad_date_action" values="single" type="string">
+        <value>Дата відновлення повинна бути після дати дисциплінарного заходу.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="uk">
+      <configuration name="person_can_view_child_form_person_disciplinary_action" locale="uk" values="single" type="string">
+        <value>Можна переглядати форму дисциплінарного стягнення.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_disciplinary_action" locale="uk" values="single" type="string">
+        <value>Можна редагувати форму дисциплінарного стягнення.</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_out_migration" locale="uk" values="single" type="string">
+        <value>Можна переглянути форму міграції.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_out_migration" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_training" locale="uk" values="single" type="string">
+        <value>Можете переглянути форму навчання.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_training" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_license" locale="uk" values="single" type="string">
+        <value>Можна переглядати форму ліцензії.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_license" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_education" locale="uk" values="single" type="string">
+        <value>Можна переглянути форму освіти.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_education" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_person_license" locale="uk" values="single" type="string">
+        <value>Можна переглянути форми ліцензії людини.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_license" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_record_verify" locale="uk" values="single" type="string">
+        <value>Можна переглянути форму запису перевірки.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_record_verify" locale="uk" values="single" type="string"></configuration>
+      <configuration name="person_can_view_child_form_deployment" locale="uk" values="single" type="string">
+        <value>Можна переглянути форму розгортання.</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_deployment" locale="uk" values="single" type="string"></configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="exam_try">
+        <configurationGroup name="first">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Перша проба</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="retry">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Повторна спроба</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="final">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Остання спроба</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam_result">
+        <configurationGroup name="pass">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Пройшли</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="fail">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Провал</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="notake">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Відсутність на іспиті</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration_type">
+        <configurationGroup name="permanent">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Постійний</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="temporary">
+          <configuration name="fields" value="many" type="delimited" locale="uk" values="single">
+            <value>name:Тимчасовий</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Cadre">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="isco">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Код класифікації ISCO</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="qualification">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Мінімальна кваліфікація необхідна</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Certificate">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="academic_level">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Академічний рівень</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Deployment">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Медичний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job_title">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва роботи/посади</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job_code">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Код роботи/посади</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="deployment_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата розгортання</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_DisciplinaryAction">
+          <configurationGroup name="fields">
+            <configurationGroup name="disciplinary_action_reason">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Причина дисциплінарного заходу</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="action_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата застосування дисциплінарного заходу</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="notes">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Примітки</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="reinstate_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата відновлення</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_DisciplinaryActionReason">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="disciplinary_action_category">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Категорія дисциплінарного заходу</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_SecondaryEducation">
+          <configurationGroup name="fields">
+            <configurationGroup name="sec_school">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва середньої школи</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="certificate">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Сертифікат</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="grade">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Отриманий ступінь</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="certificate_number">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Номер сертифікату</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Exam">
+          <configurationGroup name="fields">
+            <configurationGroup name="application_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата застосування</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="materials_received">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Матеріали отримані?</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="materials_approved">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Матеріали схвалені?</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва індосанта</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата індосанта</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="endorser_qualifications">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Кваліфікація індосанта</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="exam_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата іспиту</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="try">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Спробувати іспит</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="results">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Результати іспиту</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="exam_number">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Номер іспиту</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Медичний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="active">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Активний?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitutionEditFacility">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Медичний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_FacilityInstitutionEditInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Медичний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_HealthFacility">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="id_code">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Ідентифікаційний код</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Розташування</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_agent">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Агент закладу</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_status">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Статус закладу</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_InstitutionInspection">
+          <configurationGroup name="fields">
+            <configurationGroup name="date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата інспекції</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="notes">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Примітки</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="pass">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Здано?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_License">
+          <configurationGroup name="fields">
+            <configurationGroup name="license_number">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Номер ліцензії</value>
+                <value>generate:Генерувати це число</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата початку</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата завершення</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="suspend">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Призупинено?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_OutMigration">
+          <configurationGroup name="fields">
+            <configurationGroup name="country">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Країна</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="new_address">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Адреса в новій країні</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_migration_reason">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Причина міграції ззовні</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="organization">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Перевірка запитуючої організації</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="request_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата запиту</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_PrivatePractice">
+          <configurationGroup name="fields">
+            <configurationGroup name="license_number">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Номер ліцензії</value>
+                <value>generate:Генерувати це число</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата початку</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата завершення</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="inspection_results">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Результати інспекції</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="inspection_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата інспекції</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="health_facility">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Медичний заклад</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyDemographic">
+          <configurationGroup name="fields">
+            <configurationGroup name="birth_location">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Місце народження</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyPerson">
+          <configurationGroup name="fields">
+            <configurationGroup name="home">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Головна</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Registration">
+          <configurationGroup name="fields">
+            <configurationGroup name="registration_number">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Реєстраційний номер</value>
+                <value>generate:Генерувати це число</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="application_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата застосування</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="registration_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата реєстрації</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="practice_type">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Тип практики</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingDisruptionReason">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Назва</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_disruption_category">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Категорія порушення навчання</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingDisrupt">
+          <configurationGroup name="fields">
+            <configurationGroup name="disruption_reason">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Причина порушення</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="disruption_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата порушення</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="resumption_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата поновлення</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_QualifyTrainingInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="id_code">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Ідентифікаційний код</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_agent">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Агент закладу</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_status">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Статус закладу</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Training">
+          <configurationGroup name="fields">
+            <configurationGroup name="index_num">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Порядковий номер</value>
+                <value>generate:Згенерувати наступний порядковий Номер</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Кадровий склад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="intake_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата споживання</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="graduation">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата випуску</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="trained_outside">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Освіта за межами цієї країни</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_program">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Навчальна програма</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" values="many" locale="uk">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="in_cadre">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Кадровий склад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_country">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Країна навчання</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_institution">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="out_cadre">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Кадровий склад</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_TrainingProgram">
+          <configurationGroup name="fields">
+            <configurationGroup name="training_institution">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Навчальний заклад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Кадровий склад</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата початку</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Дата завершення</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="num_students">
+              <configuration name="headers" type="delimited" locale="uk" values="single">
+                <value>default:Число студентів</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="forms">
+        <configurationGroup name="academic_level">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Академічний рівень</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action_category">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Категорія дисциплінарного заходу</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_agent">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Агент закладу</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_status">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Статус закладу</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="out_migration_reason">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Причина міграції ззовні</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disruption_category">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Категорія порушення навчання</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="qualification">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Кваліфікація</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="cadre">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Кадровий склад</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="certificate">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Сертифікат</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action_reason">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Причина дисциплінарного заходу</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disruption_reason">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Причини порушення навчання</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="health_facility">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Медичний заклад</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_program">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Навчальна програма</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="institution_inspection">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Інспекція установи</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Центр закладу</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution_edit_fac">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Редагувати заклад, щоб зв'язати заклади з установами</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_institution_edit_inst">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Редагувати установу, щоб зв'язати заклади і установи</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Особа</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="education">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Історія освіти</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Навчання</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_disrupt">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Порушення підготовки</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam_try">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Спробувати іспит</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam_result">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Результати іспиту</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="exam">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Іспит</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration_type">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Тип реєстрації</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Реєстрація</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="license">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Ліцензія</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="private_practice">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Ліцензія на приватну практику</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="deployment">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Розгортання</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="out_migration">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>З міграції</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="disciplinary_action">
+          <configuration name="display" values="single" locale="uk" type="string">
+            <value>Дисциплінарний захід</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="roles" path="/I2CE/formsData/forms/role">
+      <configurationGroup name="manager">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="uk" type="string">
+            <value>Менеджер операційних даних</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="uk" type="string">
+            <value>Реєстрація керівника</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="records">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="uk" type="string">
+            <value>Записи службовця</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="decision_maker">
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="uk" type="string">
+            <value>Приймач рішень</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="continuing_education">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити інформацію післядипломного навчання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="deployment">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити розгортання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="disciplinary_action">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити дисциплінарні заходи</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="disciplinary_reinstate">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Відновити ліцензію після дисциплінарних заходів</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="education">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити інформацію про освіту</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити інформацію про іспит</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="facility_institution">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Медична установа/навчальний заклад</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="graduate">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати дату випуску</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="history">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Перегляд історії</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="history_training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Перегляд історії</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="institution_inspection">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити інспекції навчального закладу</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="license">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити відомості про ліцензію</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="out_migration">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити інформацію про міграцію</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="private_practice">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити ліцензійну інформацію про приватну практику</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registration">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити реєстраційну інформацію</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="renew">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Оновити відомості про ліцензію</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_disrupt">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити порушення навчання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити навчання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_program">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Додати/оновити навчальну програму</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_resume">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Відновити порушення навчання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="view_training">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="uk" type="string">
+            <value>Перегляд навчання</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="search_reports" path="/modules/CustomReports/search_reports">
+      <configuration name="search_people" values="many" type="delimited" locale="uk">
+        <value>name:Пошук людей</value>
+        <value>description:Виявити які-небудь записи людини в системі для перегляду, друку або оновлення.</value>
+      </configuration>
+      <configuration name="search_training" values="many" type="delimited" locale="uk">
+        <value>name:Пошук тренінгів</value>
+        <value>description:Знайдіть запис будь-якої особи в системі за навчальною інформацією. Особа може відображатися кілька разів, якщо вона мають декілька тренінгів.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="recent_forms" path="/modules/RecentForm/forms">
+      <configurationGroup name="training">
+        <configuration name="display" values="single" locale="uk" type="string">
+          <value>Порядковий номер: %1$s - Кадр: %2$s - Дата прийому: %3$s</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

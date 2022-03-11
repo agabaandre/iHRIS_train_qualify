@@ -1,0 +1,96 @@
+# Translation of iHRIS Train - Position to Dutch (Nederlands)
+# Exported from translatewiki.net
+#
+# Author: Robin van der Vliet
+# Author: Robin0van0der0vliet
+# Author: Siebrand
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-12-28 12:04+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: nl\n"
+"X-POT-Import-Date: 2014-03-23 19:25:03+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 11]
+#, no-c-format
+msgid "Can view position child form of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 14]
+#, no-c-format
+msgid "Can edit position child forms of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 21]
+#, no-c-format
+msgid "Add/Update Position Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 30]
+#, no-c-format
+msgid "Position Information"
+msgstr "Positiegegevens"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L39 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 39]
+#, no-c-format
+msgid "Health Facility"
+msgstr "Gezondheidscentrum"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L44 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 44]
+#, no-c-format
+msgid "Job/Post Title"
+msgstr "Titel voor baan/post"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L49 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 49]
+#, no-c-format
+msgid "Job/Post Code"
+msgstr "Code voor baan/post"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml#L54 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/configs/en_US/TrainPosition.xml line 54]
+#, no-c-format
+msgid "Date of Current Appointment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/form_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/form_position.html line 3]
+#, no-c-format
+msgid "Deployment Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/form_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/form_position.html line 3]
+#, no-c-format
+msgid "Job/Post Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Gegevens bewerken"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html line 5]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Gegevens bijwerken"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html line 6]
+#, no-c-format
+msgid "View Position History"
+msgstr "Positiegeschiedenis bekijken"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/TrainPosition/templates/en_US/view_position.html line 13]
+#, no-c-format
+msgid "Deployment"
+msgstr ""

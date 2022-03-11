@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="STSRoles">
+  <metadata>
+    <displayName>Students Tracking System Roles</displayName>
+    <category>Application Component</category>
+    <description>Definition of new roles</description>
+    <link>https://launchpad.net/ihris-ihs</link>
+    <version>4.3.0</version>
+  </metadata>
+  <configurationGroup name="STSRoles" path="/I2CE">
+    <configurationGroup name="roles" path="formsData/forms/role">
+      <displayName>Roles</displayName>
+      <description>The list of roles for students tracking system</description>
+      <version>4.2.0.42</version>
+      <configurationGroup name="institution_admin">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Instituion Administrator</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="student">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Student</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="registrar">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Registrar</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="lecturer">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Lecturer</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="hod">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Head Of Department</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="principal">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Principal</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="deputy_principal">
+        <configuration name="last_modified">
+          <value>2014-04-27 12:00:00</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Deputy Principal</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>institution_admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_provider">
+        <configurationGroup name="fields">
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_manager">
+        <configurationGroup name="fields">
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="executive">
+        <configurationGroup name="fields">
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="admin">
+        <configurationGroup name="fields">
+          <configuration name="assignable">
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <!-- roles -->
+    <configurationGroup name="role_trickle_down" path="tasks/role_trickle_down">
+      <version>4.2.0.40</version>
+      <configuration name="student" values="many">
+        <version>4.2.0.37</version>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>person_can_edit_child_form_enroll_course</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+      </configuration>
+      <configuration name="registrar" values="many">
+        <version>4.2.0.40</version>
+        <value>can_add_students_results</value>
+        <value>can_approve_results</value>
+        <value>can_edit_database_list_department</value>
+        <value>can_edit_reschedule_course</value>
+        <value>can_manage_academic</value>
+        <value>can_view_reschedule_course</value>
+        <value>can_view_database_list_department</value>
+        <value>can_edit_database_list_training_program</value>
+        <value>can_view_database_list_training_program</value>
+        <value>can_edit_database_list_course_type</value>
+        <value>can_edit_database_list_training</value>
+        <value>can_view_database_list_course_type</value>
+        <value>can_schedule_students_course_enrollment</value>
+        <value>can_configure_system</value>
+        <value>can_add_lecturer</value>
+        <value>can_view_trainer_assigned_courses</value>
+        <value>can_view_person_students_view_results</value>
+        <value>custom_reports_can_view_reportViews</value>
+        <value>person_can_edit_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+        <value>person_can_view_child_form_demographic</value>
+        <value>person_can_edit_child_form_demographic</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>person_can_view_child_form_drop_semester</value>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>drop_semester_can_view_child_form_resume_semester</value>
+        <value>custom_reports_can_access</value>
+        <value>can_add_student</value>
+        <value>person_can_edit</value>
+      </configuration>
+      <configuration name="principal" values="many">
+        <version>4.2.0.37</version>
+        <value>can_manage_academic</value>
+        <value>can_add_students_results</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+        <value>person_can_view_child_form_demographic</value>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>can_approve_results</value>
+        <value>person_can_view</value>
+        <value>custom_reports_can_view_reportViews</value>
+        <value>drop_semester_can_view_child_form_resume_semester</value>
+        <value>person_can_view_child_form_drop_semester</value>
+      </configuration>
+      <configuration name="deputy_principal" values="many">
+        <version>4.2.0.37</version>
+        <value>can_manage_academic</value>
+        <value>can_add_students_results</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+        <value>person_can_view_child_form_demographic</value>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>can_approve_results</value>
+        <value>person_can_view</value>
+        <value>custom_reports_can_view_reportViews</value>
+        <value>drop_semester_can_view_child_form_resume_semester</value>
+        <value>person_can_view_child_form_drop_semester</value>
+      </configuration>
+      <configuration name="lecturer" values="many">
+        <version>4.2.0.37</version>
+        <value>can_manage_academic</value>
+        <value>can_add_students_results</value>
+        <value>can_view_students_results</value>
+        <value>person_can_view</value>
+        <value>custom_reports_can_access</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+        <value>person_can_view_child_form_demographic</value>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>custom_reports_can_view_reportViews</value>
+        <value>drop_semester_can_view_child_form_resume_semester</value>
+        <value>person_can_view_child_form_drop_semester</value>
+      </configuration>
+      <configuration name="hod" values="many">
+        <version>4.2.0.38</version>
+        <value>can_manage_academic</value>
+        <value>can_approve_results</value>
+        <value>can_view_trainer_assigned_courses</value>
+        <value>can_add_students_results</value>
+        <value>can_view_students_results</value>
+        <value>person_can_edit_child_form_drop_semester</value>
+        <value>person_can_view_child_form_drop_semester</value>
+        <value>can_edit_reschedule_course</value>
+        <value>can_view_reschedule_course</value>
+        <value>person_can_view_child_form_drop_semester</value>
+        <value>can_view_person_students_view_results</value>
+        <value>can_view_person_students_view_results</value>
+        <value>person_can_edit_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_students_results_grade</value>
+        <value>person_can_view_child_form_overall_GPA</value>
+        <value>person_can_view_child_form_demographic</value>
+        <value>person_can_edit_child_form_demographic</value>
+        <value>person_can_view_child_form_registration</value>
+        <value>person_can_view_child_form_enroll_course</value>
+        <value>person_can_edit_child_form_enroll_course</value>
+        <value>custom_reports_can_access</value>
+        <value>can_add_lecturer</value>
+        <value>can_assign_course_trainer</value>
+        <value>can_approve_enrolled_courses</value>
+        <value>person_can_view</value>
+        <value>custom_reports_can_view_reportViews</value>
+        <value>drop_semester_can_edit_child_form_resume_semester</value>
+        <value>drop_semester_can_view_child_form_resume_semester</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

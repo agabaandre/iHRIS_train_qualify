@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="TrainFacility" path="/I2CE">
+  <metadata>
+    <version>4.3.0</version>
+  </metadata>
+  <configurationGroup name="TrainFacility" path="/I2CE" locale="en_US">
+    <version>4.3.0</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_facility" locale="en_US">
+        <value>Edit the facility list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility" locale="en_US">
+        <value>View the facility list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_owner" locale="en_US">
+        <value>Edit the facility agent list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_owner" locale="en_US">
+        <value>View the facility agent list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_type" locale="en_US">
+        <value>Edit the facility type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_type" locale="en_US">
+        <value>View the facility type list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="facility_type">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Facility Type</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_owner">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Facility Ownership/Affiliation</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="health_facility">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Health Facility</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_HealthFacility">
+          <configurationGroup name="fields">
+            <configurationGroup name="id_code">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Identification Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Location</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_owner">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Facility Ownership/Affiliation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_type">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Facility Type</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

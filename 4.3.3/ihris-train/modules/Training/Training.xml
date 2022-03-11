@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Training">
+  <metadata>
+    <displayName>iHRIS Training</displayName>
+    <className>iHRIS_Module_Training</className>
+    <category>Application Component</category>
+    <description>A Person's Training</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="Training" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_training" locale="en_US">
+        <version>4.1.0.1</version>
+        <value>Edit the Training list</value>
+      </configuration>
+      <configuration name="can_view_database_list_training" locale="en_US">
+        <version>4.1.0.1</version>
+        <value>View the Training list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.6.0</version>
+      <configuration name="can_edit_database_list_training" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_training</value>
+      </configuration>
+      <configuration name="can_view_database_list_training" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <value>can_edit_database_list_training</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <value>can_view_database_list_training</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <displayName>Forms Data</displayName>
+      <description>Form data saved in magic data</description>
+      <version>4.1.3.1.2</version>
+      <configurationGroup name="training_type">
+        <version>4.1.1</version>
+        <displayName>training type</displayName>
+        <description>The training type form data</description>
+        <configurationGroup name="in_service">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:In-Service Training (Short)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="post_basic">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Post Basic/In-service Training (Long)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="pre_service">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Pre Service Training</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_length_type">
+        <version>4.1.1</version>
+        <displayName>training_length_type</displayName>
+        <description>The training type form data</description>
+        <configurationGroup name="day">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Day(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="hour">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Hour(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="week">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Week(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="month">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Month(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="year">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Year(s)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.1</version>
+        <configurationGroup name="training">
+          <displayName>Training Information</displayName>
+          <description>The Training Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_Training</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Training Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- training -->
+        <configurationGroup name="training_type">
+          <displayName>Training type</displayName>
+          <description>The training type Form</description>
+          <version>4.0.21</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Training Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- training_type -->
+        <configurationGroup name="training_length_type">
+          <displayName>Training type</displayName>
+          <description>The training type Form</description>
+          <version>4.1.3.0</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Training Length Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- training_length_type -->
+      </configurationGroup>
+      <!-- end of  modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Training">
+          <version>4.2.0.2</version>
+          <displayName>Configuration for the class 'iHRIS_Training'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>4.1.1.3</version>
+            <configurationGroup name="name">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Name</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- name -->
+            <configurationGroup name="code">
+              <version>4.1.1.3</version>
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Accreditation Code/Number</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <version>4.1.1.2</version>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- code -->
+            <configurationGroup name="training_classification">
+              <version>4.1.1.3</version>
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.3</version>
+                <value>default:Training Classification</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- classification -->
+            <configurationGroup name="training_length_type">
+              <version>4.1.1.4</version>
+              <displayName>The field 'training_length_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Unit</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- length_type -->
+            <configurationGroup name="training_length">
+              <version>4.1.1.3</version>
+              <displayName>The field 'training_length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Duration of Training</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- length -->
+            <configurationGroup name="training_type">
+              <displayName>The field 'training_type'</displayName>
+              <version>4.1.1.2</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Training Type</value>
+              </configuration>
+            </configurationGroup>
+            <!-- training_type -->
+            <configurationGroup name="cpd_credit">
+              <displayName>The field 'cpd_credit'</displayName>
+              <version>4.1.1.2</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:CPD Credit Hours</value>
+              </configuration>
+            </configurationGroup>
+            <!-- cpd_credit -->
+            <configurationGroup name="summary">
+              <displayName>The field 'summary'</displayName>
+              <version>4.1.1.3</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_MLINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.3</version>
+                <value>default:Training Course Summary</value>
+              </configuration>
+            </configurationGroup>
+            <!-- summary -->
+          </configurationGroup>
+          <!-- fields -->
+        </configurationGroup>
+        <!-- iHRIS_Training -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+    <!-- end of  forms-->
+  </configurationGroup>
+</I2CEConfiguration>

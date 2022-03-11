@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="STSLoginPage">
+  <metadata>
+    <displayName>Login Page</displayName>
+    <category>Base System Page</category>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <description>The login Page</description>
+    <link>http://launchpad.net/ihris-train</link>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="LoginPage">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <priority>300</priority>
+  </metadata>
+  <configurationGroup name="page" path="/I2CE/page">
+    <displayName>Pages</displayName>
+    <description>Information about various pages made available by the system</description>
+    <status>required:true</status>
+    <configurationGroup name="login">
+      <displayName>Login Page</displayName>
+      <description>The page 'login' which has the action of: Login</description>
+      <configuration name="class" values="single">
+        <displayName>Page Class</displayName>
+        <description>The class responsible for displaying this page</description>
+        <status>required:true</status>
+        <value>STS_PageLogin</value>
+      </configuration>
+      <configuration name="style" values="single">
+        <displayName>Page Style</displayName>
+        <description>The Page Style</description>
+        <value>main</value>
+      </configuration>
+      <configurationGroup name="args">
+        <displayName>Page Options</displayName>
+        <description>The options that control the access and display of all pages</description>
+        <configuration name="title" values="single" locale="en_US">
+          <displayName>Title</displayName>
+          <description>Page Title</description>
+          <status>required:true</status>
+          <value>Login</value>
+        </configuration>
+        <configuration name="access" values="many">
+          <displayName>Page Access</displayName>
+          <description>All of the roles that have access to this page</description>
+          <status>required:false</status>
+          <value>all</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

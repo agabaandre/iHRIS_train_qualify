@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Education">
+  <metadata>
+    <displayName>iHRIS Person Education</displayName>
+    <className>iHRIS_Module_Education</className>
+    <category>Application Component</category>
+    <description>A Person's Education</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.1" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="Education" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <version>4.1.1.9</version>
+      <configuration name="can_edit_database_list_academic_level" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>Edit the academic level list</value>
+      </configuration>
+      <configuration name="can_view_database_list_academic_level" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>View the academic level list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_qualification" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>Edit the qualification list</value>
+      </configuration>
+      <configuration name="can_view_database_list_qualification" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>View the qualification list</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_education" locale="en_US">
+        <value>Can view education child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_education" locale="en_US">
+        <value>Can edit education child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_education" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_education" values="many">
+        <value>person_can_view_child_form_education</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <version>4.1.1</version>
+        <value>person_can_view_child_form_education</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <version>4.1.1</version>
+        <value>person_can_edit_child_form_education</value>
+      </configuration>
+      <configuration name="can_edit_database_list_academic_level" values="many">
+        <version>4.1.6.0</version>
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_academic_level</value>
+      </configuration>
+      <configuration name="can_edit_database_list_qualification" values="many">
+        <version>4.1.6.0</version>
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_qualification</value>
+      </configuration>
+      <configuration name="can_view_database_list_academic_level" values="many">
+        <version>4.1.6.0</version>
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_view_database_list_qualification" values="many">
+        <version>4.1.6.0</version>
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <version>4.1.6.0</version>
+        <value>can_edit_database_list_qualification</value>
+        <value>can_edit_database_list_academic_level</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <version>4.1.6.0</version>
+        <value>can_view_database_list_qualification</value>
+        <value>can_view_database_list_academic_level</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <version>4.1.1.1</version>
+      <displayName>Pages</displayName>
+      <description>Information about various pages made available by the system</description>
+      <status>required:true</status>
+      <configurationGroup name="education">
+        <version>4.1.1.1</version>
+        <displayName>Person Instance Page</displayName>
+        <description>The page 'person_instance' which has the action of: Add/Update Education Information</description>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <value>iHRIS_PageFormParentPerson</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Education Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>education</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- education -->
+    </configurationGroup>
+    <!-- page -->
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.1.2</version>
+        <configurationGroup name="education">
+          <displayName>Education Information</displayName>
+          <description>The Education Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_Education</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Education Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- education -->
+        <configurationGroup name="academic_level">
+          <version>4.1.1.3</version>
+          <displayName>Academic Level</displayName>
+          <description>The Academic Level Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Academic Level</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="qualification">
+          <version>4.1.1.3</version>
+          <displayName>Qualification</displayName>
+          <description>The Qualification Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Qualification</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <status>uniquemerge:true</status>
+              <value>education</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- person -->
+      </configurationGroup>
+      <!-- end of  forms-->
+      <configurationGroup name="formClasses">
+        <version>4.1.1</version>
+        <configurationGroup name="iHRIS_Education">
+          <version>4.1.1</version>
+          <displayName>Configuration for the class 'iHRIS_Education'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="academic_level">
+              <displayName>The field 'health_facility'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Academic Level</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="qualification">
+              <displayName>The field 'job'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Qualification</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="year">
+              <displayName>The field 'job_code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_Y</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Year Of Graduation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="school">
+              <displayName>The field 'school'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_Education -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

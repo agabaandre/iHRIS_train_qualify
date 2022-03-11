@@ -1,0 +1,117 @@
+# Translation of iHRIS Train - Registration to Occitan (occitan)
+# Exported from translatewiki.net
+#
+# Author: Cedric31
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-04-07 19:59+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: oc\n"
+"X-POT-Import-Date: 2014-03-23 19:25:06+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 11]
+#, no-c-format
+msgid "Can view registration child form of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 14]
+#, no-c-format
+msgid "Can edit registration child forms of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 17]
+#, no-c-format
+msgid "Can edit the council database list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 20]
+#, no-c-format
+msgid "Can view the council database list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L27 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 27]
+#, no-c-format
+msgid "Add/Update Registration Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L36 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 36]
+#, no-c-format
+msgid "Council"
+msgstr "Conselh"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L41 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 41]
+#, no-c-format
+msgid "Registration"
+msgstr "Enregistrament"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L50 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 50]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html line 14]
+#, no-c-format
+msgid "Registration Council"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L55 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 55]
+#, no-c-format
+msgid "Registration Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L60 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 60]
+#, no-c-format
+msgid "License Number"
+msgstr "Numèro de licéncia"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L65 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 65]
+#, no-c-format
+msgid "Registration Date"
+msgstr "Data d’enregistrament"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml#L70 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/configs/en_US/Registration.xml line 70]
+#, no-c-format
+msgid "License Expiration Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/form_registration.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/form_registration.html line 3]
+#, no-c-format
+msgid "Registration Information"
+msgstr "Informacions d’inscripcion"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/form_registration.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/form_registration.html line 4]
+#, no-c-format
+msgid "License Information"
+msgstr "Informacions sus la licéncia"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Modificar aquesta informacion"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Metre a jorn aquesta informacion"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_list_council.html line 7]
+#, no-c-format
+msgid "Select another Registration Council"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html#L12 ihris-train/4.0-dev/annotate/head%3A/modules/Registration/templates/en_US/view_registration.html line 12]
+#, no-c-format
+msgid "Registration/License Information"
+msgstr "Informacions sus l’enregistrament/la licéncia"

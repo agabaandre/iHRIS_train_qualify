@@ -1,0 +1,113 @@
+<div id="siteContent">
+    <h1>Configurar sistema</h1>
+
+  <div task="can_edit_database_lists">
+    <h2><a href="auto_list" class="adminDatabase">Administrar base de datos</a></h2>
+    <p>
+    <!-- Create and update standard lists of data for selection in system menus. -->
+    Administrar posiciones, crear y actualizar menús desplegables.
+    </p>
+      <hr></div>
+
+
+  <span type="module" name="admin" ifenabled="true">
+    <div task="can_configure_modules">
+      <h2><a href="admin/modules" class="adminDatabase">Configurar módulos</a></h2>
+      <p>
+	Activar y desactivar los distintos módulos para el sistema.
+      </p>
+      <hr></div>
+  </span>
+
+
+
+  <span type="module" name="CustomReports" ifenabled="true">
+    <span task="custom_reports_can_edit_reportViews">
+        <h2><a name="manage_reports" class="adminDatabase">Gestionar informes</a></h2>
+      <p>
+	Gestionar los informes estándar disponibles para los usuarios, y crear nuevos informes personalizados.
+      </p>
+      <ul><li task="custom_reports_can_edit_relationships"><a href="CustomReports/edit/relationships">Relaciones de formulario</a>
+          <dl><dd>Definir la forma en la que los formularios están relacionados para usar en los informes.</dd></dl></li>
+          <li task="custom_reports_can_edit_reports"><a href="CustomReports/edit/reports">Informes</a>
+          <dl><dd>Definir informes basados en relaciones definidas previamente. Puedes elegir que campos estarán disponibles para cada informe y cuales serán utilizados para limitar el informe.</dd></dl></li>
+          <li><a href="CustomReports/edit/reportViews">Vistas de informe</a>
+          <dl><dd>Define vistas de informes, basándose en informes definidos con anterioridad. Puedes elegir qué campos mostrar y también definir una vista predeterminada que muestre gráficos o resultados limitados cuando un usuario accede a la vista del informe.</dd></dl></li>
+      </ul><hr></span>
+  </span>
+
+
+
+  <span type="module" name="magicDataBrowser" ifenabled="true">
+    <div task="can_view_magic_data_browser">
+      <h2><a href="magicDataBrowser/show" class="searchRecords">Buscar datos mágicos</a></h2>
+      <p>
+	Buscar los datos de configuración utilizados por el sistema.
+      </p>
+      <hr></div>
+  </span>
+
+  <span type="module" name="tasks-roles" ifenabled="true">
+    <div task="tasks_and_roles_can_access">
+      <h2><a href="tasks-roles" class="adminDatabase">Tareas y funciones</a></h2>
+      <p>
+	Administrar las tareas y funciones para el sistema
+      </p>
+      
+      <hr></div>
+  </span>
+
+
+  <span type="module" name="localeSelector" ifenabled="true">
+    <div task="locales_can_edit_site_locale">
+      <h2><a href="localeSelector/edit" class="adminDatabase">Gestionar ubicaciones</a></h2>
+      <p>
+	Administrar las ubicaciones disponibles por el sistema
+      </p>
+      <hr></div>      
+  </span>
+
+
+
+  <span type="module" name="BackgroundProcess" ifenabled="true">
+    <div task="can_view_background_processes">
+      <h2><a href="BackgroundProcess" class="searchRecords">Procesos en segundo plano</a></h2>
+      <p>
+	Examinar los procesos de segundo plano que has iniciado
+      </p>
+      <hr></div>
+  </span>
+
+
+  <span type="module" name="formBrowser" ifenabled="true">
+    <div task="can_view_form_browser">
+      <h2><a href="formBrowser/showForm" class="searchRecords">Buscar formularios</a></h2>
+      <p>
+	Explorar los formularios utilizados por el sistema.
+      </p>
+      <hr></div>
+  </span>
+
+  <span type="module" name="CachedForms" ifenabled="true">
+    <div task="cached_forms_can_administer">
+      <h2><a href="CachedForms" class="adminDatabase">Formularios en caché</a></h2>
+      <p>
+	Controla la creación de formularios en caché
+      </p>
+      <hr></div>
+  </span>
+  
+  <div task="can_create_or_edit_users">
+
+    <h2><a href="user" class="adminDatabase">Administrar usuarios</a></h2>
+    <p>
+    Crear, actualizar y deshabilitar cuentas de usuario para asegurar acceso seguro al sistema. Solo puede acceder el administrador del sistema.
+    </p>
+      <hr></div>
+
+  <div role="admin">
+    <h2><a href="UserStatistics" class="searchRecords">Estadísticas de usuario</a></h2>
+    Ver las estadísticas de entrada de datos de los usuarios.
+  </div>
+
+</div>

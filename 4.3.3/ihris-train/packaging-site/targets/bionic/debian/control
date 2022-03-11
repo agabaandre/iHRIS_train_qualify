@@ -1,0 +1,16 @@
+Source: ihris-train-site-demo
+Maintainer: Nobert Mijumbi <nobertmn@gmail.com>
+Section: web
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 10)
+Homepage: http://launchpad.net/ihris-train
+
+
+Package: ihris-train-site-demo
+Architecture: all
+Depends: ihris-train
+Pre-Depends: mysql-server, dbconfig-common
+Recommends: 
+Description: iHRIS Train Demo Site
+ Site for the iHRIS Train with demonstration data

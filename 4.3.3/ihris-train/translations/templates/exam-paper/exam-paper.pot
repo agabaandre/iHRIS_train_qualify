@@ -1,0 +1,66 @@
+# Translation Template of ihris-train module (ExamPaper Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@ExamPaper 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 11]
+#, no-c-format
+msgid "Edit the ExamPaper list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 14]
+#, no-c-format
+msgid "View the Provider Training list"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html line 14]
+#, no-c-format
+msgid "Exam Paper Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 30]
+#, no-c-format
+msgid "Paper"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 35]
+#, no-c-format
+msgid "Code"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L40 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 40]
+#, no-c-format
+msgid "Training"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml#L45 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/configs/en_US/ExamPaper.xml line 45]
+#, no-c-format
+msgid "Content"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/ExamPaper/templates/en_US/view_list_exampaper.html line 7]
+#, no-c-format
+msgid "Select another Paper"
+msgstr ""
+

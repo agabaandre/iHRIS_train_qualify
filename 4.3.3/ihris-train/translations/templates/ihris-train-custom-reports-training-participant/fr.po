@@ -1,0 +1,260 @@
+# Translation of iHRIS Train - Custom Reports Training Participant to French (français)
+# Exported from translatewiki.net
+#
+# Author: Gomoko
+# Author: John Trololo
+# Author: Maxim21
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2014-04-01 14:06+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: fr\n"
+"X-POT-Import-Date: 2014-03-23 19:24:57+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 11]
+#, no-c-format
+msgid "Relationship for participants of all trainings."
+msgstr "Relation pour les participants de toutes les formations."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L119 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 119]
+#, no-c-format
+msgid "Training Participants"
+msgstr "Participants de la formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L19 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 19]
+#, no-c-format
+msgid "The funder for this training."
+msgstr "Le bailleur de fonds de cette formation."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L22 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 22]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L136 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 136]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L218 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 218]
+#, no-c-format
+msgid "Funder"
+msgstr "Fondateur"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L27 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 27]
+#, no-c-format
+msgid "The link from the training to the participant."
+msgstr "Le lien vers la formation pour le participant."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 30]
+#, no-c-format
+msgid "Person Instance"
+msgstr "Instance de personne"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 35]
+#, no-c-format
+msgid "The person details of the participant."
+msgstr "Les détails personnels du participant."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 38]
+#, no-c-format
+msgid "Person"
+msgstr "Personne"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L43 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 43]
+#, no-c-format
+msgid "The position this person is currently in."
+msgstr "La position qu’occupe actuellement cette personne."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L46 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 46]
+#, no-c-format
+msgid "Position"
+msgstr "Position"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L51 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 51]
+#, no-c-format
+msgid "The health facility where this person works."
+msgstr "L’établissement de santé où travaille cette personne."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L54 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 54]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L157 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 157]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L185 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 185]
+#, no-c-format
+msgid "Health Facility"
+msgstr "Établissement de santé"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L59 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 59]
+#, no-c-format
+msgid "The district where this health facility is located."
+msgstr "Le département où se situe cet établissement de santé."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L62 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 62]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L127 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 127]
+#, no-c-format
+msgid "District"
+msgstr "Département"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L75 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 75]
+#, no-c-format
+msgid "The link from the provider to the training details."
+msgstr "Le lien vers le fournisseur pour les détails de la formation."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L78 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 78]
+#, no-c-format
+msgid "Provider Training Link"
+msgstr "Lien du fournisseur de la formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L83 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 83]
+#, no-c-format
+msgid "The training details."
+msgstr "Les détails de la formation."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L86 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 86]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L251 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 251]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L262 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 262]
+#, no-c-format
+msgid "Training"
+msgstr "Formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L93 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 93]
+#, no-c-format
+msgid "The training provider for this training."
+msgstr "Le fournisseur de formation pour cette formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L96 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 96]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L305 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 305]
+#, no-c-format
+msgid "Training Provider"
+msgstr "Fournisseur de formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L103 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 103]
+#, no-c-format
+msgid "Set to yes if this training has been completed by date."
+msgstr "Mettre à oui si cette formation s’est terminée à temps."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L108 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 108]
+#, no-c-format
+msgid ""
+"Set to 1 if there is a partcipant assigned to this training for totalling."
+msgstr ""
+"Mettre à 1 s’il y a un participant affecté à cette formation pour faire le "
+"nombre."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L116 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 116]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L340 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 340]
+#, no-c-format
+msgid "A list of all participants in all trainings."
+msgstr "Une liste de tous les participants à toutes les formations."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L145 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 145]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L150 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 150]
+#, no-c-format
+msgid "Health Facility Location"
+msgstr "Emplacement de l’établissement de santé"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L166 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 166]
+#, no-c-format
+msgid "First Name"
+msgstr "Prénom"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L171 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 171]
+#, no-c-format
+msgid "Surname"
+msgstr "Nom de famille"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L180 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 180]
+#, no-c-format
+msgid "Health Facility ID"
+msgstr "ID de l’établissement de santé"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L192 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 192]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L197 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 197]
+#, no-c-format
+msgid "Job/Post Title"
+msgstr "Titre du travail/poste"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L208 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 208]
+#, no-c-format
+msgid "End Date"
+msgstr "Date de fin"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L213 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 213]
+#, no-c-format
+msgid "Funder ID"
+msgstr "ID du bailleur de fonds"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L225 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 225]
+#, no-c-format
+msgid "Start Date"
+msgstr "Date de début"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L230 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 230]
+#, no-c-format
+msgid "Start Date After"
+msgstr "Date de début après"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L235 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 235]
+#, no-c-format
+msgid "Start Date Before"
+msgstr "Date de début avant"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L246 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 246]
+#, no-c-format
+msgid "Training ID"
+msgstr "ID de la formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L267 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 267]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L272 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 272]
+#, no-c-format
+msgid "Training Classification"
+msgstr "Classification de la formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L279 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 279]
+#, no-c-format
+msgid "Duration of Training"
+msgstr "Durée de la formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L284 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 284]
+#, no-c-format
+msgid "Duration Unit"
+msgstr "Unité de durée"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L289 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 289]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L294 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 294]
+#, no-c-format
+msgid "Training Type"
+msgstr "Type de formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L310 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 310]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L315 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 315]
+#, no-c-format
+msgid "Training Provider Type"
+msgstr "Type de fournisseur de formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L326 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 326]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L331 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 331]
+#, no-c-format
+msgid "Completed?"
+msgstr "Terminée ?"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L343 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 343]
+#, no-c-format
+msgid "Participants"
+msgstr "Participants"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L348 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 348]
+#, no-c-format
+msgid "A list of all trainings with the number of participants."
+msgstr "Une liste de toutes les formations avec le nombre de participants."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml#L351 ihris-train/4.0-dev/annotate/head%3A/modules/TrainCustomReports/Reports/TrainCustomReports-training-participant/configs/en_US/TrainCustomReports-training-participant.xml line 351]
+#, no-c-format
+msgid "Number of Participants"
+msgstr "Nombre de participants"

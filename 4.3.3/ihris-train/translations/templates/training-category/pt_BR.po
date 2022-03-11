@@ -1,0 +1,59 @@
+# Translation of iHRIS Train - Category to Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+#
+# Author: Warley Felipe C.
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2017-05-21 15:38+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: pt_br\n"
+"X-POT-Import-Date: 2014-03-23 19:24:53+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml line 11]
+#, no-c-format
+msgid "Edit the Training Category list"
+msgstr "Editar a lista de categorias dos cursos de treinamento"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml line 14]
+#, no-c-format
+msgid "View the Training Category list"
+msgstr "Ver a lista de categorias de treinamentos"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/configs/en_US/TrainingCategory.xml line 21]
+#, no-c-format
+msgid "Training Category Information"
+msgstr "Informações sobre categoria de Treinamentos"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Editar esta Informação"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Atualizar Esta Informação"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html line 7]
+#, no-c-format
+msgid "Select another Competency"
+msgstr "Selecionar outra Competência"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingCategory/templates/en_US/view_list_trainingcategory.html line 14]
+#, no-c-format
+msgid "Training Competency Information"
+msgstr "Informação do Curso de Treinamento"

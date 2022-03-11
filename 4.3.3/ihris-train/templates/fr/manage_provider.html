@@ -1,0 +1,122 @@
+<div id="siteContent">
+<h1>Gérer les formations et le fournisseur de formation</h1>
+<span type="module" name="Lecturers" ifenabled="true">
+    <div task="can_add_lecturer">
+      
+      <h2><a href="add_lecturer" class="updateRecords">Ajouter un nouvel auditeur</a></h2>
+      <p>
+	   Ajouter un nouveau Conférencier dans le système
+      </p>
+    </div>
+  </span>
+<span type="module" name="STSTraining" ifenabled="true">
+    <div task="can_edit_database_list_training">
+      
+      <h2><a href="auto_list/view?form_name=training" class="updateRecords">Ajouter des cours semestriels</a></h2>
+      <p>
+	   Ajouter de nouveaux cours semestriels et les affecter aux conférenciers, et gérer les autres listes déroulantes.
+      </p>
+    </div>
+</span>
+<span type="module" name="RescheduleCourse" ifenabled="true">
+    <div task="can_edit_reschedule_course">
+      
+      <h2><a href="reschedule_course" class="updateRecords">Replanifier un cours</a></h2>
+      <p>
+	   Replanifier le cours A pour le prochain semestre
+      </p>
+    </div>
+</span>  
+<span type="module" name="ScheduleCourseEnrollment" ifenabled="true">
+    <div task="can_schedule_students_course_enrollment">
+      
+      <h2><a href="schedule_course_enrollment" class="updateRecords">Ouvrir ou fermer l’inscription des étudiants aux cours</a></h2>
+      <p>
+	   Fixer une date limite pour que les étudiants s’inscrivent eux-mêmes dans les différents cours
+      </p>
+    </div>
+  </span>
+<span type="module" name="AssignCourseToTrainer" ifenabled="true">
+    <div task="can_assign_course_trainer">
+      
+      <h2><a href="assign_course_trainer" class="updateRecords">Assigner un cours à un auditeur</a></h2>
+      <p>
+	   Fixer une date limite pour que les étudiants s’inscrivent eux-mêmes dans les différents cours
+      </p>
+    </div>
+  </span>
+<span type="module" name="AssignCourseToTrainer" ifenabled="true">
+    <div task="can_add_students_results">
+      
+      <h2><a href="add_results_select_course" class="updateRecords">Ajouter les résultats semestriels</a></h2>
+      <p>
+	   Ajouter les résultats semestriels des étudiants, c.-à-d.l’évaluation continue et les examens de fin de semestre.
+      </p>
+    </div>
+</span>
+
+<span type="module" name="AssignCourseToTrainer" ifenabled="true">
+    <div task="can_approve_results">
+      
+      <h2><a href="results_approval" class="updateRecords">Approuver les résultats du semestre</a></h2>
+      <p>
+	   Approuver les résultats de fin de semestre
+      </p>
+    </div>
+</span>
+       
+  <span type="module" name="STSTraining" ifenabled="true">
+  <div task="can_edit_database_list_training_program">
+      
+      <h2><a href="auto_list/view?form_name=training_program" class="updateRecords">Ajouter un nouveau programme de formation</a></h2>
+      <p>
+	   Ajouter les enregistrements d’un nouveau programme de formation dans le système.
+      </p>
+  </div>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="true">
+    <div task="can_edit_database_list_department">
+      
+      <h2><a href="auto_list/view?form=department" class="updateRecords">Ajouter un nouveau département</a></h2>
+      <p>
+	   Ajouter les enregistrements de nouveau département dans le système.
+      </p>
+    </div> 
+   </span>
+
+<span type="module" name="STSTraining" ifenabled="false">
+<span type="module" name="TrainingProvider" ifenabled="true">
+    <div task="provider_can_edit">
+      
+      <h2><a href="trainingprovider" class="updateRecords">Ajouter un nouveau fournisseur de formation</a></h2>
+      <p>
+	   Ajouter un nouvel enregistrement de fournisseur de formation au système
+      </p>
+    </div>
+  </span>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="false">
+  <div task="provider_can_view">
+    <hr><h2><a name="search_link" id="search_training_provider" href="search/search_training_provider?no_results=0" class="searchRecords">Trouver un fournisseur de formation</a></h2>
+      <p>
+      Après avoir entré un fournisseur de formation et un enregistrement de formation dans le système, l’enregistrement pourra être revu à n’importe quel moment. Cliquez sur Trouver un fournisseur de formation pour le retrouver. Depuis l’enregistrement, des informations supplémentaires pourront être ajoutées, ou des informations existantes mises à jour. 
+    </p>
+       <div id="search_training_provider_replace"></div>
+  </div>
+  </span></div>
+  <span type="module" name="STSTraining" ifenabled="false">
+  <div task="can_edit_database_lists">
+    <hr><h2><a class="updateRecords" href="auto_list">Administrer les cours de formation</a></h2>
+    <p>
+      Ajouter de nouveaux cours de formation et les affecter aux fournisseurs, et administrer aussi d’autres listes déroulantes.
+    </p>
+  </div>
+  </span>
+  
+  <span type="module" name="InstanceCalendar" ifenabled="true">
+    <hr><h2><a href="instance_calendar" class="searchRecords">Calendrier d’instance de formation</a></h2>
+    <p>
+      Afficher les instances de formation sur un calendrier pour vois les formations à venir.
+    </p>
+  </span>
+

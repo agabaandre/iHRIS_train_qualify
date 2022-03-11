@@ -1,0 +1,85 @@
+<div id="siteContent">
+  <span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+    <span type="module" name="SelfService" if="!userHasRecord()">
+    </span>
+    <span type="module" name="SelfService" if="userHasRecord()">
+      <div>
+	<h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">Ver tus datos personales</span></h2>
+	<p>
+	  Ver tus datos personales.
+	</p>
+      </div>
+    </span>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="false">
+  <span type="module" name="TrainingProvider" ifenabled="true">
+    <div task="provider_can_view">
+      
+      <h2><span type="module" name="TrainAccessProvider" call="linkToProvider('viewprovider?id=')" class="updateRecords">Ver mi proveedor</span></h2>
+      <h2><a href="manage?action=provider" class="updateRecords">Gestionar capacitaciones</a></h2>
+      <p>
+      Añadir un nuevo registro de proveedor de capacitación en el sistema. Busca proveedores para programar nuevas instancias del curso de capacitación o actualizar las instancias actuales para añadir personas a los resultados de la capacitación o resultados de registros.
+      </p>
+    </div>
+  </span>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="true">
+    <div task="can_manage_academic">
+      <h2><a href="manage?action=provider" class="updateRecords">Gestionar capacitaciones</a></h2>
+      <p>
+      Add a new Lecturer,Semester Results,Schedule Students Course Registration,Assign Course To Lecturers e.t.c.
+      </p>
+    </div>
+  </span>
+
+  <span task="person_can_view">
+    <hr><h2><a href="manage" class="updateRecords">Gestionar personas</a></h2>
+    <p>
+      Añadir un nuevo empleado <span type="module" name="ihris-manage-Application" ifenabled="true">o solicitante </span>o registro al sistema, buscar o actualizar registros que ya fueron ingresados al sistema. 
+      <span type="module" name="ihris-manage-Application" ifenabled="true">
+	Además, completar candidaturas para puestos abiertos, revisar candidaturas completas o asignar un puesto al candidato exitoso. </span>
+    </p>
+  </span>
+  
+  <span type="module" name="CustomReports" ifenabled="true">
+    <div task="custom_reports_can_access">
+      <hr><h2><a href="search" class="searchRecords">Búsqueda de registros</a></h2>
+      <p>
+	Localizar un empleado o puesto almacenado en el sistema para verlo, imprimirlo o actualizarlo. 
+      </p>
+    </div>
+  </span>
+
+    
+  <div task="custom_reports_can_view_reportViews">
+    <hr><h2><a href="CustomReports/view/reportViews" class="createRecords">Ver informes</a></h2>
+    <p>
+      Los informes permiten el análisis de los datos de recursos humanos de varias formas. Personaliza, muestra e imprime listas de empleados, cuadros estadísticos y otros informes estándar. 
+    </p>
+  </div>
+
+
+  <div task="can_configure_system">
+    <hr><h2><a href="configure" class="adminDatabase">Configurar sistema</a></h2>
+    <p>
+      Configura módulos, administra puestos, personaliza menús desplegables y crea o actualiza cuentas de usuario.
+    </p>
+  </div>
+  
+  <span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+    <span type="module" name="SelfService" if="!userHasRecord()">
+    </span>
+    <span type="module" name="SelfService" if="userHasRecord()">
+      <div>
+	<h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">Ver tus datos personales</span></h2>
+	<p>
+	  Ver tus datos personales.
+	</p>
+      </div>
+    </span>
+  </span>
+
+
+  <hr><h2><a href="password">Cambiar contraseña</a></h2>
+
+</div>

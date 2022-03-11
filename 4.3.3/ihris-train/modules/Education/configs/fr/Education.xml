@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Education" path="/I2CE">
+  <metadata>
+    <version>4.3.0.1</version>
+  </metadata>
+  <configurationGroup name="Education" path="/I2CE" locale="fr">
+    <version>4.3.0.1</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="fr">
+      <configuration name="can_edit_database_list_academic_level" locale="fr">
+        <value>Modifier la liste des niveaux universitaires</value>
+      </configuration>
+      <configuration name="can_view_database_list_academic_level" locale="fr">
+        <value>Afficher la liste des niveaux universitaires</value>
+      </configuration>
+      <configuration name="can_edit_database_list_qualification" locale="fr">
+        <value>Modifier la liste des qualifications</value>
+      </configuration>
+      <configuration name="can_view_database_list_qualification" locale="fr">
+        <value>Afficher la liste des qualifications</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_education" locale="fr">
+        <value>Peut voir le formulaire enfant d’éducation d’une personne</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_education" locale="fr">
+        <value>Peut modifier les formulaires enfant d’éducation d’une personne</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="education">
+          <configuration name="display" values="single" locale="fr">
+            <value>Information sur l’éducation</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="academic_level">
+          <configuration name="display" values="single" locale="fr">
+            <value>Niveau Académique</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="qualification">
+          <configuration name="display" values="single" locale="fr">
+            <value>Qualifications</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Education">
+          <configurationGroup name="fields">
+            <configurationGroup name="academic_level">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Niveau Académique</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="qualification">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Qualifications</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="year">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Année d'obtention du diplôme</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="school">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Nom de l’institution</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

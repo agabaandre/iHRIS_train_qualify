@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="TrainFacility">
+  <metadata>
+    <displayName>Train Facility</displayName>
+    <className>iHRIS_Module_TrainFacility</className>
+    <category>Application Component</category>
+    <description>The Facility in which the people work</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-common</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <priority>250</priority>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <requirement name="Geography">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="form-limits">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="forms-storage">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="TrainFacility" path="/I2CE">
+    <version>4.1.1.6</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_facility" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>Edit the facility list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>View the facility list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_owner" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>Edit the facility agent list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_owner" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>View the facility agent list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_type" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>Edit the facility type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_type" locale="en_US">
+        <version>4.1.1.2</version>
+        <value>View the facility type list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.6.2</version>
+      <configuration name="can_edit_database_list_facility" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_facility</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_owner" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_facility_owner</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility_type" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_facility_type</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_owner" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility_type" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <value>can_edit_database_list_facility</value>
+        <value>can_edit_database_list_facility_owner</value>
+        <value>can_edit_database_list_facility_type</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <value>can_view_database_list_facility</value>
+        <value>can_view_database_list_facility_owner</value>
+        <value>can_view_database_list_facility_type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <version>4.1.1.2</version>
+      <configurationGroup name="forms">
+        <configurationGroup name="facility_type">
+          <displayName>Facility Type</displayName>
+          <description>The Facility Type Form</description>
+          <version>4.1.1.2</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Facility Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Mechanism</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- end of facility_type -->
+        <configurationGroup name="facility_owner">
+          <displayName>Facility Ownership/Affiliation</displayName>
+          <description>The Facility Ownership/Affiliation Form</description>
+          <version>4.1.6.1</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Facility Ownership/Affiliation</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="health_facility">
+          <displayName>Health Facility</displayName>
+          <description>The Health Facility Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_HealthFacility</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Health Facility</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <displayName>Meta information aboout this form</displayName>
+            <configuration name="child_forms" values="many">
+              <displayName>Child Forms</displayName>
+              <value>facility_contact</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <displayName>Form Class Configuration</displayName>
+        <configurationGroup name="iHRIS_HealthFacility">
+          <version>4.1.1.5</version>
+          <displayName>Configuration for the class 'iHRIS_HealthFacility'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_ListByCountry</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="id_code">
+              <displayName>The field 'id_code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Identification Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="location">
+              <displayName>The field 'location'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>county</value>
+                  <value>district</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="default">
+                    <configurationGroup name="country">
+                      <configuration name="operator">
+                        <value>FIELD_LIMIT</value>
+                      </configuration>
+                      <configuration name="field">
+                        <value>location</value>
+                      </configuration>
+                      <configuration name="style">
+                        <value>yes</value>
+                      </configuration>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>county:district:[region]:country</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Location</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_owner">
+              <displayName>The field 'facility_owner'</displayName>
+              <version>4.1.6.0</version>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Facility Ownership/Affiliation</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_type">
+              <version>4.1.6.0</version>
+              <displayName>The field 'facility_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Facility Type</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!--formClasses-->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

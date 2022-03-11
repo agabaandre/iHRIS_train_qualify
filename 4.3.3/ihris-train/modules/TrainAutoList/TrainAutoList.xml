@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-train-AutoList">
+  <metadata>
+    <displayName>iHRIS Train Auto List Configuration</displayName>
+    <category>Site</category>
+    <description>iHRIS Train List of default lists objects for administer database page.</description>
+    <creator>IntraHealth Informatics</creator>
+    <email>ihris@capacityplus.org</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Lists">
+      <atLeast version="4.1.6.0" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="ihris-train-AutoList" path="/modules/Lists/auto_list">
+    <version>4.1.6.8</version>
+    <configurationGroup name="cadre">
+      <configuration name="form">
+        <value>cadre</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_cadre</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>2. Jobs/Post</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Cadres</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="classification">
+      <configuration name="form">
+        <value>classification</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_classification</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>2. Jobs/Post</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Job Classifications</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="job">
+      <configuration name="form">
+        <value>job</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_job</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>2. Jobs/Post</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Jobs</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="facility_type">
+      <configuration name="form">
+        <value>facility_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_facility_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>3. Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Facility Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="facility_owner">
+      <configuration name="form">
+        <value>facility_owner</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_facility_owner</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>3. Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Facility Ownership/Affiliation</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="health_facility">
+      <configuration name="field">
+        <value>location</value>
+      </configuration>
+      <configuration name="form">
+        <value>health_facility</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_health_facility</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>3. Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Health Facility</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="council">
+      <configuration name="form">
+        <value>council</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_council</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>3. Organization Lists</value>
+      </configuration>
+      <configuration name="mods">
+        <value>Registration</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Registration Councils</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="academic_level">
+      <configuration name="form">
+        <value>academic_level</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_academic_level</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>2. Academic Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Academic Level</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="qualification">
+      <configuration name="form">
+        <value>qualification</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_qualification</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>2. Academic Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Qualification</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="id_type">
+      <configuration name="form">
+        <value>id_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_id_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>2. Academic Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Identification Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="country">
+      <configuration name="form">
+        <value>country</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_country</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>4. Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Country</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="region">
+      <configuration name="field">
+        <value>country</value>
+      </configuration>
+      <configuration name="form">
+        <value>region</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_region</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>4. Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Region</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district">
+      <configuration name="field">
+        <value>region</value>
+      </configuration>
+      <configuration name="form">
+        <value>district</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_district</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>4. Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>District</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="county">
+      <configuration name="field">
+        <value>district</value>
+      </configuration>
+      <configuration name="form">
+        <value>county</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_county</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>4. Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Sub-County</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="currency">
+      <configuration name="form">
+        <value>currency</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_currency</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>4. Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Currency</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="marital_status">
+      <configuration name="form">
+        <value>marital_status</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_marital_status</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>3. Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Person Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Marital Status</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_classification">
+      <configuration name="form">
+        <value>training_classification</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_training_classification</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Classification</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_type">
+      <configuration name="form">
+        <value>training_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_training_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="trainingprovider_type">
+      <configuration name="form">
+        <value>trainingprovider_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_trainingprovider_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Provider Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training">
+      <configuration name="field">
+        <version>4.1.6.1</version>
+        <value>training_type</value>
+      </configuration>
+      <configuration name="form">
+        <value>training</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_training</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Courses</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="exampaper">
+      <version>4.1.6.8</version>
+      <configuration name="form">
+        <value>exampaper</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_exampaper</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Exam Paper</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="funder">
+      <configuration name="form">
+        <value>funder</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_funder</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Funder</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="providertraining">
+      <configuration name="field">
+        <version>4.1.6.1</version>
+        <value>training</value>
+      </configuration>
+      <configuration name="form">
+        <value>providertraining</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_providertraining</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Assign Provider Trainings</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="fee_type">
+      <configuration name="form">
+        <value>fee_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_fee_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>1. Training Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Fee Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="competency">
+      <configuration name="form">
+        <value>competency</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_competency</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>2. Training Competencies</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Competency</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="competency_type">
+      <configuration name="form">
+        <value>competency_type</value>
+      </configuration>
+      <configuration name="task">
+        <value>can_edit_database_list_competency_type</value>
+      </configuration>
+      <configuration name="category" locale="en_US">
+        <value>1. Trainings</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>2. Training Competencies</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Competency Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="archived_report">
+      <configuration name="form">
+        <value>archived_report</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="exam_result">
+      <configuration name="form">
+        <value>exam_result</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="exam_try">
+      <configuration name="form">
+        <value>exam_try</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="gender">
+      <configuration name="form">
+        <value>gender</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="locale">
+      <configuration name="form">
+        <value>locale</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="role">
+      <configuration name="form">
+        <value>role</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="user">
+      <configuration name="form">
+        <value>user</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_length_type">
+      <configuration name="form">
+        <value>training_length_type</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="unit">
+      <configuration name="form">
+        <value>unit</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="paper">
+      <version>4.1.6.9</version>
+      <configuration name="form">
+        <value>paper</value>
+      </configuration>
+      <configuration name="skip" type="boolean">
+        <value>true</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,186 @@
+ <div id="siteContent">
+    <h1>Afficher la personne: <span type="form" name="person:surname"></span>, <span type="form" name="person:firstname"></span></h1>
+
+	<div class="recordsData">
+	<h3><a name="jump_individual">Information individuelle</a></h3>
+	<p class="editRecordsData" id="individual_links">
+	  <a href="" class="hide" title="Hide" onclick="return hideDiv('individual', this );">Masquer</a>
+	  <span type="module" name="PersonID" enabled="true">
+	  <span type="module" name="STSTraining" ifenabled="false"><span type="form" name="person:id" href="person_id?parent=">Ajouter une identification</span></span>
+	  </span>
+	  <span type="form" name="person:id" href="demographic?parent=" ifset="!demographic:id">Ajouter une information démographique</span>
+	  <span type="module" name="STSTraining" ifenabled="false"><span type="form" name="person:id" href="education?parent=" ifset="!education:id">Ajouter une information d’éducation</span></span>
+	  <span type="form" name="person:id" href="registration?parent=" ifset="!registration:id">Ajouter une information d’inscription</span>
+	  <span type="module" name="PersonPassportPhoto" enabled="true">
+	    <span type="form" name="person:id" href="person_photo_passport?parent=" ifset="!person_photo_passport:id">Ajouter une photo de passeport</span>
+	  </span>
+	  <span type="module" name="PrintedForms" ifenabled="true">
+	    <span task="printed_forms_can_access">
+	      <span type="module" if="PrintedForms-&gt;hasValidForms('person')">
+		<span type="form" href="PrintedForms/menu?id=" name="person:id">Formulaires standardisés</span>
+	      </span>
+	    </span>
+	  </span>
+
+	</p>
+	
+	<div id="individual">
+	<div class="editRecord">
+	<p>Modifier cette information</p>
+		<ul><li><span type="form" name="person:id" href="person?id=">Mettre à jour cette information</span></li>
+			<li><span type="form" name="person:id" parent="true" href="field_history?field=surname,firstname,othername&amp;template=fullname&amp;type=person&amp;id=">Visualiser l’historique du nom</span></li>
+		</ul></div> <!-- editRecord -->
+	
+	<div class="dataTable">
+	<table border="0" cellspacing="0" cellpadding="0"><tr><th colspan="2">Nom / Nationalité</th>
+		</tr><span type="module" name="STSPerson" ifenabled="true"><span type="form" name="person:title" showhead="default"></span></span>
+		<span type="form" name="person:surname" showhead="default"></span>
+		<span type="form" name="person:firstname" showhead="default" class="even"></span>
+		<span type="form" name="person:othername" showhead="default"></span>
+		<span type="form" name="person:nationality" showhead="default" class="even"></span>
+		<span type="form" name="person:residence" showhead="default"></span>
+		<span type="module" name="STSPerson" ifenabled="true"><span type="form" name="person:location" showhead="default"></span></span>
+		<span type="module" name="STSPerson" ifenabled="true"><span type="form" name="person:date_of_birth" showhead="default"></span></span>
+		<span type="module" name="STSRegistration" ifenabled="true"><span type="form" name="person:sponsor" showhead="default"></span></span>
+		<span type="module" name="STSPerson" ifenabled="true"><span type="form" name="person:gender" showhead="default"></span></span>
+	</table></div> <!-- dataTable -->
+	<div class="recordsData">
+	<h3><a name="jump_registration">Information d’inscription</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('registration', this );">Masquer</a>
+		<span type="form" name="person:id" href="history?form=registration&amp;id=">Afficher l’historique des inscriptions</span><span type="module" name="StudentDropSemester" ifenabled="true"><span task="person_can_edit_child_form_drop_semester" type="form" name="person:id" href="drop_semester?parent=">Supprimer un semestre pour cet étudiant</span></span>
+		</p>
+	
+	    <div id="registration"></div><!-- registration -->
+	    <div id="drop_semester"></div>
+	  <br style="clear: both;"></div> <!-- recordsData -->	
+	<div id="person_photo_passport"></div>
+
+	<div id="person_id"></div>
+	
+	<div id="demographic"></div>
+
+	<span type="module" name="StudentsEnrollcourse" ifenabled="true">
+	<div class="recordsData">
+    <h3><a name="jump_enroll_course">Cours enregistrés</a></h3>
+    <p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('enroll_course', this );">Masquer</a>
+      <span task="person_can_edit_child_form_enroll_course" type="form" name="person:id" href="enroll_course?parent=">Ajouter/Supprimer des cours</span>
+      </p>
+    
+	    <div id="enroll_course"></div><!-- enroll_course -->
+	  <br style="clear: both;"></div> <!-- recordsData -->
+	</span>	
+	<span type="module" name="StudentsViewResults" ifenabled="true">
+        <div class="recordsData" task="person_can_view_child_form_overall_GPA">
+    <h3><a name="jump_overall_GPA">GPA global</a></h3>
+    <p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('overall_GPA', this );">Masquer</a>
+      </p>
+
+            <div id="overall_GPA"></div><!-- overall_GPA -->
+          <br style="clear: both;"></div> <!-- recordsData -->
+        </span>
+	<span type="module" name="StudentsViewResults" ifenabled="true">
+	<div class="recordsData" task="person_can_view_child_form_students_results_grade">
+    <h3><a name="jump_students_results_grade">Résultats semestriels et GPA</a></h3>
+    <p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('students_results', this );">Masquer</a>
+      </p>
+    
+	    <div id="students_results"></div><!-- students_results -->
+	  <br style="clear: both;"></div> <!-- recordsData -->
+	</span>	
+	
+	<span type="module" name="STSTraining" ifenabled="false">
+	<div class="recordsData">
+	<h3><a name="jump_education">Information sur l’éducation</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('education', this );">Masquer</a>
+		<span type="form" name="person:id" href="history?form=education&amp;id=">Afficher l’historique de l’éducation</span>
+		</p>
+	
+	    <div id="education"></div><!-- education -->
+	  <br style="clear: both;"></div> <!-- recordsData -->
+	</span>
+	
+	</div> <!-- individual -->
+	
+	<br style="clear: both;"></div> <!-- recordsData -->
+
+	<span type="module" name="PersonContact" ifenabled="true">
+    <div class="recordsData" task="person_can_view_child_form_person_contact_work|person_can_view_child_form_person_contact_personal">
+      <h3>
+        <a name="jump_contact">Information de contact</a>
+      </h3>
+      <p class="editRecordsData" id="contact_links">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('contact', this );">Masquer</a>
+      </p>
+      <span id="contact">
+        <div id="person_contact_work"></div> <!-- work contact -->
+        <div id="person_contact_personal"></div> <!-- personal contact -->
+      </span>
+      <br style="clear: both;"></div>
+     <!-- recordsData -->
+  </span>
+	
+	<span type="module" name="STSTraining" ifenabled="false">
+	<div class="recordsData">
+	<h3><a name="jump_position">Information sur la position</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('position', this );">Masquer</a>
+		<span type="form" name="person:id" href="position?parent=">Ajouter une position</span>
+		<span type="form" name="person:id" href="history?form=position&amp;id=">Afficher l’historique des positions</span>
+		</p>
+
+	<div id="position"></div> <!-- position -->
+	<br style="clear: both;"></div> <!-- recordsData -->
+	</span>
+	
+	<span type="module" name="STSTraining" ifenabled="false">
+	<span type="module" name="PersonInstance" ifenabled="true">
+	<div class="recordsData">
+	<h3><a name="jump_instance">Formations</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('person_instance', this );">Masquer</a>
+    	<span type="form" name="person:id" href="person_instance?parent=">Ajouter une instance de formation</span>
+      <span type="form" name="person:id" href="history?form=person_instance&amp;show_edit=1&amp;id=">Historique des instances de formation</span>
+		</p>
+
+	<div id="person_instance"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+    </span>
+    </span>
+    <span type="module" name="PersonNotes" ifenabled="true">
+	<div class="recordsData">
+	<h3><a name="jump_notes">Notes</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Masquer</a>
+    	<span type="form" name="person:id" href="notes?parent=">Ajouter une note</span>
+		</p>
+
+	<div id="notes"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+    </span>
+
+    <span type="module" name="RecordVerify" ifenabled="true">
+       <div class="recordsData">
+       <h3><a name="jump_record_verify">Vérification de l’enregistrement</a></h3>
+       <p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('record_verify', this );">Masquer</a>
+               <span type="form" name="person:id" href="record_verify?parent=">Ajouter une vérification</span>
+               <span type="form" name="person:id" href="history?form=record_verify&amp;id=">Afficher l’historique des vérifications</span>
+               </p>
+
+       <div id="record_verify"></div> <!-- record_verify -->
+       <br style="clear: both;"></div> <!-- recordsData -->
+    </span>
+
+
+    <span type="module" name="PersonArchivedScan" ifenabled="true">
+      <div class="recordsData" task="person_can_view_child_form_person_archive_scan">
+	<h3>
+	  <a name="jump_archived_scans">Enregistrements de papiers scannés</a>
+	</h3>
+	<p class="editRecordsData">
+	  <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Masquer</a>
+	  <span task="person_can_edit_child_form_person_archive_scan" type="form" name="person:id" href="person_archive_scan?parent=">Ajouter un document scanné</span>
+	</p>
+	
+	<div id="person_archive_scan"></div>
+	<br style="clear: both;"></div>
+      <!--  recordsData -->
+    </span>
+    <!--<a href="construction">Print</a>-->
+</div>

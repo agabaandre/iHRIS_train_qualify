@@ -1,0 +1,79 @@
+<div id="siteContent">
+<br style="clear: both;"><div role="records">
+<h2><a href="person" class="updateRecords">Engadir a persoa</a></h2>
+<p>
+Engada un novo rexistro para un estudante ou profesional sanitario. Para un rexistro, actualice a información persoal e de contacto; engada detalles sobre os programas de formación en progreso ou completados; garde inscricións e resultados de exames; emita rexistros, licenzas e renovacións de licenzas; e garde licenzas de tratamentos privadas, solicitudes de verificación de migración, accións disciplinarias e lanzamentos.
+</p>
+
+<hr></div>
+
+<span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+  <span type="module" name="SelfService" if="!userHasRecord()">
+    
+  </span>
+  <span type="module" name="SelfService" if="userHasRecord()">
+    <h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">View Your Record</span></h2>
+    <p>
+      View your own details.
+    </p>
+  </span>
+</span>
+
+<div task="custom_reports_can_access">
+<h2><a href="search" class="searchRecords">Procurar rexistros</a></h2>
+<p>
+Atope o rexistro de calquera persoa no sistema que revisar, imprimir ou actualizar.
+</p>
+</div>
+
+
+<span type="module" name="CustomReports" ifenabled="true">
+  <div role="manager|decision_maker">
+    <hr><h2><a href="CustomReports/view/reportViews" class="createRecords">Ver os informes</a></h2>
+    <p>
+      Os informes permiten a análise de datos de recursos humanos de varios xeitos. Personalice, visualice e imprima listas de traballadores sanitarios ou estudantes, gráficas estatísticas e outros informes estándar. O acceso está limitado aos administradores das operacións de datos e aos tomadores de decisións.
+    </p>
+  </div>
+</span>
+
+
+  <span role="admin" type="module" name="mHero" ifenabled="true">      
+    <h2>
+      <a href="mHero">mHero</a>
+    </h2>
+    <p>
+      <span style="display:inline-block">
+	<a href="mHero_person_workflow" target="_mHero">
+	  <img text="mHero" style="width:10em;" src="file/mHero.png"></a>
+      </span>
+      Use the mHero intgerated health system communications platform for personnel records
+
+    </p>
+  </span>
+  <span role="admin" type="module" name="mHero-csd-provider" ifenabled="true">      
+    <h2>
+      <a href="mHero">mHero</a>
+    </h2>
+    <p>
+      <span style="display:inline-block">
+	<a type="form" href="mhero_search_providerd=" target="_mHero">
+	  <img text="mHero" style="width:10em;" src="file/mHero.png"></a>
+      
+      </span>
+      Use the mHero intgerated health system communications platform with a Health Worker Registry
+
+    </p>
+  </span>
+
+<div role="manager">
+<hr><h2><a href="configure" class="adminDatabase">Configurar o sistema</a></h2>
+<p>
+Configurar módulos, administrar a base de datos e crear ou actualizar contas de usuario.
+</p>
+</div>
+
+
+
+<hr><h2><a href="password">Cambiar o contrasinal</a></h2>
+
+</div>

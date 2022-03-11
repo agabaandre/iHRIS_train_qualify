@@ -1,0 +1,84 @@
+# Translation Template of ihris-train module (TrainerAddResults Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@TrainerAddResults 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 14]
+#, no-c-format
+msgid "Can edit students results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 17]
+#, no-c-format
+msgid "Person can view child form overall GPA"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 20]
+#, no-c-format
+msgid "Can view students results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L29 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 29]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 38]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L52 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 52]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L81 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 81]
+#, no-c-format
+msgid "Registration"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L47 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 47]
+#, no-c-format
+msgid "Registration Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L57 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 57]
+#, no-c-format
+msgid "Academic Year Discontinued/Excluded"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L62 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 62]
+#, no-c-format
+msgid "Date Discontinued/Excluded"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L67 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 67]
+#, no-c-format
+msgid "Discontinued/Excluded Reasons"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml#L72 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/configs/en_US/StudentResults.xml line 72]
+#, no-c-format
+msgid "Recommendations"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/select_course.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/select_course.html line 3]
+#, no-c-format
+msgid "Select A Course To Add Results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/student_particulars.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/student_particulars.html line 3]
+#, no-c-format
+msgid "View Training Details"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/view_overall_GPA.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/view_overall_GPA.html line 5]
+#, no-c-format
+msgid "Overall GPA"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/add_results.html#L40 ihris-train/4.0-dev/annotate/head%3A/modules/StudentResults/templates/en_US/add_results.html line 40]
+#, no-c-format
+msgid "Students Enrolled For This Course"
+msgstr ""
+

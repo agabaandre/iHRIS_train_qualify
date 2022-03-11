@@ -1,0 +1,195 @@
+# Translation Template of ihris-train module (STSTraining Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@STSTraining 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 11]
+#, no-c-format
+msgid "Can Manage Academic"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L18 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 18]
+#, no-c-format
+msgid "Training Course Exam Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L23 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 23]
+#, no-c-format
+msgid "Academic Year"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L28 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 28]
+#, no-c-format
+msgid "Training Institution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L37 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 37]
+#, no-c-format
+msgid "Institution Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L42 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 42]
+#, no-c-format
+msgid "Institution Logo"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L47 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 47]
+#, no-c-format
+msgid "Registration Number To Begin With"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L52 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 52]
+#, no-c-format
+msgid "Minimum Semester GPA"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L57 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 57]
+#, no-c-format
+msgid "Minimum Overall GPA"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L62 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 62]
+#, no-c-format
+msgid "Minimum Passing Mark"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L67 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 67]
+#, no-c-format
+msgid "Institution Code"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L72 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 72]
+#, no-c-format
+msgid "Institution Telephone"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L77 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 77]
+#, no-c-format
+msgid "Institution Fax"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L82 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 82]
+#, no-c-format
+msgid "Institution Email"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L87 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 87]
+#, no-c-format
+msgid "Institution Address"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L96 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 96]
+#, no-c-format
+msgid "Total Credits"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L101 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 101]
+#, no-c-format
+msgid "Course Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L106 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 106]
+#, no-c-format
+msgid "Assessment Types"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L111 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 111]
+#, no-c-format
+msgid "Level"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L116 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 116]
+#, no-c-format
+msgid "Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L121 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 121]
+#, no-c-format
+msgid "Course Code"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L126 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 126]
+#, no-c-format
+msgid "Program"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L131 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 131]
+#, no-c-format
+msgid "Practical Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L136 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 136]
+#, no-c-format
+msgid "End Of Semester Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L141 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 141]
+#, no-c-format
+msgid "Test Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L146 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 146]
+#, no-c-format
+msgid "Test 1 Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L151 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 151]
+#, no-c-format
+msgid "Test 2 Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L156 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 156]
+#, no-c-format
+msgid "Assignments Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L161 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 161]
+#, no-c-format
+msgid "Project Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L166 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 166]
+#, no-c-format
+msgid "Final Field Report"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L171 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 171]
+#, no-c-format
+msgid "Clinical Assessment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml#L180 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/configs/en_US/TrainingSTS.xml line 180]
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html line 5]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html line 6]
+#, no-c-format
+msgid "Select another Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingSTS/templates/en_US/view_list_training.html line 13]
+#, no-c-format
+msgid "Training Course"
+msgstr ""
+

@@ -1,0 +1,97 @@
+<div id="siteContent">
+  
+  <h1>Administrer la base de données</h1>
+  
+  <div task="can_edit_position_database_lists">
+    <h2>Administrer les travaux/postes</h2>
+    
+    <div task="can_edit_job_structure_database_lists">
+      <h3>Créer une structure de travail</h3>
+      <ul><li task="can_edit_database_list_cadre">
+          <a href="lists?type=cadre">Cadres</a>
+        </li>
+        <li task="can_edit_database_list_classification">
+          <a href="lists?type=classification">Classifications de travail</a>
+        </li>
+        <li task="can_edit_database_list_job">
+          <a href="lists?type=job">Emplois</a>
+        </li>
+      </ul></div>
+  </div>
+  
+  <h2>Administrer d'Autres Listes</h2>
+  
+  <div task="can_edit_organization_database_lists">
+    <h3>Listes des organisations</h3>
+    <ul><li task="can_edit_database_list_facility_type">
+        <a href="lists?type=facility_type">Type d’établissement</a>
+      </li>
+      <li task="can_edit_database_list_facility_owner">
+        <a href="lists?type=facility_owner">Propriété/Affiliation d’établissement</a>
+      </li>
+      <li task="can_edit_database_list_facility_type">
+        <a href="lists?type=health_facility&amp;field=location">Établissement de santé</a>
+      </li>
+      <span type="module" ifenabled="true" name="Registration">
+        <li task="can_edit_database_list_council">
+          <a href="lists?type=council">Conseils d’inscription</a>
+        </li>
+      </span>
+    </ul></div>
+  <div task="can_edit_employee_database_lists">
+    <h3>Listes académiques</h3>
+    <ul><li task="can_edit_database_lists_academic_level">
+        <a href="lists?type=academic_level">Niveau académique</a>
+      </li>
+      <li task="can_edit_database_lists_qualification">
+        <a href="lists?type=qualification">Qualification</a>
+      </li>
+      <li task="can_edit_database_list_id_type">
+        <a href="lists?type=id_type">Type d’identification</a>
+      </li>
+    </ul></div>
+  <div task="can_edit_geographic_database_lists">
+    <h3>Information géographique</h3>
+    <ul><li task="can_edit_database_list_country">
+        <a href="lists?type=country">Pays</a>
+      </li>
+      <li task="can_edit_database_list_region">
+        <a href="lists?type=region&amp;field=country">Région</a>
+      </li>
+      <li task="can_edit_database_list_district">
+        <a href="lists?type=district&amp;field=region">Département</a>
+      </li>
+      <li task="can_edit_database_list_county">
+        <a href="lists?type=county&amp;field=district">Sous-canton</a>
+      </li>
+      <li task="can_edit_database_list_currency">
+        <a href="lists?type=currency">Devise</a>
+      </li>
+    </ul></div>
+  
+  <div task="can_edit_database_list_training">
+    <h3>Information de formation</h3>
+    <ul><li task="can_edit_database_list_training_classification">
+        <a href="lists?type=training_classification">Classification de formation</a>
+      </li>
+      <li task="can_edit_database_list_training">
+        <a href="lists?type=training_type">Type de formation</a>
+      </li>
+      <li task="can_edit_database_list_training">
+        <a href="lists?type=training&amp;mapped=training_type">Cours de formation</a>
+      </li>
+      <li task="can_edit_database_list_training">
+        <a href="lists?type=exampaper&amp;mapped=training">Papier d’examen</a>
+      </li>
+      <li task="can_edit_database_list_training">
+        <a href="lists?type=funder">Fondateur</a>
+      </li>
+      <li task="can_edit_database_list_providertraining">
+        <a href="lists?type=providertraining&amp;mapped=training">Affecter les fournisseurs de formation</a>
+      </li>
+      <li task="can_edit_database_list_fee">
+        <a href="lists?type=fee_type">Type de frais</a>
+      </li>
+    </ul></div>
+  
+</div>

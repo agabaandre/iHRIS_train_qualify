@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="STSTraining">
+  <metadata>
+    <version>4.3.0</version>
+  </metadata>
+  <configurationGroup name="STSTraining" path="/I2CE" locale="en_US">
+    <version>4.3.0</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_manage_academic" locale="en_US">
+        <value>Can Manage Academic</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="training_course_exam_type">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Training Course Exam Type</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="academic_year">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Academic Year</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_institution">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Training Institution</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="STS_TrainingInstitution">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="logo">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Logo</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="last_reg_num">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Registration Number To Begin With</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="minimum_semester_GPA">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Minimum Semester GPA</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="minimum_overall_GPA">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Minimum Overall GPA</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="passing_score">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Minimum Passing Mark</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="telephone">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Telephone</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="fax">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Fax</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="email">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Email</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="address">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Institution Address</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Training">
+          <configurationGroup name="fields">
+            <configurationGroup name="course_credits">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Total Credits</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="course_type">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Course Type</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_course_exam_type">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Assessment Types</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="academic_level">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Level</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="semester">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Semester</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Course Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_program">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Program</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="practical">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Practical Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="final">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:End Of Semester Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="test">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Test Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="test1">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Test 1 Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="test2">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Test 2 Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="assignments">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Assignments Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="project">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Project Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="final_field_report">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Final Field Report</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="clinical">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Clinical Assessment</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_AcademicYear">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

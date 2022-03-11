@@ -1,8 +1,0 @@
-#!/bin/bash
-set -x
-
-USERNAME=ihris
-
-BASEDIR=/var/lib/iHRIS
-chown -R $USERNAME:$USERNAME $BASEDIR
-

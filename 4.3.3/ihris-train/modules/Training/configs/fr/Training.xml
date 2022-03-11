@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Training" path="/I2CE">
+  <metadata>
+    <version>4.3.0.1</version>
+  </metadata>
+  <configurationGroup name="Training" path="/I2CE" locale="fr">
+    <version>4.3.0.1</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="fr">
+      <configuration name="can_edit_database_list_training" locale="fr">
+        <value>Modifier la liste des formations</value>
+      </configuration>
+      <configuration name="can_view_database_list_training" locale="fr">
+        <value>Afficher la liste de formation</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="training_type">
+        <configurationGroup name="in_service">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Formation continue (Courte)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="post_basic">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Formation avancée/continue (Longue)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="pre_service">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Formation préalable</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_length_type">
+        <configurationGroup name="day">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Jour(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="hour">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Heure(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="week">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Semaine(s)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="month">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Mois</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="year">
+          <configuration name="fields" value="many" type="delimited" locale="fr">
+            <value>name:Année(s)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="training">
+          <configuration name="display" values="single" locale="fr">
+            <value>Information sur la formation</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_type">
+          <configuration name="display" values="single" locale="fr">
+            <value>Type de formation</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_length_type">
+          <configuration name="display" values="single" locale="fr">
+            <value>Type de durée de formation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Training">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Nom</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Code/Numéro d’accréditation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_classification">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Classification de la formation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_length_type">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Unité</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_length">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Durée de la formation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_type">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Type de formation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cpd_credit">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Crédit d’heures CPD</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="summary">
+              <configuration name="headers" type="delimited" locale="fr">
+                <value>default:Résumé du cours de formation</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,145 @@
+# Translation Template of ihris-train module (CustomReports-full-search_person Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@CustomReports-full-search_person 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L46 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 46]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L200 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 200]
+#, no-c-format
+msgid "Search Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 14]
+#, no-c-format
+msgid "Search Relationship for participants"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L19 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 19]
+#, no-c-format
+msgid "Shows the demographic information of the person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L22 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 22]
+#, no-c-format
+msgid "Demographic"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L27 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 27]
+#, no-c-format
+msgid "Shows the position information of the person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 30]
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 35]
+#, no-c-format
+msgid "Shows the registration information of the person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L38 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 38]
+#, no-c-format
+msgid "Registration"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L49 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 49]
+#, no-c-format
+msgid "Search all people's records"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L59 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 59]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L64 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 64]
+#, no-c-format
+msgid "First Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L71 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 71]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L76 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 76]
+#, no-c-format
+msgid "Nationality"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L81 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 81]
+#, no-c-format
+msgid "Other Names"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L88 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 88]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L93 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 93]
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L98 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 98]
+#, no-c-format
+msgid "Home Village"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L109 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 109]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L114 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 114]
+#, no-c-format
+msgid "Registration Council"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L119 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 119]
+#, no-c-format
+msgid "License Expiration Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L124 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 124]
+#, no-c-format
+msgid "License Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L129 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 129]
+#, no-c-format
+msgid "Registration Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L134 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 134]
+#, no-c-format
+msgid "Registration Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L145 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 145]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L150 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 150]
+#, no-c-format
+msgid "Health Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L157 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 157]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L162 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 162]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L167 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 167]
+#, no-c-format
+msgid "Job/Post Title"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L176 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 176]
+#, no-c-format
+msgid "Date of Birth"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L183 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 183]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L188 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 188]
+#, no-c-format
+msgid "Gender"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml#L197 ihris-train/4.0-dev/annotate/head%3A/modules/SearchPerson/configs/en_US/CustomReports-full-search_person.xml line 197]
+#, no-c-format
+msgid "Search all people in the system"
+msgstr ""
+

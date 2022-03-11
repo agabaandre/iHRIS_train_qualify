@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-train" path="/I2CE">
+  <metadata>
+    <version>4.3.3.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-train" path="/I2CE" locale="fr">
+    <version>4.3.0.1</version>
+    <configurationGroup name="page">
+      <configurationGroup name="manage">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="fr" type="string">
+            <value>Gérer les personnes</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="search_reports" path="/modules/CustomReports/search_reports">
+        <configuration name="search_people" values="many" type="delimited" locale="fr">
+          <value>name:Rechercher des personnes</value>
+          <value>description:Retrouver l’enregistrement de n’importe quelle personne dans le système pour vérifier, imprimer ou mettre à jour.</value>
+        </configuration>
+        <configuration name="search_training_provider" values="many" type="delimited" locale="fr">
+          <value>name:Rechercher les fournisseurs de formation</value>
+          <value>description:Retrouver n’importe quel fournisseur de formation dans le système pour vérifier, imprimer ou mettre à jour.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

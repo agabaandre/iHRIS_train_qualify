@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="StudentDropSemester">
+  <metadata>
+    <displayName>Student Drop Semester</displayName>
+    <category>Application Component</category>
+    <className>iHRIS_Module_DropSemester</className>
+    <description>Drop A Student From A Specific Semester</description>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="DropSemester" path="/I2CE">
+    <displayName>Student Drop Semester</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <version>4.2.0.10</version>
+      <configuration name="person_can_view_child_form_drop_semester" locale="en_US">
+        <value>Person Can View Drop Semester</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_drop_semester" locale="en_US">
+        <value>Person Can Edit Drop Semester</value>
+      </configuration>
+      <configuration name="drop_semester_can_view_child_form_resume_semester" locale="en_US">
+        <value>Drop Semester Can View Resume Semester</value>
+      </configuration>
+      <configuration name="drop_semester_can_edit_child_form_resume_semester" locale="en_US">
+        <value>Drop Semester Can Edit Resume Semester</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <version>4.2.0.8</version>
+      <displayName>Forms available to the form factory</displayName>
+      <configurationGroup name="person">
+        <configurationGroup name="meta">
+          <configuration name="child_forms" values="many">
+            <status>uniquemerge:true</status>
+            <value>drop_semester</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="drop_semester">
+        <configurationGroup name="meta">
+          <configuration name="child_forms" values="many">
+            <status>uniquemerge:true</status>
+            <value>resume_semester</value>
+          </configuration>
+        </configurationGroup>
+        <displayName>Drop Semester</displayName>
+        <description>The Drop Semester Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class Defining The Logic Of This Form</description>
+          <value>iHRIS_DropSemester</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="resume_semester">
+        <displayName>Resume Semester</displayName>
+        <description>The Resume Semester Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class Defining The Logic Of This Form</description>
+          <value>iHRIS_ResumeSemester</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <!-- End /modules/forms/forms-->
+    <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+      <version>4.2.0.14</version>
+      <displayName>Form Class Configuration</displayName>
+      <configurationGroup name="iHRIS_DropSemester">
+        <version>4.2.0.14</version>
+        <displayName>Configuration for the class 'iHRIS_DropSemester'</displayName>
+        <configuration name="extends">
+          <displayName>The class this form extends</displayName>
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form.</displayName>
+          <configurationGroup name="semester">
+            <displayName>The fields 'semester'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Semester Dropped</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="registration">
+            <displayName>The field 'semester'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Registration</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="reason">
+            <displayName>The fields 'reason'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>STRING_MLINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Reasons For Dropping Out</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="drop_date">
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="default_eval">
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Date Dropped</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="academic_year">
+            <displayName>The fields 'academic_year'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Academic Year Dropped</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- fields -->
+      </configurationGroup>
+      <configurationGroup name="iHRIS_ResumeSemester">
+        <displayName>Configuration for the class 'iHRIS_ResumeSemester'</displayName>
+        <configuration name="extends">
+          <displayName>The class this form extends</displayName>
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form.</displayName>
+          <configurationGroup name="academic_year">
+            <displayName>The fields 'academic_year'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Academic Year Resumed</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="resume_date">
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="default_eval">
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Date Resumed</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- fields -->
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <version>4.2.0.12</version>
+      <configurationGroup name="drop_semester">
+        <displayName>Drop Semester Page</displayName>
+        <description>The page 'drop_semester' which has the action of: Dropping A Semester</description>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <value>iHRIS_PageFormDropSemester</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Drop Semester</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>drop_semester</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="exam" path="resume_semester">
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormResumeSemester</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="defaultHTMLFile" values="many">
+            <value>form_resume_semester.html</value>
+          </configuration>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Resume Semester</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>drop_semester</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>drop_semester_can_edit_child_form_resume_semester</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ProviderInstance">
+  <metadata>
+    <displayName>iHRIS ProviderInstance</displayName>
+    <className>iHRIS_Module_ProviderInstance</className>
+    <category>Application Component</category>
+    <description>A Training Provider's Instance</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="Currency">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="ProviderInstance" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <version>4.1.6.0</version>
+      <configuration name="provider_can_view_child_form_provider_instance" locale="en_US">
+        <value>Can view instance child form of a provider</value>
+      </configuration>
+      <configuration name="provider_can_edit_child_form_provider_instance" locale="en_US">
+        <value>Can edit instance child forms of a provider</value>
+      </configuration>
+      <configuration name="can_edit_database_list_funder" locale="en_US">
+        <version>4.1.6.8</version>
+        <value>Can edit the funder database list.</value>
+      </configuration>
+      <configuration name="can_view_database_list_funder" locale="en_US">
+        <version>4.1.6.8</version>
+        <value>Can view the funder database list.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.6.0</version>
+      <configuration name="provider_can_view_child_form_provider_instance" values="many">
+        <value>provider_can_view</value>
+      </configuration>
+      <configuration name="provider_can_edit_child_form_provider_instance" values="many">
+        <value>provider_can_view_child_form_provider_instance</value>
+        <value>provider_can_view</value>
+      </configuration>
+      <configuration name="provider_can_view_child_forms" values="many">
+        <value>provider_can_view_child_form_provider_instance</value>
+      </configuration>
+      <configuration name="provider_can_edit_child_forms" values="many">
+        <value>provider_can_edit_child_form_provider_instance</value>
+      </configuration>
+      <configuration name="can_edit_database_list_funder" values="many">
+        <version>4.1.6.8</version>
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_funder</value>
+      </configuration>
+      <configuration name="can_view_database_list_funder" values="many">
+        <version>4.1.6.8</version>
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <version>4.1.6.8</version>
+        <value>can_view_database_list_funder</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <version>4.1.6.8</version>
+        <value>can_edit_database_list_funder</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <version>4.1.1.1</version>
+      <configurationGroup name="ihris_train_page_form_parent_provider_instance" path="/I2CE/template/page_styles/ihris_train_page_form_parent_provider_instance">
+        <displayName>Page Form Parent ProviderInstance</displayName>
+        <version>4.1.3.7</version>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormParentProviderInstance</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="defaultHTMLFile" values="many">
+            <version>4.1.3.6</version>
+            <value>form_provider_instance_base.html</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- provider_instance parent style -->
+      <configurationGroup name="provider_instance">
+        <displayName>Provider Instance Page</displayName>
+        <description>The page 'provider_instance' which has the action of: Schedule/Update Training Information</description>
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <version>4.1.3.15</version>
+          <value>iHRIS_PageFormProviderInstance</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_train_page_form_parent_trainingprovider</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Scheduled/Update Training Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>provider_instance</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="fee">
+        <version>4.1.3.5</version>
+        <displayName>Fee Page</displayName>
+        <description>The page 'fee' which has the action of: Add/Update Fee Information</description>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_train_page_form_parent_provider_instance</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Fee Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>fee</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- fee page -->
+      <configurationGroup name="editexams">
+        <displayName>Exam Number Page</displayName>
+        <description>The page 'editexams' which has the action of: Set Exam Details.</description>
+        <version>4.1.6.5</version>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageEditExams</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <configuration name="title" values="single" locale="en_US">
+            <value>Set Exam Details</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_can_edit_child_form_person_instance</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <value>edit_person_instance_exam_base.html</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.1.0</version>
+        <configurationGroup name="provider_instance">
+          <displayName>Scheduled Training Information</displayName>
+          <description>The Provider's Instance Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_ProviderInstance</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Scheduled Training Information</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <version>4.1.3.8</version>
+              <status>uniquemerge:true</status>
+              <value>fee</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- provider_instance -->
+        <configurationGroup name="fee">
+          <displayName>Provider's Instance Information</displayName>
+          <description>The Provider's Instance Information Form</description>
+          <version>4.1.3.2</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_Fee</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Scheduled Training Fee Information</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="funder">
+          <displayName>Source of funder</displayName>
+          <description>The fee type Form</description>
+          <version>4.1.3.14</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Funder</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <version>4.1.6.6</version>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- funder -->
+        <configurationGroup name="trainingprovider">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <status>uniquemerge:true</status>
+              <value>provider_instance</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- trainingprovider -->
+      </configurationGroup>
+      <!-- end of  forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_ProviderInstance">
+          <displayName>Configuration for the class 'iHRIS_ProviderInstance'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="list_default" path="meta/list/default">
+            <version>4.1.3.12</version>
+            <configuration name="display_string" locale="en_US">
+              <value>%s - %s (%s - %s)</value>
+            </configuration>
+            <configuration name="display_args" type="delimited" values="many">
+              <value>0:providertraining</value>
+              <value>1:location</value>
+              <value>2:start_date</value>
+              <value>3:end_date</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>4.1.3.13</version>
+            <configurationGroup name="cancelled">
+              <displayName>The field 'cancelled'</displayName>
+              <version>4.2.0.1</version>
+              <configuration name="formfield">
+                <value>YESNO</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Cancelled?</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <displayName>The field 'start_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Start Date</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <displayName>The field 'start_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:End Date</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="academic_year">
+              <displayName>The field 'academic_year'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Academic Year (eg. Year 1)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="calender_year">
+              <displayName>The field 'calender_year'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_Y</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Calender Year</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="participants_list">
+              <displayName>The field 'participants_list'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DOCUMENT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Upload Scanned Signed Student List</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="funder">
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.3</version>
+                <value>default:Source of Funding</value>
+              </configuration>
+            </configurationGroup>
+            <!-- funder -->
+            <configurationGroup name="job">
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP_MULT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.3</version>
+                <value>default:Target Group(s)</value>
+              </configuration>
+            </configurationGroup>
+            <!-- job -->
+            <configurationGroup name="location">
+              <displayName>The field 'end_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_MLINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Location Details</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="providertraining">
+              <displayName>The field 'end_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Provider Training</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="i2ce_hidden">
+              <displayName>The field 'i2ce_hidden'</displayName>
+              <description>Since this field is used in drop downs it needs the i2ce_hidden field for limiting the results.</description>
+              <version>4.1.6.7</version>
+              <configuration name="formfield">
+                <value>YESNO</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Hide</value>
+              </configuration>
+              <configuration name="default_value">
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Fee">
+          <version>4.1.3.2</version>
+          <displayName>Configuration for the class 'iHRIS_ProviderInstance'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="fee_type">
+              <displayName>The field 'start_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Fee</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="amount">
+              <displayName>The field 'amount'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>CURRENCY</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Amount</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_Fee -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="STSTraining">
+  <metadata>
+    <displayName>iHRIS Training STS</displayName>
+    <className>iHRIS_Module_STSTraining</className>
+    <category>Application Component</category>
+    <description>Training Form For Students Tracking System</description>
+    <creator>Ally Shaban</creator>
+    <email>allyshaban5@gmail.com</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="Training">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="TrainerAddResults">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="ResultsApproval">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="StudentDropSemester">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="RescheduleCourse">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="AssignCourseToTrainer">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="STSRoles">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="STSLoginPage">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="StudentsViewResults">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="Lecturers">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="ScheduleCourseEnrollment">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="Semester">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="AcademicLevelData">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="CourseTypes">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="training-institution">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="TrainingProgram">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="STSPerson">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="StudentsEnrollcourse">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <requirement name="TrainingCourseExamTypesData">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="training_classification" path="/modules/forms/formClasses/iHRIS_Training/fields/training_classification">
+    <version>4.2.1.2</version>
+    <configuration name="required" type="boolean">
+      <value>false</value>
+    </configuration>
+  </configurationGroup>
+  <erase path="/modules/forms/formClasses/iHRIS_Training/fields/training_length">
+    <lessThan version="4.2.1.3" />
+  </erase>
+  <erase path="/modules/forms/formClasses/iHRIS_Training/fields/training_length_type">
+    <lessThan version="4.2.1.4" />
+  </erase>
+  <configurationGroup name="STSTraining" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_manage_academic" locale="en_US">
+        <value>Can Manage Academic</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="training_course_exam_type">
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Training Course Exam Type</value>
+          </configuration>
+          <configuration name="storage">
+            <version>4.2.12.2</version>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="academic_year">
+          <version>4.2.0.12</version>
+          <configuration name="class" values="single">
+            <value>iHRIS_AcademicYear</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Academic Year</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_institution">
+          <displayName>Training Institution</displayName>
+          <description>This is the form for defining training programs</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>STS_TrainingInstitution</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Training Institution</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="STS_TrainingInstitution">
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="name">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Name</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="logo">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>IMAGE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Logo</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="last_reg_num">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Registration Number To Begin With</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="minimum_semester_GPA">
+              <displayName>The field 'minimum_semester_GPA'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>FLOAT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Minimum Semester GPA</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="minimum_overall_GPA">
+              <version>4.2.1.1</version>
+              <displayName>The field 'minimum_overall_GPA'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>FLOAT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Minimum Overall GPA</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="passing_score">
+              <displayName>The field 'passing_score'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Minimum Passing Mark</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <displayName>The field 'code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="telephone">
+              <displayName>The field 'telephone'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Telephone</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="fax">
+              <displayName>The field 'telephone'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Fax</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="email">
+              <displayName>The field 'telephone'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Email</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="address">
+              <displayName>The field 'address'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_MLINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Institution Address</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Training">
+          <version>4.2.0.30</version>
+          <displayName>Configuration for the class 'iHRIS_Training'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configurationGroup name="meta" path="meta/list/default">
+            <configuration name="display_string">
+              <value>%s (%s)</value>
+            </configuration>
+            <configuration name="display_args" type="delimited" values="many">
+              <value>1:name</value>
+              <value>0:code</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="fields">
+            <version>4.2.0.24</version>
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="course_credits">
+              <displayName>The field 'course_credits'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Total Credits</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!--theory_credits-->
+            <configurationGroup name="course_type">
+              <displayName>The field 'course_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Course Type</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!--course_type-->
+            <configurationGroup name="training_course_exam_type">
+              <displayName>The field 'course_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP_MULT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Assessment Types</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!--course_type-->
+            <configurationGroup name="academic_level">
+              <displayName>The field 'academic_level'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Level</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!--academic_level-->
+            <configurationGroup name="semester">
+              <displayName>The field 'semester'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Semester</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- semester -->
+            <configurationGroup name="code">
+              <displayName>The field 'code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Course Code</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <value>true</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- code -->
+            <configurationGroup name="training_program">
+              <displayName>The field 'training_program'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Program</value>
+              </configuration>
+              <configuration name="required" type="boolean" values="single">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!--training_program-->
+            <configurationGroup name="practical">
+              <displayName>The field 'practical assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Practical Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_practical-->
+            <configurationGroup name="final">
+              <displayName>The field 'final exam assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:End Of Semester Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_final-->
+            <configurationGroup name="test">
+              <displayName>The field 'tests assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Test Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_tests-->
+            <configurationGroup name="test1">
+              <displayName>The field 'test1 assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Test 1 Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_test1-->
+            <configurationGroup name="test2">
+              <displayName>The field 'test2 assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Test 2 Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_test2-->
+            <configurationGroup name="assignments">
+              <displayName>The field 'assignments assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Assignments Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_assignments-->
+            <configurationGroup name="project">
+              <displayName>The field 'project assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Project Assessment</value>
+              </configuration>
+            </configurationGroup>
+            <!--assessment_project-->
+            <configurationGroup name="final_field_report">
+              <displayName>The field 'final_field_report assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Final Field Report</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="clinical">
+              <displayName>The field 'clinical assessment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Clinical Assessment</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <!-- fields -->
+        </configurationGroup>
+        <!-- iHRIS_Training -->
+        <configurationGroup name="iHRIS_AcademicYear">
+          <version>4.2.0.12</version>
+          <displayName>Configuration for the class 'iHRIS_AcademicYear'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_List</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="name">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Name</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+    <!--end of forms-->
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,74 @@
+# Translation of iHRIS Train - Provider Training to Lithuanian (lietuvių)
+# Exported from translatewiki.net
+#
+# Author: Eitvys200
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 19:13+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: lt\n"
+"X-POT-Import-Date: 2014-03-23 19:25:05+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml line 11]
+#, no-c-format
+msgid "Edit the ProviderTraining list"
+msgstr "Redaguoti Teikėjo Mokymų sąrašą"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml line 14]
+#, no-c-format
+msgid "View the Provider Training list"
+msgstr "Žiūrėti Teikėjo Mokymų sąrašą"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml line 21]
+#, no-c-format
+msgid "ProviderTraining Information"
+msgstr "Teikėjo Mokymų Informacija"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml line 30]
+#, no-c-format
+msgid "Provider"
+msgstr "Teikėjas"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/configs/en_US/ProviderTraining.xml line 35]
+#, no-c-format
+msgid "Training"
+msgstr "Mokymai"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Redaguoti Šią Informaciją"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Atnaujinti šią Informaciją"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html line 7]
+#, no-c-format
+msgid "Select another Provider Training"
+msgstr "Pasirinkti kitus Teikėjo Mokymus"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html#L8 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html line 8]
+#, no-c-format
+msgid "View Provider"
+msgstr "Žiūrėti Teikėją"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html#L15 ihris-train/4.0-dev/annotate/head%3A/modules/ProviderTraining/templates/en_US/view_list_providertraining.html line 15]
+#, no-c-format
+msgid "Provider Training Information"
+msgstr "Teikėjo Mokymų Informacija"

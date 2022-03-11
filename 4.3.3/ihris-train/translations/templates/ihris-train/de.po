@@ -1,0 +1,1007 @@
+# Translation of iHRIS Train - Core to German (Deutsch)
+# Exported from translatewiki.net
+#
+# Author: Macofe
+# Author: Metalhead64
+# Author: Predatorix
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-02-19 21:42+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-06-29 05:31+0000\n"
+"X-Generator: Launchpad (build 18418)\n"
+"Language: de\n"
+"X-POT-Import-Date: 2015-09-25 12:54:12+0000\n"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L15'>configs/en_US/iHRIS-Train-Configuration.xml</a>
+#, no-c-format
+msgid "Home Village"
+msgstr "Heimatdorf"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L24'>configs/en_US/iHRIS-Train-Configuration.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr "Person"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L13 ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml line 13]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L10 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 10]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L38 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 38]
+#, no-c-format
+msgid "Manage People"
+msgstr "Mitarbeiter verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L19 ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml line 19]
+#, no-c-format
+msgid "Search People"
+msgstr "Mitarbeiter suchen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L20 ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml line 20]
+#, no-c-format
+msgid "Locate any person's record in the system to review, print or update."
+msgstr ""
+"Datensatz zu jeglichen Personen im System, zum Überprüfen, Aktualisierung "
+"oder Drucken, ermitteln."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L23 ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml line 23]
+#, no-c-format
+msgid "Search Training Providers"
+msgstr "Suche Schulungsanbieter"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml#L24 ihris-train/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Train-Configuration.xml line 24]
+#, no-c-format
+msgid ""
+"Locate any training Providers in the system to review, print or update."
+msgstr ""
+"Jeglichen Schulungsanbieter im System, zum Überprüfen, Aktualisierung oder "
+"Drucken, ermitteln."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L29 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 29]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Diese Angabe bearbeiten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L31 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 31]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Diese Angabe aktualisieren"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html line 7]
+#, no-c-format
+msgid "Select another Facility Agent"
+msgstr "Einen anderen Gebäudebediensteten auswählen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html line 15]
+#, no-c-format
+msgid "Facility Agent"
+msgstr "Gebäudebedienster"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 5]
+#, no-c-format
+msgid "Individual Information"
+msgstr "persönliche Angaben"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L121 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 121]
+#, no-c-format
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L103 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 103]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_education.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_education.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_education.html line 12]
+#, no-c-format
+msgid "Education Information"
+msgstr "Ausbildungsangaben"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L54 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 54]
+#, no-c-format
+msgid "Registration Information"
+msgstr "Anmeldeinformationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L8 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 8]
+#, no-c-format
+msgid "Position"
+msgstr "Stelle"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 9]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L151 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 151]
+#, no-c-format
+msgid "Trainings"
+msgstr "Schulungen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L11 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L164 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 164]
+#, no-c-format
+msgid "Notes"
+msgstr "Bemerkungen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L14 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L176 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 176]
+#, no-c-format
+msgid "Record Verification"
+msgstr "Datensatzüberprüfung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html line 7]
+#, no-c-format
+msgid "Select another Sub-County"
+msgstr "Einen anderen Kreis auswählen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L73 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 73]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L14 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html line 14]
+#, no-c-format
+msgid "Sub-County"
+msgstr "Kreis"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html line 12]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_demographic.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_demographic.html line 3]
+#, no-c-format
+msgid "Demographic Information"
+msgstr "Demografische Informationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L11 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 11]
+#, no-c-format
+msgid "Add Training Provider"
+msgstr "Schulungsanbieter hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L101 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 101]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 12]
+#, no-c-format
+msgid "Find Training Provider"
+msgstr "Schulungsanbieter finden"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L91 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 91]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L13 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 13]
+#, no-c-format
+msgid "Training Courses"
+msgstr "Schulungskurse"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L122 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 122]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L14 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 14]
+#, no-c-format
+msgid "Training Instance Calendar"
+msgstr "Kalender der Schulungsinstanz"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 2]
+#, no-c-format
+msgid "Administer Database"
+msgstr "Datenbank verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L16 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 16]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 4]
+#, no-c-format
+msgid "Configure Modules"
+msgstr "Module einrichten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L33 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 33]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 7]
+#, no-c-format
+msgid "Form Relationships"
+msgstr "Datenblattbeziehungen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L36 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 36]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L8 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 8]
+#, no-c-format
+msgid "Reports"
+msgstr "Berichte"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L40 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 40]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 9]
+#, no-c-format
+msgid "Report Views"
+msgstr "Berichtsansichten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L54 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 54]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 12]
+#, no-c-format
+msgid "Browse Magic Data"
+msgstr "Magische Daten durchsuchen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 15]
+#, no-c-format
+msgid "Tasks Roles"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L76 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 76]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L18 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 18]
+#, no-c-format
+msgid "Manage Locales"
+msgstr "Sprachumgebungen verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L88 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 88]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L21 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 21]
+#, no-c-format
+msgid "Background Processes"
+msgstr "Hintergrundprozesse"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L99 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 99]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L24 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 24]
+#, no-c-format
+msgid "Browse Forms"
+msgstr "Formulare durchsuchen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L109 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 109]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L27 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 27]
+#, no-c-format
+msgid "Cached Forms"
+msgstr "Zwischengespeicherte Formulare"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L119 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 119]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L29 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 29]
+#, no-c-format
+msgid "Administer Users"
+msgstr "Anwender verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L128 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 128]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L31 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 31]
+#, no-c-format
+msgid "User Statistics"
+msgstr "Benutzerstatistiken"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html line 4]
+#, no-c-format
+msgid "Add Person"
+msgstr "Mitarbeiter hinzufügen"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L12'>templates/en_US/manage_people.html</a>
+#, no-c-format
+msgid ""
+"To track a person in the database, add a record for that person. Certain "
+"information is required to start a new record. Once the record is generated, "
+"additional options for adding data about the person will become available. "
+"An HR Staff person or an HR Manager can add a new person to the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html line 7]
+#, no-c-format
+msgid "Select another Academic Level"
+msgstr "Ein anderes Studienniveau auswählen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L50 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 50]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html line 15]
+#, no-c-format
+msgid "Academic Level"
+msgstr "Studienniveau"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_person.html line 2]
+#, no-c-format
+msgid "Add/Update Person"
+msgstr "Mitarbeiter hinzufügen/aktualisieren"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L10 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_person.html line 10]
+#, no-c-format
+msgid "Personal Information"
+msgstr "Persönliche Angaben"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 2]
+#, no-c-format
+msgid "View Person"
+msgstr "Mitarbeiter anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L55 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 55]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L72 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 72]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L83 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 83]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L93 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 93]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L104 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 104]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L124 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 124]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L138 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 138]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L152 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 152]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L165 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 165]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L177 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 177]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L194 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 194]
+#, no-c-format
+msgid "Hide"
+msgstr "Verstecken"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 9]
+#, no-c-format
+msgid "Add Identification"
+msgstr "Kennung hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L11 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 11]
+#, no-c-format
+msgid "Add Demographic Information"
+msgstr "Demografische Informationen hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 12]
+#, no-c-format
+msgid "Add Education Information"
+msgstr "Ausbildungsangaben hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L13 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 13]
+#, no-c-format
+msgid "Add Registration Information"
+msgstr "Anmeldeinformationen hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 15]
+#, no-c-format
+msgid "Add Passport Photo"
+msgstr "Passfoto hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L20 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 20]
+#, no-c-format
+msgid "Standardized Forms"
+msgstr "Standardisierte Datenblätter"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L32 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 32]
+#, no-c-format
+msgid "View Name History"
+msgstr "Namensverlauf anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L39 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 39]
+#, no-c-format
+msgid "Name / Nationality"
+msgstr "Name / Nationalität"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L105 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 105]
+#, no-c-format
+msgid "View Education History"
+msgstr "Ausbildungsverlauf anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L56 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 56]
+#, no-c-format
+msgid "View Registration History"
+msgstr "Anmeldeverlauf anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L137 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 137]
+#, no-c-format
+msgid "Position Information"
+msgstr "Stellenbeschreibung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L139 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 139]
+#, no-c-format
+msgid "Add Position"
+msgstr "Stelle hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L140 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 140]
+#, no-c-format
+msgid "View Position History"
+msgstr "Stellenverlauf anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L153 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 153]
+#, no-c-format
+msgid "Add Training Instance"
+msgstr "Schulungsinstanz hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L154 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 154]
+#, no-c-format
+msgid "Training Instance History"
+msgstr "Verlauf der Schulungsinstanz"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L166 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 166]
+#, no-c-format
+msgid "Add Note"
+msgstr "Anmerkung hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L178 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 178]
+#, no-c-format
+msgid "Add Verification"
+msgstr "Überprüfung hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L179 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 179]
+#, no-c-format
+msgid "View Verification History"
+msgstr "Überprüfungsverlauf anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L191 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 191]
+#, no-c-format
+msgid "Scanned Paper Records"
+msgstr "Eingescannte Papierdokumente"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L195 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 195]
+#, no-c-format
+msgid "Add Scanned Document"
+msgstr "Gescanntes Dokument hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L21 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L75 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 75]
+#, no-c-format
+msgid "Configure System"
+msgstr "System einrichten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 9]
+#, no-c-format
+msgid "Administer positions and create and update dropdown menus."
+msgstr "Stellen verwalten sowie Klappmenüs erstellen und aktualisieren."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L19 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 19]
+#, no-c-format
+msgid "Enable and disable the various modules for the system."
+msgstr "Verschiedene Module für das System aktivieren und deaktivieren."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L28 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 28]
+#, no-c-format
+msgid "Manage Reports"
+msgstr "Berichte verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L31 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 31]
+#, no-c-format
+msgid ""
+"Manage the standard reports available to users and create new custom reports."
+msgstr ""
+"Für Anwender verfügbare Standardberichte verwalten und neue "
+"benutzerdefinierte Berichte erstellen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L34 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 34]
+#, no-c-format
+msgid "Define how forms are related for use in reports."
+msgstr ""
+"Festlegen, wie Formulare für den Gebrauch in Berichten verknüpft werden."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L38 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 38]
+#, no-c-format
+msgid ""
+"Define reports based on previously defined relationships. You can choose "
+"which fields are available to each report and what fields can be used to "
+"limit the report."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L43 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 43]
+#, no-c-format
+msgid ""
+"Define report views based on previously defined reports. You can choose "
+"which fields to display and also define a default view that display a chart "
+"or limited results when a user access the report view."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L57 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 57]
+#, no-c-format
+msgid "Browse the configuration data used by the sytem."
+msgstr "Vom System genutzte Konfigurationsdateien durchsuchen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L64 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 64]
+#, no-c-format
+msgid "Tasks and Roles"
+msgstr "Aufgaben und Anwendergruppe"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L67 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 67]
+#, no-c-format
+msgid "Administer Tasks and Roles for the System"
+msgstr "Aufgaben und Anwendergruppen des Systems verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L79 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 79]
+#, no-c-format
+msgid "Manage the Locales made available by the system"
+msgstr "Vom System bereitgestellte Sprachumgebungen verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L91 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 91]
+#, no-c-format
+msgid "Examine background processes you have started"
+msgstr "Von Dir gestartete Hintergrundprozesse untersuchen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L102 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 102]
+#, no-c-format
+msgid "Browse the forms used by the system."
+msgstr "Vom System genutzte Formulare durchsuchen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L112 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 112]
+#, no-c-format
+msgid "Control the creation of cached forms"
+msgstr "Die Erstellung zwischengespeicherter Formulare steuern"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L123 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 123]
+#, no-c-format
+msgid ""
+"Create, update and disable user accounts to enforce secure access to the "
+"system. Access is limited to the System Administrator."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L130 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 130]
+#, no-c-format
+msgid "View data entry statistics for users."
+msgstr "Dateneingabestatistiken zu Benutzern anzeigen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html line 7]
+#, no-c-format
+msgid "Select another Health Facility"
+msgstr "Eine andere Gesundheitseinrichtung auswählen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L36 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 36]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html line 15]
+#, no-c-format
+msgid "Health Facility"
+msgstr "Gesundheitseinrichtung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L18 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 18]
+#, no-c-format
+msgid "View My Provider"
+msgstr "Meinen Anbieter anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L19 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 19]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L29 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 29]
+#, no-c-format
+msgid "Manage Trainings"
+msgstr "Schulungen verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L14 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L53 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 53]
+#, no-c-format
+msgid "Search Records"
+msgstr "Datensätze suchen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L17 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 17]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L64 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 64]
+#, no-c-format
+msgid "View Reports"
+msgstr "Berichte anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L24 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 24]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L96 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 96]
+#, no-c-format
+msgid "Change Password"
+msgstr "Kennwort ändern"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L29 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 29]
+#, no-c-format
+msgid "View Your Record"
+msgstr "Deinen Datensatz anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L23 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 23]
+#, no-c-format
+msgid ""
+"Add a new training Provider record to the system. Search for providers to "
+"schedule new training course instances or update current instances to add "
+"people to the training or record results."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L40 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 40]
+#, no-c-format
+msgid "Add a new employee"
+msgstr "Einen neuen Mitarbeiter hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L40 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 40]
+#, no-c-format
+msgid "or applicant"
+msgstr "oder Bewerber"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L42 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 42]
+#, no-c-format
+msgid ""
+"record to the system, and search for and update records that have been "
+"entered into the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L45 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 45]
+#, no-c-format
+msgid ""
+"Also complete job applications for open positions, review completed "
+"applications and assign a position to the successful applicant."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L56 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 56]
+#, no-c-format
+msgid ""
+"Locate any employee or position record in the system to review, print or "
+"update."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L68 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 68]
+#, no-c-format
+msgid ""
+"Reports enable analysis of human resource data in various ways. Customize, "
+"display and print staff lists, statistical charts and other standard reports."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L78 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 78]
+#, no-c-format
+msgid ""
+"Configure modules, administer positions, customize drop down menus and "
+"create or update user accounts."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L86 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 86]
+#, no-c-format
+msgid "View Your Personnel Details"
+msgstr "Ihre Personalinformationen anzeigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L10 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 10]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L89 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 89]
+#, no-c-format
+msgid "View your personnel details."
+msgstr "Ihre Personalinformationen anzeigen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html line 7]
+#, no-c-format
+msgid "Select another Qualification"
+msgstr "Eine andere Qualifikation auswählen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L53 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 53]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html line 15]
+#, no-c-format
+msgid "Qualification"
+msgstr "Qualifikation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_position.html line 3]
+#, no-c-format
+msgid "Deployment Information"
+msgstr "Verwendungsangaben"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_position.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/form_position.html line 3]
+#, no-c-format
+msgid "Job/Post Information"
+msgstr "Tätigkeitsbeschreibung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 2]
+#, no-c-format
+msgid "Manage Trainings and Training Provider"
+msgstr "Verwalten von Schulungen und Schulungsanbietern"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L91 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 91]
+#, no-c-format
+msgid "Add a New Training Provider"
+msgstr "Einen neuen Schulungsanbieter hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L94 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 94]
+#, no-c-format
+msgid "Add a new training Provider record to the system"
+msgstr "Einen neuen Schulungsanbieterdatensatz zum System hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L106 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 106]
+#, no-c-format
+msgid ""
+"After entering an a training provider and training record into the system , "
+"the record may be reviewed at any time. Click Find Training Provider to "
+"locate the record. From the record, additional information can be added or "
+"existing information can be updated."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L113 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 113]
+#, no-c-format
+msgid "Administer Training Courses"
+msgstr "Schulungskurse verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L116 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 116]
+#, no-c-format
+msgid ""
+"Add new training courses and assign them to providers as well as administer "
+"any other drop down lists."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L125 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 125]
+#, no-c-format
+msgid "View the training instances on a calendar to see upcoming trainings."
+msgstr ""
+"Die Schulungsinstanzen in einem Kalender anzeigen um baldige Schulungen zu "
+"sehen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html line 5]
+#, no-c-format
+msgid "Correct this Information"
+msgstr "Diese Angabe berichtigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view_position.html line 12]
+#, no-c-format
+msgid "Deployment/Position Information"
+msgstr "Einsatz-/Stelleninformationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 6]
+#, no-c-format
+msgid "Administer Jobs/Post"
+msgstr "Tätigkeiten/Stellen verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 9]
+#, no-c-format
+msgid "Create Job Structure"
+msgstr "Eine Tatigkeitsstruktur erstellen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L12 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 12]
+#, no-c-format
+msgid "Cadres"
+msgstr "Führungskräfte"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 15]
+#, no-c-format
+msgid "Job Classifications"
+msgstr "Stellenklassifizierungen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L18 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 18]
+#, no-c-format
+msgid "Jobs"
+msgstr "Stellen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L24 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 24]
+#, no-c-format
+msgid "Administer Other Lists"
+msgstr "Andere Listen verwalten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L27 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 27]
+#, no-c-format
+msgid "Organization Lists"
+msgstr "Organisationslisten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L30 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 30]
+#, no-c-format
+msgid "Facility Type"
+msgstr "Einrichtungsart"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L33 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 33]
+#, no-c-format
+msgid "Facility Ownership/Affiliation"
+msgstr "Einrichtungseigentümerschaft/Zugehörigkeit"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L40 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 40]
+#, no-c-format
+msgid "Registration Councils"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L46 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 46]
+#, no-c-format
+msgid "Academic Lists"
+msgstr "Akademische Listen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L56 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 56]
+#, no-c-format
+msgid "Identification Type"
+msgstr "Identifizierungsart"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L61 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 61]
+#, no-c-format
+msgid "Geographic Information"
+msgstr "Geografische Informationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L64 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 64]
+#, no-c-format
+msgid "Country"
+msgstr "Land"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L67 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 67]
+#, no-c-format
+msgid "Region"
+msgstr "Region"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L70 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 70]
+#, no-c-format
+msgid "District"
+msgstr "Bezirk"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L76 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 76]
+#, no-c-format
+msgid "Currency"
+msgstr "Währung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L82 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 82]
+#, no-c-format
+msgid "Training Information"
+msgstr "Schulungsinformationen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L85 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 85]
+#, no-c-format
+msgid "Training Classification"
+msgstr "Schulungsklassifikation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L88 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 88]
+#, no-c-format
+msgid "Training Type"
+msgstr "Art der Schulung"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L94 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 94]
+#, no-c-format
+msgid "Exam Paper"
+msgstr "Prüfungsbogen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L97 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 97]
+#, no-c-format
+msgid "Funder"
+msgstr "Kostenträger"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L100 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 100]
+#, no-c-format
+msgid "Assign Provider Trainings"
+msgstr "Anbieterschulungen zuweisen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L103 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 103]
+#, no-c-format
+msgid "Fee Type"
+msgstr "Gebührenart"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 6]
+#, no-c-format
+msgid "Add A New Lecturer"
+msgstr "Einen neuen Dozenten hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 9]
+#, no-c-format
+msgid "Add a new Lecturer into the system"
+msgstr "Einen neuen Dozenten zum System hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L15 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 15]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L7 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 7]
+#, no-c-format
+msgid "Add Semester Courses"
+msgstr "Semesterkurs hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L18 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 18]
+#, no-c-format
+msgid ""
+"Add new semester courses and assign them to lecturers as well as administer "
+"any other drop down lists."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L24 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 24]
+#, no-c-format
+msgid "Reschedule Course"
+msgstr "Kurs umplanen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L27 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 27]
+#, no-c-format
+msgid "Reschudule A Course To Be Offered To The Next Semester"
+msgstr "Einen Kurs umplanen um ihn dem nächsten Semester anzubieten"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L33 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 33]
+#, no-c-format
+msgid "Open or Close Students Course Registration"
+msgstr "Öffnen oder Schließen der Anmeldung zum Studentenkurs"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L36 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 36]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L45 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 45]
+#, no-c-format
+msgid "Set Deadline For Students To Enroll Themselves Into Various Courses"
+msgstr ""
+"Frist für Studenten setzen um sich selbst in verschiedene Kurse "
+"einzuschreiben"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L42 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 42]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 4]
+#, no-c-format
+msgid "Assign Course To Lecturer"
+msgstr "Einem Dozenten einen Kurs zuweisen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L51 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 51]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L5 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 5]
+#, no-c-format
+msgid "Add Semester Results"
+msgstr "Semesterergebnisse hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L54 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 54]
+#, no-c-format
+msgid ""
+"Add students semester results i.e continuous assessment and end of semester "
+"exams."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L61 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 61]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L6 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 6]
+#, no-c-format
+msgid "Approve Semester Results"
+msgstr "Semesterergebnisse bestätigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L64 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 64]
+#, no-c-format
+msgid "Approve End Of Smester Results"
+msgstr "Ende der Semesterergebnisse bestätigen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L71 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 71]
+#, no-c-format
+msgid "Add A New Training Program"
+msgstr "Ein neues Schulungsprogramm hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L74 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 74]
+#, no-c-format
+msgid "Add new training program records into the system."
+msgstr "Die Datensätze eines neuen Schulungsprogramm zum System hinzufügen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L80 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 80]
+#, no-c-format
+msgid "Add New Department"
+msgstr "Eine neue Abteilung hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html#L83 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_provider.html line 83]
+#, no-c-format
+msgid "Add new department records into the system."
+msgstr "Die Datensätze einer neuen Abteilung zum System hinzufügen."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L56 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 56]
+#, no-c-format
+msgid "Drop A Semester For This Student"
+msgstr "Ein Semester für diesen Studenten streichen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L71 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 71]
+#, no-c-format
+msgid "Registered Courses"
+msgstr "Registrierte Kurse"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L73 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 73]
+#, no-c-format
+msgid "Add/Drop Courses"
+msgstr "Kurse hinzufügen/streichen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L82 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 82]
+#, no-c-format
+msgid "Overall GPA"
+msgstr "Gesamtnotendurchschnitt"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html#L92 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/view.html line 92]
+#, no-c-format
+msgid "Semester Results And GPA"
+msgstr "Semesterergebnisse und Gesamtnotendurchschnitt"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage.html#L4 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L2 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 2]
+#, no-c-format
+msgid "Add Lecturer"
+msgstr "Dozent hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L3 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 3]
+#, no-c-format
+msgid "Open And Close Students Course Registration"
+msgstr "Die Kursanmeldung für Studenten öffen und schließen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L8 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 8]
+#, no-c-format
+msgid "Reschedule Courses To Other Semesters"
+msgstr "Verlegen von Kursen auf andere Semester"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L9 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 9]
+#, no-c-format
+msgid "Training Program"
+msgstr "Schulungsprogramm"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html#L10 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/menu_manage_provider.html line 10]
+#, no-c-format
+msgid "Departments"
+msgstr "Abteilungen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L10 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html line 10]
+#, no-c-format
+msgid ""
+"To track a person in the database, add a record for that person. Certain "
+"information is required to start a new record. Once the record is generated, "
+"additional options for adding data about the person will become available."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L16 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html line 16]
+#, no-c-format
+msgid "Add Staff"
+msgstr "Personal hinzufügen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html#L19 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/manage_people.html line 19]
+#, no-c-format
+msgid ""
+"This allows to create a new Lecturer,Principal,Deputy "
+"Principal,Registrar,Academic Administrator,Level Coordinator etc."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html#L32 ihris-train/4.0-dev/annotate/head%3A/templates/en_US/index.html line 32]
+#, no-c-format
+msgid ""
+"Add a new Lecturer,Semester Results,Schedule Students Course "
+"Registration,Assign Course To Lecturers e.t.c."
+msgstr ""

@@ -1,0 +1,75 @@
+# Translation Template of ihris-train module (StudentsViewResults Version 4.3.0)
+# Copyright (C) 2018 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@StudentsViewResults 4.3.0\n"
+"POT-Creation-Date: 2018-02-13 16:01-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/configs/en_US/StudentsViewResults.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/configs/en_US/StudentsViewResults.xml line 11]
+#, no-c-format
+msgid "Can edit person students view results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/configs/en_US/StudentsViewResults.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/configs/en_US/StudentsViewResults.xml line 14]
+#, no-c-format
+msgid "Can view person students view results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 5]
+#, no-c-format
+msgid "SN"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 6]
+#, no-c-format
+msgid "Course Code"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 7]
+#, no-c-format
+msgid "Course Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L8 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 8]
+#, no-c-format
+msgid "Results"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L9 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 9]
+#, no-c-format
+msgid "Total Marks %"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L10 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 10]
+#, no-c-format
+msgid "Grade"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html#L11 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/student_view_results_table.html line 11]
+#, no-c-format
+msgid "Status"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html line 5]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/StudentsViewResults/templates/en_US/view_overall_gpa.html line 13]
+#, no-c-format
+msgid "Overall GPA"
+msgstr ""
+

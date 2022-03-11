@@ -1,0 +1,85 @@
+<div id="siteContent">
+  <span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+    <span type="module" name="SelfService" if="!userHasRecord()">
+    </span>
+    <span type="module" name="SelfService" if="userHasRecord()">
+      <div>
+	<h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">Afficher vos détails personnels</span></h2>
+	<p>
+	  Afficher vos détails personnels.
+	</p>
+      </div>
+    </span>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="false">
+  <span type="module" name="TrainingProvider" ifenabled="true">
+    <div task="provider_can_view">
+      
+      <h2><span type="module" name="TrainAccessProvider" call="linkToProvider('viewprovider?id=')" class="updateRecords">Afficher mon fournisseur</span></h2>
+      <h2><a href="manage?action=provider" class="updateRecords">Gérer les formations</a></h2>
+      <p>
+      Ajouter un nouvel enregistrement de fournisseur de formation au système. Rechercher des fournisseurs pour planifier de nouvelles instances de cours de formation ou mettre à jour des instances actuelles pour y ajouter des personnes ou des résultats d’enregistrement.
+      </p>
+    </div>
+  </span>
+  </span>
+  <span type="module" name="STSTraining" ifenabled="true">
+    <div task="can_manage_academic">
+      <h2><a href="manage?action=provider" class="updateRecords">Gérer les formations</a></h2>
+      <p>
+      Ajouter nouveau Conférencier, des résultats semestriels, planifier l’inscription aux cours, affecter les cours aux conférenciers, etc.
+      </p>
+    </div>
+  </span>
+
+  <span task="person_can_view">
+    <hr><h2><a href="manage" class="updateRecords">Gérer les personnes</a></h2>
+    <p>
+      Ajouter un nouvel employé <span type="module" name="ihris-manage-Application" ifenabled="true">ou le demandeur </span>enregistrer dans le système, et rechercher et mettre à jour les enregistrements qui ont été entrés dans le système. 
+      <span type="module" name="ihris-manage-Application" ifenabled="true">
+	Compléter également les demandes de travail pour les postes ouverts, revoir les demandes terminées et affecter une position au demandeur retenu. </span>
+    </p>
+  </span>
+  
+  <span type="module" name="CustomReports" ifenabled="true">
+    <div task="custom_reports_can_access">
+      <hr><h2><a href="search" class="searchRecords">Rechercher les enregistrements</a></h2>
+      <p>
+	Retrouver n’importe quel enregistrement d’employé ou de position dans le système pour le revoir, l’imprimer ou le mettre à jour. 
+      </p>
+    </div>
+  </span>
+
+    
+  <div task="custom_reports_can_view_reportViews">
+    <hr><h2><a href="CustomReports/view/reportViews" class="createRecords">Afficher les rapports</a></h2>
+    <p>
+      Les rapports permettent l’analyse des données de ressources humaines de différentes manières. Personnalisez, affichez et imprimez les listes d’équipe, les graphiques statistiques et d’autres rapports standards. 
+    </p>
+  </div>
+
+
+  <div task="can_configure_system">
+    <hr><h2><a href="configure" class="adminDatabase">Configurer le système</a></h2>
+    <p>
+      Configurer les modules, administrer les positions, personnalisez les menus déroulants et créer ou metre à jour les comptes utilisateur.
+    </p>
+  </div>
+  
+  <span type="module" name="SelfService" ifenabled="true" task="can_view_own_personnel">
+    <span type="module" name="SelfService" if="!userHasRecord()">
+    </span>
+    <span type="module" name="SelfService" if="userHasRecord()">
+      <div>
+	<h2><span type="module" name="SelfService" call="linkToPersonRecord('view?id=')">Afficher vos détails personnels</span></h2>
+	<p>
+	  Afficher vos détails personnels.
+	</p>
+      </div>
+    </span>
+  </span>
+
+
+  <hr><h2><a href="password">Modifier le mot de passe</a></h2>
+
+</div>

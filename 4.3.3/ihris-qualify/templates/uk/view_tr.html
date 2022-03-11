@@ -1,0 +1,88 @@
+ <div id="siteContent">
+    <h1>Перегляд навчання: <span type="form" name="training:cadre"></span> - <span type="form" name="person:surname"></span>, <span type="form" name="person:firstname"></span></h1>
+    <p><span type="form" name="person:id" href="view?id=">Повернутися до головного запису</span></p>
+
+	<div class="recordsData">
+	<h3><a name="jump_training">Інформація про підготовку</a></h3>
+	<p class="editRecordsData" id="training_links"><a href="" class="hide" title="Hide" onclick="return hideDiv('training', this );">Приховати</a>
+		</p>
+
+	<div id="training">
+		<div class="editRecord">
+	<p>Редагувати цю інформацію</p>
+		<ul><li role="manager"><span type="form" name="training:id" href="training?id=" parent="true">Виправити цю інформацію</span></li>
+			<li role="records"><span type="form" ifset="!training:graduation" name="training:id" href="graduate?id=" parent="true">Задати дату випуску</span></li>
+		</ul></div> <!-- editRecord -->
+	
+	<div class="dataTable">
+	<table border="0" cellspacing="0" cellpadding="0"><tr><th colspan="2">Інформація про індекс</th>
+		</tr><span type="form" name="training:index_num" showhead="default"></span>
+		<span type="form" name="training:intake_date" showhead="default" class="even"></span>
+		<span type="form" name="training:graduation" showhead="default"></span>
+		
+		<span type="form" ifset="training:trained_outside" ifvalue="1" name="training:out_country" showhead="default" class="even"></span>
+		<span type="form" ifset="training:trained_outside" ifvalue="1" name="training:out_institution" showhead="default"></span>
+		
+		<span type="form" ifset="training:trained_outside" ifvalue="!1" name="training:training_institution" showhead="default" class="even"></span>
+		
+	</table></div> <!-- dataTable -->
+	
+	<div id="training_disrupt"></div>
+	
+	<div class="editRecord">
+	<p>Редагувати цю інформацію</p>
+		<ul><li role="records"><span type="form" ifset="exam:id" name="exam:id" href="exam?id=" parent="true">Оновити цю інформацію</span></li>
+		</ul></div> <!-- editRecord -->
+	
+	<div class="dataTable">
+	<table border="0" cellspacing="0" cellpadding="0"><tr><th colspan="2">Інформація про іспит</th>
+		</tr><tbody id="exam"></tbody></table></div> <!-- dataTable -->
+	
+	</div> <!-- training -->
+	<br style="clear: both;"></div> <!-- recordsData -->
+
+	<div class="recordsData">
+	<h3><a name="jump_registration">Реєстраційна інформація</a></h3>
+	<p class="editRecordsData" id="registration_links"><a href="" class="hide" title="Hide" onclick="return hideDiv('registration', this );">Приховати</a>
+		</p>
+
+	<div id="registration"></div> <!-- contact -->
+	<br style="clear: both;"></div> <!-- recordsData -->
+	
+	<div class="recordsData">
+	<h3><a name="jump_license">Відомості про ліцензію</a></h3>
+	<p class="editRecordsData" id="license_links"><a href="" class="hide" title="Hide" onclick="return hideDiv('license', this );">Приховати</a>
+		</p>
+
+	<div id="license"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+
+	<div class="recordsData">
+	<h3><a name="jump_education">Підвищення кваліфікації</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('education', this );">Приховати</a>
+    	<span role="registration" type="form" ifset="license:id" name="training:id" href="continuing_education?parent=">Додати підвищення кваліфікації</span>
+		</p>
+
+	<div id="continuing_education"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+
+	<div class="recordsData">
+	<h3><a name="jump_ppractice">Відомості про ліцензію на приватну практику</a></h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('private_practice', this );">Приховати</a>
+    	<span role="registration" type="form" ifset="license:id" name="training:id" href="private_practice?parent=">Додати ліцензію на приватну практику</span>
+		</p>
+
+	<div id="private_practice"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+
+	<div class="recordsData">
+	<h3><a name="jump_disciplinary">Дисциплінарне повідомлення</a></h3>
+	<p class="editRecordsData" id="disciplinary_links"><a href="" class="hide" title="Hide" onclick="return hideDiv('disciplinary', this );">Приховати</a>
+		</p>
+
+	<div id="disciplinary_action"></div>
+	<br style="clear: both;"></div> <!--  recordsData -->
+
+
+    <!--<a href="construction">Print</a>-->
+</div>

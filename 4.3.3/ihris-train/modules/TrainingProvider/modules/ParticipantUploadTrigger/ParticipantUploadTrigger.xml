@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ParticipantUploadTrigger">
+  <metadata>
+    <displayName>iHRIS Participant Upload Trigger</displayName>
+    <className>iHRIS_Module_ParticipantUploadTrigger</className>
+    <category>Application Component</category>
+    <description>Create a trigger that can be assigned to a user when participants are uploaded.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <requirement name="UserTriggers">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="UserAlerts">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="ParticipantUploadTrigger" path="/modules/UserTriggers">
+    <configurationGroup name="triggers">
+      <configurationGroup name="participant_upload_save">
+        <configuration name="display" locale="en_US">
+          <value>Participant Upload Completed</value>
+        </configuration>
+        <configuration name="handler" type="delimited">
+          <value>alert:1</value>
+          <value>email:1</value>
+        </configuration>
+        <configuration name="message" type="delimited" locale="en_US">
+          <value>prefix:Participants have been added by CSV upload.</value>
+          <value>link_text:Training Instance</value>
+        </configuration>
+        <configuration name="link" path="message/link">
+          <version>4.2.0.1</version>
+          <value>viewprovider?id=</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

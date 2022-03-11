@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="FeeType">
+  <metadata>
+    <displayName>iHRIS Fee Type</displayName>
+    <className>iHRIS_Module_FeeType</className>
+    <category>Application Component</category>
+    <description>A Fee Type</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="FeeType" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_fee_type" locale="en_US">
+        <version>4.1.6.0</version>
+        <value>Edit the Fee Type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_fee_type" locale="en_US">
+        <version>4.1.6.0</version>
+        <value>View the Fee Type list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.6.1</version>
+      <configuration name="can_edit_database_list_fee_type" values="many">
+        <value>can_edit_database_lists</value>
+        <value>can_view_database_list_fee_type</value>
+      </configuration>
+      <configuration name="can_view_database_list_fee_type" values="many">
+        <value>can_view_database_lists</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists" values="many">
+        <value>can_edit_database_list_fee_type</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists" values="many">
+        <value>can_view_database_list_fee_type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <displayName>Forms Data</displayName>
+      <description>Form data saved in magic data</description>
+      <version>4.1.1</version>
+      <configurationGroup name="unit">
+        <displayName>Fee type</displayName>
+        <description>The fee type form data</description>
+        <configurationGroup name="total">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Total</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="per_day">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Per Day</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="student_per_day">
+          <configuration name="last_modified">
+            <version>4.1.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <version>4.1.1.1</version>
+            <value>name:Per Student Day</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facilitator_per_day">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Per Facilitator Per Day</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="student">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Per Student</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facilitator">
+          <configuration name="last_modified">
+            <version>4.1.1</version>
+            <value>2012-08-30 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Per Facilitator</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <version>4.1.1</version>
+        <configurationGroup name="fee_type">
+          <displayName>Costing Information</displayName>
+          <description>The Costing Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_FeeType</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Fees Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- fee -->
+        <configurationGroup name="unit">
+          <displayName>Costing type</displayName>
+          <description>The fee type Form</description>
+          <version>4.1.3</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Unit</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- fee_type -->
+      </configurationGroup>
+      <!-- end of  modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_FeeType">
+          <version>4.1.3.1</version>
+          <displayName>Configuration for the class 'iHRIS_Costing'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_List</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>4.1.1.3</version>
+            <configurationGroup name="name">
+              <displayName>The field 'name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Name</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <version>4.1.1.2</version>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- name -->
+            <configurationGroup name="unit">
+              <version>4.1.1.3</version>
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Unit</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- fee_type -->
+            <configurationGroup name="training_length_type">
+              <version>4.1.1.3</version>
+              <displayName>The field 'length'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1.2</version>
+                <value>default:Training Length Type</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <!-- training_length_type -->
+          </configurationGroup>
+          <!-- fields -->
+          <configurationGroup name="meta" path="meta/list/default">
+            <version>4.1.1.2</version>
+            <configuration name="display_string">
+              <value>%s - %s , %s</value>
+            </configuration>
+            <configuration name="display_args" type="delimited" values="many">
+              <value>0:name</value>
+              <value>1:unit</value>
+              <value>2:training_length_type</value>
+            </configuration>
+            <configuration name="sort_fields" type="delimited" values="many">
+              <value>0:name</value>
+              <value>1:unit</value>
+              <value>2:training_length_type</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_FeeType -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+    <!-- end of  forms-->
+  </configurationGroup>
+</I2CEConfiguration>

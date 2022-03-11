@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Training" path="/I2CE">
+  <metadata>
+    <version>4.3.0.1</version>
+  </metadata>
+  <configurationGroup name="Training" path="/I2CE" locale="nl">
+    <version>4.3.0.1</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="nl">
+      <configuration name="can_edit_database_list_training" locale="nl"></configuration>
+      <configuration name="can_view_database_list_training" locale="nl"></configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="training_type">
+        <configurationGroup name="in_service">
+          <configuration name="fields" value="many" type="delimited" locale="nl"></configuration>
+        </configurationGroup>
+        <configurationGroup name="post_basic">
+          <configuration name="fields" value="many" type="delimited" locale="nl"></configuration>
+        </configurationGroup>
+        <configurationGroup name="pre_service">
+          <configuration name="fields" value="many" type="delimited" locale="nl"></configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="training_length_type">
+        <configurationGroup name="day">
+          <configuration name="fields" value="many" type="delimited" locale="nl">
+            <value>name:Dag(en)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="hour">
+          <configuration name="fields" value="many" type="delimited" locale="nl">
+            <value>name:U(u)r(en)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="week">
+          <configuration name="fields" value="many" type="delimited" locale="nl">
+            <value>name:We(e)k(en)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="month">
+          <configuration name="fields" value="many" type="delimited" locale="nl">
+            <value>name:Maand(en)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="year">
+          <configuration name="fields" value="many" type="delimited" locale="nl">
+            <value>name:Ja(a)r(en)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="training">
+          <configuration name="display" values="single" locale="nl">
+            <value>Opleidingsgegevens</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="training_type">
+          <configuration name="display" values="single" locale="nl"></configuration>
+        </configurationGroup>
+        <configurationGroup name="training_length_type">
+          <configuration name="display" values="single" locale="nl"></configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Training">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="nl">
+                <value>default:Naam</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+            <configurationGroup name="training_classification">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+            <configurationGroup name="training_length_type">
+              <configuration name="headers" type="delimited" locale="nl">
+                <value>default:Eenheid</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_length">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+            <configurationGroup name="training_type">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+            <configurationGroup name="cpd_credit">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+            <configurationGroup name="summary">
+              <configuration name="headers" type="delimited" locale="nl"></configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>
