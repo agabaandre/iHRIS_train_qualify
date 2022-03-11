@@ -84,13 +84,13 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
             I2CE::raiseError($msg);
             throw new Exception($msg); 
         }
-        $db=$this->db = I2CE::PDO();
+        $this->db = I2CE::PDO();
         $this->table = self::getCachedTableName($report,true);
         $this->populate_queries = array();
         $qry = "SELECT * FROM `information_schema`.`COLUMNS` WHERE `TABLE_SCHEMA` = '" . I2CE_CachedForm::getCacheDatabase() .
             "' AND `TABLE_NAME` =  ? AND `COLUMN_NAME` = ?";
         try {
-            $result =$db->exec("SET sql_mode = ''");
+            $this->db->exec("SET SQL_MODE=''");
             $this->get_field_def = $this->db->prepare($qry);
         } catch ( PDOException $e ) {
             I2CE::pdoError( $e, "Unable to prepare field definition query" );
@@ -495,7 +495,7 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
                         array_key_exists( 'insert_nolimit', $this->populate_queries[$counter] ) ) {
                     $md5_key = 'md5';
                 } else {
-                    if ( array_key_exists( 'update_set_md5',array($this->populate_queries[$counter-1]) ) ) {
+                    if ( array_key_exists( 'update_set_md5', $this->populate_queries[$counter-1] ) ) {
                         unset( $this->populate_queries[$counter-1]['update_set_md5'] );
                     }
                 }
@@ -676,13 +676,11 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
             $last_create_fields = $create_fields;
             $form = $this->rel->getForm($formName);
             $formReference = $this->rel->getReferencedForm($form);
-            $formObj = $factory->createContainer($form);
-            if(is_object($formObj)){
+            $formObj = $factory->createContainer($form); 
             if (!$formObj instanceof I2CE_Form) {
                 I2CE::raiseError("$formName in report references $form which could no be instantiated:" .get_class($formObj));
                 return false;
             }
-            
             $parentFormName = $this->rel->getParentFormNames($formName);
             $parentForm = $this->rel->getForm($parentFormName);
             //$parentFormReference = $this->rel->getReferencedForm($parentForm);
@@ -1166,7 +1164,7 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
         //$this->populate_queries[] = "ALTER TABLE {$curr_tmp_table} DROP  last_md5 ";                    
         return $curr_tmp_table;
     }
-    }
+
 
 
 
