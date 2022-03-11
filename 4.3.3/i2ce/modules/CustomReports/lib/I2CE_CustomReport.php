@@ -84,12 +84,13 @@ class I2CE_CustomReport extends I2CE_Fuzzy{
             I2CE::raiseError($msg);
             throw new Exception($msg); 
         }
-        $this->db = I2CE::PDO();
+        $db=$this->db = I2CE::PDO();
         $this->table = self::getCachedTableName($report,true);
         $this->populate_queries = array();
         $qry = "SELECT * FROM `information_schema`.`COLUMNS` WHERE `TABLE_SCHEMA` = '" . I2CE_CachedForm::getCacheDatabase() .
             "' AND `TABLE_NAME` =  ? AND `COLUMN_NAME` = ?";
         try {
+            $result =$db->exec("SET sql_mode = ''");
             $this->get_field_def = $this->db->prepare($qry);
         } catch ( PDOException $e ) {
             I2CE::pdoError( $e, "Unable to prepare field definition query" );
