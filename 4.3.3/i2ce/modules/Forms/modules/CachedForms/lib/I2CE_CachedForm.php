@@ -668,7 +668,9 @@ class I2CE_CachedForm extends I2CE_Fuzzy{
         $createQuery =  "CREATE TABLE  " . $this->table_name ." ( "  .  implode(',', $createFields) . ")  ENGINE=InnoDB DEFAULT CHARSET=utf8  DEFAULT COLLATE=utf8_bin";        
         I2CE::raiseError("Creating table for {$this->form} as:\n$createQuery");
         try {
+
             $db =  I2CE::PDO();
+            $result =$db->exec("SET SQL_MODE='ALLOW_INVALID_DATES");
             $result =$db->exec($createQuery);
         } catch (PDOException $e ) {
             I2CE::pdoError($e,"Cannot create cached table for {$this->form}:\n$createQuery");
