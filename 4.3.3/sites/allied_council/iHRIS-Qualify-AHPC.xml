@@ -5,7 +5,7 @@
     <displayName>iHRIS Qualify AHPC</displayName>
     <category>Site</category>
     <description>the iHRIS Qualify AHPC Site</description>
-    <version>4.3.3.4</version>
+    <version>4.3.6.4</version>
     <path name="configs">
       <value>./configs</value>
     </path>
