@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Relationship: search_private_facility</displayName>
     <description>Relationship 'search_private_facility' and all reports and report views.</description>
-    <version>4.3.1</version>
+     <version>4.3.6.0</version>
   </metadata>
   <erase path="/modules/CustomReports/relationships/search_private_facility">
     <lessThan version="4.2" />

@@ -9,25 +9,25 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.3.0.1</version>
+    <version>4.3.6.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="Geography">
       <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="ReferenceField">
       <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="CustomReports-Selector">
       <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="FacilityService">
       <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>
