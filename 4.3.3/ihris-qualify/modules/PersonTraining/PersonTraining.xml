@@ -6,12 +6,12 @@
     <className>iHRIS_Module_QualifyPersonTraining</className>
     <category>Application Component</category>
     <description>Makes a record verification form available to the system</description>
-    <version>4.3.0</version>
+    <version>4.3.1.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-qualify">
-      <atLeast version="4.3" />
+      <atLeast version="4.2" />
       <lessThan version="4.4" />
     </requirement>
     <path name="templates">

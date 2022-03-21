@@ -6,7 +6,7 @@
     <className>iHRIS_Module_PersonLicense</className>
     <category>Application Component</category>
     <description>Makes a license associated with a person instead of a training</description>
-    <version>4.3.6.0</version>
+    <version>4.3.7.0</version>
     <path name='classes'>
       <value>./lib</value>
     </path>

@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-qualify-PersonTraining" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ihris-qualify-PersonTraining" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.0</version>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
       <configuration name="person_can_view_child_form_person_training" locale="en_US">
         <value>Can view person_training child form of a person</value>
