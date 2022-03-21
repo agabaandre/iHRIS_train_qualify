@@ -5,7 +5,7 @@
     <displayName>Uganda Councils</displayName>   
     <category>Site</category>
     <description>Uganda iHRIS Qualify Module</description>
-    <version>4.3.6.0</version>
+    <version>4.3.7.0</version>
     <requirement name='ihris-qualify'>
       <atLeast version='4.2'/>
       <lessThan version='4.4'/>
