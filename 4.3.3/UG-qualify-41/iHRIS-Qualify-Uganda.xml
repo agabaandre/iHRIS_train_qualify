@@ -5,13 +5,13 @@
     <displayName>Uganda Councils</displayName>   
     <category>Site</category>
     <description>Uganda iHRIS Qualify Module</description>
-    <version>4.3.7.0</version>
+    <version>4.3.8.0</version>
     <requirement name='ihris-qualify'>
-      <atLeast version='4.2'/>
+      <atLeast version='4.3'/>
       <lessThan version='4.4'/>
     </requirement>
     <enable name='PersonLicense' />
-   <enable name="PrivateFacility" />
+     <enable name="PrivateFacility" />
     <enable name="Service" />
     <enable name="FacilityRegistration" />
     <enable name="PersonContact" />
@@ -25,7 +25,7 @@
     <enable name="magicDataBrowser" />
     <enable name="Uganda-manage-data" />
     <requirement name="ihris-qualify-UgandaReports">
-      <atLeast version='4.2'/>
+      <atLeast version='4.3'/>
     </requirement>
     <enable name="ihris-common-MassDeletePerson" />
     <enable name="ihris-qualify-UgandaReports-person-extra" />
@@ -59,7 +59,7 @@
       <configurationGroup name="formClasses">
         <displayName>Form Class Configuration</displayName>
         <configurationGroup name="iHRIS_TrainingUG">
-          <version>4.0.23.0</version>
+          <version>4.3.0</version>
           <configuration name="extends">
             <value>iHRIS_Training</value>
           </configuration>
@@ -76,7 +76,7 @@
               <displayName>The field 'tribe'</displayName>
               <configuration name="formfield">
                 <displayName>The form field type</displayName>
-                <value>INT</value>
+                <value>STRING_LINE</value>
               </configuration>
               <configurationGroup name="setMap">
                 <displayName>Configuration on mapping the field values</displayName>
@@ -170,7 +170,7 @@
       
       
        <configurationGroup name="receipt_number" path="/modules/forms/formClasses/iHRIS_Registration/fields/receipt_number">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>INT</value>
       </configuration>
@@ -183,7 +183,7 @@
        </configuration>
     </configurationGroup>
     <configurationGroup name="serial_number" path="/modules/forms/formClasses/iHRIS_Registration/fields/serial_number">
-      <version>4.0.12.7</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>STRING_LINE</value>
       </configuration>
@@ -196,7 +196,7 @@
       </configuration>
     </configurationGroup>
      <configurationGroup name="cadre" path="/modules/forms/formClasses/iHRIS_Registration/fields/cadre">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>MAP</value>
       </configuration>
@@ -210,7 +210,7 @@
     </configurationGroup>
     
     <configurationGroup name="receipt_number" path="/modules/forms/formClasses/iHRIS_OutMigration/fields/receipt_number">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>INT</value>
       </configuration>
@@ -223,7 +223,7 @@
        </configuration>
     </configurationGroup>
     <configurationGroup name="serial_number" path="/modules/forms/formClasses/iHRIS_OutMigration/fields/serial_number">
-      <version>4.0.12.7</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>STRING_LINE</value>
       </configuration>
@@ -236,7 +236,7 @@
       </configuration>
     </configurationGroup>
      <configurationGroup name="expiry_date" path="/modules/forms/formClasses/iHRIS_OutMigration/fields/expiry_date">
-      <version>4.0.12.7</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>DATE_YMD</value>
       </configuration>
@@ -245,21 +245,21 @@
       </configuration>
      </configurationGroup>
      <configurationGroup name="index_num" path="/modules/forms/formClasses/iHRIS_Training/fields/index_num">
-      <version>4.0.12.7</version>
+      <version>4.3.0</version>
      <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" values="many" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.0.12.7</version>
+        <version>4.3.0</version>
         <value>default:Index</value>
       </configuration>
      </configurationGroup>
         
         
       <configurationGroup name="qualification" path="/modules/forms/formClasses/iHRIS_TrainingProgram/fields/qualification">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>MAP</value>
       </configuration>
@@ -280,7 +280,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="cadre" path="/modules/forms/formClasses/iHRIS_TrainingProgram/fields/cadre">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
      <configuration name="unique" type="boolean">
         <displayName>This field is required to be unique</displayName>
         <value>false</value>
@@ -288,13 +288,13 @@
     </configurationGroup>
     
     <configurationGroup name="meta" path="/modules/forms/formClasses/iHRIS_TrainingProgram/meta/list/default">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
         <configuration name="display_string">
-          <version>4.0.12.6</version>
+          <version>4.3.0</version>
           <value>%s - %s</value>
         </configuration>
         <configuration name="display_args" type="delimited" values="many">
-          <version>4.0.12.6</version>
+          <version>4.3.0</version>
           <value>0:qualification</value>
           <value>1:training_institution</value>
         </configuration>
@@ -305,7 +305,7 @@
     </configurationGroup>
     
      <configurationGroup name="qualification" path="/modules/forms/formClasses/iHRIS_Training/fields/qualification">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>MAP</value>
       </configuration>
@@ -314,7 +314,7 @@
       </configuration>
      </configurationGroup>
      <configurationGroup name="in_qualification" path="/modules/forms/formClasses/iHRIS_Training/fields/in_qualification">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>MAP</value>
       </configuration>
@@ -339,7 +339,7 @@
       </configuration>
      </configurationGroup>
      <configurationGroup name="out_qualification" path="/modules/forms/formClasses/iHRIS_Training/fields/out_qualification">
-      <version>4.0.12.6</version>
+      <version>4.3.0</version>
       <configuration name="formfield">
         <value>MAP</value>
       </configuration>
