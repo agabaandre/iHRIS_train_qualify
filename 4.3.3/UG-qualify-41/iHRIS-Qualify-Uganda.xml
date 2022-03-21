@@ -7,7 +7,7 @@
     <description>Uganda iHRIS Qualify Module</description>
     <version>4.3.8.0</version>
     <requirement name='ihris-qualify'>
-      <atLeast version='4.3'/>
+      <atLeast version='4.2'/>
       <lessThan version='4.4'/>
     </requirement>
     <enable name='PersonLicense' />
@@ -25,7 +25,7 @@
     <enable name="magicDataBrowser" />
     <enable name="Uganda-manage-data" />
     <requirement name="ihris-qualify-UgandaReports">
-      <atLeast version='4.3'/>
+      <atLeast version='4.2'/>
     </requirement>
     <enable name="ihris-common-MassDeletePerson" />
     <enable name="ihris-qualify-UgandaReports-person-extra" />
