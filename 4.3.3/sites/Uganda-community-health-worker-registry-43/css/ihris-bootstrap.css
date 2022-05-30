@@ -31,11 +31,7 @@ margin-top:1em;
 
 }
 
-#siteContent {
-  margin-right: auto;
-  margin-left: auto;
-  *zoom: 1;
-}
+
 
 #siteContent:before,
 #siteContent:after {
@@ -72,8 +68,8 @@ span.buffered_errors{
  }
 
 #siteContent {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
