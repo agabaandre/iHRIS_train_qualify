@@ -78,7 +78,7 @@ span.buffered_errors{
 
 
 #siteHeadWrap {
-    padding-bottom:1em;
+    padding:5px;;
 }
 
 div.error, span.error ,ul.error, #error_message , #create_message{
