@@ -1,0 +1,24 @@
+<div task='person_can_view_child_form_person_service'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='person_can_edit_child_form_person_service'>
+	<span type="form" ifset="person_service:id" name="person_service:id" href="person_service?id=" parent="true">
+	  Update this Information
+	</span>
+      </li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+	<tr>
+	  <th colspan="2">Service Provided Information</th>
+	</tr>
+	  <span type="form" name="person_service:service" showhead="default"></span>
+      </tbody>
+    </table>
+  </div> <!-- dataTable -->
+</div>
+

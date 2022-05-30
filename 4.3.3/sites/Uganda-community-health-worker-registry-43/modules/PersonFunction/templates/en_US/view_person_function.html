@@ -1,0 +1,25 @@
+<div task='person_can_view_child_form_person_function'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='person_can_edit_child_form_person_function'>
+	<span type="form" ifset="person_function:id" name="person_function:id" href="person_function?id=" parent="true">
+	  Update this Information
+	</span>
+      </li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+	<tr>
+	  <th colspan="2">Function Providing</th>
+	</tr>
+      <span type="form" name="person_function:function" showhead="default"></span>
+      <span type="form" name="person_function:org_support" showhead="default"></span>
+      </tbody>
+    </table>
+  </div> <!-- dataTable -->
+</div>
+

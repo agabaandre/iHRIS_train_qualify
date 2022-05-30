@@ -1,0 +1,857 @@
+isco_08_unit|5414,54140204,Assistant Security Officer,salary_grade|081,cadre|Support
+isco_08_unit|2411,24110205,Audit Assistant,salary_grade|081,cadre|Admin
+isco_08_unit|3323,33230301,Central Sterile Supplies Manager,salary_grade|051,cadre|Support
+isco_08_unit|3323,33230302,Central Sterile Supplies Officer,salary_grade|051,cadre|Support
+isco_08_unit|2266,22660203,Clinical Officer (Speech Therapy),salary_grade|051,cadre|AHPC
+isco_08_unit|2240,22401203,Clinical Psychologist,salary_grade|051,cadre|AHPC
+isco_08_unit|2643,26430101,Clinical writter,salary_grade|081,cadre|Support
+isco_08_unit|2651,26510101,Commercial Artist,salary_grade|081,cadre|Support
+isco_08_unit|2512,25120102,Computer Programmer/Analyst,salary_grade|051,cadre|Non_health
+isco_08_unit|2635,26350303,Counsellor,salary_grade|061,cadre|Non_health
+isco_08_unit|3113,31130102,Dialysis Machine Technician,salary_grade|051,cadre|Non_health
+isco_08_unit|3112,31120203,Engineering Technician,salary_grade|052,cadre|Non_health
+isco_08_unit|2263,22630205,Environmental Health Assistant ,salary_grade|051,cadre|AHPC
+isco_08_unit|8344,83440101,Forklift Attendant,salary_grade|081,cadre|Support
+isco_08_unit|2632,26320201,Geographer,salary_grade|081,cadre|Support
+isco_08_unit|5120,51200105,Head Cook,salary_grade|081,cadre|Support
+isco_08_unit|2631,26310103,Health Economist,salary_grade|051,cadre|Non_health
+isco_08_unit|3211,32110403,Imaging Technologist,salary_grade|051,cadre|AHPC
+isco_08_unit|2342,23420101,Kindergarten Teacher,salary_grade|051,cadre|Educat
+isco_08_unit|5329,53290114,Library Assistant,salary_grade|071,cadre|Support
+isco_08_unit|1324,13240101,Logistics Manager,salary_grade|051,cadre|Admin
+isco_08_unit|1324,13240102,Logistics Officer,salary_grade|051,cadre|Admin
+isco_08_unit|7412,74120201,Machine Fitter,salary_grade|051,cadre|Support
+isco_08_unit|3113,31130101,Maintenance Technician,salary_grade|051,cadre|Non_health
+isco_08_unit|3512,35120099,Manager - Information Technology Communication,salary_grade|051,cadre|Support
+isco_08_unit|2144,21440303,Mechanical Engineer,salary_grade|051,cadre|Non_health
+isco_08_unit|3115,31150103,Mechanical Technician,salary_grade|051,cadre|Non_health
+isco_08_unit|3213,32130201,Pharmacy Assistant,salary_grade|051,cadre|Pharma
+isco_08_unit|1213,12130303,Physical Planner,salary_grade|051,cadre|Admin
+isco_08_unit|3252,32520401,Principal Assistant Records Officer,salary_grade|031,cadre|Admin
+isco_08_unit|2411,24110301,Principal Auditor,salary_grade|031,cadre|Admin
+isco_08_unit|2635,26350301,Principal Counsellor,salary_grade|031,cadre|Non_health
+isco_08_unit|3112,31120201,Principal Engineering Technician,salary_grade|031,cadre|Non_health
+isco_08_unit|3211,32110401,Principal Imaging Technologist,salary_grade|031,cadre|AHPC
+isco_08_unit|2144,21440301,Principal Mechanical Engineer,salary_grade|031,cadre|Non_health
+isco_08_unit|3115,31150101,Principal Mechanical Technician,salary_grade|031,cadre|Non_health
+isco_08_unit|1213,12130301,Principal Physical Planner,salary_grade|031,cadre|Admin
+isco_08_unit|3521,35210101,Principal Radio Operator,salary_grade|040,cadre|Support
+isco_08_unit|3132,31320402,Pump Attendant,salary_grade|081,cadre|Support
+isco_08_unit|3132,31320401,Pump Operator,salary_grade|081,cadre|Support
+isco_08_unit|3521,35210103,Radio Operator,salary_grade|081,cadre|Support
+isco_08_unit|2240,22401202,Senior Clinical Psychologist,salary_grade|051,cadre|AHPC
+isco_08_unit|2512,25120101,Senior Computer Programmer/Analyst,salary_grade|051,cadre|Non_health
+isco_08_unit|2635,26350302,Senior Counsellor,salary_grade|051,cadre|Non_health
+isco_08_unit|3112,31120202,Senior Engineering Technician,salary_grade|051,cadre|Non_health
+isco_08_unit|3211,32110402,Senior Imaging Technologist,salary_grade|051,cadre|AHPC
+isco_08_unit|2144,21440302,Senior Mechanical Engineer,salary_grade|051,cadre|Non_health
+isco_08_unit|3115,31150102,Senior Mechanical Technician,salary_grade|051,cadre|Non_health
+isco_08_unit|3313,33130101,Senior Principal Accounts Assistant,salary_grade|051,cadre|Admin
+isco_08_unit|3521,35210102,Senior Radio Operator,salary_grade|051,cadre|Support
+isco_08_unit|4322,43220102,Sterilization Production Assistant,salary_grade|051,cadre|Support
+isco_08_unit|4322,43220101,Sterilization Production Officer,salary_grade|051,cadre|Support
+isco_08_unit|1112,11120201,Director General - Health Services,salary_grade|011,cadre|Admin
+isco_08_unit|1112,11120101,Permanent Secretary - Ministry of Health,salary_grade|011,cadre|Admin
+isco_08_unit|1112,11120601,Chief Administrative Officer,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120410,Commissioner Health Services - Allied Health Professionals,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120401,Commissioner Health Services - Clinical and Curative,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120402,Commissioner Health Services - Community Health,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120409,Commissioner Health Services - Diagnostics Services,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120407,Commissioner Health Services - Midwifery,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120403,Commissioner Health Services - National Disease Control,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120404,Commissioner Health Services - Nursing,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120405,Commissioner Health Services - Planning and Development,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120408,Commissioner Health Services - Public Health Nursing,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120406,Commissioner Health Services - Quality Assurance,salary_grade|012,cadre|Admin
+isco_08_unit|2212,22121402,Consultant - Accident and Emergency,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120402,Consultant - Anaesthesia,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121302,Consultant - Clinical Oncology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22611102,Consultant - Dentistry,salary_grade|012,cadre|Dental
+isco_08_unit|2261,22611002,Consultant - Dentofacial orthopedic,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122102,Consultant - Dermatologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120502,"Consultant - Ear, Nose & Throat",salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121802,Consultant - Endocrinology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610202,Consultant - Endodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120302,Consultant - General Surgery,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122203,Consultant - Haemotologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120102,Consultant - Internal Medicine,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121702,Consultant - Neonatology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121602,Consultant - Neurology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122302,Consultant - Nuclear Medicine,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121502,Consultant - Nutrition,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120902,Consultant - Obstetrics & Gynaecology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120702,Consultant - Opthalmology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610302,Consultant - Oral and Maxillofacial Surgeon,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610402,Consultant - Oral Pathologist,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610502,Consultant - Orthodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120602,Consultant - Orthopaedics,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122402,Consultant - Paediatric Neurology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121002,Consultant - Paediatrics,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610602,Consultant - Paedodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120802,Consultant - Pathology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610702,Consultant - Periodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610802,Consultant - Prosthodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120202,Consultant - Psychiatry,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122002,Consultant - Public Health,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121102,Consultant - Radiology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121202,Consultant - Radiotherapy,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122502,Consultant - Skin/STD,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610902,Consultant - Stomatologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122602,Consultant - TB,salary_grade|012,cadre|Medical
+isco_08_unit|1112,11120602,Deputy Chief Administrative Officer,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200206,Deputy Director,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200201,Deputy Director - Uganda Blood Transfussion Services,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200202,Deputy Director - Uganda Cancer Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200203,Deputy Director - Uganda Heart Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200204,Deputy Director - Uganda Virus Research Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200205,Deputy Executive Director - National Referral Hospital,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200401,Deputy Registrar - Allied Health Professional Council,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200404,Deputy Registrar - Pharmacy Council,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200402,Deputy Registrar - Uganda Medical & Dental Practitioner Council,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200403,Deputy Registrar - Uganda Nurses and Midwives Council,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200108,Director,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200101,Director - Natural Chemotherapuetic Research Laboratory,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200102,Director - Uganda Blood Transfussion Service,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200103,Director - Uganda Cancer Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200104,Director - Uganda Heart Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200105,Director - Uganda Virus Research Institute,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120205,Director Health Services - Allied Health,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120203,Director Health Services - Community and Clinical Health Services,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120204,Director Health Services - Nursing and Midwifery,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120202,Director Health Services - Planning and Development,salary_grade|012,cadre|Admin
+isco_08_unit|1213,12130101,District Health Officer,salary_grade|012,cadre|Medical
+isco_08_unit|1120,11200106,Executive Director - National Referral Hospital,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200107,Hospital Director - Regional Referral Hospital,salary_grade|012,cadre|Admin
+isco_08_unit|1120,11200301,Registrar - Allied Health Professional Council,salary_grade|012,cadre|AHPC
+isco_08_unit|1120,11200304,Registrar - Pharmacy Council,salary_grade|012,cadre|Pharma
+isco_08_unit|1120,11200302,Registrar - Uganda Medical & Dental Practitioner Council,salary_grade|012,cadre|Medical
+isco_08_unit|1120,11200303,Registrar - Uganda Nurses and Midwives Council,salary_grade|012,cadre|Nurse
+isco_08_unit|2212,22120201,Senior Consultant  - Psychiatry,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121401,Senior Consultant - Accident and Emergency,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120401,Senior Consultant - Anaesthesia,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121301,Senior Consultant - Clinical Oncology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22611101,Senior Consultant - Dentistry,salary_grade|012,cadre|Dental
+isco_08_unit|2261,22611001,Senior Consultant - Dentofacial orthopedic,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122101,Senior Consultant - Dermatologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120501,"Senior Consultant - Ear, Nose & Throat",salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121801,Senior Consultant - Endocrinology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610201,Senior Consultant - Endodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120301,Senior Consultant - General Surgery,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122202,Senior Consultant - Haemotologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120101,Senior Consultant - Internal Medicine,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121701,Senior Consultant - Neonatology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121601,Senior Consultant - Neurology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122301,Senior Consultant - Nuclear Medicine,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121501,Senior Consultant - Nutrition,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120901,Senior Consultant - Obstetrics & Gynaecology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120701,Senior Consultant - Opthalmology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610301,Senior Consultant - Oral and Maxillofacial Surgeon,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610401,Senior Consultant - Oral Pathologist,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610501,Senior Consultant - Orthodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120601,Senior Consultant - Orthopaedics,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122401,Senior Consultant - Paediatric Neurology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121001,Senior Consultant - Paediatrics,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610601,Senior Consultant - Paedodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22120801,Senior Consultant - Pathology,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610701,Senior Consultant - Periodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610801,Senior Consultant - Prosthodontist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122001,Senior Consultant - Public Health,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121101,Senior Consultant - Radiology,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22121201,Senior Consultant - Radiotherapy,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122501,Senior Consultant - Skin/STD,salary_grade|012,cadre|Medical
+isco_08_unit|2261,22610901,Senior Consultant - Stomatologist,salary_grade|012,cadre|Medical
+isco_08_unit|2212,22122601,Senior Consultant - TB,salary_grade|012,cadre|Medical
+isco_08_unit|1112,11120301,Under Secretary Finance and Administation - Ministry of Health,salary_grade|012,cadre|Admin
+isco_08_unit|1112,11120505,Assistant Commissioner - Finance,salary_grade|013,cadre|Admin
+isco_08_unit|1112,11120509,Assistant Commissioner - Human Resource Manegement,salary_grade|013,cadre|Admin
+isco_08_unit|1112,11120511,Assistant Commissioner - Internal Audit,salary_grade|013,cadre|Admin
+isco_08_unit|1112,11120514,Assistant Commissioner - Personnel,salary_grade|013,cadre|Admin
+isco_08_unit|1345,13450102,Deputy School Principal,salary_grade|013,cadre|Educat
+isco_08_unit|1345,13450101,School Principal,salary_grade|013,cadre|Educat
+isco_08_unit|1112,11120501,Assistant Commissioner - Accounts,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120502,Assistant Commissioner - Budget and Finance,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120510,Assistant Commissioner - Health Infrastructure,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120515,Assistant Commissioner - Pharmaceutical,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120528,Assistant Commissioner Health Services - Allied Health Professionals,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120503,Assistant Commissioner Health Services - Child Health,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120504,Assistant Commissioner Health Services - Clinical and Curative (integrated Curative),salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120529,Assistant Commissioner Health Services - Dentistry,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120506,Assistant Commissioner Health Services - Environmental Health,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120507,Assistant Commissioner Health Services - Health Education and Promotion,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120508,Assistant Commissioner Health Services - Human Resource Development,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120525,Assistant Commissioner Health Services - Medical Laboratory,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120513,Assistant Commissioner Health Services - Midwifery,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120512,Assistant Commissioner Health Services - Nursing Services,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120516,Assistant Commissioner Health Services - Planning,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120527,Assistant Commissioner Health Services - Public Health Nursing,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120517,Assistant Commissioner Health Services - Quality Assurance,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120526,Assistant Commissioner Health Services - Radiology,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120518,Assistant Commissioner Health Services - Reproductive Health,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120519,Assistant Commissioner Health Services - Resource Centre,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120520,Assistant Commissioner Health Services - Support Services,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120521,Assistant Commissioner Health Services - Surveillance and Epidemiology,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120522,Assistant Commissioner Health Services - UNEPI,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120523,Assistant Commissioner Health Services - Vector Born Disease Control,salary_grade|015,cadre|Admin
+isco_08_unit|1112,11120524,Assistant Commissioner Health Services - Veterinary Public Health,salary_grade|015,cadre|Admin
+isco_08_unit|1213,12130102,Assistant District Health Officer (Environmental Health),salary_grade|015,cadre|Medical
+isco_08_unit|1213,12130103,Assistant District Health Officer (MCH/Nursing),salary_grade|015,cadre|Nurse
+isco_08_unit|2266,22660201,Principal Clinical Officer (Speech Therapy),salary_grade|020,cadre|AHPC
+isco_08_unit|2240,22401201,Principal Clinical Psychologist,salary_grade|020,cadre|AHPC
+isco_08_unit|2631,26310101,Principal Health Economist,salary_grade|020,cadre|Non_health
+isco_08_unit|2212,22120503,"Medical Officer Special Grade - Ear, Nose & Throat",salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122303,Medical Officer Special Grade - Nuclear Medicine,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120903,Medical Officer Special Grade - Obstetrics & Gynaecology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122403,Medical Officer Special Grade - Paediatric Neurology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121103,Medical Officer Special Grade - Radiology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122503,Medical Officer Special Grade - Skin/STD,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122603,Medical Officer Special Grade - TB,salary_grade|020,cadre|Medical
+isco_08_unit|2265,22650101,Principal Nutritionist,salary_grade|020,cadre|Non_health
+isco_08_unit|2240,22400801,Principal Orthopaedic Clinical Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|2221,22210201,Principal Public Health Nurse,salary_grade|020,cadre|Nurse
+isco_08_unit|2261,22611103,Dental Surgeon Special Grade - Dentistry,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22611003,Dental Surgeon Special Grade - Dentofacial orthopedic,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610203,Dental Surgeon Special Grade - Endodontist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610303,Dental Surgeon Special Grade - Oral and Maxillofacial Surgeon,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610403,Dental Surgeon Special Grade - Oral Pathologist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610503,Dental Surgeon Special Grade - Orthodontist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610603,Dental Surgeon Special Grade - Paedodontist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610703,Dental Surgeon Special Grade - Periodontist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610803,Dental Surgeon Special Grade - Prosthodontist,salary_grade|020,cadre|Dental
+isco_08_unit|2261,22610903,Dental Surgeon Special Grade - Stomatologist,salary_grade|020,cadre|Dental
+isco_08_unit|2212,22121403,Medical Officer Special Grade - Accident and Emergency,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120403,Medical Officer Special Grade - Anaesthesia,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121303,Medical Officer Special Grade - Clinical Oncology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122103,Medical Officer Special Grade - Dermatologist,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121803,Medical Officer Special Grade - Endocrinology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120303,Medical Officer Special Grade - General Surgery,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122204,Medical Officer Special Grade - Haemotologist,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120103,Medical Officer Special Grade - Internal Medicine,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121703,Medical Officer Special Grade - Neonatology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121603,Medical Officer Special Grade - Neurology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121503,Medical Officer Special Grade - Nutrition,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120703,Medical Officer Special Grade - Ophthalmology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120603,Medical Officer Special Grade - Orthopaedics,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121003,Medical Officer Special Grade - Paediatrics,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120803,Medical Officer Special Grade - Pathology,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22120203,Medical Officer Special Grade - Psychiatry,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22122003,Medical Officer Special Grade - Public Health,salary_grade|020,cadre|Medical
+isco_08_unit|2212,22121203,Medical Officer Special Grade - Radiotherapy,salary_grade|020,cadre|Medical
+isco_08_unit|3141,31410101,Principal Biochemist,salary_grade|020,cadre|AHPC
+isco_08_unit|2149,21490101,Principal Biomedical Engineer,salary_grade|020,cadre|Non_health
+isco_08_unit|2120,21200101,Principal Bio-Statistician,salary_grade|020,cadre|Non_health
+isco_08_unit|2131,21310302,Principal Botanist,salary_grade|020,cadre|AHPC
+isco_08_unit|2261,22610101,Principal Dental Surgeon,salary_grade|020,cadre|Dental
+isco_08_unit|2240,22401001,Principal Dermatology Clinical Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|3256,32560401,Principal ENT clinical officer,salary_grade|020,cadre|AHPC
+isco_08_unit|6123,61230101,Principal Entomologist,salary_grade|020,cadre|Admin
+isco_08_unit|2131,21310201,Principal Epidemiologist,salary_grade|020,cadre|Non_health
+isco_08_unit|2265,22650201,Principal Food Technologist,salary_grade|020,cadre|Non_health
+isco_08_unit|3253,32530201,Principal Health Educationist,salary_grade|020,cadre|Educat
+isco_08_unit|3253,32530101,Principal Health Educator,salary_grade|020,cadre|AHPC
+isco_08_unit|1213,12130201,Principal Health Planner,salary_grade|020,cadre|Admin
+isco_08_unit|2120,21200201,Principal Health Statistician,salary_grade|020,cadre|Non_health
+isco_08_unit|2424,24240102,Principal Health Training Officer,salary_grade|020,cadre|Educat
+isco_08_unit|2131,21310402,Principal Immunologist,salary_grade|020,cadre|AHPC
+isco_08_unit|2240,22400701,Principal Medical Clinical officer,salary_grade|020,cadre|AHPC
+isco_08_unit|2211,22110101,Principal Medical Officer,salary_grade|020,cadre|Medical
+isco_08_unit|2111,21110101,Principal Medical Physicist,salary_grade|020,cadre|AHPC
+isco_08_unit|2131,21310701,Principal Microbiologist,salary_grade|020,cadre|AHPC
+isco_08_unit|2222,22220201,Principal Midwifery Educators,salary_grade|020,cadre|Educat
+isco_08_unit|2222,22220101,Principal Midwifery Officer,salary_grade|020,cadre|Midwife
+isco_08_unit|2221,22210102,Principal Nursing Officer,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210601,Principal Nursing Officer - Cardio-Thoracic Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210701,Principal Nursing Officer - Critical Care Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212901,Principal Nursing Officer - ENT Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212701,Principal Nursing Officer - Geriatric Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212601,Principal Nursing Officer - Infection Control Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212401,Principal Nursing Officer - Neonatal Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212501,Principal Nursing Officer - Nephrology Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212201,Principal Nursing Officer - Neurology Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212301,Principal Nursing Officer - Oncology Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22213001,Principal Nursing Officer - Ophthalmic Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212101,Principal Nursing Officer - Orthopeadic Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210401,Principal Nursing Officer - Paediatrics,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210501,Principal Nursing Officer - Palliative Care Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210301,Principal Nursing Officer - Psychiatry,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210901,Principal Nursing Officer - Reproductive Health Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212001,Principal Nursing Officer - Theatre Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22212801,Principal Nursing Officer - Transfusion Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2221,22210801,Principal Nursing Officer - Trauma and Emergency Nursing,salary_grade|020,cadre|Nurse
+isco_08_unit|2240,22400101,Principal Ophthalmic Clinical Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|2240,22400601,Principal Optometrist,salary_grade|020,cadre|AHPC
+isco_08_unit|2262,22620101,Principal Pharmacist,salary_grade|020,cadre|Pharma
+isco_08_unit|2240,22400201,Principal Psychiatric Clinical Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|3251,32510201,Principal Public Health Dental Assistant,salary_grade|020,cadre|AHPC
+isco_08_unit|3251,32510101,Principal Public Health Dental Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|1342,13420201,Principal Public Health Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|2131,21310602,Principal Research Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|7544,75440101,Principal Vector Control Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|3240,32400101,Principal Veterinary Officer,salary_grade|020,cadre|AHPC
+isco_08_unit|2131,21310502,Principal Virologist,salary_grade|020,cadre|AHPC
+isco_08_unit|2133,21330101,Senior Principal Ecologist,salary_grade|020,cadre|AHPC
+isco_08_unit|2424,24240101,Senior Principal Health Training Officer,salary_grade|020,cadre|Educat
+isco_08_unit|2221,22210101,Senior Principal Nursing Officer,salary_grade|020,cadre|Nurse
+isco_08_unit|3212,32120101,Blood Donor Services Manager,salary_grade|021,cadre|Admin
+isco_08_unit|2411,24110101,Principal Accountant,salary_grade|021,cadre|Admin
+isco_08_unit|2142,21420201,Principal Assistant Engineering Officer - Civil,salary_grade|021,cadre|Non_health
+isco_08_unit|2151,21510101,Principal Assistant Engineering Officer - Electrical,salary_grade|021,cadre|Non_health
+isco_08_unit|2144,21440201,Principal Assistant Engineering Officer - Mechanical,salary_grade|021,cadre|Non_health
+isco_08_unit|2164,21640101,Principal District Planner,salary_grade|021,cadre|Admin
+isco_08_unit|2631,26310201,Principal Economist,salary_grade|021,cadre|Admin
+isco_08_unit|2142,21420101,Principal Hospital Engineer,salary_grade|021,cadre|Non_health
+isco_08_unit|4416,44160101,Principal Human Resource Officer,salary_grade|021,cadre|Non_health
+isco_08_unit|1330,13300101,Principal Information Technology Officer,salary_grade|021,cadre|Non_health
+isco_08_unit|2144,21440101,Principal Instrument Mechanic,salary_grade|021,cadre|Non_health
+isco_08_unit|2411,24110201,Principal Internal Auditor,salary_grade|021,cadre|Admin
+isco_08_unit|2522,25220201,Principal Network Administrator,salary_grade|021,cadre|Non_health
+isco_08_unit|3323,33230101,Principal Procurement Officer,salary_grade|021,cadre|Admin
+isco_08_unit|2120,21200301,Principal Statistician,salary_grade|021,cadre|Non_health
+isco_08_unit|2522,25220101,Principal Systems Administrator,salary_grade|021,cadre|Non_health
+isco_08_unit|7543,75430101,Quality Assurance Manager,salary_grade|021,cadre|Admin
+isco_08_unit|3343,33430101,Principal Assistant Secretary,salary_grade|022,cadre|Admin
+isco_08_unit|3212,32120102,Principal Blood Donor Recruiter,salary_grade|022,cadre|Admin
+isco_08_unit|2330,23300103,Principal Education Officer,salary_grade|022,cadre|Educat
+isco_08_unit|1211,12110202,Principal Finance Officer,salary_grade|022,cadre|Admin
+isco_08_unit|1342,13420101,Principal Hospital Administrator,salary_grade|022,cadre|Admin
+isco_08_unit|2351,23510201,Principal Inspector Of Schools,salary_grade|022,cadre|Educat
+isco_08_unit|2310,23100101,Principal Lecturer,salary_grade|022,cadre|Educat
+isco_08_unit|3252,32520101,Principal Medical Records Officer,salary_grade|022,cadre|Admin
+isco_08_unit|2635,26350101,Principal Medical Social Worker,salary_grade|022,cadre|Non_health
+isco_08_unit|3341,33410102,Principal Office Supervisor,salary_grade|022,cadre|Admin
+isco_08_unit|4120,41200101,Principal Personal Secretary,salary_grade|022,cadre|Support
+isco_08_unit|2422,24220101,Principal Policy Analyst,salary_grade|022,cadre|Admin
+isco_08_unit|2635,26350201,Principal Psychiatric Social Worker,salary_grade|022,cadre|Non_health
+isco_08_unit|3252,32520201,Principal Records Officer,salary_grade|022,cadre|Admin
+isco_08_unit|2632,26320101,Principal Sociologist,salary_grade|022,cadre|Non_health
+isco_08_unit|3323,33230201,Principal Supplies Officer,salary_grade|022,cadre|Admin
+isco_08_unit|1211,12110101,Prinicipal Administrator,salary_grade|022,cadre|Admin
+isco_08_unit|3341,33410101,Senior Principal Office Supervisor,salary_grade|022,cadre|Admin
+isco_08_unit|2263,22630101,Principal Radio Pharmacist,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310301,Senior Principal Botanist,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310401,Senior Principal Immunologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310601,Senior Principal Research Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310501,Senior Principal Virologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2263,22630102,Senior Radio Pharmacist,salary_grade|030,cadre|AHPC
+isco_08_unit|2265,22650102,Senior Nutritionist,salary_grade|030,cadre|Non_health
+isco_08_unit|2240,22400802,Senior Orthopaedic Clinical Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2221,22210202,Senior Public Health Nurse,salary_grade|030,cadre|Nurse
+isco_08_unit|2240,22400301,Principal Anaesthetic Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3253,32530204,Principal Assistant Health Education Officer,salary_grade|030,cadre|Educat
+isco_08_unit|3253,32530104,Principal Assistant Health Educator,salary_grade|030,cadre|Educat
+isco_08_unit|2266,22660101,Principal Audiological Technologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2240,22400501,Principal Clinical officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3214,32140201,Principal Dental Technician,salary_grade|030,cadre|Dental
+isco_08_unit|3214,32140101,Principal Dental Technologist,salary_grade|030,cadre|Dental
+isco_08_unit|2262,22620201,Principal Dispenser,salary_grade|030,cadre|AHPC
+isco_08_unit|2133,21330102,Principal Ecologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2263,22630201,Principal Environmental Health officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3257,32570101,Principal health Inspector,salary_grade|030,cadre|AHPC
+isco_08_unit|3253,32530401,Principal Health Visitor,salary_grade|030,cadre|AHPC
+isco_08_unit|3212,32120201,Principal Medical Laboratory Scientific Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3212,32120401,Principal Medical Laboratory Technician,salary_grade|030,cadre|AHPC
+isco_08_unit|3212,32120301,Principal Medical Laboratory Technologist,salary_grade|030,cadre|AHPC
+isco_08_unit|3211,32110101,Principal Medical Radiological Scientific officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2269,22690101,Principal Occupational Therapist,salary_grade|030,cadre|AHPC
+isco_08_unit|3254,32540101,Principal Optical Dispenser,salary_grade|030,cadre|AHPC
+isco_08_unit|2240,22400901,Principal Orthopaedic Technologist(Orthotist/Prothetist),salary_grade|030,cadre|AHPC
+isco_08_unit|2264,22640101,Principal Physiotherapist,salary_grade|030,cadre|AHPC
+isco_08_unit|3211,32110104,Principal Radiographer,salary_grade|030,cadre|AHPC
+isco_08_unit|3211,32110201,Principal Radiological Technologist,salary_grade|030,cadre|AHPC
+isco_08_unit|3211,32110301,Principal Sonographer,salary_grade|030,cadre|AHPC
+isco_08_unit|3141,31410102,Senior Biochemist,salary_grade|030,cadre|AHPC
+isco_08_unit|2149,21490102,Senior Biomedical Engineer,salary_grade|030,cadre|AHPC
+isco_08_unit|2120,21200102,Senior Bio-Statistician,salary_grade|030,cadre|Non_health
+isco_08_unit|2131,21310303,Senior Botanist,salary_grade|030,cadre|AHPC
+isco_08_unit|2261,22610102,Senior Dental Surgeon,salary_grade|030,cadre|Dental
+isco_08_unit|2240,22401002,Senior Dermatology Clinical Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3256,32560402,Senior ENT clinical officer,salary_grade|030,cadre|AHPC
+isco_08_unit|6123,61230102,Senior Entomologist,salary_grade|030,cadre|Admin
+isco_08_unit|2131,21310202,Senior Epidemiologist,salary_grade|030,cadre|Non_health
+isco_08_unit|2265,22650202,Senior Food Technologist,salary_grade|030,cadre|Non_health
+isco_08_unit|3253,32530202,Senior Health Educationist,salary_grade|030,cadre|Educat
+isco_08_unit|3253,32530102,Senior Health Educator,salary_grade|030,cadre|AHPC
+isco_08_unit|1213,12130202,Senior Health Planner,salary_grade|030,cadre|Admin
+isco_08_unit|2120,21200202,Senior Health Statistician,salary_grade|030,cadre|Admin
+isco_08_unit|2424,24240103,Senior Health Training Officer,salary_grade|030,cadre|Educat
+isco_08_unit|2131,21310403,Senior Immunologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2240,22400702,Senior Medical Clinical officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2211,22110102,Senior Medical Officer,salary_grade|030,cadre|Medical
+isco_08_unit|2111,21110102,Senior Medical Physicist,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310702,Senior Microbiologist,salary_grade|030,cadre|AHPC
+isco_08_unit|2222,22220202,Senior Midwifery Educators,salary_grade|030,cadre|Educat
+isco_08_unit|2222,22220102,Senior Midwifery Officer,salary_grade|030,cadre|Midwife
+isco_08_unit|2221,22210103,Senior Nursing Officer,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210602,Senior Nursing Officer - Cardio-Thoracic Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210702,Senior Nursing Officer - Critical Care Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212902,Senior Nursing Officer - ENT Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212702,Senior Nursing Officer - Geriatric Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212602,Senior Nursing Officer - Infection Control Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212402,Senior Nursing Officer - Neonatal Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212502,Senior Nursing Officer - Nephrology Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212202,Senior Nursing Officer - Neurology Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212302,Senior Nursing Officer - Oncology Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22213002,Senior Nursing Officer - Ophthalmic Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212102,Senior Nursing Officer - Orthopeadic Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210402,Senior Nursing Officer - Paediatrics,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210502,Senior Nursing Officer - Palliative Care Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210302,Senior Nursing Officer - Psychiatry,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210902,Senior Nursing Officer - Reproductive Health Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212002,Senior Nursing Officer - Theatre Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22212802,Senior Nursing Officer - Transfusion Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2221,22210802,Senior Nursing Officer - Trauma and Emergency Nursing,salary_grade|030,cadre|Nurse
+isco_08_unit|2240,22400102,Senior Ophthalmic Clinical Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2240,22400602,Senior Optometrist,salary_grade|030,cadre|AHPC
+isco_08_unit|2262,22620102,Senior Pharmacist,salary_grade|030,cadre|Pharma
+isco_08_unit|2240,22400202,Senior Psychiatric clinical officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3251,32510202,Senior Public Health Dental Assistant,salary_grade|030,cadre|Dental
+isco_08_unit|3251,32510102,Senior Public Health Dental Officer,salary_grade|030,cadre|Dental
+isco_08_unit|1342,13420202,Senior Public Health Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2131,21310603,Senior Research Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|2120,21200302,Senior Statistician,salary_grade|030,cadre|Admin
+isco_08_unit|7544,75440102,Senior Vector Control Officer,salary_grade|030,cadre|AHPC
+isco_08_unit|3240,32400102,Senior Veterinary Officer,salary_grade|030,cadre|Admin
+isco_08_unit|2131,21310503,Senior Virologist,salary_grade|030,cadre|AHPC
+isco_08_unit|1222,12220101,Principal Public Relations Officer,salary_grade|031,cadre|Admin
+isco_08_unit|5414,54140201,Principal Security Officer,salary_grade|031,cadre|Support
+isco_08_unit|1213,12130302,Senior Physical Planner,salary_grade|031,cadre|Admin
+isco_08_unit|3512,35120100,Technician - Information Technology Communication,salary_grade|031,cadre|Support
+isco_08_unit|1112,11120603,Assistant Chief Administrative Officer,salary_grade|031,cadre|Admin
+isco_08_unit|3252,32520301,Principal Health Information Officer,salary_grade|031,cadre|AHPC
+isco_08_unit|2411,24110102,Senior Accountant,salary_grade|031,cadre|Admin
+isco_08_unit|2142,21420202,Senior Assistant Engineering Officer - Civil,salary_grade|031,cadre|Non_health
+isco_08_unit|2151,21510102,Senior Assistant Engineering Officer - Electrical,salary_grade|031,cadre|Non_health
+isco_08_unit|2144,21440202,Senior Assistant Engineering Officer - Mechanical,salary_grade|031,cadre|Non_health
+isco_08_unit|2411,24110302,Senior Auditor,salary_grade|031,cadre|Admin
+isco_08_unit|2164,21640102,Senior District Planner,salary_grade|031,cadre|Admin
+isco_08_unit|2631,26310202,Senior Economist,salary_grade|031,cadre|Admin
+isco_08_unit|2631,26310102,Senior Health Economist,salary_grade|031,cadre|Non_health
+isco_08_unit|2142,21420102,Senior Hospital Engineer,salary_grade|031,cadre|Non_health
+isco_08_unit|4416,44160104,Senior Human Resource Assistant,salary_grade|031,cadre|Admin
+isco_08_unit|4416,44160102,Senior Human Resource Officer,salary_grade|031,cadre|Non_health
+isco_08_unit|1330,13300102,Senior Information Technology Officer,salary_grade|031,cadre|Non_health
+isco_08_unit|2144,21440102,Senior Instrument Mechanic,salary_grade|031,cadre|Non_health
+isco_08_unit|2411,24110202,Senior Internal Auditor,salary_grade|031,cadre|Admin
+isco_08_unit|2522,25220202,Senior Network Administrator,salary_grade|031,cadre|Non_health
+isco_08_unit|3341,33410103,Senior Office Supervisor,salary_grade|031,cadre|Admin
+isco_08_unit|3323,33230102,Senior Procurement Officer,salary_grade|031,cadre|Admin
+isco_08_unit|7543,75430102,Senior Quality Assurance Officer,salary_grade|031,cadre|Non_health
+isco_08_unit|2522,25220102,Senior Systems Administrator,salary_grade|031,cadre|Non_health
+isco_08_unit|5120,51200103,Catering Officer,salary_grade|032,cadre|Support
+isco_08_unit|5120,51200101,Principal Catering Officer,salary_grade|032,cadre|Support
+isco_08_unit|2622,26220201,Principal Information Scientist,salary_grade|032,cadre|Non_health
+isco_08_unit|2320,23200101,Principal Instructor,salary_grade|032,cadre|Educat
+isco_08_unit|2320,23200201,Principal Tutor,salary_grade|032,cadre|Educat
+isco_08_unit|1211,12110102,Senior Administrator,salary_grade|032,cadre|Admin
+isco_08_unit|3343,33430102,Senior Assistant Secretary,salary_grade|032,cadre|Admin
+isco_08_unit|2330,23300104,Senior Education Officer,salary_grade|032,cadre|Educat
+isco_08_unit|1211,12110203,Senior Finance Officer,salary_grade|032,cadre|Admin
+isco_08_unit|1342,13420102,Senior Hospital Administrator,salary_grade|032,cadre|Admin
+isco_08_unit|2622,26220202,Senior Information Scientist,salary_grade|032,cadre|Non_health
+isco_08_unit|2351,23510202,Senior Inspector Of Schools,salary_grade|032,cadre|Educat
+isco_08_unit|2310,23100102,Senior Lecturer,salary_grade|032,cadre|Educat
+isco_08_unit|2622,26220101,Senior Librarian,salary_grade|032,cadre|Admin
+isco_08_unit|3252,32520102,Senior Medical Records Officer,salary_grade|032,cadre|Admin
+isco_08_unit|2635,26350102,Senior Medical Social Worker,salary_grade|032,cadre|Non_health
+isco_08_unit|4120,41200102,Senior Personal Secretary,salary_grade|032,cadre|Support
+isco_08_unit|2422,24220102,Senior Policy analyst,salary_grade|032,cadre|Admin
+isco_08_unit|2635,26350202,Senior Psychiatric Social Worker,salary_grade|032,cadre|Non_health
+isco_08_unit|3252,32520202,Senior Records Officer,salary_grade|032,cadre|Admin
+isco_08_unit|2632,26320102,Senior Sociologist,salary_grade|032,cadre|Non_health
+isco_08_unit|3323,33230202,Senior Supplies Officer,salary_grade|032,cadre|Admin
+isco_08_unit|2263,22630103,Radio Pharmacist,salary_grade|040,cadre|AHPC
+isco_08_unit|2266,22660202,Senior Clinical Officer (Speech Therapy),salary_grade|040,cadre|AHPC
+isco_08_unit|2265,22650103,Nutritionist,salary_grade|040,cadre|Non_health
+isco_08_unit|2240,22400803,Orthopaedic Clinical Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|2221,22210203,Public Health Nurse,salary_grade|040,cadre|Nurse
+isco_08_unit|3141,31410103,Biochemist,salary_grade|040,cadre|AHPC
+isco_08_unit|2149,21490103,Biomedical Engineer,salary_grade|040,cadre|AHPC
+isco_08_unit|2120,21200103,Bio-Statistician,salary_grade|040,cadre|Non_health
+isco_08_unit|2131,21310304,Botanist,salary_grade|040,cadre|AHPC
+isco_08_unit|2261,22610103,Dental Surgeon,salary_grade|040,cadre|Dental
+isco_08_unit|2240,22401003,Dermatology Clinical Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3256,32560403,ENT clinical officer,salary_grade|040,cadre|AHPC
+isco_08_unit|6123,61230103,Entomologist,salary_grade|040,cadre|Admin
+isco_08_unit|2131,21310203,Epidemiologist,salary_grade|040,cadre|Non_health
+isco_08_unit|2265,22650203,Food Technologist,salary_grade|040,cadre|AHPC
+isco_08_unit|3253,32530203,Health Educationist,salary_grade|040,cadre|Educat
+isco_08_unit|3253,32530103,Health Educator,salary_grade|040,cadre|AHPC
+isco_08_unit|1213,12130203,Health Planner,salary_grade|040,cadre|Admin
+isco_08_unit|2120,21200203,Health Statistician,salary_grade|040,cadre|Non_health
+isco_08_unit|2424,24240104,Health Training Officer,salary_grade|040,cadre|Educat
+isco_08_unit|3253,32530403,Health Visitor,salary_grade|040,cadre|AHPC
+isco_08_unit|2131,21310404,Immunologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400703,Medical Clinical officer,salary_grade|040,cadre|AHPC
+isco_08_unit|2211,22110103,Medical Officer,salary_grade|040,cadre|Medical
+isco_08_unit|2111,21110103,Medical Physicist,salary_grade|040,cadre|AHPC
+isco_08_unit|2131,21310703,Microbiologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2222,22220203,Midwifery Educators,salary_grade|040,cadre|Midwife
+isco_08_unit|2222,22220103,Midwifery Officer,salary_grade|040,cadre|Midwife
+isco_08_unit|2221,22210104,Nursing Officer,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210603,Nursing Officer - Cardio-Thoracic Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210703,Nursing Officer - Critical Care Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212903,Nursing Officer - ENT Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212703,Nursing Officer - Geriatric Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212603,Nursing Officer - Infection Control Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212403,Nursing Officer - Neonatal Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212503,Nursing Officer - Nephrology Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212203,Nursing Officer - Neurology Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212303,Nursing Officer - Oncology Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22213003,Nursing Officer - Ophthalmic Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212103,Nursing Officer - Orthopeadic Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210403,Nursing Officer - Paediatrics,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210503,Nursing Officer - Palliative Care Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210303,Nursing Officer - Psychiatry,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210903,Nursing Officer - Reproductive Health Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212003,Nursing Officer - Theatre Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22212803,Nursing Officer - Transfusion Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2221,22210803,Nursing Officer - Trauma and Emergency Nursing,salary_grade|040,cadre|Nurse
+isco_08_unit|2240,22400103,Ophthalmic clinical Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400603,Optometrist,salary_grade|040,cadre|AHPC
+isco_08_unit|2131,21310101,Parasitologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2262,22620103,Pharmacist,salary_grade|040,cadre|Pharma
+isco_08_unit|3251,32510203,Public Health Dental Assistant,salary_grade|040,cadre|AHPC
+isco_08_unit|3251,32510103,Public Health Dental Officer,salary_grade|040,cadre|Dental
+isco_08_unit|1342,13420203,Public Health Officer,salary_grade|040,cadre|Medical
+isco_08_unit|2131,21310604,Research Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400302,Senior Anaesthetic officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3253,32530105,Senior Assistant Health Educator,salary_grade|040,cadre|AHPC
+isco_08_unit|2221,22210105,Senior Assistant Nursing Officer,salary_grade|040,cadre|Nurse
+isco_08_unit|2266,22660104,Senior Audiological Technician,salary_grade|040,cadre|AHPC
+isco_08_unit|2266,22660102,Senior Audiological Technologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400502,Senior Clinical officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3253,32530301,Senior Community health promoter,salary_grade|040,cadre|AHPC
+isco_08_unit|3214,32140105,Senior Dental Technician,salary_grade|040,cadre|Dental
+isco_08_unit|3214,32140102,Senior Dental technologist,salary_grade|040,cadre|Dental
+isco_08_unit|2262,22620202,Senior Dispenser,salary_grade|040,cadre|AHPC
+isco_08_unit|2133,21330103,Senior Ecologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2263,22630202,Senior Environmental Health Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3257,32570102,Senior health Inspector,salary_grade|040,cadre|AHPC
+isco_08_unit|3253,32530402,Senior Health Visitor,salary_grade|040,cadre|AHPC
+isco_08_unit|3212,32120202,Senior Medical Laboratory scientific Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3212,32120402,Senior Medical Laboratory Technician,salary_grade|040,cadre|AHPC
+isco_08_unit|3212,32120302,Senior Medical Laboratory Technologist,salary_grade|040,cadre|AHPC
+isco_08_unit|3211,32110102,Senior Medical Radiological Scientific officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3211,32110202,Senior Medical Radiological Technologist,salary_grade|040,cadre|AHPC
+isco_08_unit|2269,22690102,Senior Occupational Therapist,salary_grade|040,cadre|AHPC
+isco_08_unit|3254,32540102,Senior Optical Dispenser,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400904,Senior Orthopaedic Technician,salary_grade|040,cadre|AHPC
+isco_08_unit|2240,22400902,Senior Orthopaedic Technologist(Orthotist/Prothetist),salary_grade|040,cadre|AHPC
+isco_08_unit|2264,22640102,Senior Physiotherapist,salary_grade|040,cadre|AHPC
+isco_08_unit|3211,32110105,Senior Radiographer,salary_grade|040,cadre|AHPC
+isco_08_unit|3211,32110302,Senior Sonographer,salary_grade|040,cadre|AHPC
+isco_08_unit|5321,53210201,Senior Theatre Assistant,salary_grade|040,cadre|AHPC
+isco_08_unit|2120,21200303,Statistician,salary_grade|040,cadre|Admin
+isco_08_unit|7544,75440103,Vector Control Officer,salary_grade|040,cadre|AHPC
+isco_08_unit|3240,32400103,Veterinary Officer,salary_grade|040,cadre|Admin
+isco_08_unit|2131,21310504,Virologist,salary_grade|040,cadre|AHPC
+isco_08_unit|1222,12220102,Senior Public Relations Officer,salary_grade|041,cadre|Admin
+isco_08_unit|5414,54140202,Senior Security Officer,salary_grade|041,cadre|Support
+isco_08_unit|2411,24110103,Accountant,salary_grade|041,cadre|Admin
+isco_08_unit|2142,21420203,Assistant Engineering Officer - Civil,salary_grade|041,cadre|Non_health
+isco_08_unit|2151,21510103,Assistant Engineering Officer - Electrical,salary_grade|041,cadre|Non_health
+isco_08_unit|2144,21440203,Assistant Engineering Officer - Mechanical,salary_grade|041,cadre|Non_health
+isco_08_unit|2411,24110303,Auditor,salary_grade|041,cadre|Admin
+isco_08_unit|3343,33430202,Data Manager,salary_grade|041,cadre|Admin
+isco_08_unit|2164,21640103,District Planner,salary_grade|041,cadre|Admin
+isco_08_unit|2631,26310203,Economist,salary_grade|041,cadre|Admin
+isco_08_unit|2341,23410101,Head Teacher,salary_grade|041,cadre|Educat
+isco_08_unit|2330,23300101,Head Teacher - Education Officer,salary_grade|041,cadre|Educat
+isco_08_unit|2142,21420103,Hospital Engineer,salary_grade|041,cadre|Non_health
+isco_08_unit|1330,13300103,Information Technology Officer,salary_grade|041,cadre|Non_health
+isco_08_unit|2144,21440103,Instrument Mechanic,salary_grade|041,cadre|Non_health
+isco_08_unit|2411,24110203,Internal Auditor,salary_grade|041,cadre|Admin
+isco_08_unit|2522,25220203,Network Administrator,salary_grade|041,cadre|Non_health
+isco_08_unit|3341,33410104,Office Supervisor,salary_grade|041,cadre|Admin
+isco_08_unit|3313,33130102,Principal Accounts Assistant,salary_grade|041,cadre|Admin
+isco_08_unit|3323,33230103,Procurement Officer,salary_grade|041,cadre|Admin
+isco_08_unit|7543,75430103,Quality Assurance Officer,salary_grade|041,cadre|Admin
+isco_08_unit|3252,32520302,Senior Health Information Officer,salary_grade|041,cadre|AHPC
+isco_08_unit|2320,23200102,Senior Instructor,salary_grade|041,cadre|Educat
+isco_08_unit|4321,43210101,Senior Principal Stores Assistant,salary_grade|041,cadre|Admin
+isco_08_unit|2320,23200202,Senior Tutor,salary_grade|041,cadre|Educat
+isco_08_unit|2522,25220103,Systems Administrator,salary_grade|041,cadre|Non_health
+isco_08_unit|1222,12220103,Public Relations Officer,salary_grade|042,cadre|Admin
+isco_08_unit|1211,12110103,Administrator,salary_grade|042,cadre|Admin
+isco_08_unit|3343,33430103,Assistant Secretary,salary_grade|042,cadre|Support
+isco_08_unit|2341,23410102,Deputy Head Teacher - Education Assistant,salary_grade|042,cadre|Educat
+isco_08_unit|2330,23300102,Deputy Head Teacher - Education Officer,salary_grade|042,cadre|Educat
+isco_08_unit|2330,23300105,Education Officer,salary_grade|042,cadre|Educat
+isco_08_unit|1211,12110204,Finance Officer,salary_grade|042,cadre|Admin
+isco_08_unit|1342,13420103,Hospital Administrator,salary_grade|042,cadre|Admin
+isco_08_unit|4416,44160105,Human Resource Assistant,salary_grade|042,cadre|Admin
+isco_08_unit|4416,44160103,Human Resource Officer,salary_grade|042,cadre|Non_health
+isco_08_unit|2622,26220203,Information Scientist,salary_grade|042,cadre|Admin
+isco_08_unit|2351,23510203,Inspector Of Schools,salary_grade|042,cadre|Educat
+isco_08_unit|2310,23100103,Lecturer,salary_grade|042,cadre|Educat
+isco_08_unit|2622,26220102,Librarian,salary_grade|042,cadre|Admin
+isco_08_unit|3252,32520103,Medical Records Officer,salary_grade|042,cadre|Admin
+isco_08_unit|2635,26350103,Medical Social Worker,salary_grade|042,cadre|AHPC
+isco_08_unit|4120,41200103,Personal Secretary,salary_grade|042,cadre|Support
+isco_08_unit|2422,24220103,Policy analyst,salary_grade|042,cadre|Admin
+isco_08_unit|4223,42230101,Principal Telephone Operator,salary_grade|042,cadre|Non_health
+isco_08_unit|2635,26350203,Psychiatric Social Worker,salary_grade|042,cadre|AHPC
+isco_08_unit|3252,32520203,Records Officer,salary_grade|042,cadre|Admin
+isco_08_unit|2622,26220103,Senior Assistant Librarian,salary_grade|042,cadre|Admin
+isco_08_unit|3252,32520402,Senior Assistant Records Officer,salary_grade|042,cadre|Admin
+isco_08_unit|5120,51200102,Senior Catering Officer,salary_grade|042,cadre|Support
+isco_08_unit|2632,26320103,Sociologist,salary_grade|042,cadre|AHPC
+isco_08_unit|3323,33230203,Supplies Officer,salary_grade|042,cadre|Admin
+isco_08_unit|2240,22400303,Anaesthetic officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3256,32560404,Assistant ENT clinical officer,salary_grade|050,cadre|AHPC
+isco_08_unit|6123,61230104,Assistant Entomological Officer,salary_grade|050,cadre|Admin
+isco_08_unit|3253,32530106,Assistant Health Educator,salary_grade|050,cadre|AHPC
+isco_08_unit|3253,32530404,Assistant Health Visitor,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400704,Assistant Medical Clinical Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|2222,22220204,Assistant Midwifery Educators,salary_grade|050,cadre|Midwife
+isco_08_unit|2221,22210106,Assistant Nursing Officer,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210704,Assistant Nursing Officer - Critical Care Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212904,Assistant Nursing Officer - ENT Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212704,Assistant Nursing Officer - Geriatric Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212604,Assistant Nursing Officer - Infection Control Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212404,Assistant Nursing Officer - Neonatal Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212504,Assistant Nursing Officer - Nephrology Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212204,Assistant Nursing Officer - Neurology Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212304,Assistant Nursing Officer - Oncology Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22213004,Assistant Nursing Officer - Ophthalmic Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212104,Assistant Nursing Officer - Orthopeadic Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210404,Assistant Nursing Officer - Paediatrics,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210504,Assistant Nursing Officer - Palliative Care Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210304,Assistant Nursing Officer - Psychiatry,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210904,Assistant Nursing Officer - Reproductive Health Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212004,Assistant Nursing Officer - Theatre Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22212804,Assistant Nursing Officer - Transfusion Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210804,Assistant Nursing Officer - Trauma and Emergency Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2222,22220104,Assistant Nursing Officer (Midwifery),salary_grade|050,cadre|Nurse
+isco_08_unit|2221,22210604,Assistant Nursing Officer -Cardio-Thoractic Nursing,salary_grade|050,cadre|Nurse
+isco_08_unit|2265,22650104,Assistant Nutritionist,salary_grade|050,cadre|AHPC
+isco_08_unit|2269,22690104,Assistant Occupational therapist,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400104,Assistant Ophthalmic clinical Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400604,Assistant Optometrist,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400204,Assistant Psychiatric Clinical Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|2266,22660105,Audiological Technician,salary_grade|050,cadre|AHPC
+isco_08_unit|2266,22660103,Audiological Technologist,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400503,Clinical officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3253,32530302,Community health promoter,salary_grade|050,cadre|AHPC
+isco_08_unit|3214,32140106,Dental Technician,salary_grade|050,cadre|Dental
+isco_08_unit|3214,32140103,Dental Technologist,salary_grade|050,cadre|Dental
+isco_08_unit|2262,22620203,Dispenser,salary_grade|050,cadre|AHPC
+isco_08_unit|2133,21330104,Ecologist,salary_grade|050,cadre|AHPC
+isco_08_unit|2263,22630203,Environmental Health officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3257,32570103,Health Inspector,salary_grade|050,cadre|AHPC
+isco_08_unit|3212,32120203,Medical Laboratory scientific Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3212,32120403,Medical Laboratory Technician,salary_grade|050,cadre|AHPC
+isco_08_unit|3212,32120303,Medical Laboratory Technologist,salary_grade|050,cadre|AHPC
+isco_08_unit|3211,32110103,Medical Radiological Scientific Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3211,32110203,Medical Radiological Technologist,salary_grade|050,cadre|AHPC
+isco_08_unit|2269,22690103,Occupational therapist,salary_grade|050,cadre|AHPC
+isco_08_unit|3254,32540103,Optical Dispenser,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400905,Orthopaedic Technician,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400903,Orthopaedic Technologist,salary_grade|050,cadre|AHPC
+isco_08_unit|3213,32130101,Pharmacy Technician,salary_grade|050,cadre|Pharma
+isco_08_unit|2264,22640103,Physiotherapist,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22400203,Psychiatric Clinical Officer,salary_grade|050,cadre|AHPC
+isco_08_unit|3211,32110106,Radiographer,salary_grade|050,cadre|AHPC
+isco_08_unit|3222,32220101,Senior Enrolled Midwife,salary_grade|050,cadre|Midwife
+isco_08_unit|3221,32210101,Senior Enrolled nurse,salary_grade|050,cadre|Nurse
+isco_08_unit|3221,32210201,Senior Enrolled Psychiatric Nurse,salary_grade|050,cadre|Nurse
+isco_08_unit|7311,73110101,Senior Orthopaedic Technological Assistant,salary_grade|050,cadre|AHPC
+isco_08_unit|2240,22401101,Senior TB/Leprosy Supervisor,salary_grade|050,cadre|AHPC
+isco_08_unit|3211,32110303,Sonographer,salary_grade|050,cadre|AHPC
+isco_08_unit|5414,54140203,Security Officer,salary_grade|051,cadre|Support
+isco_08_unit|3313,33130104,Accounts Assistant,salary_grade|051,cadre|Admin
+isco_08_unit|2330,23300106,Assistant Education Officer,salary_grade|051,cadre|Educat
+isco_08_unit|2522,25220204,Assistant Network Administrator,salary_grade|051,cadre|Non_health
+isco_08_unit|3323,33230104,Assistant Procurement Officer,salary_grade|051,cadre|Admin
+isco_08_unit|3511,35110101,Computer Operator,salary_grade|051,cadre|Non_health
+isco_08_unit|2142,21420204,Engineering Assistant - Civil,salary_grade|051,cadre|Non_health
+isco_08_unit|2151,21510104,Engineering Assistant - Electrical,salary_grade|051,cadre|Non_health
+isco_08_unit|2144,21440204,Engineering Assistant - Mechanical,salary_grade|051,cadre|Non_health
+isco_08_unit|2411,24110204,Examiner of Accounts,salary_grade|051,cadre|Admin
+isco_08_unit|3252,32520303,Health Information Officer,salary_grade|051,cadre|AHPC
+isco_08_unit|2356,23560101,Information Technology Instructor,salary_grade|051,cadre|Non_health
+isco_08_unit|2320,23200103,Instructor,salary_grade|051,cadre|Educat
+isco_08_unit|7311,73110102,Orthopaedic Technological Assistant,salary_grade|051,cadre|AHPC
+isco_08_unit|3253,32530501,Principal Health Assistant,salary_grade|051,cadre|AHPC
+isco_08_unit|4131,41310101,Principal Office Typist,salary_grade|051,cadre|Support
+isco_08_unit|4321,43210102,Principal Stores Assistant,salary_grade|051,cadre|Admin
+isco_08_unit|3313,33130103,Senior Accounts Assistant,salary_grade|051,cadre|Admin
+isco_08_unit|4223,42230102,Senior Telephone Operator,salary_grade|051,cadre|AHPC
+isco_08_unit|4131,41310201,Stenographer Secretary,salary_grade|051,cadre|Support
+isco_08_unit|2320,23200203,Tutor,salary_grade|051,cadre|Educat
+isco_08_unit|1211,12110104,Administrative Assistant,salary_grade|052,cadre|Admin
+isco_08_unit|2320,23200104,Assistant Instructor,salary_grade|052,cadre|Educat
+isco_08_unit|3252,32520104,Assistant Medical Records Officer,salary_grade|052,cadre|Admin
+isco_08_unit|3252,32520403,Assistant Records Officer,salary_grade|052,cadre|Admin
+isco_08_unit|3323,33230204,Assistant Supplies Officer,salary_grade|052,cadre|Admin
+isco_08_unit|7536,75360101,Orthopaedic shoemaker,salary_grade|052,cadre|AHPC
+isco_08_unit|2341,23410103,Principal Education Assistant,salary_grade|052,cadre|Educat
+isco_08_unit|3341,33410105,Assistant Office Supervisor,salary_grade|061,cadre|Support
+isco_08_unit|3252,32520404,Senior Records Assistant,salary_grade|061,cadre|Admin
+isco_08_unit|5120,51200104,Assistant Catering Officer,salary_grade|061,cadre|Support
+isco_08_unit|3511,35110102,Assistant Computer Operator,salary_grade|061,cadre|Non_health
+isco_08_unit|2262,22620204,Assistant Dispenser,salary_grade|061,cadre|AHPC
+isco_08_unit|2263,22630204,Assistant Environmental Health officer,salary_grade|061,cadre|AHPC
+isco_08_unit|3257,32570104,Assistant Health Inspector,salary_grade|061,cadre|AHPC
+isco_08_unit|2622,26220104,Assistant Librarian,salary_grade|061,cadre|Admin
+isco_08_unit|2240,22400804,Assistant Orthopaedic Clinical Officer,salary_grade|061,cadre|AHPC
+isco_08_unit|2264,22640104,Assistant Physiotherapist,salary_grade|061,cadre|AHPC
+isco_08_unit|7127,71270103,Cold Chain Technician,salary_grade|061,cadre|AHPC
+isco_08_unit|4132,41320102,Data Entry Clerk,salary_grade|061,cadre|Admin
+isco_08_unit|3112,31120101,Foreman of works,salary_grade|061,cadre|Non_health
+isco_08_unit|5153,51530101,Guest House Manager,salary_grade|061,cadre|Support
+isco_08_unit|4131,41310202,Pool Stenographer,salary_grade|061,cadre|Support
+isco_08_unit|7127,71270101,Principal Cold Chain Technician,salary_grade|061,cadre|AHPC
+isco_08_unit|7127,71270102,Senior Cold Chain Technician,salary_grade|061,cadre|AHPC
+isco_08_unit|4132,41320101,Senior Data Entry Clerk,salary_grade|061,cadre|Support
+isco_08_unit|3253,32530502,Senior Health Assistant,salary_grade|061,cadre|AHPC
+isco_08_unit|5151,51510101,Senior House Keeper - Laundry,salary_grade|061,cadre|Support
+isco_08_unit|3212,32120304,Senior Medical Laboratory Assistant,salary_grade|061,cadre|AHPC
+isco_08_unit|3252,32520105,Senior Medical Records Assistant,salary_grade|061,cadre|Admin
+isco_08_unit|4131,41310102,Senior Office Typist,salary_grade|061,cadre|Support
+isco_08_unit|4321,43210103,Senior Stores Assistant,salary_grade|061,cadre|Admin
+isco_08_unit|2240,22401102,TB/Leprosy Supervisor,salary_grade|061,cadre|AHPC
+isco_08_unit|5321,53210202,Theatre Assistant,salary_grade|061,cadre|AHPC
+isco_08_unit|5153,51530102,Warden/Quarter Master,salary_grade|061,cadre|Support
+isco_08_unit|5151,51510102,House Keeper - Laundry,salary_grade|062,cadre|Support
+isco_08_unit|4131,41310103,Office Typist,salary_grade|062,cadre|Support
+isco_08_unit|2633,26330101,Political Mobiliser,salary_grade|062,cadre|Admin
+isco_08_unit|4131,41310301,Principal Copy Typist,salary_grade|062,cadre|Support
+isco_08_unit|5163,51630101,Principal Mortuary Assistant,salary_grade|062,cadre|AHPC
+isco_08_unit|3341,33410201,Senior Clerical Officer,salary_grade|062,cadre|Support
+isco_08_unit|2341,23410104,Senior Education Assistant,salary_grade|062,cadre|Educat
+isco_08_unit|4131,41310203,Stenographer,salary_grade|062,cadre|Support
+isco_08_unit|2240,22400304,Anaesthetic Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|2240,22400504,Assistant Clinical officer,salary_grade|071,cadre|AHPC
+isco_08_unit|2266,22660204,Assistant Clinical Officer (Speech Therapy),salary_grade|071,cadre|AHPC
+isco_08_unit|2521,25210101,Data Analyst,salary_grade|071,cadre|Admin
+isco_08_unit|3222,32220102,Enrolled Midwife,salary_grade|071,cadre|Midwife
+isco_08_unit|3221,32210102,Enrolled Nurse,salary_grade|071,cadre|Nurse
+isco_08_unit|3221,32210202,Enrolled Psychiatric Nurse,salary_grade|071,cadre|Nurse
+isco_08_unit|6123,61230105,Entomological Assistant,salary_grade|071,cadre|Admin
+isco_08_unit|3253,32530503,Health Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|3252,32520304,Health Information Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|3212,32120305,Medical Laboratory Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|3252,32520106,Medical Records Assistant,salary_grade|071,cadre|Admin
+isco_08_unit|3252,32520405,Records Assistant,salary_grade|071,cadre|Admin
+isco_08_unit|7115,71150101,Senior Artisan Mate Carpenter,salary_grade|071,cadre|Support
+isco_08_unit|7126,71260102,Senior Artisan Mate Plumber,salary_grade|071,cadre|Support
+isco_08_unit|4131,41310302,Senior Copy Typist,salary_grade|071,cadre|Support
+isco_08_unit|5163,51630102,Senior Mortuary Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|4321,43210104,Stores Assistant,salary_grade|071,cadre|Admin
+isco_08_unit|2240,22401103,TB/Leprosy Assistant,salary_grade|071,cadre|AHPC
+isco_08_unit|4223,42230103,Telephone Operator,salary_grade|071,cadre|AHPC
+isco_08_unit|3341,33410203,Assistant Clerical Officer,salary_grade|072,cadre|Admin
+isco_08_unit|5151,51510103,Assistant House Keeper - Laundry,salary_grade|072,cadre|Admin
+isco_08_unit|7323,73230101,Book binder,salary_grade|072,cadre|Support
+isco_08_unit|3341,33410202,Clerical Officer,salary_grade|072,cadre|Admin
+isco_08_unit|7127,71270104,Cold Chain Assistant,salary_grade|072,cadre|AHPC
+isco_08_unit|4131,41310303,Copy Typist,salary_grade|072,cadre|Support
+isco_08_unit|2341,23410105,Education Assistant,salary_grade|072,cadre|Educat
+isco_08_unit|7213,72130102,Metal Worker,salary_grade|072,cadre|Support
+isco_08_unit|5163,51630103,Mortuary Assistant,salary_grade|072,cadre|Support
+isco_08_unit|5329,53290111,Phlebotomist,salary_grade|072,cadre|AHPC
+isco_08_unit|4226,42260101,Receptionist,salary_grade|072,cadre|Support
+isco_08_unit|7213,72130101,Senior Metal Worker,salary_grade|072,cadre|Support
+isco_08_unit|5329,53290102,Medical Laboratory Attendant,salary_grade|081,cadre|AHPC
+isco_08_unit|7126,71260101,Plumber,salary_grade|081,cadre|Support
+isco_08_unit|5329,53290101,Anaesthetic Attendant,salary_grade|081,cadre|AHPC
+isco_08_unit|7112,71120101,Artisan Mason,salary_grade|081,cadre|Support
+isco_08_unit|7126,71260104,Artisan Mate,salary_grade|081,cadre|Support
+isco_08_unit|7115,71150102,Artisan Mate Carpenter,salary_grade|081,cadre|Support
+isco_08_unit|7411,74110101,Artisan Mate Electrician,salary_grade|081,cadre|Support
+isco_08_unit|7523,75230102,Artisan Mate Mechanic,salary_grade|081,cadre|Support
+isco_08_unit|7126,71260103,Artisan Mate Plumber,salary_grade|081,cadre|Support
+isco_08_unit|5414,54140103,Askari (Security Guard),salary_grade|081,cadre|Support
+isco_08_unit|8331,83310101,Bus Driver,salary_grade|081,cadre|Support
+isco_08_unit|8322,83220101,Car Driver,salary_grade|081,cadre|Support
+isco_08_unit|5321,53210104,Chairside Assistant,salary_grade|081,cadre|Support
+isco_08_unit|5329,53290106,Dental Attendant,salary_grade|081,cadre|Support
+isco_08_unit|5321,53210102,Dressers,salary_grade|081,cadre|Support
+isco_08_unit|6123,61230106,Entomological Attendant,salary_grade|081,cadre|Admin
+isco_08_unit|8332,83320101,Lorry Driver,salary_grade|081,cadre|Support
+isco_08_unit|5321,53210103,Mental Health attendant,salary_grade|081,cadre|Support
+isco_08_unit|8321,83210101,Motorcycle Driver,salary_grade|081,cadre|Support
+isco_08_unit|5321,53210101,Nursing Assistant,salary_grade|081,cadre|Support
+isco_08_unit|3255,32550101,Physiotherapy Assistant,salary_grade|081,cadre|AHPC
+isco_08_unit|5414,54140101,Principal Askari (Security Guard),salary_grade|081,cadre|Support
+isco_08_unit|5414,54140102,Senior Askari (Security Guard),salary_grade|081,cadre|Support
+isco_08_unit|3253,32530601,Vaccinator,salary_grade|081,cadre|AHPC
+isco_08_unit|8322,83220201,Van Driver,salary_grade|081,cadre|Support
+isco_08_unit|9629,96290101,Workshop Supervisor,salary_grade|081,cadre|Support
+isco_08_unit|5329,53290112,X-Ray Attendant,salary_grade|081,cadre|AHPC
+isco_08_unit|9412,94120102,Boiler Attendant,salary_grade|082,cadre|Support
+isco_08_unit|3434,34340101,Chef,salary_grade|082,cadre|Support
+isco_08_unit|5120,51200106,Cook,salary_grade|082,cadre|Support
+isco_08_unit|8132,81320101,Darkroom Attendant,salary_grade|082,cadre|AHPC
+isco_08_unit|9121,91210101,Dhobi,salary_grade|082,cadre|Support
+isco_08_unit|9111,91110101,Domestic Assistant,salary_grade|082,cadre|Support
+isco_08_unit|9112,91120103,Donor Care Attendant,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290110,First-aid attendant,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290109,Hospital orderly,salary_grade|082,cadre|Support
+isco_08_unit|9412,94120101,Kitchen Attendant,salary_grade|082,cadre|Support
+isco_08_unit|7412,74120101,Lift Attendant,salary_grade|082,cadre|Support
+isco_08_unit|7523,75230101,Machine Operator,salary_grade|082,cadre|Non_health
+isco_08_unit|5329,53290108,Medical Imaging Assistant,salary_grade|082,cadre|AHPC
+isco_08_unit|5329,53290104,Mortuary Attendant,salary_grade|082,cadre|AHPC
+isco_08_unit|9112,91120101,Office Attendant,salary_grade|082,cadre|Support
+isco_08_unit|9621,96210101,Office Messenger,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290113,Orthopaedic Attendant,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290103,Pharmacy Attendant,salary_grade|082,cadre|Support
+isco_08_unit|9611,96110101,Porter,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290105,Prosthetic Attendant,salary_grade|082,cadre|Support
+isco_08_unit|3257,32570201,Sanitary Attendant,salary_grade|082,cadre|Support
+isco_08_unit|8153,81530101,Seamster/Seamstress,salary_grade|082,cadre|Support
+isco_08_unit|3132,31320501,Sterile Production Assistant,salary_grade|082,cadre|Support
+isco_08_unit|5329,53290107,Sterilization Attendant,salary_grade|082,cadre|Support
+isco_08_unit|9621,96210201,Support Staff,salary_grade|082,cadre|Support
+isco_08_unit|9112,91120102,Theatre Attendant,salary_grade|082,cadre|AHPC
+isco_08_unit|9122,91220101,Vehicle Attendant,salary_grade|082,cadre|Support
+isco_08_unit|5131,51310101,Waiter/Waitress,salary_grade|082,cadre|Support
+isco_08_unit|9629,96290102,Workshop Attendant,salary_grade|082,cadre|Support
+isco_08_unit|2351,23510104,Assistant Health Mentor,salary_grade|099,cadre|Educat
+isco_08_unit|3344,33440101,Billing Assistant,salary_grade|099,cadre|Admin
+isco_08_unit|3212,32120104,Blood Donor,salary_grade|099,cadre|Admin
+isco_08_unit|3212,32120106,Blood Donor Clerck,salary_grade|099,cadre|Admin
+isco_08_unit|3212,32120105,Blood Donor Recruiter,salary_grade|099,cadre|Admin
+isco_08_unit|2636,26360101,Bonze,salary_grade|099,cadre|Support
+isco_08_unit|5230,52300103,Cashier,salary_grade|099,cadre|Support
+isco_08_unit|5230,52300101,Chief Cashier,salary_grade|099,cadre|Admin
+isco_08_unit|4222,42220102,Customer Care Assistant,salary_grade|099,cadre|Support
+isco_08_unit|4222,42220101,Customer Care Officer,salary_grade|099,cadre|Support
+isco_08_unit|3512,35120201,Database assistant,salary_grade|099,cadre|Non_health
+isco_08_unit|4214,42140101,Debt Collector,salary_grade|099,cadre|Support
+isco_08_unit|3142,31420101,Field Crop Technical Officer,salary_grade|099,cadre|Support
+isco_08_unit|2351,23510103,Health Mentor,salary_grade|099,cadre|Educat
+isco_08_unit|3142,31420102,Herd Tester,salary_grade|099,cadre|Support
+isco_08_unit|2636,26360102,Imam,salary_grade|099,cadre|Support
+isco_08_unit|3132,31320102,Incinerator Attendant,salary_grade|099,cadre|AHPC
+isco_08_unit|3132,31320101,Incinerator operator,salary_grade|099,cadre|AHPC
+isco_08_unit|3512,35120101,Information Technology Assistant,salary_grade|099,cadre|Non_health
+isco_08_unit|3132,31320301,Lagoon Attendant,salary_grade|099,cadre|Support
+isco_08_unit|7318,73180101,Leather Craftman,salary_grade|099,cadre|Support
+isco_08_unit|3344,33440202,Medical office administrative assistant,salary_grade|099,cadre|Admin
+isco_08_unit|4226,42260102,Medical office Receptionist,salary_grade|099,cadre|Support
+isco_08_unit|2636,26360103,"Minister, religion",salary_grade|099,cadre|Support
+isco_08_unit|2421,24210103,Monitoring and Evaluation Officer,salary_grade|099,cadre|Non_health
+isco_08_unit|2421,24210101,Monitoring and Evaluation Officer - Advisor,salary_grade|099,cadre|Non_health
+isco_08_unit|3254,32540201,Optician,salary_grade|099,cadre|AHPC
+isco_08_unit|2636,26360104,Poojari,salary_grade|099,cadre|Support
+isco_08_unit|3142,31420103,Poultry Technical Officer,salary_grade|099,cadre|Support
+isco_08_unit|2636,26360105,Priest,salary_grade|099,cadre|Support
+isco_08_unit|2351,23510101,Principal Health Mentor,salary_grade|099,cadre|Educat
+isco_08_unit|1219,12190104,Program Assistant,salary_grade|099,cadre|Admin
+isco_08_unit|1219,12190102,Program Cordinator,salary_grade|099,cadre|Admin
+isco_08_unit|1219,12190101,Program Manager,salary_grade|099,cadre|Admin
+isco_08_unit|1219,12190103,Program Officer,salary_grade|099,cadre|Admin
+isco_08_unit|2636,26360106,Rabbi,salary_grade|099,cadre|Support
+isco_08_unit|3212,32120103,Senior Blood Donor Recruiter,salary_grade|099,cadre|Non_health
+isco_08_unit|5230,52300102,Senior Cashier,salary_grade|099,cadre|Admin
+isco_08_unit|3343,33430201,Senior Data Manager,salary_grade|099,cadre|Non_health
+isco_08_unit|2351,23510102,Senior Health Mentor,salary_grade|099,cadre|Educat
+isco_08_unit|3344,33440201,Senior Medical office administrative assistant,salary_grade|099,cadre|Admin
+isco_08_unit|2421,24210102,Senior Monitoring and Evaluation Officer,salary_grade|099,cadre|Non_health
+isco_08_unit|3132,31320201,Sewage Attendant,salary_grade|099,cadre|Support
+isco_08_unit|1211,12110201,Chief Finance Officer,salary_grade|014,cadre|Admin
+isco_08_unit|2111,21110201,Principal Medical Radio Physicist,salary_grade|020,cadre|AHPC
+isco_08_unit|2111,21110202,Senior Medical Radio physicist,salary_grade|030,cadre|AHPC
+isco_08_unit|2111,21110203,Medical Radio physicist,salary_grade|040,cadre|AHPC
