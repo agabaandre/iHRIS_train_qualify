@@ -754,8 +754,10 @@ input,
 button,
 select,
 textarea {
-  font-size: 13px;
-  font-weight: normal;
+  margin-top:4px !important;
+  margin-bottom: 4px !important;
+  font-size: 14px;
+  font-weight: bold;
   line-height: 18px;
 }
 
