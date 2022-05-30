@@ -19,16 +19,12 @@ body {
 }
 
 #siteFooter {
-/* 	background-image: url('moh_banner.jpg'); */
-/* background-repeat:no-repeat; */
-/* background-attachment:scroll; */
-/* background-position:top; */
-padding-top:90px;
-margin-top:1em;
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-
+  padding-top: 90px;
+  margin-top: 1em;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #d6d3d299;
 }
 
 
