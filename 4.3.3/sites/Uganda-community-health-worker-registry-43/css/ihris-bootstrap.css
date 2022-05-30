@@ -166,7 +166,7 @@ table.loginTable, .dataTable table, table.multiFormTable {
     background-color: #fbf8f57a;
     width: 100%;
     padding: 40px;
-    border: 1px solid #f8f8f47e;
+    border: 0.5px solid #f8f8f47e;
     border-collapse: separate;
    
 }
