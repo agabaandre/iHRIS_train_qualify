@@ -508,7 +508,8 @@ div.editRecord {
 
 
 .field_head {
-    font-style:italic;
+    font-style:regular;
+    font-weight: bold;
 }
 
 img.field_image {
