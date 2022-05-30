@@ -154,17 +154,21 @@ div.error, span.error ,ul.error, #error_message , #create_message{
 .dataTable td {
     min-width: 20em;
 }
-table.loginTable, .dataTable table, table.multiFormTable  {
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  width:95%; 
 
-  border: 1px solid #dddddd;
-  border-collapse: separate;
-  *border-collapse: collapsed;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+element.style {
+}
+table.loginTable, table.multiFormTable {
+    border-collapse: separate;
+    border-spacing: 0em 1px;
+}
+table.loginTable, .dataTable table, table.multiFormTable {
+    margin-bottom: 20px;
+    background-color: #fbf8f57a;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #b4b189;
+    border-collapse: separate;
+    border-radius: 4px;
 }
 
 #list_fields   p:nth-child(odd)  {
