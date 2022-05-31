@@ -329,10 +329,12 @@ table.multiFormTable textarea.error:focus {
     border-radius: 4px 4px 4px 4px;
 }
 #siteContent #report_table_table {
-  border: 1px solid #DDDDDD;
-    border-collapse: separate;
-    border-radius: 4px 4px 4px 4px;
-    margin:auto;
+  border: 1px solid #c2b7b7;
+  border-collapse: separate;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 50;
+  width: 110% !important;
 }
 #siteContent #report_pager_display  {
     border:0px;
