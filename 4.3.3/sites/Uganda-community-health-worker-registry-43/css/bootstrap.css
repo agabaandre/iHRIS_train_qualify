@@ -4480,6 +4480,7 @@ input[type="submit"].btn.btn-mini {
 .thumbnail {
   display: block;
   padding: 4px;
+  width:120px;
   line-height: 1;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
