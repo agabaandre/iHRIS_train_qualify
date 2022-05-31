@@ -4033,12 +4033,15 @@ input[type="submit"].btn.btn-mini {
 }
 
 .pagination a {
-  float: left;
-  padding: 0 14px;
-  line-height: 34px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  border-left-width: 0;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    min-width: 25px;
+    text-align: center;
+    color: #1e65ad;
+    font-weight: bold;
 }
 
 .pagination a:hover,
