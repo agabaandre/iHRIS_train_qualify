@@ -4032,7 +4032,7 @@ input[type="submit"].btn.btn-mini {
   display: inline;
 }
 
-.pagination a {
+.pagination  {
     padding: 0 14px;
     line-height: 34px;
     text-decoration: none;
