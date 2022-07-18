@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+
+    <title>Uganda iHRIS Health Worker Registry</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta name="robots" content="all" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <meta name="author" content="Development by IntraHealth International, Inc.  http://www.intrahealth.org/  Website graphic design by DesignHammer Media Group LLC, Building Smarter Websites http://www.designhammer.com" />
+    <meta name="copyright" content="" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <link rel="Shortcut Icon" href="file/favicon.ico" />
+    <link rel="stylesheet" href="file/container-print.css" type="text/css" media="print" />
+    <style type="text/css" media="screen">
+      @import url(file/container-screen.css);
+    </style>
+    <!--[if lt IE 7]><link href="file/iehacks.css?newman" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
+    <script src='file/mootools-core.js' type="text/javascript" />
+    <script src='file/mootools-more.js' type="text/javascript" />
+    <script src='file/I2CE_DropdownMenu.js' type="text/javascript" />
+    <script src='file/ihris_menu.js' type="text/javascript" />
+	<style>
+			.header{
+				font-size:16px !important;
+				margin:5px;
+
+			}
+		
+				input[type="submit"], .button:hover {
+					background-color:#ffab23;
+				}
+				.button:active {
+					position:relative;
+					top:1px;
+				}
+
+				input[type="submit"],.button {
+				box-shadow:inset 0px 1px 0px 0px #fff6af;
+				background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+				background-color:#ffec64;
+				border-radius:6px;
+				border:1px solid #ffaa22;
+				display:inline-block;
+				cursor:pointer;
+				color:#333333;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #ffee66;
+			}
+			input[type="submit"],.button:hover {
+				background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+				background-color:#ffab23;
+			}
+			input[type="submit"],.button:active {
+				position:relative;
+				top:1px;
+			}
+
+
+		
+	</style>
+    
+    <script type='text/javascript' id='dropdown-js'>
+
+window.addEvent('domready',  function() {  
+    //$$('.slider').each(function(e) {new SliderMenu(e); });
+
+    $$('.clickslider').each(function(e) {new ClickSlider(e); });
+    $$('.ajaxlink').each(function(e) {  new AjaxLink(e);});
+    $$('.dropdown').each(function(e) {  new I2CE_DropdownMenu(e); });
+    var error = document.id('error_message'); 
+    if (error && error.get('html').replace(/^\s+|\s+$/, '').length == 0) { error.dispose();}
+});
+
+
+</script>
+  </head>
+  <body>
+    <div id="siteHeadWrap"><!-- ie6 redundant tag fix -->
+      <div id="siteHeader">
+	<div class='navbar navbar-fixed-top'>
+	  <div class="navbar-inner ">
+		  
+	      <img class="brand"  href="home" src="file/logos/moh_logo.png" alt="" width="78"  id="siteLogo"  style="margin-top:5px !important; margin-left: 10px;"/>
+		
+	      <a class="brand" href="home" style='margin-left:5px; margin-top:30px; font-size:25px;'>Uganda Community Health Worker Registry
+		
+		  </a>
+		  
+          <br/>
+		   
+	    <div class="container">
+	      <div class='nav-collapse'>
+		<ul class='nav pull-left'>
+		  <li ><a href="home" id='nav_home'>Home</a></li>
+		  <li class='dropdown' id='navBar'>
+                    <a href="#" class="dropdown-toggle"  id='nav_actions'> Actions <b class="caret "/> </a>
+		    <ul class='dropdown-menu' id='navBarUL'>
+		      <li>Health Worker</li>
+		      <li   id="menuManage"   task='person_can_edit'><a href="person" class="createRecords">Add New Health Worker</a></li>		      
+		     <span type='module' name='CustomReports' ifenabled='true'>
+			<li>Reports</li>
+			<li id="menuCustomReports" task='custom_reports_can_view_reportViews'><a href="CustomReports/view/reportViews">View Reports</a></li>
+			<li>Searches</li>
+			<li id="menuSearch" ><a href="search" class="searchRecords">Search Health Worker Records Menu</a></li>
+			<li id="menuSearch" ><a href="recent">Search Recent Changes</a></li>
+			<li id="menuSearch" ><a href="search/search_people?no_results=1">Search Health Worker Records</a></li>
+		      </span>
+		      <li>System</li>
+		      <li role='any'>
+			<a  task="can_administer_database_lists" href="auto_list" >Administer Database</a>  
+		      </li>
+		      <li role='any' task='can_configure_system'>
+			<a href="configure" class="adminDatabase">Configure System</a>
+		      </li>
+		    </ul>
+		    </div>
+		  </li>
+
+		</ul>
+
+		<ul class='nav pull-right'>
+		  <li class="dropdown" >
+                    <a href="#" class="dropdown-toggle"  id='nav_about'> About <b class="caret "/> </a>
+		    <ul class="dropdown-menu" >
+		      <li>iHRIS Cummunity Health Worker Registry </li>
+		      <li><a href="http://www.ihris.org/contact-us/">Feedback</a></li>
+		      <li> Funders </li>
+		      <li> <a href="https://www.unicef.org/" target="_new_uaid">UNICEF</a></li>
+		      <li> <a href="www.koica.go.kr/english/main.html" target="_new_uaid">KOICA</a></li>
+		      <li >Implementer</li>
+		      <li ><a href="http://www.ihris.org/" target="_new_ihris" >iHRIS</a></li>
+		    </ul>
+		  </li>
+		  <li  class="dropdown" >
+                    <a href="#" class="dropdown-toggle"> <span type='module' call="ihris-common->welcomeNamedUser('Welcome, %s!','Welcome!')" /> <b class="caret "/> </a>
+		    <ul class="dropdown-menu"  >
+		      <li  role='any'><a href="logout" class="logout">Log Out</a></li>
+		      <li  role='NOT_LOGGED_IN' ><a href="login" class="logout">Log In</a></li>
+		      <li role='any'><a href="password">Change Password</a></li>
+		      <span type='module' call='localeSelector->showSelectableLocales()' ></span>
+		    </ul>
+		  </li>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div id='siteMain'>
+	  
+
+	  <div id="welcomeIntro" />
+	</div>
+
+    
+
+    <div id="siteOuterWrap" class="autoHideNav">
+
+   
+
+	<div id="siteContent" />
+
+
+	<br style="clear: both;" />
+
+      
+
+      <div id='StretchPage'></div>
+      <div id="siteFooter">
+
+          <a href="http://www.health.go.ug/index.htm" style='padding:4em'><img src="file/logos/moh_logo.png" alt="Ministry of Health (logo)" width="78" height="80" id="moh" /></a>
+          <a href="https://www.unicef.org/" style='padding:4em'><img src="file/logos/unicef.png" alt="UNICEF (logo)" width="170" height="50"  id="unicef" /></a>
+          <a href="www.koica.go.kr/english/main.html" style='padding:4em'><img src="file/logos/KOICA.png" alt="KOICA (logo)" width="170" height="50"  id="KOICA" /></a>
+          <a href="http://www.intrahealth.org/" ><img src="file/logos/Intrahealth_Logo_RGB.png" alt="IntraHealth (logo)" width="158" height="46" id="intrahealth" /></a>
+        </div>
+	Cummunity Health Worker Registry Version: <span type='module' call="ihris-common->showModuleVersion('ihris-manage')"/>
+   
+
+  </body>
+</html>

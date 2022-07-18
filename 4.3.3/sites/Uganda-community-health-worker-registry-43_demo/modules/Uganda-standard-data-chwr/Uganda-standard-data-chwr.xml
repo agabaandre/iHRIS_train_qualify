@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-standard-data-chwr">
+  <metadata>
+    <displayName>iHRIS Uganda Data for CHWR</displayName>
+    <category>Site</category>
+    <description>The iHRIS Manage Uganda module for drop down data for CHWR.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-manage</link>
+    <version>4.2.1.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+
+    <requirement name="Uganda-standard-data-district" />
+    <requirement name="Uganda-standard-data-county" />
+    <requirement name="Uganda-standard-data-currency" />
+    <requirement name="Uganda-standard-data-marital_status" />
+    <requirement name="Uganda-standard-data-salary_source" />
+    <requirement name="Uganda-standard-data-salary_grade" />
+    <requirement name="Uganda-standard-data-benefit_type" />
+    <requirement name="Uganda-standard-data-disciplinary_action_type" />
+    <requirement name="Uganda-standard-data-id_type" />
+    <requirement name="Uganda-standard-data-facility_type" />
+    <requirement name="Uganda-standard-data-edu_type" />
+    <requirement name="Uganda-standard-data-pos_change_reason" />
+    <!--<requirement name="Uganda-standard-data-department" />
+    <requirement name="Uganda-standard-data-council" />-->
+    <requirement name="Uganda-standard-data-language" />
+    <!--<requirement name="Uganda-standard-data-facility" />
+    <requirement name="Uganda-standard-data-cadre" />-->
+    <requirement name="Uganda-standard-data-employment_terms" />
+    <!--<requirement name="Uganda-standard-data-job" />-->
+    <requirement name="Uganda-standard-data-function" />
+    <requirement name="Uganda-standard-data-incentives" />
+    <requirement name="Uganda-standard-data-org_support" />
+    <requirement name="Uganda-standard-data-recruit_mech" />
+    <requirement name="Uganda-standard-data-service" />
+    <requirement name="Uganda-standard-data-parish" />
+    <requirement name="Uganda-standard-data-village" />
+
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Uganda-standard-data-chwr" path="/I2CE">
+    <displayName>iHRIS Uganda Data for CHWR</displayName>
+  </configurationGroup>
+</I2CEConfiguration>
