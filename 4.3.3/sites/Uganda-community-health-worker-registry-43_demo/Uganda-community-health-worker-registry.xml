@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.8.1.2</version>
+    <version>4.3.8.3.2</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -69,7 +69,7 @@
     <enable name="IL-HWR" />
     <enable name="tasks-roles" />
     <enable name="UserTriggers" />
-    <!-- <enable name="UserStatistics" /> -->
+    <enable name="UserStatistics" />
     <enable name="UserCronReports" />
     <enable name="cron" />
     <enable name="Uganda-standard-data-chwr" />
@@ -79,7 +79,7 @@
     <enable name="PersonVillage" />
     <enable name="PersonAppraisal" />
     <enable name="fields-enum" />
-    <!-- <enable name="web-services-lists" /> -->
+    <enable name="web-services-lists" />
     <enable name="CustomReports_CrossTab" />
     <enable name="ihris-manage-mcsd-update-supplier-chwr" />
     <enable name="ihris-manage-csd-PersonPosition" />
