@@ -69,7 +69,7 @@
     <enable name="IL-HWR" />
     <enable name="tasks-roles" />
     <enable name="UserTriggers" />
-    <enable name="UserStatistics" />
+    <!-- <enable name="UserStatistics" /> -->
     <enable name="UserCronReports" />
     <enable name="cron" />
     <enable name="Uganda-standard-data-chwr" />
