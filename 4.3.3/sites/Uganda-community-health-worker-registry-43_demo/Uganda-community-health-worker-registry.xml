@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.9.5</version>
+    <version>4.3.9.6</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -644,33 +644,33 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.4</version>
         <value>default:Alternative Mobile Phone</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="emergency_telephone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/emergency_telephone">
       <displayName>The field 'emergency_telephone'</displayName>
-      <version>4.2.1.19</version>
+      <version>4.3.9.4</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.4</version>
         <value>default:Emergency Contact Telephone</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="emergency_name" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/emergency_name">
       <displayName>The field 'emergency_name'</displayName>
-      <version>4.2.1.19</version>
+      <version>4.3.9.4</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.4</version>
         <value>default:Emergency Contact Name</value>
       </configuration>
     </configurationGroup>
