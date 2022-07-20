@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.6.8</version>
+    <version>4.3.6.9</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -565,19 +565,19 @@
     </configurationGroup>
     <configurationGroup name="gender" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/gender">
       <displayName>The field 'gender'</displayName>
-      <version>4.2.1.15</version>
+      <version>4.2.1.16</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>MAP</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.2.1.16</version>
         <value>default:Gender</value>
       </configuration>
        <configuration name="required" type="boolean">
           <displayName>This field is required to be set</displayName>
-          <value>true</value>
+          <value>false</value>
         </configuration>
     </configurationGroup>
     <configurationGroup name="marital_status" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/marital_status">
