@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.8.1</version>
+    <version>4.3.8.1.2</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -38,7 +38,7 @@
     <enable name="PersonPassportPhoto" />
     <enable name="PersonResume" />
     <enable name="PersonContact" />
-    <!-- <enable name="ihris-manage-PersonDemographic" /> -->
+    <enable name="ihris-manage-PersonDemographic" />
     <enable name="PersonEducation" />
     <enable name="PersonEmployment" />
     <enable name="PersonID" />
@@ -539,7 +539,7 @@
           <value>true</value>
         </configuration>
     </configurationGroup>
-    <!-- <configurationGroup name="gender" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/gender">
+    <configurationGroup name="gender" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/gender">
       <displayName>The field 'gender'</displayName>
       <version>4.2.1.15</version>
       <configuration name="formfield">
@@ -555,7 +555,7 @@
           <displayName>This field is required to be set</displayName>
           <value>true</value>
         </configuration>
-    </configurationGroup> -->
+    </configurationGroup>
     <configurationGroup name="marital_status" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/marital_status">
       <displayName>The field 'marital_status'</displayName>
       <version>4.2.1.15</version>
