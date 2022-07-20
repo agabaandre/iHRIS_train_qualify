@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MobileMoney">
+  <metadata>
+    <displayName>MobileMoney</displayName>
+    <className>iHRIS_Module_MobileMoney</className>
+    <category>Application Component</category>
+    <description>Makes MobileMoney information available to the system</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.3.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="MobileMoney" path="/I2CE">
+    <version>4.2.1.4</version>
+    <displayName>Service</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+     <version>4.2.1.3</version>
+      <configuration name="can_edit_database_list_mobile_phone_type" locale="en_US">
+       <version>4.2.1.3</version>
+        <value>Edit the mobile_phone_type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_mobile_phone_type" locale="en_US">
+       <version>4.2.1.3</version>
+        <value>View the mobile_phone_type list</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_mobile_money" locale="en_US">
+        <value>Can view mobile money child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_mobile_money" locale="en_US">
+        <value>Can edit mobile money child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.2.1</version>
+      <configuration name="can_edit_database_list_mobile_phone_type" values="many">
+        <version>4.2.1.2</version>
+        <value>can_edit_organization_database_lists</value>
+        <value>can_view_database_list_mobile_phone_type</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_mobile_money" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_mobile_money" values="many">
+        <value>person_can_view_child_form_mobile_money</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_mobile_money</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_mobile_money</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <displayName>Forms Data</displayName>
+      <description>Form data saved in magic data</description>
+      <version>3.2.5</version>
+      <configurationGroup name="mobile_phone_type">
+        <displayName>Gender</displayName>
+        <description>The mobile_phone_type form data</description>
+        <configurationGroup name="none">
+          <configuration name="last_modified">
+            <version>3.2.6</version>
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:None</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="smart">
+          <configuration name="last_modified">
+            <version>3.2.6</version>
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Smart</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="feature">
+          <configuration name="last_modified">
+            <version>3.2.6</version>
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Feature (Non-Smart)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+        <configurationGroup name="mobile_money">
+        <displayName>mobile_money Page</displayName>
+        <description>The page 'mobile_money' which has the action of: Add/Update Mobile Phone Type Information</description>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Mobile Phone Type Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>mobile_money</value>
+          </configuration>
+        </configurationGroup>
+     </configurationGroup>
+      <!-- mobile_money -->
+   </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+     <version>4.2.1.4</version>
+      <displayName>Forms</displayName>
+      <description>Information about the forms made available by iHRIS-Common Service</description>
+      <configurationGroup name="forms">
+      <version>4.2.1.4</version>
+        <displayName>Forms available to the form factory</displayName>
+        <status>advanced:true</status>
+        <status>required:true</status>
+        <configurationGroup name="mobile_phone_type">
+          <version>4.2.1.4</version>
+          <displayName>Mobile Phone Type</displayName>
+          <description>The Service Type Form</description>
+          <version>4.2.1.4</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Mobile Phone Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Mechanism</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- end of mobile_phone_type -->
+      <configurationGroup name="mobile_money">
+          <displayName>FileTrack Information</displayName>
+          <description>The FileTrack Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_MobileMoney</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Person Mobile Phone Type Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- mobile_money -->
+       <configurationGroup name="person">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <status>uniquemerge:true</status>
+              <value>mobile_money</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- person -->
+        </configurationGroup>
+      <!-- End /modules/forms/forms-->
+        <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_MobileMoney">
+         <version>4.3.0.0</version>
+          <displayName>Configuration for the class 'iHRIS_MobileMoney'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+           <version>4.3.0.0</version>
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="mobile_phone_type">
+              <displayName>The field 'mobile_phone_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Mobile Phone Type</value>
+              </configuration>
+              <configuration name="unique" type="boolean">
+                <version>4.3.0.0</version>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="mobile_money_no">
+              <version>4.3.0.0</version>
+              <displayName>The field 'mobile_money_no'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Mobile Money Number</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="mobile_money_registration">
+              <version>4.3.0.0</version>
+              <displayName>The field 'mobile_money_registration'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Registration Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_MobileMoney -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+    <!-- End /modules/forms -->
+  </configurationGroup>
+  <!-- mobile_phone_type -->
+</I2CEConfiguration>
+

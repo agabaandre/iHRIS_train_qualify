@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda default data for: region</displayName>
     <description>Data for form: region</description>
-    <version>4.2.1</version>
+    <version>4.3.0</version>
     <requirement name="Uganda-standard-data-country">
     </requirement>
     <path name="configs">

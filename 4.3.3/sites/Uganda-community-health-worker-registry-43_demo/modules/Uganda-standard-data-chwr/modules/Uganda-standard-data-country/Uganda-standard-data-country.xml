@@ -2,16 +2,16 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="Uganda-standard-data-country">
   <metadata>
-    <displayName>Uganda data for Countries</displayName>
+    <displayName>Uganda default data for: country</displayName>
     <description>Data for form: country</description>
-    <version>4.2.1</version>
-    <requirement name="Geography">
-      <atLeast version="4.1" />
-    </requirement>
+    <version>4.1.6.3</version>
     <path name="configs">
       <value>./configs</value>
     </path>
   </metadata>
+  <erase path="/I2CE/formsData/forms/country">
+    <lessThan version="4.1.6.1" />
+  </erase>
   <configurationGroup name="Uganda-standard-data-country" path="/I2CE/formsData/forms/country">
     <displayName>Form data: country</displayName>
     <configuration name="read_only" path="/modules/forms/forms/country/read_only" type="boolean">
@@ -6513,7 +6513,8 @@
           <value>1</value>
         </configuration>
       </configurationGroup>
-    </configurationGroup><!--
+    </configurationGroup>
+    <!--
     <configurationGroup name="UA">
       <displayName>UA</displayName>
       <configuration name="last_modified">
