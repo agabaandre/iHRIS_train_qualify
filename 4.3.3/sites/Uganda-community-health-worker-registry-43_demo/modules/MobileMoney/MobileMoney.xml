@@ -182,7 +182,7 @@
        <configurationGroup name="person">
           <configurationGroup name="meta">
             <configuration name="child_forms" values="many">
-              <status>uniquemerge:true</status>
+              <status>uniquemerge:false</status>
               <value>mobile_money</value>
             </configuration>
           </configurationGroup>
