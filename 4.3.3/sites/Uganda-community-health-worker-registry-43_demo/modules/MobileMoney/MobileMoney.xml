@@ -211,10 +211,6 @@
                 <displayName>The headers for this field.</displayName>
                 <value>default:Mobile Phone Type</value>
               </configuration>
-              <configuration name="unique" type="boolean">
-                <version>4.3.0.0</version>
-                <value>false</value>
-              </configuration>
             </configurationGroup>
             <configurationGroup name="mobile_money_no">
               <version>4.3.0.0</version>
