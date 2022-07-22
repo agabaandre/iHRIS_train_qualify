@@ -74,7 +74,7 @@
       <description>Form data saved in magic data</description>
       <version>3.2.5</version>
       <configurationGroup name="mobile_phone_type">
-        <displayName>Gender</displayName>
+        <displayName>Mobile Phone Type</displayName>
         <description>The mobile_phone_type form data</description>
         <configurationGroup name="none">
           <configuration name="last_modified">
@@ -213,7 +213,7 @@
               </configuration>
               <configuration name="unique" type="boolean">
                 <version>4.3.0.0</version>
-                <value>true</value>
+                <value>false</value>
               </configuration>
             </configurationGroup>
             <configurationGroup name="mobile_money_no">

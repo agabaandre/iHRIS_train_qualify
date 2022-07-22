@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.9.6</version>
+    <version>4.3.9.7</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -81,7 +81,7 @@
     <enable name="PersonVillage" />
     <enable name="PersonAppraisal" />
     <enable name="fields-enum" />
-    <!-- <enable name="web-services-lists" /> -->
+    <enable name="web-services-lists" />
     <enable name="CustomReports_CrossTab" />
     <enable name="ihris-manage-mcsd-update-supplier-chwr" />
     <enable name="ihris-manage-csd-PersonPosition" />
@@ -650,14 +650,14 @@
     </configurationGroup>
     <configurationGroup name="emergency_telephone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/emergency_telephone">
       <displayName>The field 'emergency_telephone'</displayName>
-      <version>4.3.9.4</version>
+      <version>4.3.9.5</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.3.9.4</version>
+        <version>4.3.9.5</version>
         <value>default:Emergency Contact Telephone</value>
       </configuration>
     </configurationGroup>
@@ -670,7 +670,7 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.3.9.4</version>
+        <version>4.3.9.5</version>
         <value>default:Emergency Contact Name</value>
       </configuration>
     </configurationGroup>
