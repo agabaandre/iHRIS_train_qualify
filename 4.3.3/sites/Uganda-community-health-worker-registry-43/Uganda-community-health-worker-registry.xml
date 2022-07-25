@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.6.4</version>
+    <version>4.3.7.5</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -248,7 +248,7 @@
           </configuration>
         </configurationGroup>
         <configurationGroup name="religion">
-          <version>4.3.3.0</version>
+          <version>4.3.9.4</version>
           <displayName>Religion</displayName>
           <description>The Religion Form</description>
           <configuration name="class" values="single">
@@ -594,7 +594,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="religion" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/religion">
-     <version>4.3.3.0</version>
+     <version>4.3.9.4</version>
       <displayName>The field 'religion'</displayName>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
@@ -602,7 +602,7 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.3.3.0</version>
+        <version>4.3.9.4</version>
         <value>default:Religion</value>
       </configuration>
        <configuration name="required" type="boolean">
