@@ -111,43 +111,41 @@ class I2CE_Swiss_CustomReports_Reports extends I2CE_Swiss_CustomReports_Report_B
     {
         //get the existing report relationships.
         $swissRelationships = $this->setupRelationshipFactory();
-        if (is_object($swissRelationships)) {
-            if (
-                !$swissRelationships instanceof I2CE_SwissFactory || count($swissRelationships) == 0
-                || !$swissRelationships->getSwiss('/') instanceof I2CE_Swiss_FormRelationships
-            ) {
-                //we have no relationships to create a report on.
-                $noReportNode = $this->template->appendFileById('customReports_reports_no_new.html', 'div', 'new_report', false, $contentNode);
-                if ($noReportNode instanceof DOMNode) {
-                    $this->template->setDisplayDataImmediate(
-                        'create_link',
-                        $this->getURLRoot('edit') . '../relationships'
-                    );
-                }
-                return true;
+        if (
+            !$swissRelationships instanceof I2CE_SwissFactory || count($swissRelationships) == 0
+            || !$swissRelationships->getSwiss('/') instanceof I2CE_Swiss_FormRelationships
+        ) {
+            //we have no relationships to create a report on.
+            $noReportNode = $this->template->appendFileById('customReports_reports_no_new.html', 'div', 'new_report', false, $contentNode);
+            if ($noReportNode instanceof DOMNode) {
+                $this->template->setDisplayDataImmediate(
+                    'create_link',
+                    $this->getURLRoot('edit') . '../relationships'
+                );
             }
-            $mainNode = $this->template->appendFileById('customReports_reports_new.html', 'div', 'new_report', false, $contentNode);
-            if (!$mainNode instanceof DOMNode) {
-                I2CE::raiseError("Could not add report categories template");
-                return false;
-            }
-            //get the existing report names so we can limit the new name to not be in the list
-            //$reports = I2CE_CustomReport_Template::getReportNames();
-            $reports = $this->getChildNames();
-            $shortNameNode = $this->template->getElementByName('shortname', 0, $mainNode);
-            if (!$shortNameNode instanceof DOMNode) {
-                I2CE::raiseError("Could not find report shortname input");
-                return false;
-            }
-            $this->template->setClassValue($shortNameNode, 'validate_data', array('notinlist' => array_keys($reports)), '%');
-            $rels = array();
-            foreach ($swissRelationships->getSwiss('/') as $relationship => $swissRelationship) {
-                $rels[$relationship] = $swissRelationship->getDisplayName();
-            }
-            $this->template->setDisplayDataImmediate('relationship', $rels, $mainNode);
-            $this->renameInputs(array('display_name', 'shortname', 'relationship', 'description', 'category'), $mainNode);
             return true;
         }
+        $mainNode = $this->template->appendFileById('customReports_reports_new.html', 'div', 'new_report', false, $contentNode);
+        if (!$mainNode instanceof DOMNode) {
+            I2CE::raiseError("Could not add report categories template");
+            return false;
+        }
+        //get the existing report names so we can limit the new name to not be in the list
+        //$reports = I2CE_CustomReport_Template::getReportNames();
+        $reports = $this->getChildNames();
+        $shortNameNode = $this->template->getElementByName('shortname', 0, $mainNode);
+        if (!$shortNameNode instanceof DOMNode) {
+            I2CE::raiseError("Could not find report shortname input");
+            return false;
+        }
+        $this->template->setClassValue($shortNameNode, 'validate_data', array('notinlist' => array_keys($reports)), '%');
+        $rels = array();
+        foreach ($swissRelationships->getSwiss('/') as $relationship => $swissRelationship) {
+            $rels[$relationship] = $swissRelationship->getDisplayName();
+        }
+        $this->template->setDisplayDataImmediate('relationship', $rels, $mainNode);
+        $this->renameInputs(array('display_name', 'shortname', 'relationship', 'description', 'category'), $mainNode);
+        return true;
     }
 
 
