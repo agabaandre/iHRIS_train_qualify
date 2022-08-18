@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ManageDashboard" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ManageDashboard" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="page">
       <configurationGroup name="dashboard">
         <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US" value="many" type="delimited">

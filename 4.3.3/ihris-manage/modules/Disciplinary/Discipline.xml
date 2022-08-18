@@ -6,7 +6,7 @@
     <className>iHRIS_Module_DisciplinaryAction</className>
     <category>Application Component</category>
     <description>A Disciplinary Action Tracking Module</description>
-    <version>4.3.0</version>
+    <version>4.3.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>

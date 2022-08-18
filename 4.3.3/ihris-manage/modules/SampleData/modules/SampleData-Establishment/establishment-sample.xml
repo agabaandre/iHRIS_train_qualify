@@ -3,17 +3,17 @@
 <I2CEConfiguration name="SampleData-establishment">
   <metadata>
     <displayName>Establishment Sample Data</displayName>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-manage-sample-data">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
     </requirement>
     <requirement name="establishment">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
     </requirement>
   </metadata>
   <configurationGroup name="SampleData-establishment" path="/">

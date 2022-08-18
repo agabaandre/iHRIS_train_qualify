@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Sample Data Confirmation Type</displayName>
     <description>Sample data for confirmation types.</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="SampleData-confirmation_type" path="/I2CE/formsData/forms/confirmation_type">
     <displayName>Export</displayName>

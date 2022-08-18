@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Job</displayName>
     <description>Sample Data for form: job</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="SampleData-cadre">
       <atLeast version="4.0" />
     </requirement>

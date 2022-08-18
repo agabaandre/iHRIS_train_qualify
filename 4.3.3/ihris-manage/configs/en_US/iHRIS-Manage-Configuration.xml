@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage" path="/I2CE">
   <metadata>
-    <version>4.3.3.0</version>
+    <version>4.2.1.0</version>
   </metadata>
   <configurationGroup name="ihris-manage" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.1.0</version>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
       <configuration name="can_edit_planning_database_lists" locale="en_US" values="single" type="string">
         <value>Can edit some planning database lists</value>

@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Registration Councils</displayName>
     <description>Sample Data for form: council</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="ManageRegistration">
       <atLeast version="4.0" />
     </requirement>

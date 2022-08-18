@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-Application" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-Application" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="en_US">
       <configuration name="app_felon" path="application/felony_circumstances/required">
         <value>You selected you were convicted of a felony but didn't describe the circumstances.</value>

@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="SampleData-establishment" path="/">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="SampleData-establishment" path="/" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="relationship" path="/modules/CustomReports/relationships/staff_norm_2010">
       <configuration name="description" locale="en_US">
         <value>Staffing Norm for 2010</value>

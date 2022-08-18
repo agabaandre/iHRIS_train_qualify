@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-CustomReports-facility-reports" path="/modules/CustomReports">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-CustomReports-facility-reports" path="/modules/CustomReports" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="relationships">
       <configurationGroup name="facility">
         <configuration name="display_name" locale="en_US">

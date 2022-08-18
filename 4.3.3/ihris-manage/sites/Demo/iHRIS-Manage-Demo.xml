@@ -9,21 +9,21 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.0</version>
+    <version>4.2.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ManageDashboard">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
     </requirement>
-    <requirement name="ihris-manage">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+	<requirement name="ihris-manage">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
     </requirement>
     <requirement name="UserAccess">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
     </requirement>
     <enable name="accident" />
     <enable name="ReportArchiver" />

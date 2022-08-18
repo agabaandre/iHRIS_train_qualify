@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ManageSelfService" path="/">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ManageSelfService" path="/" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="SS" path="/modules/SelfService">
       <configurationGroup name="page">
         <configurationGroup name="apply">

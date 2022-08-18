@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-FacilityTree" path="/modules/CustomReports">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-FacilityTree" path="/modules/CustomReports" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="facility_tree" path="//modules/CustomReports/relationships/facility_tree">
       <configuration name="description" locale="en_US">
         <value>Facility report for use in building the tree view for facility drop downs.</value>

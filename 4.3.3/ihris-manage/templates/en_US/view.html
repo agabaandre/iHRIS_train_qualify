@@ -29,7 +29,7 @@
     </span>
 
   </div>
-
+  
   <div class="recordsData">
     <h3>
       <a name="jump_individual">Individual Information</a>
@@ -54,7 +54,7 @@
 	</span>
       </span>
     </p>
-
+    
     <div id="individual">
       <div class="editRecord" >
         <p>Edit This Information</p>
@@ -81,7 +81,7 @@
           </span>
         </table>
       </div> <!-- dataTable -->
-
+  
       <div id='person_photo_passport' class='recordsData'></div>
       <div id='person_resume' class='recordsData'></div>
       <div id="person_id" class='recordsData'></div>
@@ -89,8 +89,8 @@
     </div> <!--end indiviudal-->
     <br style="clear: both;" />
   </div> <!--end records data-->
-
-
+  
+  
   <span type='module' name='PersonContact' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_person_contact_work|person_can_view_child_form_person_contact_personal|person_can_view_child_form_person_contact_emergency|person_can_view_child_form_person_contact_other'>
       <h3>
@@ -109,7 +109,7 @@
     </div>
      <!-- recordsData -->
   </span>
-
+  
   <span type='module' name='dependents' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_dependent'>
       <h3><a name="jump_dependent">Dependent Information</a></h3>
@@ -149,9 +149,9 @@
          <span task='person_can_edit_child_form_leave_of_absence' type="form" name="person:id" href="leave_of_absence?parent=" >Add Leave of Absence</span>
        </span>
     </p>
-
+    
     <div id="position">
-
+      
       <div id="person_position" task='person_can_view_child_form_person_position'/>
       <br style="clear: both;" />
       <div id="salary" task='person_can_view_child_form_salary'/>
@@ -161,32 +161,12 @@
         <br style="clear: both;" />
         <div id="leave_of_absence" task='person_can_view_child_form_leave_of_absence'/>
       </span>
-
+      
     </div>
      <!-- position -->
     <br style="clear: both;" />
   </div>
    <!-- recordsData -->
-
-   <span type='module' name='leave' ifenabled='true'>
-      <div class="recordsData" task='person_can_view_child_form_leave_request'>
-        <h3>
-          <a name="jump_leave_request">Leave Request Information</a>
-        </h3>
-        <p class="editRecordsData">
-          <a href="" class="hide" title="Hide" onclick="return hideDiv('person_leave', this );">Hide</a>
-          <span task='person_can_edit_child_form_person_leave_request' type="form" name="person:id" href="leave_request?parent=" >Request Leave</span>
-
-        </p>
-
-
-
-        <div id='leave_request' ></div>
-        <br style="clear: both;" />
-
-      </div>
-       <!--  recordsData -->
-   </span>
 
   <span type='module' name='ihris-manage-confirmation' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_confirmation'>
@@ -194,21 +174,21 @@
         <a name="jump_confirmation">Confirmation Information</a>
       </h3>
       <p class="editRecordsData">
-        <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>	
 	<span type='module' call="ihris-manage-confirmation->addAllowedConfirmations({FORM}$person)"/>
 
       </p>
-
+      
 
 
       <div id='confirmation' ></div>
       <br style="clear: both;" />
-
+      	
     </div>
      <!--  recordsData -->
   </span>
 
-
+  
   <div class="recordsData" task='person_can_view_child_form_registration|person_can_view_child_form_person_language|person_can_view_child_form_person_competency'>
     <h3>
       <a name="jump_qualification">Qualifications</a>
@@ -226,22 +206,22 @@
         <span task='person_competency_can_view_evaluation' type="form" name="person:id" href="person_competency_history?parent=" >Competency Evaluations</span>
       </span>
     </p>
-
+    
     <div id="qualification">
-
+      
       <div id="registration" task='person_can_view_child_form_registration' />
       <div id="person_language" task='person_can_view_child_form_person_language'/>
       <div id="person_competency" task='person_can_view_child_form_person_competency'/>
-
+      
     </div>
      <!-- qualification -->
-
+    
     <br style="clear: both;" />
   </div>
    <!-- recordsData -->
-
-
-
+  
+  
+  
   <span type='module' name='training-course' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_person_scheduled_training_course'>
       <h3>
@@ -256,26 +236,8 @@
     </div>
   </span>
   
-  <span type='module' name='PersonAttendance' ifenabled='true'>
-    <div class="recordsData" task='person_can_view_child_form_person_attendance'>
-      <h3>
-        <a name="jump_person_attendance">Attendance Information</a>
-       </h3>
-      <p class="editRecordsData">
-        <a href="" class="hide" title="Hide" onclick="return hideDiv('person_attendance', this );">Hide</a>
-        <span task='person_can_edit_child_form_person_attendance' type="form" name="person:id" href="person_attendance?parent=" >Add Attendance Details</span>
-        <span task='person_can_edit_child_form_person_attendance' type="form" name="person:id" href="history?form=person_attendance&amp;show_edit=true&amp;order_by=month_year&amp;id=">History</span>
-      </p>
-      <div id='person_attendance'>
-        <span type='module' call='person_attendance->showCurrentAttendance()'></span>
-      </div>
-
-      <br style="clear: both;" />
-    </div>
-  </span>
-
   <span type='module' name='disciplinary_action' ifenabled='true'>
-    <div class="recordsData" task='person_can_view_child_form_disciplinary_action'>
+    <div class="recordsData" task='person_can_view_child_form_disciplinary_action'>	
       <h3>
         <a name="jump_disciplinary_action">Current Disciplinary Actions</a>
       </h3>
@@ -290,10 +252,10 @@
       <br style="clear: both;" />
     </div>
   </span>
-
-
+  
+  
   <span type='module' name='accident' ifenabled='true'>
-    <div class="recordsData" task='person_can_view_child_form_accident'>
+    <div class="recordsData" task='person_can_view_child_form_accident'>	
       <h3>
         <a name="jump_accident">Workplace Accidents</a>
       </h3>
@@ -305,14 +267,14 @@
       <div id='accidents'>
         <span type='module' call='accident->showCurrentAccidents()'></span>
       </div>
-
+      
       <br style="clear: both;" />
     </div>
   </span>
-
-
+  
+  
   <span type='module' name='ihris-manage-Application' ifenabled='true'>
-    <div class="recordsData" task='person_can_view_child_form_application|person_can_view_child_form_position_interview|person_can_view_child_form_position_decision'>
+    <div class="recordsData" task='person_can_view_child_form_application|person_can_view_child_form_position_interview|person_can_view_child_form_position_decision'>	
       <h3>
         <a name="jump_application">Application</a>
       </h3>
@@ -325,25 +287,25 @@
           <span task='person_can_edit_child_form_person_reference' type="form" name="person:id" href="person_reference?parent=">Personal Reference</span>
         </span>
       </p>
-
+      
       <div id="applicant">
-
+        
         <div id="position_interview" task='person_can_view_child_form_position_interview'></div>
         <div id="position_decision" task='person_can_view_child_form_position_decision'></div>
         <div id="application" task='person_can_view_child_form_application'></div>
         <span type='module' name='ihris-manage-PersonReference' ifenabled='true'>
           <div id="person_reference" task='person_can_view_child_form_person_reference'></div>
         </span>
-
+        
       </div>
        <!-- applicant -->
       <br style="clear: both;" />
     </div>
      <!-- recordsData -->
   </span>
-
-
-
+  
+  
+  
   <span type='module' name='PersonEmployment' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_employment'>
       <h3>
@@ -353,13 +315,13 @@
         <a href="" class="hide" title="Hide" onclick="return hideDiv('employment', this );">Hide</a>
         <span task='person_can_edit_child_form_employment' type="form" name="person:id" href="employment?parent=" >Add Employment</span>
       </p>
-
+      
       <div id="employment"></div>
       <br style="clear: both;" />
     </div>
      <!-- recordsData -->
   </span>
-
+  
   <span type='module' name='PersonEducation' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_education'>
       <h3>
@@ -369,10 +331,10 @@
         <a href="" class="hide" title="Hide" onclick="return hideDiv('education', this );">Hide</a>
         <span task='person_can_edit_child_form_education' type="form" name="person:id" href="education?parent=" >Add Education</span>
       </p>
-
+      
       <div id="education"></div>
       <br style="clear: both;" />
-
+      	
     </div>
      <!--  recordsData -->
   </span>
@@ -386,10 +348,10 @@
         <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
         <span task='person_can_edit_child_form_notes' type="form" name="person:id" href="notes?parent=" >Add Note</span>
       </p>
-
+      
       <div id="notes"></div>
       <br style="clear: both;" />
-
+      	
     </div>
      <!--  recordsData -->
   </span>
@@ -400,8 +362,8 @@
       <a href="" class="hide" title="Hide" onclick="return hideDiv('person_record_status', this );">Hide</a>
     </p>
 
-    <div id="person_record_status"></div>
-    <br style="clear: both;" />
+    <div id="person_record_status"></div> 
+    <br style="clear: both;" />	
   </div> <!--  recordsData -->
 
 
@@ -414,18 +376,18 @@
         <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
         <span task='person_can_edit_child_form_person_archive_scan' type="form" name="person:id" href="person_archive_scan?parent=" >Add Scanned Document</span>
       </p>
-
+      
 
 
       <div id='person_archive_scan' ></div>
       <br style="clear: both;" />
-
+      	
     </div>
      <!--  recordsData -->
   </span>
 
 
-
+  
   <span type='module' name='SelfService' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_user_map' >
       <h3>
@@ -435,14 +397,16 @@
         <a href="" class="hide" title="Hide" onclick="return hideDiv('user_map', this );">Hide</a>
 	<span type="form" name="person:id" href="SelfService/userAccount?parent=" ifset="!user_map:id">Assign User Account</span>
       </p>
-
+      
       <div id="user_map"></div>
       <br style="clear: both;" />
-
+      	
     </div>
      <!--  recordsData -->
   </span>
 
-
-
+  
+  
 </div>
+
+

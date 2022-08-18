@@ -10,8 +10,8 @@
     <link>https://launchpad.net/ihris-manage</link>
     <version>4.3.0</version>
     <requirement name="ihris-manage-base-data">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+  
     </requirement>
     <enable name="SampleData-cadre" />
     <enable name="SampleData-department" />

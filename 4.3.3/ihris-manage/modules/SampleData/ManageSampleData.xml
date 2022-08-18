@@ -9,13 +9,10 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.0.1</version>
-    <path name="configs">
-      <value>./configs</value>
-    </path>
+    <version>4.3.0</version>
     <requirement name="ihris-manage-medical-data">
       <atLeast version="4.3" />
-      <lessThan version="4.4" />
+    
     </requirement>
     <enable name="SampleData-facility" />
     <enable name="SampleData-establishment" />
@@ -27,10 +24,4 @@
       <value>./modules</value>
     </path>
   </metadata>
-  <configurationGroup name="ihris-manage-sample-data">
-    <configuration name="TF_name" path="/I2CE/formsData/forms/country/TF/fields/name" locale="en_US">
-      <version>4.3.0.1</version>
-      <value>Taifafeki</value>
-    </configuration>
-  </configurationGroup>
 </I2CEConfiguration>

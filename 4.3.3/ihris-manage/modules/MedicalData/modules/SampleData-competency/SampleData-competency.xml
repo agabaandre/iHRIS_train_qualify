@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Competency</displayName>
     <description>Sample Data for form: competency</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="SampleData-competency_type">
       <atLeast version="4.0" />
     </requirement>

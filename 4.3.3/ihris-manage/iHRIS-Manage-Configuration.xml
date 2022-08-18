@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.3.0</version>
+    <version>4.3.3.1</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -28,7 +28,6 @@
     <enable name="page-relationship-builder" />
     <enable name="ihris-manage-Benefit" />
     <enable name="ihris-manage-csd-qus" />
-    <enable name="web-services-lists" />
     <requirement name="Currency">
       <atLeast version="4.3" />
       <lessThan version="4.4" />

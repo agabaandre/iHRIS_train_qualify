@@ -8,14 +8,13 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.0</version>
+    <version>4.30</version>
     <requirement name="ihris-manage">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      
     </requirement>
     <requirement name="training-course">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
     </requirement>
     <enable name="manage-training-institution" />
     <enable name="manage-training-simple-competency" />

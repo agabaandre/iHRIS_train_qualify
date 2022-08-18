@@ -8,7 +8,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.0.1</version>
+    <version>4.3.3</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -16,7 +16,7 @@
       <atLeast version="4.3" />
       <lessThan version="4.4" />
     </requirement>
-    <enable name="CustomReports_Visualization" />
+    <enable name="CustomReports_PieChart" />
     <enable name="CustomReports_Export" />
     <enable name="CustomReports_PDF" />
     <enable name="ihris-manage-CustomReports-position-reports" />

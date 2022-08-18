@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Reasons for Departure</displayName>
     <description>Sample Data for form: pos_change_reason</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="ihris-manage-PersonPosition">
       <atLeast version="4.0" />
     </requirement>

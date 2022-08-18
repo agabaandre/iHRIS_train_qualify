@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-PersonDemographic" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-PersonDemographic" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="forms" path="/modules/forms">
       <configurationGroup name="formClasses">
         <configurationGroup name="iHRIS_ManageDemographic">

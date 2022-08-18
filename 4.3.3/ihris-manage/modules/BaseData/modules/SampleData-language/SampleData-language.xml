@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Language</displayName>
     <description>Sample Data for form: language</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="PersonLanguage">
       <atLeast version="4.0" />
     </requirement>

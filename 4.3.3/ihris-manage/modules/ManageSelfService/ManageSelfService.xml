@@ -7,7 +7,7 @@
     <creator>Carl Leitner</creator>
     <email>litlfred@ibiblio.org</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.3.0.1</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -48,24 +48,6 @@
           </configuration>
         </configurationGroup>
       </configurationGroup>
-    </configurationGroup>
-    <configurationGroup name="/modules/forms/forms">
-      <version>4.3.0.1</version>
-      <configuration name="is_public" path="country/meta/list/is_public" type="boolean" values="single">
-        <value>true</value>
-      </configuration>
-      <configuration name="is_public" path="region/meta/list/is_public" type="boolean" values="single">
-        <value>true</value>
-      </configuration>
-      <configuration name="is_public" path="district/meta/list/is_public" type="boolean" values="single">
-        <value>true</value>
-      </configuration>
-      <configuration name="is_public" path="county/meta/list/is_public" type="boolean" values="single">
-        <value>true</value>
-      </configuration>
-      <configuration name="is_public" path="position/meta/list/is_public" type="boolean" values="single">
-        <value>true</value>
-      </configuration>
     </configurationGroup>
     <configuration name="default_user_role" path="/modules/SelfService/default_user_role">
       <version>4.0.7.7</version>

@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Disciplinary Action Type</displayName>
     <description>Sample Data for form: disciplinary_action_type</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="disciplinary_action">
       <atLeast version="4.0" />
     </requirement>

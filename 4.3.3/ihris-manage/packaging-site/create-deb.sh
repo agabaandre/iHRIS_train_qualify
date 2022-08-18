@@ -40,14 +40,15 @@ $MINVERS" | $SORT -rV | $HEAD -1)
 VERS="${LASTVERS%.*}.$((${LASTVERS##*.}+1))"
 
 PARENT=$($BZR info -vv | $GREP "checkout of branch" | $SED 's/\s*checkout of branch:\s*//')
-I2CE=$(echo $PARENT | $SED -r 's/branch\/[a-zA-Z0-9+\_-]+\//branch\/i2ce\//')
+#I2CE=$(echo $PARENT | $SED -r 's/branch\/[a-zA-Z0-9+\_-]+\//branch\/i2ce\//')
+I2CE=$(echo $PARENT | $SED -r 's/informatics\/[a-zA-Z0-9+\_-]+\//informatics\/i2ce\//')
 
 echo Current tagged verison is $LASTVERS.
 echo Parent Branch is $PARENT
 $BZR status
 
 echo Should we update changelogs, commit under packacing everything and increment to $VERS? [y/n]
-read INCVERS 
+INCVERS="y" 
 
 if [[ "$INCVERS" == "y" || "$INCVERS" == "Y" ]];  then
     COMMITMSG="Ubuntu Site Release Version $VERS"

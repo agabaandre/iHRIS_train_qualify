@@ -2,7 +2,7 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-site-demo" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.1.6.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-site-demo" path="/I2CE" locale="en_US">
     <version>4.1.1.0</version>

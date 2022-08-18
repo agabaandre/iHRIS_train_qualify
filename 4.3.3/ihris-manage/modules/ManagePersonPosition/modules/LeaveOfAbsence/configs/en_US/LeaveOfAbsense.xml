@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-LeaveOfAbsence" path="/I2CE">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.3.3</version>
   </metadata>
   <configurationGroup name="ihris-manage-LeaveOfAbsence" path="/I2CE" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.3.3</version>
     <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages/leave_of_absence">
       <configuration name="start_date_overlap" path="start_date/date_overlap" locale="en_US">
         <value>The start date overlaps with an existing leave of absence.</value>

@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Salary Source</displayName>
     <description>Sample Data for form: salary_source</description>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <requirement name="ihris-manage-Salary">
       <atLeast version="4.0" />
     </requirement>

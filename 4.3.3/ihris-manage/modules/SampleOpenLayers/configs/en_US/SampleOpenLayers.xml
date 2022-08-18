@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="SampleOpenLayers" path="/modules/OpenLayers">
   <metadata>
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
   </metadata>
   <configurationGroup name="SampleOpenLayers" path="/modules/OpenLayers" locale="en_US">
-    <version>4.3.0</version>
+    <version>4.2.2.0</version>
     <configurationGroup name="default">
       <configurationGroup name="layers">
         <configurationGroup name="tf_facilities_heat">

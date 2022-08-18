@@ -56,17 +56,15 @@ class iHRIS_Module_Manage extends I2CE_Module {
     protected function updatePersonFormFields() {
         ini_set('max_execution_time',6000);
         ini_set('memory_limit',"64M");
-        $db = I2CE::PDO();
+        $db = MDB2::singleton(); 
         $factory = I2CE_FormFactory::instance();
-        try {
+        if ($db->supports('transactions')) {
             $db->beginTransaction(); 
-        } catch ( PDOException $e ) {
-            I2CE::pdoError( $e, "Transaction failed to start." );
         }
         $personFormId = I2CE_Form::getFormId("person",true);
         if ($personFormId == 0) {
             I2CE::raiseError("Unable to get person form id.  Assuming that no person forms have ever been created.");
-            if ($db->inTransaction()) { 
+            if ($db->in_transaction) { 
                 $db->rollback();
             }
             return true;
@@ -74,7 +72,7 @@ class iHRIS_Module_Manage extends I2CE_Module {
         $adminUser = I2CE_User::findUser('role','admin',false);
         if (!$adminUser instanceof I2CE_User) {
             I2CE::raiseError("Cannot find an administrative user");
-            if ($db->inTransaction()) { 
+            if ($db->in_transaction) { 
                 $db->rollback();
             }
             return false;
@@ -86,65 +84,78 @@ class iHRIS_Module_Manage extends I2CE_Module {
             $details[$location]=I2CE_FormField::getFormFieldIdAndType("person",$location);
             if ($details[$location] === null) {
                 I2CE::raiseError("Unable to get details for person:$location.  Assuming that is has never beens used so skipping.");
-                if ($db->inTransaction()) { 
+                if ($db->in_transaction) { 
                     $db->rollback();
                 }
                 unset($changes[$location]);
                 continue;
             }
-            try {
-                $details[$location]['qry'] = $db->prepare(
-                    "SELECT " . $details[$location]['type']  . "_value as val FROM last_entry where record = ? and form_field = ? LIMIT 1" );
-            } catch ( PDOException $e ) {
-                I2CE::pdoError( $e, "Error preping statement:" );
-                if ($db->inTransaction()) { 
+            $details[$location]['qry'] = $db->prepare(
+                "SELECT " . $details[$location]['type']  . "_value as val FROM last_entry where record = ? and form_field = ? LIMIT 1",
+                array("integer","integer"), MDB2_PREPARE_RESULT 
+                );
+            if (I2CE::pearError( $details[$location]['qry'], "Error preping statement:" )) {
+                if ($db->in_transaction) { 
                     $db->rollback();
                 }
                 return false;
             }                  
         }
-        try {
-            $qry = $db->prepare( 'SELECT id from record where form = ?' );
-            $qry->execute( $personFormId);
-            while( $row = $qry->fetch() ) {
-                $person = $factory->createContainer('person'.'|'. $row->id);
-                if (!$person instanceof iHRIS_Person) {
-                    I2CE::raiseError("Unable to create person with id " . $row->id);
-                    if ($db->inTransaction()) { 
-                        $db->rollback();
-                    }
-                    return false;
-                }
-                $person->populate();            
-                foreach ($changes as $old=>$new) {
-                    $details[$old]['qry']->execute( array( $row->id,$details[$old]['id']));                
-                    $t_row = $details[$old]['qry']->fetch();
-                    if (!$t_row) {
-                        continue; //we did not get anything
-                    }
-                    $person->$new = $t_row->val;
-                    $details[$old]['qry']->closeCursor();
-                }
-                if (!$person->save($adminUser)) {
-                    I2CE::raiseError("Unable to save record " . $row->id);
-                    if ($db->inTransaction()) { 
-                        $db->rollback();
-                    }
-                    return false;
-                }
-                $person->cleanup();            
-            }
-            $qry->closeCursor();
-            unset( $qry );
-        } catch ( PDOException $e ) {
-            I2CE::pdoError( $e, "Error preping select records" );
-            if ($db->inTransaction()) { 
+        $qry = $db->prepare( 'SELECT id from record where form = ?', array('integer'), MDB2_PREPARE_RESULT );
+        if (I2CE::pearError( $qry, "Error preping select records" )) {
+            if ($db->in_transaction) { 
                 $db->rollback();
             }
             return false;
         }
-        if ($db->inTransaction()) { 
-            return $db->commit();
+        $results = $qry->execute( $personFormId);
+        if (I2CE::pearError( $results, "Error getting records" )) {
+            if ($db->in_transaction) { 
+                $db->rollback();
+            }
+            return false;
+        }
+        while( $row = $results->fetchRow() ) {
+            $person = $factory->createContainer('person'.'|'. $row->id);
+            if (!$person instanceof iHRIS_Person) {
+                I2CE::raiseError("Unable to create person with id " . $row->id);
+                if ($db->in_transaction) { 
+                    $db->rollback();
+                }
+                return false;
+            }
+            $person->populate();            
+            foreach ($changes as $old=>$new) {
+                $t_results = $details[$old]['qry']->execute( array( $row->id,$details[$old]['id']));                
+                if (I2CE::pearError( $t_results, "Error selecting data for $old for id " . $row->id)) {
+                    if ($db->in_transaction) { 
+                        $db->rollback();
+                    }
+                    return false;
+                }
+                $t_row = $t_results->fetchRow();
+                if (!$t_row) {
+                    continue; //we did not get anything
+                }
+                if (I2CE::pearError( $t_row, "Error getting data for $old for id " . $row->id)) {
+                    if ($db->in_transaction) { 
+                        $db->rollback();
+                    }
+                    return false;
+                }
+                $person->$new = $t_row->val;
+            }
+            if (!$person->save($adminUser)) {
+                I2CE::raiseError("Unable to save record " . $row->id);
+                if ($db->in_transaction) { 
+                    $db->rollback();
+                }
+                return false;
+            }
+            $person->cleanup();            
+        }
+        if ($db->in_transaction) { 
+            return $db->commit()  == MDB2_OK; 
         } else{
             return true;  
         }
