@@ -1,0 +1,100 @@
+# Translation Template of ihris-train module (StudentDropSemester Version 4.2.0.14)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@StudentDropSemester 4.2.0.14\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 11]
+#, no-c-format
+msgid "Person Can View Drop Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 14]
+#, no-c-format
+msgid "Person Can Edit Drop Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 17]
+#, no-c-format
+msgid "Drop Semester Can View Resume Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 20]
+#, no-c-format
+msgid "Drop Semester Can Edit Resume Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L28 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 28]
+#, no-c-format
+msgid "Registration"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L33 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 33]
+#, no-c-format
+msgid "Date Dropped"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L42 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 42]
+#, no-c-format
+msgid "Date Resumed"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L52 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 52]
+#, no-c-format
+msgid "Drop Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml#L59 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/configs/en_US/StudentDropSemester.xml line 59]
+#, no-c-format
+msgid "Resume Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_drop_semester.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_drop_semester.html line 3]
+#, no-c-format
+msgid "Drop A Student For This Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html line 3]
+#, no-c-format
+msgid "Resume To Studies"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html#L11 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html line 11]
+#, no-c-format
+msgid "Resume To This Dropped Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html#L18 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_drop_semester.html line 18]
+#, no-c-format
+msgid "Student Semester Drop"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_resume_semester.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/view_resume_semester.html line 4]
+#, no-c-format
+msgid "Resumed At"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html line 2]
+#, no-c-format
+msgid "Resume A Student For This Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html#L15 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html line 15]
+#, no-c-format
+msgid "Dropped In Semester"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html#L17 ihris-train/4.0-dev/annotate/head%3A/modules/StudentDropSemester/templates/en_US/form_resume_semester.html line 17]
+#, no-c-format
+msgid "Academic Year"
+msgstr ""
+

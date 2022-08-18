@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="StudentsViewResults">
+  <metadata>
+    <displayName>Students Self View Semester Results</displayName>
+    <creator>Ally Shaban</creator>
+    <className>iHRIS_Module_StudentsViewResults</className>
+    <email>allyshaban5@gmail.com</email>
+    <category>Application Component</category>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.2.1.9</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.2" />
+    </requirement>
+    <requirement name="SelfService">
+      <atLeast version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>300</priority>
+  </metadata>
+  <configurationGroup name="StudentsViewResults" path="/I2CE">
+    <version>4.2.1.9</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_edit_child_form_students_results_grade" locale="en_US">
+        <value>Can edit person students view results</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_students_results_grade" locale="en_US">
+        <value>Can view person students view results</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

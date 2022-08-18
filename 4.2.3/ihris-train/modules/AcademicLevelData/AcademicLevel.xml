@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="AcademicLevelData">
+  <metadata>
+    <displayName>Academic Level Data</displayName>
+    <category>Application Component</category>
+    <description>Academic Levels Data</description>
+    <creator>Ally Shaban</creator>
+    <email>allyshaban5@gmail.com</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="level" path="/I2CE">
+    <configurationGroup name="level-data" path="/I2CE/formsData/forms/academic_level">
+      <configurationGroup name="1">
+        <configuration name="last_modified">
+          <value>2014-04-16 12:25:30</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name">
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="2">
+        <configuration name="last_modified">
+          <value>2014-04-16 12:25:30</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name">
+            <value>2</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="3">
+        <configuration name="last_modified">
+          <value>2014-04-16 12:25:30</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name">
+            <value>3</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+  <configurationGroup name="forms" path="/modules/forms">
+    <configurationGroup name="forms">
+      <configurationGroup name="academic_level">
+        <configuration name="class" values="single">
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <value>Semester</value>
+        </configuration>
+        <configuration name="storage">
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

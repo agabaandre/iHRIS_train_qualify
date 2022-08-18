@@ -1,0 +1,25 @@
+# Translation Template of ihris-train module (PersonTrain Version 4.2.0.1)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@PersonTrain 4.2.0.1\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonTrain/configs/en_US/PersonTrain.xml#L13 ihris-train/4.0-dev/annotate/head%3A/modules/PersonTrain/configs/en_US/PersonTrain.xml line 13]
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/PersonTrain/configs/en_US/PersonTrain.xml#L22 ihris-train/4.0-dev/annotate/head%3A/modules/PersonTrain/configs/en_US/PersonTrain.xml line 22]
+#, no-c-format
+msgid "Home Village"
+msgstr ""
+

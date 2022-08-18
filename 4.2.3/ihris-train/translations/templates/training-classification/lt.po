@@ -1,0 +1,55 @@
+# Translation of iHRIS Train - Classification to Lithuanian (lietuvių)
+# Exported from translatewiki.net
+#
+# Author: Eitvys200
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 19:54+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-09-22 08:55+0000\n"
+"X-Generator: Launchpad (build 18204)\n"
+"Language: lt\n"
+"X-POT-Import-Date: 2014-03-23 19:24:54+0000\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 11]
+#, no-c-format
+msgid "Edit the Training Classification list"
+msgstr "Redaguoti Mokymų Klasifikacijos sąrašą"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 14]
+#, no-c-format
+msgid "View the Training Classification list"
+msgstr "Žiūrėti Mokymų Klasifikacijos sąrašą"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml#L21 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/configs/en_US/TrainingClassification.xml line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 14]
+#, no-c-format
+msgid "Training Classification Information"
+msgstr "Mokymų Klasifikacijos Informacija"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L4 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 4]
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Redaguoti Šią Informaciją"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 6]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Atnaujinti šią informaciją"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html#L7 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingClassification/templates/en_US/view_list_trainingclassification.html line 7]
+#, no-c-format
+msgid "Select another Training Classification"
+msgstr "Pasirinkti kitą Mokymų Klasifikaciją"

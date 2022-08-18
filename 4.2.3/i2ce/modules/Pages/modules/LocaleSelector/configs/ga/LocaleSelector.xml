@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="ga">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Af&#225;rais</value>
+      <value>ab:Abc&#225;isis</value>
+      <value>ae:Aiv&#233;istis</value>
+      <value>af:Afrac&#225;inis</value>
+      <value>am:Am&#225;iris</value>
+      <value>ar:Araibis</value>
+      <value>as:Asaimis</value>
+      <value>ay:Adhmarais</value>
+      <value>az:Asarbaise&#225;inis</value>
+      <value>ba:Baisc&#237;ris</value>
+      <value>be:Bealar&#250;isis</value>
+      <value>bg:Bulg&#225;iris</value>
+      <value>bh:Bihairis</value>
+      <value>bi:Bioslamais</value>
+      <value>bn:Beang&#225;ilis</value>
+      <value>bo:Tib&#233;idis</value>
+      <value>br:Briot&#225;inis</value>
+      <value>bs:Boisnis</value>
+      <value>ca:Catal&#243;inis</value>
+      <value>ce:Seisnis</value>
+      <value>ch:Seam&#243;r&#243;is</value>
+      <value>co:Corsaicis</value>
+      <value>cs:Seicis</value>
+      <value>cu:Slaivis Eaglaise</value>
+      <value>cv:Suvais</value>
+      <value>cy:Breatnais</value>
+      <value>da:Danmhairgis</value>
+      <value>de:Gearm&#225;inis</value>
+      <value>el:Gr&#233;igis</value>
+      <value>en:B&#233;arla</value>
+      <value>en_GB:B&#233;arla na Sasanach</value>
+      <value>en_US:B&#233;arla Mheirice&#225;</value>
+      <value>es:Sp&#225;innis</value>
+      <value>et:East&#243;inis</value>
+      <value>eu:Bascais</value>
+      <value>fa:Fairsis (Peirsis)</value>
+      <value>fi:Fionlainnis</value>
+      <value>fj:Fidsis</value>
+      <value>fo:Far&#243;is</value>
+      <value>fr:Fraincis</value>
+      <value>fy:Freaslainnis</value>
+      <value>ga:Gaeilge</value>
+      <value>gd:G&#224;idhlig</value>
+      <value>gl:Gail&#237;sis</value>
+      <value>gn:Guar&#225;inis</value>
+      <value>gu:G&#250;isear&#225;itis</value>
+      <value>gv:Manainnis</value>
+      <value>ha:H&#225;sais</value>
+      <value>he:Eabhrais</value>
+      <value>hi:Hiond&#250;is</value>
+      <value>ho:H&#237;r&#237;-M&#243;t&#250;is</value>
+      <value>hr:Cr&#243;itis</value>
+      <value>hsb:Sorbais Uachtarach</value>
+      <value>hu:Ung&#225;iris</value>
+      <value>hy:Airm&#233;inis</value>
+      <value>hz:Heir&#233;ir&#243;is</value>
+      <value>ia:Idirtheanga</value>
+      <value>id:Indin&#233;isis</value>
+      <value>ie:Idirtheanga iartharach</value>
+      <value>is:&#205;oslainnis</value>
+      <value>it:Iod&#225;ilis</value>
+      <value>iu:Ion&#250;itis</value>
+      <value>ja:Seap&#225;inis</value>
+      <value>jv:I&#225;vais</value>
+      <value>ka:Seoirsis</value>
+      <value>ki:Cioc&#250;is</value>
+      <value>kk:Casaicis</value>
+      <value>kl:Graonlainnis</value>
+      <value>km:Cim&#233;iris</value>
+      <value>kn:Cannadais</value>
+      <value>ko:C&#243;ir&#233;is</value>
+      <value>ks:Caism&#237;ris</value>
+      <value>ku:Coirdis</value>
+      <value>kv:Coim&#237;</value>
+      <value>kw:Coirnis</value>
+      <value>ky:Cirgeast&#225;inis</value>
+      <value>la:Laidin</value>
+      <value>lb:Lucsambuirgis</value>
+      <value>li:Limbuirgis</value>
+      <value>lo:L&#225;&#243;is</value>
+      <value>lt:Liotu&#225;inis</value>
+      <value>lv:Laitvis</value>
+      <value>mg:Malag&#225;sais</value>
+      <value>mh:Marascailis</value>
+      <value>mi:Maorais</value>
+      <value>mk:Macad&#243;inis</value>
+      <value>ml:Mail&#233;alaimis</value>
+      <value>mn:Mong&#243;ilis</value>
+      <value>mo:Mold&#225;vais</value>
+      <value>mr:Maraitis</value>
+      <value>ms:Malaeis</value>
+      <value>mt:M&#225;ltais</value>
+      <value>my:Burmais</value>
+      <value>na:N&#225;r&#250;is</value>
+      <value>nb:Ioruais (Bokm&#229;l)</value>
+      <value>nd:Ndebele Thuaidh</value>
+      <value>nds:Sacsainis &#205;ochtarach</value>
+      <value>ne:Neipealais</value>
+      <value>ng:Ndongais</value>
+      <value>nl:Ollainnis</value>
+      <value>nn:Ioruais (Nynorsk)</value>
+      <value>nr:Ndebele Theas</value>
+      <value>nso:Seipidis</value>
+      <value>nv:Navach&#243;is</value>
+      <value>ny:Siseivis</value>
+      <value>oc:Ocat&#225;inis</value>
+      <value>om:Oraimis</value>
+      <value>or:Oir&#237;sis</value>
+      <value>os:&#211;is&#233;itis</value>
+      <value>pa:Painse&#225;ibis</value>
+      <value>pi:P&#225;ilis</value>
+      <value>pl:Polainnis</value>
+      <value>ps:Paistis</value>
+      <value>pt:Portaing&#233;ilis</value>
+      <value>pt_BR:Portaing&#233;ilis na Brasa&#237;le</value>
+      <value>qu:Ceatsuais</value>
+      <value>ro:R&#243;m&#225;inis</value>
+      <value>rom:Romainis</value>
+      <value>ru:R&#250;isis</value>
+      <value>rw:Cinearu&#225;indis</value>
+      <value>sa:Sanscrait</value>
+      <value>sc:Saird&#237;nis</value>
+      <value>sd:Sindis</value>
+      <value>se:S&#225;imis Thuaidh</value>
+      <value>sg:Sang&#243;is</value>
+      <value>si:Siol&#243;inis</value>
+      <value>sk:Sl&#243;vaicis</value>
+      <value>sl:Sl&#243;iv&#233;inis</value>
+      <value>sm:Sam&#243;is</value>
+      <value>sn:Seoinis</value>
+      <value>so:Som&#225;ilis</value>
+      <value>sq:Alb&#225;inis</value>
+      <value>sr:Seirbis (aib&#237;tir Laidineach)</value>
+      <value>ss:Sasuatais</value>
+      <value>st:S&#243;t&#243; Theas</value>
+      <value>su:Sundais</value>
+      <value>sv:Sualainnis</value>
+      <value>sw:Svaha&#237;lis</value>
+      <value>ta:Tamailis</value>
+      <value>te:Teileag&#250;is</value>
+      <value>tg:T&#225;ids&#237;cis</value>
+      <value>th:T&#233;alainnis</value>
+      <value>ti:Tigrinis</value>
+      <value>tk:Turcam&#225;inis</value>
+      <value>tn:Su&#225;inis</value>
+      <value>to:Tongais</value>
+      <value>tr:Tuircis</value>
+      <value>ts:Songais</value>
+      <value>tt:Tatairis</value>
+      <value>ty:Taih&#237;tis</value>
+      <value>ug:&#218;&#237;gi&#250;iris</value>
+      <value>uk:&#218;cr&#225;inis</value>
+      <value>ur:Urdais</value>
+      <value>uz:&#218;isb&#233;icis</value>
+      <value>ven:Veindis</value>
+      <value>vi:V&#237;tneamais</value>
+      <value>wa:Vall&#250;nais</value>
+      <value>wo:Volaifis</value>
+      <value>xh:C&#243;isis</value>
+      <value>yi:Gi&#250;dais</value>
+      <value>yo:Iar&#250;ibis</value>
+      <value>za:Siu&#225;ingis</value>
+      <value>zh:S&#237;nis</value>
+      <value>zh_CN:S&#237;nis Simplithe</value>
+      <value>zh_HK:S&#237;nis (Hong Cong)</value>
+      <value>zh_TW:S&#237;nis Thraidisi&#250;nta</value>
+      <value>zu:S&#250;l&#250;is</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,116 @@
+# Translation Template of csd-provider-registry module (csd-infoman-storage Version 4.2.0.20.20.20.14)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: csd-provider-registry@csd-infoman-storage 4.2.0.20.20.20.14\n"
+"POT-Creation-Date: 2015-01-05 03:34-0500\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L12 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 12]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L15 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 15]
+#, no-c-format
+msgid "CSD InfoManager"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L21 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 21]
+#, no-c-format
+msgid "SSL Version"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L26 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 26]
+#, no-c-format
+msgid "Info Manager User (Basic Auth)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L31 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 31]
+#, no-c-format
+msgid "Info Manager Password (Basic Auth)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L36 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 36]
+#, no-c-format
+msgid "CSD Info Manager URL"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L41 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 41]
+#, no-c-format
+msgid "CSD Info Manager URL (Updates)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L46 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 46]
+#, no-c-format
+msgid "Contains Health Worker Directory Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L51 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 51]
+#, no-c-format
+msgid "Contains Service Directory Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L56 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 56]
+#, no-c-format
+msgid "Contains Facility Directory Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L61 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 61]
+#, no-c-format
+msgid "Contains Organization Directory Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml#L66 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/configs/en_US/InfoManStorage.xml line 66]
+#, no-c-format
+msgid "CSD Info Manager Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L3 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 3]
+#, no-c-format
+msgid "Remote Service Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L7 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 7]
+#, no-c-format
+msgid "Select InfoManager Service To Use For Each Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L8 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 8]
+#, no-c-format
+msgid "Define or configure additional"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L8 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 8]
+#, no-c-format
+msgid "InfoManagers"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L15 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 15]
+#, no-c-format
+msgid "Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L16 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 16]
+#, no-c-format
+msgid "Health Worker Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L17 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 17]
+#, no-c-format
+msgid "Facility Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L18 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 18]
+#, no-c-format
+msgid "Service Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html#L19 csd-provider-registry/4.0-dev/annotate/head%3A/modules/InfoManStorage/templates/en_US/service_directory_selector.html line 19]
+#, no-c-format
+msgid "Organization Directory"
+msgstr ""
+

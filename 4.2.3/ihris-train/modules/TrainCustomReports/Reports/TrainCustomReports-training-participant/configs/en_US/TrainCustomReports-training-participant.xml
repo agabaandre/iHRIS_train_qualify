@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-train-CustomReports-training-participant" path="/modules/CustomReports">
+  <metadata>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="ihris-train-CustomReports-training-participant" path="/modules/CustomReports" locale="en_US">
+    <version>4.2.0</version>
+    <configurationGroup name="training_participant" path="//modules/CustomReports/relationships/training_participant">
+      <configuration name="description" locale="en_US">
+        <value>Relationship for participants of all trainings.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Training Participants</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <configurationGroup name="funder">
+          <configuration name="description" locale="en_US">
+            <value>The funder for this training.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Funder</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_instance">
+          <configuration name="description" locale="en_US">
+            <value>The link from the training to the participant.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Person Instance</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="person">
+              <configuration name="description" locale="en_US">
+                <value>The person details of the participant.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Person</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <configurationGroup name="position">
+                  <configuration name="description" locale="en_US">
+                    <value>The position this person is currently in.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <value>Position</value>
+                  </configuration>
+                  <configurationGroup name="joins">
+                    <configurationGroup name="health_facility">
+                      <configuration name="description" locale="en_US">
+                        <value>The health facility where this person works.</value>
+                      </configuration>
+                      <configuration name="display_name" locale="en_US">
+                        <value>Health Facility</value>
+                      </configuration>
+                      <configurationGroup name="joins">
+                        <configurationGroup name="district">
+                          <configuration name="description" locale="en_US">
+                            <value>The district where this health facility is located.</value>
+                          </configuration>
+                          <configuration name="display_name" locale="en_US">
+                            <value>District</value>
+                          </configuration>
+                        </configurationGroup>
+                      </configurationGroup>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="providertraining">
+          <configuration name="description" locale="en_US">
+            <value>The link from the provider to the training details.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Provider Training Link</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="training">
+              <configuration name="description" locale="en_US">
+                <value>The training details.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Training</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="trainingprovider">
+          <configuration name="description" locale="en_US">
+            <value>The training provider for this training.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Training Provider</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="completed">
+          <configuration name="description" locale="en_US">
+            <value>Set to yes if this training has been completed by date.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="participant">
+          <configuration name="description" locale="en_US">
+            <value>Set to 1 if there is a partcipant assigned to this training for totalling.</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="training_participant" path="//modules/CustomReports/reports/training_participant">
+      <configurationGroup name="meta">
+        <configuration name="description" locale="en_US">
+          <value>A list of all participants in all trainings.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <value>Training Participants</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <configurationGroup name="district">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="funder">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Funder</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="health_facility">
+          <configurationGroup name="fields">
+            <configurationGroup name="location">
+              <configuration name="header" locale="en_US">
+                <value>Health Facility Location</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Health Facility Location</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Health Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <configurationGroup name="fields">
+            <configurationGroup name="firstname">
+              <configuration name="header" locale="en_US">
+                <value>First Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="surname">
+              <configuration name="header" locale="en_US">
+                <value>Surname</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <configurationGroup name="fields">
+            <configurationGroup name="health_facility">
+              <configuration name="header" locale="en_US">
+                <value>Health Facility ID</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="in">
+                  <configuration name="header" locale="en_US">
+                    <value>Health Facility</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="header" locale="en_US">
+                <value>Job/Post Title</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="in">
+                  <configuration name="header" locale="en_US">
+                    <value>Job/Post Title</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <configurationGroup name="fields">
+            <configurationGroup name="end_date">
+              <configuration name="header" locale="en_US">
+                <value>End Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="funder">
+              <configuration name="header" locale="en_US">
+                <value>Funder ID</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Funder</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="header" locale="en_US">
+                <value>Start Date</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="greaterthan_equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Start Date After</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lessthan_equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Start Date Before</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="providertraining">
+          <configurationGroup name="fields">
+            <configurationGroup name="training">
+              <configuration name="header" locale="en_US">
+                <value>Training ID</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="in">
+                  <configuration name="header" locale="en_US">
+                    <value>Training</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="training">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Training</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_classification">
+              <configuration name="header" locale="en_US">
+                <value>Training Classification</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Training Classification</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="training_length">
+              <configuration name="header" locale="en_US">
+                <value>Duration of Training</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_length_type">
+              <configuration name="header" locale="en_US">
+                <value>Duration Unit</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="training_type">
+              <configuration name="header" locale="en_US">
+                <value>Training Type</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Training Type</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="trainingprovider">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Training Provider</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="trainingprovider_type">
+              <configuration name="header" locale="en_US">
+                <value>Training Provider Type</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Training Provider Type</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="completed">
+          <configuration name="header" locale="en_US">
+            <value>Completed?</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <configurationGroup name="yesno">
+              <configuration name="header" locale="en_US">
+                <value>Completed?</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="training_participant" path="//modules/CustomReports/reportViews/training_participant">
+      <configuration name="description" locale="en_US">
+        <value>A list of all participants in all trainings.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Participants</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="participant_count" path="//modules/CustomReports/reportViews/participant_count">
+      <configuration name="description" locale="en_US">
+        <value>A list of all trainings with the number of participants.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Number of Participants</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

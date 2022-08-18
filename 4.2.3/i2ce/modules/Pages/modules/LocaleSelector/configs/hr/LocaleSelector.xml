@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="hr">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Afarski</value>
+      <value>ab:Abha&#353;ki</value>
+      <value>ae:Avestanski</value>
+      <value>am:Amarski</value>
+      <value>ar:Arapski</value>
+      <value>as:Asamski</value>
+      <value>ay:Ajmarski</value>
+      <value>az:Azerbejd&#382;anski</value>
+      <value>ba:Ba&#353;kirski</value>
+      <value>be:Bjeloruski</value>
+      <value>bg:Bugarski</value>
+      <value>bh:Biharski</value>
+      <value>bi:Bislamski</value>
+      <value>bn:Bengalski</value>
+      <value>bo:Tibetanski</value>
+      <value>br:Bretonski</value>
+      <value>bs:Bo&#353;nja&#269;ki</value>
+      <value>ca:Katalonski</value>
+      <value>ce:&#268;e&#269;enski</value>
+      <value>ch:&#268;amorski</value>
+      <value>co:Korzikanski</value>
+      <value>cs:&#268;e&#353;ki</value>
+      <value>cu:Crkveni pravoslavni</value>
+      <value>cv:&#268;uva&#353;ki</value>
+      <value>cy:Vel&#353;ki</value>
+      <value>da:Danski</value>
+      <value>de:Njema&#269;ki</value>
+      <value>el:Gr&#269;ki</value>
+      <value>en:Engleski</value>
+      <value>en_GB:Britanski Engleski</value>
+      <value>en_US:Ameri&#269;ki Engleski</value>
+      <value>es:&#352;panjolski</value>
+      <value>et:Estonski</value>
+      <value>eu:Baskijski</value>
+      <value>fa:Farsi (Perzijski)</value>
+      <value>fi:Finski</value>
+      <value>fj:Fid&#382;ijski</value>
+      <value>fo:Farski</value>
+      <value>fr:Francuski</value>
+      <value>fy:Frizijski</value>
+      <value>ga:Irski Galski</value>
+      <value>gd:Galski</value>
+      <value>gl:Galicijski</value>
+      <value>gn:Gvaranski</value>
+      <value>gu:Gud&#382;aratski</value>
+      <value>he:Hebrejski</value>
+      <value>hi:Hinduski</value>
+      <value>hr:Hrvatski</value>
+      <value>hsb:Gornjosrpski</value>
+      <value>hu:Ma&#273;arski</value>
+      <value>hy:Armenski</value>
+      <value>id:Indonezijski</value>
+      <value>is:Islandski</value>
+      <value>it:Talijanski</value>
+      <value>ja:Japanski</value>
+      <value>jv:Javanski</value>
+      <value>ka:Gruzijski</value>
+      <value>kk:Kaza&#269;ki</value>
+      <value>km:Kmerski</value>
+      <value>ko:Korejski</value>
+      <value>ks:Ka&#353;mirski</value>
+      <value>ku:Kurdski</value>
+      <value>kw:Kornski</value>
+      <value>ky:Kirgi&#353;ki</value>
+      <value>la:Latinski</value>
+      <value>lb:Luksembur&#353;ki</value>
+      <value>li:Limbur&#353;ki</value>
+      <value>ln:Lingalski</value>
+      <value>lt:Litvanski</value>
+      <value>lv:Latvijski</value>
+      <value>mg:Malagaski</value>
+      <value>mh:Mar&#353;aleski</value>
+      <value>mk:Makedonski</value>
+      <value>ml:Malajamski</value>
+      <value>mn:Mongolski</value>
+      <value>mo:Moldavski</value>
+      <value>ms:Malajski</value>
+      <value>mt:Malte&#353;ki</value>
+      <value>my:Burmanski</value>
+      <value>nb:Norve&#353;ki Bokm&#229;l</value>
+      <value>nd:Ndebele, Sjeverni</value>
+      <value>nds:Donjosaksonski</value>
+      <value>ne:Nepalski</value>
+      <value>nl:Nizozemski</value>
+      <value>nn:Norve&#353;ki Nynorsk</value>
+      <value>nr:Ndebele, Ju&#382;ni</value>
+      <value>nso:Sjeverni Sotho</value>
+      <value>nv:Navaho</value>
+      <value>om:Oromski</value>
+      <value>os:Osetski</value>
+      <value>pa:Pand&#382;abski</value>
+      <value>pl:Poljski</value>
+      <value>pt:Portugalski</value>
+      <value>pt_BR:Brazilski portugalski</value>
+      <value>ro:Rumunjski</value>
+      <value>rom:Romanski</value>
+      <value>ru:Ruski</value>
+      <value>rw:Kinid&#382;aruandski</value>
+      <value>sc:Sardinijski</value>
+      <value>se:Sjeverni Sami</value>
+      <value>si:Sinhalski</value>
+      <value>sk:Slova&#269;ki</value>
+      <value>sl:Slovenski</value>
+      <value>sm:Samoanski</value>
+      <value>so:Somalijski</value>
+      <value>sq:Albanski</value>
+      <value>sr:Srpski latinica</value>
+      <value>st:Sotho, Ju&#382;ni</value>
+      <value>sv:&#352;vedski</value>
+      <value>sw:Svahili</value>
+      <value>ta:Tamilski</value>
+      <value>tg:Tad&#382;ik</value>
+      <value>th:Tajlandski</value>
+      <value>tk:Turkmenski</value>
+      <value>tr:Turski</value>
+      <value>tt:Tatarski</value>
+      <value>ty:Tahi&#263;anski</value>
+      <value>ug:Ujgurski</value>
+      <value>uk:Ukrajinski</value>
+      <value>uz:Uzbe&#269;ki</value>
+      <value>vi:Vijetnamski</value>
+      <value>wa:Valonski</value>
+      <value>wo:Volofski</value>
+      <value>yi:Jidi&#353;</value>
+      <value>zh:Kineski</value>
+      <value>zh_CN:Kineski pojednostavljen</value>
+      <value>zh_HK:Kineski (Hong Kong)</value>
+      <value>zh_TW:Kineski tradicionalan</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

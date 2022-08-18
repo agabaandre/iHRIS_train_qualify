@@ -1,0 +1,20 @@
+# Translation Template of I2CE module (FileDump Version 4.2.0.2)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: I2CE@FileDump 4.2.0.2\n"
+"POT-Creation-Date: 2015-09-14 07:58+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/FileDump/configs/en_US/FileDump.xml#L12 i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/FileDump/configs/en_US/FileDump.xml line 12]
+#, no-c-format
+msgid "Form Dump"
+msgstr ""
+

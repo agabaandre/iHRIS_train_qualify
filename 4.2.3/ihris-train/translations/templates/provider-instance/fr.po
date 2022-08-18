@@ -1,0 +1,333 @@
+# Translation of iHRIS Train - Provider Instance to French (français)
+# Exported from translatewiki.net
+#
+# Author: Gomoko
+# Author: John Trololo
+# Author: Wladek92
+# --
+# Copyright (c) 2011-2016 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2016 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"PO-Revision-Date: 2016-09-21 12:20:02+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-08-24 05:44+0000\n"
+"X-Generator: MediaWiki 1.28.0-alpha; Translate 2016-04-06\n"
+"X-POT-Import-Date: 2015-09-25 12:54:12+0000\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L11
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 11]
+#, no-c-format
+msgid "Can view instance child form of a provider"
+msgstr "Peut voir le formulaire enfant d’instance d’un fournisseur"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L14
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 14]
+#, no-c-format
+msgid "Can edit instance child forms of a provider"
+msgstr "Peut modifier les formulaires enfant d’instance d’un fournisseur"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L17
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 17]
+#, no-c-format
+msgid "Can edit the funder database list."
+msgstr "Peut modifier la liste des bases de données des bailleurs de fonds."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L20
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 20]
+#, no-c-format
+msgid "Can view the funder database list."
+msgstr "Peut voir la liste des bases de données des bailleurs de fonds."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L27
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 27]
+#, no-c-format
+msgid "Scheduled/Update Training Information"
+msgstr "Information de formation planifiée/mise à jour"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L34
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 34]
+#, no-c-format
+msgid "Add/Update Fee Information"
+msgstr "Ajouter/Mettre à jour les informations de frais"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L41
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 41]
+#, no-c-format
+msgid "Set Exam Details"
+msgstr "Fixer les détails des examens"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L50
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 50]
+#, no-c-format
+msgid "Scheduled Training Information"
+msgstr "Information de formation planifiée"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L55
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 55]
+#, no-c-format
+msgid "Scheduled Training Fee Information"
+msgstr "Information sur les frais d’une formation planifiée"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L60
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 60]
+#, no-c-format
+msgid "Funder"
+msgstr "Bailleur de fonds"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L79
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 79]
+#, no-c-format
+msgid "Start Date"
+msgstr "Date de début"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L84
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 84]
+#, no-c-format
+msgid "End Date"
+msgstr "Date de fin"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L89
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 89]
+#, no-c-format
+msgid "Academic Year (eg. Year 1)"
+msgstr "Années académique (par ex. Année 1)"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L94
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 94]
+#, no-c-format
+msgid "Calender Year"
+msgstr "Année calendaire"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L99
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 99]
+#, no-c-format
+msgid "Upload Scanned Signed Student List"
+msgstr "Télécharger la liste scannée des étudiants ayant signé"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L104
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 104]
+#, no-c-format
+msgid "Source of Funding"
+msgstr "Source de financement"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L109
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 109]
+#, no-c-format
+msgid "Target Group(s)"
+msgstr "Groupe(s) cible"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L114
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 114]
+#, no-c-format
+msgid "Location Details"
+msgstr "Détails de l’emplacement"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L119
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 119]
+#, no-c-format
+msgid "Provider Training"
+msgstr "Fournisseur de formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L124
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 124]
+#, no-c-format
+msgid "Hide"
+msgstr "Masquer"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L133
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 133]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html#L12
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html
+#: 12]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html#L12
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html
+#, no-c-format
+msgid "Fee"
+msgstr "Frais"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L138
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 138]
+#, no-c-format
+msgid "Amount"
+msgstr "Montant"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html
+#: line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Modifier cette information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html#L5
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_pr_fee.html
+#: line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html#L5
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_fee.html
+#, no-c-format
+msgid "Correct this Information"
+msgstr "Corriger cette information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_header.html#L1
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_header.html
+#: line 1]
+#, no-c-format
+msgid "Exam Results"
+msgstr "Résultats de l’examen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_title.html#L2
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_title.html
+#: line 2]
+#, no-c-format
+msgid "Add Exam Results for"
+msgstr "Ajouter les résultats des examens pour"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_title.html#L2
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_title.html
+#: line 2]
+#, no-c-format
+msgid "Add Exam Numbers"
+msgstr "Ajouter des numéros de l'examen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/form_fee.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/form_fee.html
+#: line 3]
+#, no-c-format
+msgid "Edit Fee"
+msgstr "Modifier les frais"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_button_save.html#L2
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_button_save.html
+#: line 2]
+#, no-c-format
+msgid "save"
+msgstr "enregistrer"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_header.html#L1
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_header.html
+#: line 1]
+#, no-c-format
+msgid "Exam Number"
+msgstr "Numéro d'examen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html
+#: line 3]
+#, no-c-format
+msgid "Scheduled Training Courses"
+msgstr "Cours de formation planifiés"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html#L12
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html
+#: line 12]
+#, no-c-format
+msgid "Firstname"
+msgstr "Prénom"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html#L13
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html
+#: line 13]
+#, no-c-format
+msgid "Surname"
+msgstr "Nom de famille"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html#L22
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_person_instance_exam_base.html
+#: line 22]
+#, no-c-format
+msgid "return"
+msgstr "retour"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/form_provider_instance.html#L3
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/form_provider_instance.html
+#: line 3]
+#, no-c-format
+msgid "Schedule a Training for"
+msgstr "Planifier une formation pour"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_complete.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_number_complete.html
+#: line 4]
+#, no-c-format
+msgid ""
+"All participants have an exam number so there is nothing to set for these "
+"participants."
+msgstr ""
+"Tous les participants ont un numéro d’examen, donc rien n’est à définir pour "
+"eux."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_invalid_paper.html#L4
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_exam_results_invalid_paper.html
+#: line 4]
+#, no-c-format
+msgid ""
+"An invalid paper was passed to this page so nothing can be done. Please "
+"contact your system administrator."
+msgstr ""
+"Un papier non valide a été passé à cette page, donc rien ne peut être fait. "
+"Veuillez contacter votre administrateur système."
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_participant_exam_number_set_exam.html#L2
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/edit_exam_participant_exam_number_set_exam.html
+#: line 2]
+#, no-c-format
+msgid "Set Exam Number"
+msgstr "Fixer le numéro d’examen"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html#L8
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html
+#: line 8]
+#, no-c-format
+msgid "Update this Information"
+msgstr "Mettre à jour cette information"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html#L16
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/templates/en_US/view_provider_instance.html
+#: line 16]
+#, no-c-format
+msgid "Schedule Training"
+msgstr "Planifier une formation"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml#L74
+#: ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProvider/modules/ProviderInstance/configs/en_US/ProviderInstance.xml
+#: line 74]
+#, no-c-format
+msgid "Cancelled?"
+msgstr "Annulé ?"

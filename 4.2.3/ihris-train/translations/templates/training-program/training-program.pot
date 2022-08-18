@@ -1,0 +1,124 @@
+# Translation Template of ihris-train module (TrainingProgram Version 4.2.0.12)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@TrainingProgram 4.2.0.12\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L11 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 11]
+#, no-c-format
+msgid "Can view training program"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L14 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L17 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 17]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 20]
+#, no-c-format
+msgid "Can edit training program"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L27 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 27]
+#, no-c-format
+msgid "Training Program"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L32 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 32]
+#, no-c-format
+msgid "Training Program Category"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L37 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 37]
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L46 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 46]
+#, no-c-format
+msgid "Program Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L51 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 51]
+#, no-c-format
+msgid "Training Institution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L56 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 56]
+#, no-c-format
+msgid "Program Category"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L61 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 61]
+#, no-c-format
+msgid "Program Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L66 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 66]
+#, no-c-format
+msgid "Total Semesters"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L71 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 71]
+#, no-c-format
+msgid "Minimum Semester Credits"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L76 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 76]
+#, no-c-format
+msgid "Maximum Semester Credits"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L81 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 81]
+#, no-c-format
+msgid "Minimum Program Credits"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L90 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 90]
+#, no-c-format
+msgid "Department Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml#L95 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/configs/en_US/TrainingProgram.xml line 95]
+#, no-c-format
+msgid "Department Institution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html#L3 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html#L5 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html line 5]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html line 6]
+#, no-c-format
+msgid "Select another Program"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_training_program.html line 13]
+#, no-c-format
+msgid "Training Programs"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html#L6 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html line 6]
+#, no-c-format
+msgid "Select another Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html#L13 ihris-train/4.0-dev/annotate/head%3A/modules/TrainingProgram/templates/en_US/view_list_department.html line 13]
+#, no-c-format
+msgid "Departments"
+msgstr ""
+

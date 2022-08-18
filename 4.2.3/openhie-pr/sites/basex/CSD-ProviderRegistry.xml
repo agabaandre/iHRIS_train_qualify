@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="csd-provider-registry-site-basex">
+  <metadata>
+    <displayName>CSD Health Worker Registry</displayName>
+    <description>CSD Compliant Health Worker Registry User Interface (BaseX Storage)</description>
+    <creator>IntraHealth Informatics</creator>
+    <email>litlfred@ibiblio.org</email>
+    <link>https://launchpad.net/csd-provider-registry</link>
+    <version>4.2.0</version>
+    <requirement name="csd-provider-registry" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+     <requirement name="csd-infoman-storage"> 
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <path name="pages">
+      <value>./pages</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <priority>500</priority>
+  </metadata>
+</I2CEConfiguration>

@@ -1,0 +1,97 @@
+openhie-pr (4.2.0.9~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.9 137: Carl Leitner
+    2015-03-04 {4.2.0.14-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.14" 136: Carl Leitner
+    2015-03-03 {4.2.0.13-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.13" 135: Carl Leitner
+    2015-03-03 {4.2.0.12-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.12" 134: Carl Leitner
+    2015-03-03 {4.2.0.11-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.11" 133: Carl Leitner
+    2015-03-03 {4.2.0.10-ubuntu-site-release} "Ubuntu Site
+    Release Version 4.2.0.10" 132: Carl Leitner 2015-03-03
+    {4.2.0.9-ubuntu-site-release} "Ubuntu Site Release Version
+    4.2.0.9" 131: Carl Leitner 2015-03-03 {4.2.0.8-ubuntu-site-release}
+    "Ubuntu Site Release Version 4.2.0.8" 130: Carl Leitner 2015-03-03
+    {4.2.0.7-ubuntu-site-release} "Ubuntu Site Release Version
+    4.2.0.7" 129: Carl Leitner 2015-03-03 {4.2.0.6-ubuntu-site-release}
+    "Ubuntu Site Release Version 4.2.0.6" 128: Carl Leitner 2015-03-03
+    {4.2.0.5-ubuntu-site-release} "Ubuntu Site Release Version
+    4.2.0.5" 127: Carl Leitner 2015-03-03 updated bzr ignore 126:
+    Carl Leitner 2015-03-03 {4.2.0.4-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.4" 125: Carl Leitner 2015-03-03
+    {4.2.0.3-ubuntu-site-release} "Ubuntu Site Release Version
+    4.2.0.3" 124: Carl Leitner 2015-03-03 updated site packaging 123:
+    Carl Leitner 2015-03-03 {4.2.0.2-ubuntu-site-release} "Ubuntu
+    Site Release Version 4.2.0.2" 122: Carl Leitner 2015-03-03
+    {4.2.0.1-ubuntu-site-release} "Ubuntu Site Release Version
+    4.2.0.1" 121: Carl Leitner 2015-03-03 starting site packaging
+    120: Carl Leitner 2015-03-03 {4.2.0.0-ubuntu-site-release,
+    4.2.0.8-ubuntu-release} "Ubuntu Release Version 4.2.0.8"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Wed, 04 Mar 2015 00:50:44 +0000
+
+openhie-pr (4.2.0.8~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.8 119: Carl Leitner 2015-03-03
+    {4.2.0.7-ubuntu-release} "Ubuntu Release Version 4.2.0.7"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:17:58 +0000
+
+openhie-pr (4.2.0.7~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.7 118: Carl Leitner 2015-03-03
+    {4.2.0.6-ubuntu-release} "Ubuntu Release Version 4.2.0.6"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:15:33 +0000
+
+openhie-pr (4.2.0.6~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.6 117: Carl Leitner 2015-03-03
+    {4.2.0.5-ubuntu-release} "Ubuntu Release Version 4.2.0.5"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:14:52 +0000
+
+openhie-pr (4.2.0.5~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.5 116: Carl Leitner 2015-03-03
+    {4.2.0.4-ubuntu-release} "Ubuntu Release Version 4.2.0.4"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:13:28 +0000
+
+openhie-pr (4.2.0.4~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.4 115: Carl Leitner 2015-03-03
+    {4.2.0.3-ubuntu-release} "Ubuntu Release Version 4.2.0.3"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:10:49 +0000
+
+openhie-pr (4.2.0.3~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.3 114: Carl Leitner 2015-02-17
+    {4.2.0.2-ubuntu-release} "Ubuntu Release Version 4.2.0.2"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 03 Mar 2015 17:03:59 +0000
+
+openhie-pr (4.2.0.2~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.2 113: Carl Leitner 2015-02-17
+    {4.2.0.1-ubuntu-release} "Ubuntu Release Version 4.2.0.1"
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 17 Feb 2015 16:54:58 -0500
+
+openhie-pr (4.2.0.1~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.1 112: Carl Leitner 2015-02-17
+    {4.2.0.0-ubuntu-release} initial packaging commit
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 17 Feb 2015 13:23:44 -0500
+
+openhie-pr (4.2.0.0~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.0
+    -Initial Packaging
+    --http://bazaar.launchpad.net/~intrahealth+informatics/openhie-pr/trunk
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Tue, 17 Feb 2015 08:08:59 -0500

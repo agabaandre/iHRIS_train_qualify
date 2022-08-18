@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="csb">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Afarsczi</value>
+      <value>ab:Abchasczi</value>
+      <value>ae:Awesta&#324;sczi (ira&#324;sczi)</value>
+      <value>af:Afrikanersczi</value>
+      <value>am:Etiopsczi</value>
+      <value>ar:Arabsczi</value>
+      <value>as:Assamijsczi</value>
+      <value>az:Azerbejd&#380;a&#324;sczi</value>
+      <value>ba:Baszkirsczi</value>
+      <value>be:Bia&#322;orusczi</value>
+      <value>bg:B&#249;lgarsczi</value>
+      <value>bn:Bengalsczi</value>
+      <value>bo:Tibeta&#324;sczi</value>
+      <value>br:Breto&#324;sczi</value>
+      <value>bs:B&#243;sniany</value>
+      <value>ca:Katalo&#324;sczi</value>
+      <value>ce:Czecze&#324;sczi</value>
+      <value>co:K&#242;rsyka&#324;sczi</value>
+      <value>cs:Czesczi</value>
+      <value>cu:St&#244;r&#244;cerwiow&#242;-s&#322;owia&#324;sczi</value>
+      <value>cv:Czuwasczi</value>
+      <value>cy:Walijsczi</value>
+      <value>da:D&#235;&#324;sczi</value>
+      <value>de:Miemiecczi</value>
+      <value>el:Grecczi</value>
+      <value>en:Anielsczi</value>
+      <value>en_GB:Britijsczi anielsczi</value>
+      <value>en_US:Amerika&#324;sczi anielsczi</value>
+      <value>es:Szpa&#324;sczi</value>
+      <value>et:Esto&#324;sczi</value>
+      <value>eu:Baskijsczi</value>
+      <value>fa:Farsi (persczi)</value>
+      <value>fi:Finsczi</value>
+      <value>fj:z Fiji</value>
+      <value>fo:z &#210;wcz&#235;ch &#210;strow&#243;w</value>
+      <value>fr:Franc&#235;sczi</value>
+      <value>fy:Friz&#235;jsczi</value>
+      <value>ga:Irlandzczi Gaelic</value>
+      <value>gd:Celtycczi (gaelic)</value>
+      <value>gl:Galic&#235;jsczi</value>
+      <value>he:Hebrejsczi</value>
+      <value>hr:Ch&#242;rwacczi</value>
+      <value>hsb:G&#243;rnosorbsczi</value>
+      <value>hu:Mad&#380;arsczi</value>
+      <value>hy:Arme&#324;sczi</value>
+      <value>id:Indonez&#235;jsczi</value>
+      <value>is:Islandzczi</value>
+      <value>it:Italsczi</value>
+      <value>ja:Jap&#242;&#324;sczi</value>
+      <value>jv:Jawa&#324;sczi</value>
+      <value>ka:Gr&#235;z&#243;&#324;sczi</value>
+      <value>kk:Kazachsczi</value>
+      <value>km:Khmersczi</value>
+      <value>ko:K&#242;reja&#324;sczi</value>
+      <value>ks:Kaszmirsczi</value>
+      <value>ku:K&#249;rdijsczi</value>
+      <value>kv:z Komi</value>
+      <value>kw:K&#242;rnwalijsczi</value>
+      <value>ky:Kirgijsczi</value>
+      <value>la:&#321;ac&#235;zna</value>
+      <value>lb:Luksemb&#249;rsczi</value>
+      <value>li:Limb&#249;rga&#324;sczi</value>
+      <value>lo:La&#242;ta&#324;sczi</value>
+      <value>lt:Litewsczi</value>
+      <value>lv:&#321;otewsczi</value>
+      <value>mg:Madagarsczi</value>
+      <value>mh:z &#210;strow&#243;w Marshalla</value>
+      <value>mi:Ma&#242;r&#235;jsczi</value>
+      <value>mk:Macedo&#324;sczi</value>
+      <value>ml:Drawida&#324;sczi (hindusczi)</value>
+      <value>mn:M&#242;ngolsczi</value>
+      <value>mo:M&#242;&#322;dawsczi</value>
+      <value>mr:Marathi (hindusczi)</value>
+      <value>ms:Malajsczi</value>
+      <value>mt:Maltajsczi</value>
+      <value>my:Birma&#324;sczi</value>
+      <value>nb:Norwesczi Bokm&#229;l</value>
+      <value>nd:Ndebele, Norda</value>
+      <value>nds:Dolnosakso&#324;sczi</value>
+      <value>ne:Nepalsczi</value>
+      <value>nl:H&#242;landzczi</value>
+      <value>nn:Norwesczi Nynorsk</value>
+      <value>nr:Ndebele, P&#244;&#322;nie</value>
+      <value>nso:Nordow&#233; Sotho</value>
+      <value>oc:&#210;kcita&#324;sczi</value>
+      <value>os:&#210;seta&#324;sczi</value>
+      <value>pa:Pend&#380;absczi</value>
+      <value>pl:P&#242;lsczi</value>
+      <value>pt:P&#242;rtugalsczi</value>
+      <value>pt_BR:Brazylsczi p&#242;rtugalsczi</value>
+      <value>ro:Rum&#249;&#324;sczi</value>
+      <value>rom:Rum&#249;&#324;sczi</value>
+      <value>ru:Rusczi</value>
+      <value>sc:Sardi&#324;sczi</value>
+      <value>se:Nordowi Sami</value>
+      <value>si:Synagelsczi</value>
+      <value>sk:S&#322;owacczi</value>
+      <value>sl:Slowensczi</value>
+      <value>sm:Samoa&#324;sczi</value>
+      <value>so:Somalijsczi</value>
+      <value>sq:Alba&#324;sczi</value>
+      <value>sr:Serbsczi (&#322;ac&#235;&#324;sczi)</value>
+      <value>st:Sotho, P&#244;&#322;niowi</value>
+      <value>su:Suda&#324;sczi</value>
+      <value>sv:Szwedzczi</value>
+      <value>ta:Tamilsczi</value>
+      <value>tg:Tad&#380;&#235;cczi</value>
+      <value>th:Tajsczi</value>
+      <value>tk:Turkme&#324;sczi</value>
+      <value>tr:T&#235;recczi</value>
+      <value>tt:Tatarsczi</value>
+      <value>ty:Tahita&#324;sczi</value>
+      <value>ug:Ujg&#249;rsczi</value>
+      <value>uk:&#217;kraji&#324;sczi</value>
+      <value>uz:&#217;zbecczi</value>
+      <value>vi:Wietnamsczi</value>
+      <value>wa:Walo&#324;sczi</value>
+      <value>yi:Jidisz</value>
+      <value>zh:Chi&#324;sczi</value>
+      <value>zh_CN:Chi&#324;sczi Prosti</value>
+      <value>zh_HK:Chi&#324;sczi (Hong Kong)</value>
+      <value>zh_TW:Chi&#324;sczi Tradic&#235;jny</value>
+      <value>zu:Zulusczi</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

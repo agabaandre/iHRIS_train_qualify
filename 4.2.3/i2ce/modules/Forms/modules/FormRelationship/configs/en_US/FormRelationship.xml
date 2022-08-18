@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="formRelationships">
+  <metadata>
+    <version>4.2.0.6</version>
+  </metadata>
+  <configurationGroup name="formRelationships" locale="en_US">
+    <version>4.2.0.6</version>
+    <configurationGroup name="tasks" path="/modules/formRelationships/text/" locale="en_US">
+      <configuration name="select_value">
+        <value>Select Value</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

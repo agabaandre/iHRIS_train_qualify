@@ -1,0 +1,32 @@
+<div id="siteContent" class='container'>
+  <div class='row'>
+    <div class="hero-unit">
+      <h1>OpenHIE Health Worker Registry</h1>
+      <p>Utilize the OpenHIE Health Worker Registry to add, update and track health care workers. This data can be used for analysis and to create custom reports. Search for a specific health care worker here:
+      </p>
+
+      <div>
+	Search by Entry ID or Common Name
+	<form class='form-search' action='search_provider' method='post' >
+	  <div class="control-group">
+	    <div class="controls">
+	      <div class="input-append">
+		<label >Entity ID</label><br/>
+		<input class="span5" type="text" placeholder="e.g. urn:uuid:34CCE33D-4366-4895-A582-1B7F2E6DC4AA" name='form[csd_provider_search][0][0][fields][entityID]'/>
+		<br/>
+		<label>Common Name</label><br/>
+		<input class="span5" type="text" placeholder="e.g. Banargee" name='form[csd_provider_search][0][0][fields][common_name]'/>
+		<input type='hidden' name='submit_type' value='confirm'/>
+		<br/>
+		<button  class="btn btn-primary pull-right" >Search  <i class="icon-search"></i></button>
+	      </div>
+	    </div>
+	  </div>
+	</form>
+	<a href="search_provider">Advanced search</a>
+      </div>
+
+    </div>
+
+  </div>
+</div><!-- /welcomeIntro -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="AcademicLevelData">
+  <metadata>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="forms" path="/modules/forms" locale="en_US">
+    <version>4.2.0.1</version>
+    <configurationGroup name="forms">
+      <configurationGroup name="academic_level">
+        <configuration name="display" values="single" locale="en_US">
+          <value>Semester</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

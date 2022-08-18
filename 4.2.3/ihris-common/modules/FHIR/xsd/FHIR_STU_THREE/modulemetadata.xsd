@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (c) 2011+, HL7, Inc.
+  All rights reserved.
+  
+  Redistribution and use in source and binary forms, with or without modification, 
+  are permitted provided that the following conditions are met:
+  
+   * Redistributions of source code must retain the above copyright notice, this 
+     list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright notice, 
+     this list of conditions and the following disclaimer in the documentation 
+     and/or other materials provided with the distribution.
+   * Neither the name of HL7 nor the names of its contributors may be used to 
+     endorse or promote products derived from this software without specific 
+     prior written permission.
+  
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+  IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+  INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
+  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+  POSSIBILITY OF SUCH DAMAGE.
+  
+
+  Generated on Fri, Jan 29, 2016 08:33+1100 for FHIR v1.3.0 
+
+  Note: the schemas &amp; schematrons do not contain all of the rules about what makes resources
+  valid. Implementers will still need to be familiar with the content of the specification and with
+  any profiles that apply to the resources in order to make a conformant implementation.
+
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="1.0">
+  <xs:include schemaLocation="fhir-base.xsd"/>
+  <xs:element name="ModuleMetadata" type="ModuleMetadata">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The ModuleMetadata resource defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ModuleMetadata">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The ModuleMetadata resource defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="DomainResource">
+        <xs:sequence>
+          <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded" type="Identifier">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A logical identifier for the module such as the CMS or NQF identifiers for a measure artifact.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="version" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The version of the module, if any. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge modules, refer to the Decision Support Service specification.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="title" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short, descriptive title for the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="type" minOccurs="1" maxOccurs="1" type="ModuleMetadataType">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Identifies the type of knowledge module, such as a rule, library, documentation template, or measure.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="status" minOccurs="1" maxOccurs="1" type="ModuleMetadataStatus">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The status of the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A description of the module from the consumer perspective.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="purpose" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A brief description of the purpose of the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="usage" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Notes about usage of the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="publicationDate" minOccurs="0" maxOccurs="1" type="date">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The date on which the module was published.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="lastReviewDate" minOccurs="0" maxOccurs="1" type="date">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The date on which the module content was last reviewed.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="effectivePeriod" minOccurs="0" maxOccurs="1" type="Period">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The period during which the module content is effective.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="coverage" type="ModuleMetadata.Coverage" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Specifies various attributes of the patient population for whom and/or environment of care in which, the knowledge module is applicable.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="topic" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Clinical topics related to the content of the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="keyword" minOccurs="0" maxOccurs="unbounded" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Keywords associated with the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="contributor" type="ModuleMetadata.Contributor" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A contributor to the content of the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="publisher" minOccurs="0" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The organization responsible for publishing the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="steward" minOccurs="0" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The organization responsible for stewardship of the module content.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="rightsDeclaration" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The legal rights declaration for the module.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="relatedResource" type="ModuleMetadata.RelatedResource" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Related resources such as additional documentation, supporting evidence, or bibliographic references.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModuleMetadata.Coverage">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The ModuleMetadata resource defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="focus" minOccurs="1" maxOccurs="1" type="ModuleMetadataFocusType">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Specifies the focus of the coverage attribute.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Provides an optional description of the coverage attribute.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="value" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Provides a value for the coverage attribute. Different values are appropriate in different focus areas, as specified in the description of values for focus.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModuleMetadata.Contributor">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The ModuleMetadata resource defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="type" minOccurs="1" maxOccurs="1" type="ModuleMetadataContributorType">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The type of contributor.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="party" minOccurs="1" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The contributor.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ModuleMetadata.RelatedResource">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The ModuleMetadata resource defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="type" minOccurs="1" maxOccurs="1" type="ModuleMetadataResourceType">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The type of related resource.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="uri" minOccurs="0" maxOccurs="1" type="uri">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The uri of the related resource.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A brief description of the related resource.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="document" minOccurs="0" maxOccurs="1" type="Attachment">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The document being referenced.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ModuleMetadataFocusType-list">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="patient-gender">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The gender of the patient. For this item type, use HL7 administrative gender codes (OID: 2.16.840.1.113883.1.11.1)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="patient-age-group">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A patient demographic category for which this artifact is applicable. Allows specification of age groups using coded values originating from the MeSH Code system (OID: 2.16.840.1.113883.6.177). More specifically, only codes from the AgeGroupObservationValue value set are valid for this field  [2.16.840.1.113883.11.75]</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="clinical-focus">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The clinical concept(s) addressed by the artifact.  For example, disease, diagnostic test interpretation, medication ordering. Please refer to the implementation guide on which code system and codes to use</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="target-user">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The user types to which an artifact is targeted.  For example, PCP, Patient, Cardiologist, Behavioral Professional, Oral Health Professional, Prescriber, etc... taken from the NUCC Health Care provider taxonomyCode system (OID: 2.16.840.1.113883.6.101)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="workflow-setting">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The settings in which the artifact is intended for use.  For example, admission, pre-op, etc</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="workflow-task">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The context for the clinical task(s) represented by this artifact. Can be any task context represented by the HL7 ActTaskCode value set (OID: 2.16.840.1.113883.1.11.19846). General categories include: order entry, patient documentation and patient information review</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="clinical-venue">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The venue in which an artifact could be used.  For example, Outpatient, Inpatient, Home, Nursing home. The code value may originate from either the HL7 ActEncounter (OID: 2.16.840.1.113883.1.11.13955) or NUCC non-individual provider codes OID: 2.16.840.1.113883.1.11.19465</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ModuleMetadataFocusType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Specifies clinical metadata that can be used to retrieve, index and/or categorize the knowledge artifact. This metadata can either be specific to the applicable population (e.g., age category, DRG) or the specific context of care (e.g., venue, care setting, provider of care)</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ModuleMetadataFocusType-list" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ModuleMetadataType-list">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="module">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The resource is a description of a knowledge module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="library">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The resource is a shareable library of formalized knowledge</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="decision-support-rule">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An Event-Condition-Action Rule Artifact</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="documentation-template">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A Documentation Template Artifact</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="order-set">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An Order Set Artifact</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ModuleMetadataType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The type of knowledge module being described</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ModuleMetadataType-list" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ModuleMetadataContributorType-list">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="author">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An author of the content of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="editor">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An editor of the content of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="reviewer">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A reviewer of the content of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="endorser">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An endorser of the content of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ModuleMetadataContributorType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The type of contributor</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ModuleMetadataContributorType-list" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ModuleMetadataStatus-list">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="draft">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The module is in draft state</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="test">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The module is in test state</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="active">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The module is active</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="inactive">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The module is inactive, either rejected before publication, or retired after publication</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ModuleMetadataStatus">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The status of the knowledge module</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ModuleMetadataStatus-list" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ModuleMetadataResourceType-list">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="documentation">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Additional documentation for the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="evidence">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Supporting evidence for the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="citation">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Bibliographic citation for the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="predecessor">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The previous version of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="successor">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The next version of the module</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="derived-from">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">The module is derived from the resource</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ModuleMetadataResourceType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The type of related resource for the module</xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ModuleMetadataResourceType-list" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
