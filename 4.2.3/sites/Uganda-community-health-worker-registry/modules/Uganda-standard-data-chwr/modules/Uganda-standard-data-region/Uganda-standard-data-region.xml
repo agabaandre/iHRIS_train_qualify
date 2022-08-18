@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-standard-data-region">
+  <metadata>
+    <displayName>Uganda default data for: region</displayName>
+    <description>Data for form: region</description>
+    <version>4.2.1</version>
+    <requirement name="Uganda-standard-data-country">
+    </requirement>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <erase path="/I2CE/formsData/forms/region">
+    <lessThan version="4.2.1" />
+  </erase>
+  <configurationGroup name="Uganda-standard-data-region" path="/I2CE/formsData/forms/region">
+    <displayName>Form data: region</displayName>
+    <configurationGroup name="UG-KAR">
+      <displayName>UG-KAR</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-KAR</value>
+        </configuration>
+        <configuration name="name">
+          <value>KARAMOJA</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-WN">
+      <displayName>UG-WN</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-WN</value>
+        </configuration>
+        <configuration name="name">
+          <value>WEST NILE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-N">
+      <displayName>UG-N</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-N</value>
+        </configuration>
+        <configuration name="name">
+          <value>NORTHERN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-E">
+      <displayName>UG-E</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-E</value>
+        </configuration>
+        <configuration name="name">
+          <value>EASTERN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-EG">
+      <displayName>UG-EG</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-EG</value>
+        </configuration>
+        <configuration name="name">
+          <value>ELGON</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-K">
+      <displayName>UG-K</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-K</value>
+        </configuration>
+        <configuration name="name">
+          <value>KIIRA</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-SW">
+      <displayName>UG-SW</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-SW</value>
+        </configuration>
+        <configuration name="name">
+          <value>SOUTH WEST</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-KLA">
+      <displayName>UG-KLA</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-KLA</value>
+        </configuration>
+        <configuration name="name">
+          <value>KAMPALA</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-CS">
+      <displayName>UG-CS</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-CS</value>
+        </configuration>
+        <configuration name="name">
+          <value>CENTRAL SOUTH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-A">
+      <displayName>UG-A</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-A</value>
+        </configuration>
+        <configuration name="name">
+          <value>ALBERTINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-MW">
+      <displayName>UG-MW</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-MW</value>
+        </configuration>
+        <configuration name="name">
+          <value>MID WEST</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="UG-CN">
+      <displayName>UG-CN</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2016-11-24 10:13:21</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="country">
+          <value>country|UG</value>
+        </configuration>
+        <configuration name="code">
+          <value>UG-CN</value>
+        </configuration>
+        <configuration name="name">
+          <value>CENTRAL NORTH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>
