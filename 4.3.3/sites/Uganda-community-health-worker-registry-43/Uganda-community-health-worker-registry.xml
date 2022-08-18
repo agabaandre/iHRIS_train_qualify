@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-  <version>4.3.6.6</version>
+    <version>4.3.6.7</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -19,13 +19,12 @@
     </requirement>-->
 	<requirement name="ihris-manage">
       <atLeast version="4.2" />
-    
     </requirement>
     <requirement name="UserAccess">
       <atLeast version="4.2" />
-     
     </requirement>
     <enable name="accident" />
+    <enable name="MobileMoney" />
     <enable name="ReportArchiver" />
     <enable name="dependents" />
     <enable name="disciplinary_action" />
@@ -56,6 +55,7 @@
     <enable name="training-exam" />
     <enable name="SDMX-HD-CodeLists" />
     <enable name="sample-hire-letter" />
+    <enable name="Facility" />
     <enable name="ihris-manage-FacilityTree" />
     <enable name="ihris-manage-PositionTree" />
     <enable name="SampleOpenLayers" />
@@ -225,6 +225,7 @@
     </configurationGroup>
     <configurationGroup name="forms" path="/modules/forms">
       <configurationGroup name="forms">
+        <version>4.3.6.8</version>
         <configurationGroup name="employment_terms" >
           <displayName>Employment Terms</displayName>
           <description>The Employment Terms Form</description>
@@ -244,6 +245,27 @@
             <value>magicdata</value>
           </configuration>
         </configurationGroup>
+        <configurationGroup name="religion">
+          <version>4.3.9.4</version>
+          <displayName>Religion</displayName>
+          <description>The Religion Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Religion</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- gender -->
         <configurationGroup name="recruit_mech">
           <displayName>Recruitement Mechanism</displayName>
           <description>The Recruitement Mechanism Form</description>
@@ -569,6 +591,23 @@
         <value>default:Marital Status</value>
       </configuration>
     </configurationGroup>
+    <configurationGroup name="religion" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/religion">
+     <version>4.3.9.4</version>
+      <displayName>The field 'religion'</displayName>
+      <configuration name="formfield">
+        <displayName>The form field type</displayName>
+        <value>MAP</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <displayName>The headers for this field.</displayName>
+        <version>4.3.9.4</version>
+        <value>default:Religion</value>
+      </configuration>
+       <configuration name="required" type="boolean">
+          <displayName>This field is required to be set</displayName>
+          <value>true</value>
+        </configuration>
+    </configurationGroup>
     <configurationGroup name="mobile_phone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/mobile_phone">
       <displayName>The field 'marital_status'</displayName>
       <version>4.2.1.15</version>
@@ -603,33 +642,33 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.4</version>
         <value>default:Alternative Mobile Phone</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="emergency_telephone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/emergency_telephone">
       <displayName>The field 'emergency_telephone'</displayName>
-      <version>4.2.1.19</version>
+      <version>4.3.9.7</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.7</version>
         <value>default:Emergency Contact Telephone</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="emergency_name" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/emergency_name">
       <displayName>The field 'emergency_name'</displayName>
-      <version>4.2.1.19</version>
+      <version>4.3.9.7</version>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
         <value>STRING_LINE</value>
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.2.1.15</version>
+        <version>4.3.9.7</version>
         <value>default:Emergency Contact Name</value>
       </configuration>
     </configurationGroup>
