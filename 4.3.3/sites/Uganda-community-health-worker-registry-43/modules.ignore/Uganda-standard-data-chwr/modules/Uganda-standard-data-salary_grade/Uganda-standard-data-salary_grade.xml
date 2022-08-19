@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-standard-data-salary_grade">
+  <metadata>
+    <displayName>Uganda default data for: salary_grade</displayName>
+    <description>Data for form: salary_grade</description>
+    <version>4.1.6.1</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <erase path="/I2CE/formsData/forms/salary_grade">
+    <lessThan version="4.3.6.0" />
+  </erase>
+  <configurationGroup name="Uganda-standard-data-salary_grade" path="/I2CE/formsData/forms/salary_grade">
+    <displayName>Form data: salary_grade</displayName>
+    <configurationGroup name="011">
+      <displayName>011</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U1S</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="012">
+      <displayName>012</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U1SE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="015">
+      <displayName>015</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U1E(SC)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="013">
+      <displayName>013</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U1EU</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="014">
+      <displayName>014</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U1EL</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="020">
+      <displayName>020</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U2(SC)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="021">
+      <displayName>021</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U2U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="022">
+      <displayName>022</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U2L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="030">
+      <displayName>030</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U3(SC)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="031">
+      <displayName>031</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U3U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="032">
+      <displayName>032</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U3L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="040">
+      <displayName>040</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U4(SC)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="041">
+      <displayName>041</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U4U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="042">
+      <displayName>042</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U4L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="050">
+      <displayName>050</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U5(SC)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="051">
+      <displayName>051</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U5U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="052">
+      <displayName>052</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U5L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="061">
+      <displayName>061</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U6U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="062">
+      <displayName>062</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U6L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="071">
+      <displayName>071</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U7U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="072">
+      <displayName>072</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U7L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="081">
+      <displayName>081</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U8U</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="082">
+      <displayName>082</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>U8L</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="099">
+      <displayName>099</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-05-31 07:40:13</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>UNL</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>
