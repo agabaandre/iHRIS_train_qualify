@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda default data for: region</displayName>
     <description>Data for form: region</description>
-    <version>4.2.1</version>
+    <version>4.3.4</version>
     <requirement name="Uganda-standard-data-country">
     </requirement>
     <path name="configs">
@@ -12,7 +12,7 @@
     </path>
   </metadata>
   <erase path="/I2CE/formsData/forms/region">
-    <lessThan version="4.2.1" />
+    <lessThan version="4.3.4" />
   </erase>
   <configurationGroup name="Uganda-standard-data-region" path="/I2CE/formsData/forms/region">
     <displayName>Form data: region</displayName>

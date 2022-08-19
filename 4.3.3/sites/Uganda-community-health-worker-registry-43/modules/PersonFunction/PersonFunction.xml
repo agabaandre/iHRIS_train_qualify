@@ -9,13 +9,13 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.2.1.7</version>
+    <version>4.3.3</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="Person">
-      <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>

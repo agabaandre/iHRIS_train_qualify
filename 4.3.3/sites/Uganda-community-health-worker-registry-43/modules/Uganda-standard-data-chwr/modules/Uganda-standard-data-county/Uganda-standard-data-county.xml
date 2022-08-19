@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda default data for: county</displayName>
     <description>Data for form: county</description>
-    <version>4.2.1</version>
+    <version>4.3.3</version>
     <requirement name="Uganda-standard-data-district">
     </requirement>
     <path name="configs">
@@ -12,7 +12,7 @@
     </path>
   </metadata>
   <erase path="/I2CE/formsData/forms/county">
-    <lessThan version="4.2.1" />
+    <lessThan version="4.3.3" />
   </erase>
   <configurationGroup name="Uganda-standard-data-county" path="/I2CE/formsData/forms/county">
     <displayName>Form data: county</displayName>

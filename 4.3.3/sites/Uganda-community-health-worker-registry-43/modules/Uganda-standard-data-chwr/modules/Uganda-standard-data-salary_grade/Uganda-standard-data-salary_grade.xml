@@ -10,7 +10,7 @@
     </path>
   </metadata>
   <erase path="/I2CE/formsData/forms/salary_grade">
-    <lessThan version="4.1.6.0" />
+    <lessThan version="4.3.6.0" />
   </erase>
   <configurationGroup name="Uganda-standard-data-salary_grade" path="/I2CE/formsData/forms/salary_grade">
     <displayName>Form data: salary_grade</displayName>

@@ -14,8 +14,8 @@
       <value>./configs</value>
     </path>
     <requirement name="Person">
-      <atLeast version="4.2" />
-      <lessThan version="4.3" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>
