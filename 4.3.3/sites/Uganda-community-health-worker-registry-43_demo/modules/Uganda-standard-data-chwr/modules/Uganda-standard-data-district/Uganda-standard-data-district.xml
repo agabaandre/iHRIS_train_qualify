@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda default data for: district</displayName>
     <description>Data for form: district</description>
-    <version>4.2.1</version>
+    <version>4.3.1</version>
     <requirement name="Uganda-standard-data-region">
     </requirement>
     <path name="configs">
