@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.7.8.2</version>
+    <version>4.3.7.8.3</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -605,7 +605,7 @@
       </configuration>
        <configuration name="required" type="boolean">
           <displayName>This field is required to be set</displayName>
-          <value>true</value>
+          <value>false</value>
         </configuration>
     </configurationGroup>
     <configurationGroup name="mobile_phone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/mobile_phone">
