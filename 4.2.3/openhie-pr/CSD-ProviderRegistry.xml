@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="csd-provider-registry">
+  <metadata>
+    <displayName>CSD Health Worker Registry</displayName>
+    <description>CSD Compliant Health Worker Registry User Interface</description>
+    <creator>IntraHealth Informatics</creator>
+    <email>litlfred@ibiblio.org</email>
+    <link>https://launchpad.net/csd-provider-registry</link>
+    <version>4.2.0</version>
+    <requirement name="UserAccess">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="csd-provider-data-model" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="csd-data-dow" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="csd-search" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="CachedForms">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <enable name="messageNotice"/>
+    <enable name="messageBox"/>
+
+
+    <requirement name="csd-data-provider-status" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <requirement name="csd-provider-pages" >
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+</I2CEConfiguration>

@@ -1,0 +1,56 @@
+# Translation Template of ihris-train module (STSPerson Version 4.2.0.16)
+# Copyright (C) 2015 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-train@STSPerson 4.2.0.16\n"
+"POT-Creation-Date: 2015-09-14 08:04+0000\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L15 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 15]
+#, no-c-format
+msgid "Title"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L20 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 20]
+#, no-c-format
+msgid "Gender"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L25 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 25]
+#, no-c-format
+msgid "Date Of Birth"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L30 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 30]
+#, no-c-format
+msgid "Country of Citizenship"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L35 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 35]
+#, no-c-format
+msgid "Place Of Birth"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L46 ihris-train/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 46]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html#L2 ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html line 2]
+#, no-c-format
+msgid "Add/Update Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html#L10 ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html line 10]
+#, no-c-format
+msgid "Personal Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html#L10 ihris-train/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html line 10]
+#, no-c-format
+msgid "Registration Information"
+msgstr ""
+

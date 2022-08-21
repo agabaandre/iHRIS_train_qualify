@@ -1,0 +1,14 @@
+**/local
+**/.htaccess
+packaging/.bazaar
+packaging/.bzr.log
+packaging/.gnupg
+packaging/builds/*
+packaging-site/.bazaar
+packaging-site/.bzr.log
+packaging-site/.gnupg
+packaging-site/builds/*
+packaging-site-blank/.bazaar
+packaging-site-blank/.bzr.log
+packaging-site-blank/.gnupg
+packaging-site-blank/builds/*

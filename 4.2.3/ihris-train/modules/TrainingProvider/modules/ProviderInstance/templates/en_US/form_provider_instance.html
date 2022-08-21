@@ -1,0 +1,20 @@
+<tbody>
+  <tr>
+    <th colspan="2">Schedule a Training for <span type="form" name="training:training_type" noedit="true"></span></th>
+  </tr>
+  <tr id="list_fields">
+    <td>
+      <span type="form" name="provider_instance:providertraining" showhead="default" noedit="true"></span>
+      <span type="form" name="provider_instance:academic_year" ifset="training:training_type" ifvalue="training_type|pre_service" showhead="default"></span>
+      <span type="form" name="provider_instance:calender_year" ifset="training:training_type" ifvalue="training_type|pre_service" showhead="default"></span>
+	    <span type="form" name="provider_instance:start_date" showhead="default"></span>
+	    <span type="form" name="provider_instance:end_date" showhead="default"></span>
+      <span type="form" name="provider_instance:cancelled" showhead="default"></span>
+    </td><td class="formdata">
+      <span type="form" name="provider_instance:job" ifset="training:training_type" ifvalue="training_type|in_service" showhead="default"></span>
+      <span type="form" name="provider_instance:funder" ifset="training:training_type" ifvalue="training_type|in_service" showhead="default"></span>
+      <span type="form" name="provider_instance:location" showhead="default"></span>
+      <span type="form" name="provider_instance:participants_list" ifset="training:training_type" ifvalue="training_type|pre_service" showhead="default"></span>
+    </td>
+  </tr>
+</tbody>

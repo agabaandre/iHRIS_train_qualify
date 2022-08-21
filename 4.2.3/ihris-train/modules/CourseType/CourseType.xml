@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CourseTypes">
+  <metadata>
+    <displayName>Types Of Exams</displayName>
+    <category>Application Component</category>
+    <description>Makes exam result tracking available to training course module</description>
+    <creator>Ally Shaban</creator>
+    <email>allyshaban5@gmail.com</email>
+    <link>https://launchpad.net/ihris-train</link>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="course-types" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_course_type" locale="en_US">
+        <value>Can edit course types database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_course_type" locale="en_US">
+        <value>Can view course types database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="course-types-data" path="/I2CE/formsData/forms/course_type">
+      <configurationGroup name="core">
+        <configuration name="last_modified">
+          <value>2014-04-16 12:25:30</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name">
+            <value>Core</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="optional">
+        <configuration name="last_modified">
+          <value>2014-04-16 12:25:30</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name">
+            <value>Optional</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="course_type">
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Training Course Types</value>
+          </configuration>
+          <configuration name="storage">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

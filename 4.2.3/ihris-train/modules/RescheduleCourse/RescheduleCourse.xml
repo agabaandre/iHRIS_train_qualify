@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="RescheduleCourse">
+  <metadata>
+    <displayName>Reschedule A Course To Other Semesters</displayName>
+    <category>Application Component</category>
+    <description>Reschedule A Course To Other Semesters</description>
+    <version>4.2.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <className>iHRIS_Module_RescheduleCourse</className>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="RescheduleCourse" path="/I2CE">
+    <displayName>Student Drop Semester</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_view_reschedule_course" locale="en_US">
+        <value>Can View Reschedule Course</value>
+      </configuration>
+      <configuration name="can_edit_reschedule_course" locale="en_US">
+        <value>Can Edit Reschedule Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="reschedule_course">
+        <displayName>Reschedule Course</displayName>
+        <description>The Reschedule Course Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class Defining The Logic Of This Form</description>
+          <value>iHRIS_RescheduleCourse</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <!-- End /modules/forms/forms-->
+    <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+      <displayName>Form Class Configuration</displayName>
+      <configurationGroup name="iHRIS_RescheduleCourse">
+        <displayName>Configuration for the class 'iHRIS_RescheduleCourse'</displayName>
+        <configuration name="extends">
+          <displayName>The class this form extends</displayName>
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <version>4.2.0.11</version>
+          <displayName>The fields defined for this form.</displayName>
+          <configurationGroup name="old_semester">
+            <displayName>The fields 'old_semester'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>semester</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Original Semester</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="new_semester">
+            <displayName>The fields 'new_semester'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>semester</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:New Semester</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="reschedule_reason">
+            <displayName>The fields 'reason'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>STRING_MLINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Reasons For Rescheduling This Course</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training">
+            <displayName>The fields 'training'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Course</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="academic_year">
+            <displayName>The fields 'academic_year'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Academic Year To Reschedule</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_institution">
+            <displayName>The fields 'training_institution'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_program">
+            <displayName>The fields 'training_program'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- fields -->
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <version>4.2.0.12</version>
+      <configurationGroup name="exam" path="reschedule_course">
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormRescheduleCourse</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="defaultHTMLFile" values="many">
+            <value>form_reschedule_course.html</value>
+          </configuration>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Reschedule Course</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>reschedule_course</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>can_edit_reschedule_course</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

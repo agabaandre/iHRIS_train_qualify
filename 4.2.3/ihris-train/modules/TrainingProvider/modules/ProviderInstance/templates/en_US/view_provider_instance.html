@@ -1,0 +1,28 @@
+<div task='person_can_view_child_form_provider_instance'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='person_can_edit_child_form_provider_instance'>
+	<span type="form" ifset="provider_instance:id" name="provider_instance:id" href="provider_instance?id=" parent="true">
+	  Update this Information
+	</span>
+      </li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<th colspan="2">Schedule Training</th>
+		</tr>
+		<span type="form" name="provider_instance:providertraining" showhead="default" class="even"></span>
+		<span type="form" name="provider_instance:academic_year" ifset="true" showhead="default"></span>
+		<span type="form" name="provider_instance:calender_year" ifset="true" showhead="default" class="even"></span>
+		<span type="form" name="provider_instance:start_date" showhead="default"></span>
+		<span type="form" name="provider_instance:end_date" showhead="default" class="even"></span>
+		<span type="form" name="provider_instance:location" showhead="default"></span>
+		<span type="form" name="provider_instance:participants_list" ifset="true" showhead="default"></span>
+		<span type="form" name="provider_instance:cancelled" ifset="true" showhead="default"></span>
+	</table>
+  </div> <!-- dataTable -->
+</div>

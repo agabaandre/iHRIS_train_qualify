@@ -1,0 +1,55 @@
+ihris-train (4.2.1.1~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.1.1 346: Sovello Hildebrand 2015-09-24
+    {4.2.1.0-ubuntu-release, 4.2.1-release} Automated version bumps for
+    release 4.2.1
+
+ -- Sovello Hildebrand <sovellohpmgani@gmail.com>  Thu, 24 Sep 2015 16:51:10 +0000
+
+ihris-train (4.2.0.14~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.14 329: Sovello Hildebrand 2015-07-30
+    comments out step to get user defined release version 328: Sovello
+    Hildebrand 2015-07-29 add packaging/builds to ignored files 327:
+    Sovello Hildebrand 2015-07-29 {4.2.0.13-ubuntu-release} "Ubuntu
+    Release Version 4.2.0.13"
+
+ -- Sovello Hildebrand <sovellohpmgani@gmail.com>  Fri, 31 Jul 2015 02:37:24 +0000
+
+ihris-train (4.2.0.13~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.13 326: Sovello Hildebrand 2015-07-29
+    {4.2.0.12-ubuntu-release} "Ubuntu Release Version 4.2.0.12"
+
+ -- Sovello Hildebrand <sovellohpmgani@gmail.com>  Wed, 29 Jul 2015 19:52:27 +0000
+
+ihris-train (4.2.0.12~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.12 325: Sovello Hildebrand 2015-07-29
+    remove echo msg for I2CE path 324: Sovello Hildebrand 2015-07-28
+    change the mechanism to fetch the i2ce branch path. this needs to
+    be verified against other installations when code is downloaded
+    through bzr checkout 323: Sovello Hildebrand 2015-07-28 update
+    the mechanism to fetch the parent branch 322: Sovello Hildebrand
+    2015-07-28 {4.2.0.11-ubuntu-release} "Ubuntu Release Version
+    4.2.0.11"
+
+ -- Sovello Hildebrand <sovellohpmgani@gmail.com>  Wed, 29 Jul 2015 00:10:33 +0000
+
+ihris-train (4.2.0.11~trusty) trusty; urgency=medium
+
+  * Ubuntu Release Version 4.2.0.11 321: Sovello Hildebrand 2015-07-28
+    packaging: change email to match email used to generate
+    GPG KEy, edit changelog 320: Sovello Hildebrand 2015-07-28
+    {4.2.0.10-ubuntu-release, 4.2.0.9-ubuntu-release} "Ubuntu Release
+    Version 4.2.0.9"
+
+ -- Sovello Hildebrand <sovellohpmgani@gmail.com>  Tue, 28 Jul 2015 17:39:17 +0000
+
+ihris-train (4.2.0.10~trusty) trusty; urgency=medium
+
+  * Ubuntu release Version 4.2.0.10
+    - Initial Packaging
+    --http://bazaar.launchpad.net/~intrahealth+informatics/ihris-train/4.2-dev
+	
+ -- Hildebrand <sovellohpmgani@gmail.com>  Tue, 28 Jul 2015 17:28:00 +0000

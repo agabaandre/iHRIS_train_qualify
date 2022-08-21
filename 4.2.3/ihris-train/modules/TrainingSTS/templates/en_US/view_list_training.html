@@ -1,0 +1,35 @@
+<div id="list_display" task="can_view_database_list_training_course">
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='can_edit_database_list_training_course'><span type="form" name="training:id" href="lists?type=training&amp;id=" >Update this Information</span></li>
+      <li><a href="lists?mapped=scheduled_training_course&amp;type=training_course">Select another Course</a></li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<th colspan="2">Training Course</th>
+      </tr>     
+      <span type="form" name="training:name" showhead="default"></span>
+      <span type="form" name="training:code" showhead="default"></span>
+      <span type="form" name="training:course_credits" showhead="default"></span>
+      <span type="module" name="training-institution" ifenabled="true"> 
+      <span type="form" name="training:training_institution" showhead="default"></span>
+      </span>
+      <span type="form" name="training:notes" showhead="default"></span>
+      <span type="form" name="training:exam_types" showhead="default"></span>
+      <span type="form" name="training:clinical" showhead="default"></span>
+      <span type="form" name="training:practical" showhead="default"></span>
+      <span type="form" name="training:tests" showhead="default"></span>
+      <span type="form" name="training:assignments" showhead="default"></span>
+      <span type="form" name="training:final" showhead="default"></span>
+      <span type="form" name="training:corequisite" showhead="default"></span>
+      <span type="form" name="training:prerequisite" showhead="default"></span>
+      <span type="form" name="training:course_type" showhead="default"></span>
+      <span type="form" name="training:level" showhead="default"></span>
+      <span type="form" name="training:semester" showhead="default"></span>
+    </table>
+  </div> <!-- dataTable -->
+</div> <!-- list_display -->

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="wa">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ab:Abxhaze</value>
+      <value>ar:Arabe</value>
+      <value>az:Azeri</value>
+      <value>be:Bielor&#251;sse</value>
+      <value>bg:Bulg&#229;re</value>
+      <value>bo:Tibetyin</value>
+      <value>br:Burton</value>
+      <value>bs:Bosnyin</value>
+      <value>ce:Tchetchene</value>
+      <value>co:Corse</value>
+      <value>cs:Tcheke</value>
+      <value>cu:Eslave d'&#160;eglijhe</value>
+      <value>cv:Tchouvache</value>
+      <value>cy:Wal&#232;s</value>
+      <value>da:Daenw&#232;s</value>
+      <value>de:Almand</value>
+      <value>dz:Boutan&#232;s</value>
+      <value>el:Grek</value>
+      <value>en:Ingl&#232;s</value>
+      <value>en_GB:Ingl&#232;s britanike</value>
+      <value>es:Castiyan</value>
+      <value>et:Estonyin</value>
+      <value>eu:Basse</value>
+      <value>fa:Farsi</value>
+      <value>fi:Finw&#232;s</value>
+      <value>fj:Fidjyin</value>
+      <value>fo:Faeroy&#232;s</value>
+      <value>fr:Franc&#232;s</value>
+      <value>fy:Frizon</value>
+      <value>gd:Gayel</value>
+      <value>gl:Galicyin</value>
+      <value>gn:Gwarani</value>
+      <value>gu:Goudjarati</value>
+      <value>gv:Gayel del Iye di Man</value>
+      <value>he:Ebreu</value>
+      <value>hr:Crow&#229;te</value>
+      <value>hsb:H&#244;t sorbyin</value>
+      <value>hu:Hongrw&#232;s</value>
+      <value>hy:&#197;rmenyin</value>
+      <value>ia:Interlingua (no&#251; lat&#233;n)</value>
+      <value>id:Indonezyin</value>
+      <value>ik:Inyupiak</value>
+      <value>is:Izland&#232;s</value>
+      <value>it:It&#229;lyin</value>
+      <value>ja:Djapon&#232;s</value>
+      <value>jv:Djavan&#232;s</value>
+      <value>ka:Djeyordjyin</value>
+      <value>kk:Kazaxh</value>
+      <value>km:Xhmer</value>
+      <value>ko:Coreyin</value>
+      <value>ks:Cachmiri</value>
+      <value>ku:Kurdi</value>
+      <value>kw:Cornike</value>
+      <value>ky:Kirguize</value>
+      <value>la:Lat&#233;n</value>
+      <value>lb:Lussimbordjw&#232;s</value>
+      <value>li:Limbordjw&#232;s</value>
+      <value>lo:Lawocyin</value>
+      <value>lt:Litwanyin</value>
+      <value>lv:Letonyin</value>
+      <value>mg:Malgache</value>
+      <value>mh:Marshal&#232;s</value>
+      <value>mi:Mawori</value>
+      <value>mk:Macedonyin</value>
+      <value>mn:Mongol</value>
+      <value>mo:Mold&#229;ve</value>
+      <value>mr:Marati</value>
+      <value>mt:Malt&#232;s</value>
+      <value>na:Nawouro</value>
+      <value>nb:Norvedjyin (Bokm&#229;l)</value>
+      <value>nd:Ndebele (bijhe)</value>
+      <value>nds:Bas sacson</value>
+      <value>ne:Nepal&#232;s</value>
+      <value>nl:Neyerland&#232;s</value>
+      <value>nn:No&#251;-Norvedjyin (Nynorsk)</value>
+      <value>nr:Ndebele (nonne)</value>
+      <value>nso:Soto (bijhe)</value>
+      <value>nv:Navaxho</value>
+      <value>ny:Tchitchewa</value>
+      <value>os:Ossete</value>
+      <value>pa:Pundjabi</value>
+      <value>pi:P&#226;li</value>
+      <value>pl:Polon&#232;s</value>
+      <value>ps:Pashto</value>
+      <value>pt:Portugu&#232;s</value>
+      <value>pt_BR:Portugu&#232;s do Braezi</value>
+      <value>qu:Kitchwa</value>
+      <value>rn:Kirundi</value>
+      <value>ro:Roumin</value>
+      <value>ru:R&#251;sse</value>
+      <value>rw:Kiniarwanda</value>
+      <value>sc:Sardinyin</value>
+      <value>sd:Sindi</value>
+      <value>se:Bijhe s&#229;mi</value>
+      <value>si:Sinhal&#232;s</value>
+      <value>sk:Eslovake</value>
+      <value>sl:Eslovenyin</value>
+      <value>sm:Samowan</value>
+      <value>so:Somalyin</value>
+      <value>sq:Albanyin</value>
+      <value>sr:Siebe (alfabet lat&#233;n)</value>
+      <value>ss:Suwati</value>
+      <value>st:Soto (nonne)</value>
+      <value>su:Soudan&#232;s</value>
+      <value>sv:Suwedw&#232;s</value>
+      <value>sw:Suwahili</value>
+      <value>ta:Tamoul</value>
+      <value>te:Telougou</value>
+      <value>tg:Tadjik</value>
+      <value>th:Tayland&#232;s</value>
+      <value>ti:Tigrinia</value>
+      <value>tk:Turkmene</value>
+      <value>tr:Turk</value>
+      <value>tt:Tat&#229;r</value>
+      <value>ty:Tahityin</value>
+      <value>ug:Ouygour</value>
+      <value>uk:Oucrinnyin</value>
+      <value>ur:Ourdou</value>
+      <value>uz:Ouzbeke</value>
+      <value>vi:Vietnamyin</value>
+      <value>wa:Walon</value>
+      <value>xh:Xhossa</value>
+      <value>yi:Yidish</value>
+      <value>yo:Yorouba</value>
+      <value>zh:Chinw&#232;s</value>
+      <value>zu:Zoulou</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

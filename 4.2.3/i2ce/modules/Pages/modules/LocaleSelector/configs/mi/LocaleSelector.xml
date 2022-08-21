@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.2.1.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="mi">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>af:Reo &#196;wherika Tatimana</value>
+      <value>ar:Reo Arapia</value>
+      <value>bg:Reo Purukeria</value>
+      <value>br:Reo Parani Uropi-&#207;nia</value>
+      <value>ca:Reo Peina Raki R&#228;whiti</value>
+      <value>da:Reo Tenemaka</value>
+      <value>de:Reo Tiamana</value>
+      <value>el:Reo Kariki</value>
+      <value>en:Reo P&#228;keh&#228;</value>
+      <value>es:Reo Peina</value>
+      <value>et:Reo Etonia</value>
+      <value>fi:Reo Whinarana</value>
+      <value>fr:Reo Parani</value>
+      <value>he:Reo H&#252;rai</value>
+      <value>hr:Reo Koro&#228;tia</value>
+      <value>hu:Reo Hanekari</value>
+      <value>is:Reo Tiorangi</value>
+      <value>it:Reo Itari</value>
+      <value>ja:Reo Hapana</value>
+      <value>mi:Reo M&#228;ori</value>
+      <value>mk:Reo Maker&#246;nia</value>
+      <value>nl:Reo Tenemaka</value>
+      <value>pl:Reo P&#246;rana</value>
+      <value>pt:Reo P&#246;tik&#239;</value>
+      <value>ro:Reo Romeinia</value>
+      <value>ru:Reo Ruhia</value>
+      <value>sv:Reo W&#239;tana</value>
+      <value>ta:Reo &#207;nia tonga</value>
+      <value>zh:Reo H&#228;ina</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="StudentsViewResults" path="/I2CE">
+  <metadata>
+    <version>4.2.1.9</version>
+  </metadata>
+  <configurationGroup name="StudentsViewResults" path="/I2CE" locale="en_US">
+    <version>4.2.1.9</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_edit_child_form_students_results_grade" locale="en_US">
+        <value>Can edit person students view results</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_students_results_grade" locale="en_US">
+        <value>Can view person students view results</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>
