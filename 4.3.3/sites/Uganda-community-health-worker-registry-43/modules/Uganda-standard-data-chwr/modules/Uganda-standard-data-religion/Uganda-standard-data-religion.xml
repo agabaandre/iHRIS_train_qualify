@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-standard-data-religion">
+  <metadata>
+    <displayName>Uganda default data for: religion</displayName>
+    <description>Data for form: religion</description>
+    <version>4.3.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <erase path="/I2CE/formsData/forms/religion">
+    <lessThan version="4.1.6.1" />
+  </erase>
+  <configurationGroup name="Uganda-standard-data-religion" path="/I2CE/formsData/forms/religion">
+    <displayName>Form data: religion</displayName>
+    <configuration name="read_only" path="/modules/forms/forms/religion/read_only" type="boolean">
+      <version>4.2.0</version>
+      <value>true</value>
+    </configuration>
+    <configurationGroup name="muslim">
+      <displayName>Moslem</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Moslem</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="catholic">
+      <displayName>Catholic</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Catholic</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="protestant">
+      <displayName>Anglican</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Anglican</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="sda">
+      <displayName>SDA</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>SDA</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="born_again">
+      <displayName>Born Again</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Born Again</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="traditionalist">
+      <displayName>Traditionalist</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Traditionalist</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="others">
+      <displayName>Other</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2013-07-09 11:16:10</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>0</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Others</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>
