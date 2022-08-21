@@ -73,7 +73,7 @@ class iHRIS_PageFormDeparture extends iHRIS_PageFormParentPerson  {
         $this->setObject($pers_pos);
         $this->setObject($person,I2CE_PageForm::EDIT_PARENT);        
 
-        $this->position = $this->factory->createContainer( $this->getPrimary()->getField("position")->getDBValue() );
+        $this->position = $this->factory->createContainer( $this->getPrimary()->getField("position")->getDBValue(), true );
         $this->position->statusOnly();
         if ( $this->isPost() ) {
             //$this->position->setStatus( $_POST[ $this->position->getField('status')->getHTMLName() ] );

@@ -9,18 +9,21 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.4.3</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-manage-PersonPosition">
-      <atLeast version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="Person">
-      <atLeast version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="fields-enum">
-      <atLeast version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>
@@ -203,7 +206,8 @@
               </configuration>
             </configurationGroup>
           </configurationGroup>
-        </configurationGroup> <!-- iHRIS_LeaveOfAbsence -->
+        </configurationGroup>
+        <!-- iHRIS_LeaveOfAbsence -->
       </configurationGroup>
       <!-- End of form /modules/forms/formsClasses-->
     </configurationGroup>

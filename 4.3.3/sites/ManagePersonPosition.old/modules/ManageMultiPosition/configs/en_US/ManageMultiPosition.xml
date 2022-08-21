@@ -2,10 +2,10 @@
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="ihris-manage-MultiPosition" path="/I2CE">
   <metadata>
-    <version>4.2.2.0</version>
+    <version>4.3.0</version>
   </metadata>
   <configurationGroup name="ihris-manage-MultiPosition" path="/I2CE" locale="en_US">
-    <version>4.2.2.0</version>
+    <version>4.3.0</version>
     <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="en_US">
       <configuration name="code_req" path="position/code_start/required">
         <value>If you are adding multiple position you must enter a number for the code to start with.</value>
