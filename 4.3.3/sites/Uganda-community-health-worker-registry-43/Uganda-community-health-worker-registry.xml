@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.7.8.5</version>
+    <version>4.3.7.8.7</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -246,7 +246,7 @@
           </configuration>
         </configurationGroup>
         <configurationGroup name="religion">
-          <version>4.3.7.8.1</version>
+          <version>4.3.7.8.2</version>
           <displayName>Religion</displayName>
           <description>The Religion Form</description>
           <configuration name="class" values="single">
@@ -592,7 +592,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="religion" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/religion">
-     <version>4.3.7.8.1</version>
+     <version>4.3.7.8.2</version>
       <displayName>The field 'religion'</displayName>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
@@ -600,9 +600,13 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.3.7.8.1</version>
+        <version>4.3.7.8.2</version>
         <value>default:Religion</value>
       </configuration>
+       <configuration name="required" type="boolean">
+          <displayName>This field is required to be set</displayName>
+          <value>FALSE</value>
+        </configuration>
     </configurationGroup>
     <configurationGroup name="mobile_phone" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/mobile_phone">
       <displayName>The field 'marital_status'</displayName>
