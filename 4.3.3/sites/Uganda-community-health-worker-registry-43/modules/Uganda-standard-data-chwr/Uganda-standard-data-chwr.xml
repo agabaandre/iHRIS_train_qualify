@@ -8,14 +8,14 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.4.1</version>
+    <version>4.3.4.5</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <path name="modules">
       <value>./modules</value>
     </path>
-
+     <requirement name="Uganda-standard-data-religion" />
     <requirement name="Uganda-standard-data-district" />
     <requirement name="Uganda-standard-data-country" />
     <requirement name="Uganda-standard-data-region" />
@@ -44,7 +44,7 @@
     <requirement name="Uganda-standard-data-service" />
     <requirement name="Uganda-standard-data-parish" />
     <requirement name="Uganda-standard-data-village" />
-    <requirement name="Uganda-standard-data-religion" />
+  
 
     <priority>350</priority>
   </metadata>

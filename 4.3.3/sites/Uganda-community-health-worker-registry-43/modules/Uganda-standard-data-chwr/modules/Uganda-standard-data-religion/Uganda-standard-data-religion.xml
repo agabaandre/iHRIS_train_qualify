@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda default data for: religion</displayName>
     <description>Data for form: religion</description>
-    <version>4.3.4</version>
+    <version>4.1.6.3</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -19,7 +19,7 @@
       <value>true</value>
     </configuration>
     <configurationGroup name="muslim">
-      <displayName>Moslem</displayName>
+      <displayName>Muslim</displayName>
       <configuration name="last_modified">
         <displayName>Last Modified</displayName>
         <value>2013-07-09 11:16:10</value>
@@ -31,7 +31,7 @@
       <configurationGroup name="fields">
         <displayName>Fields</displayName>
         <configuration name="name">
-          <value>Moslem</value>
+          <value>Muslim</value>
         </configuration>
       </configurationGroup>
     </configurationGroup>
@@ -53,7 +53,7 @@
       </configurationGroup>
     </configurationGroup>
     <configurationGroup name="protestant">
-      <displayName>Anglican</displayName>
+      <displayName>Protestant</displayName>
       <configuration name="last_modified">
         <displayName>Last Modified</displayName>
         <value>2013-07-09 11:16:10</value>
@@ -65,7 +65,7 @@
       <configurationGroup name="fields">
         <displayName>Fields</displayName>
         <configuration name="name">
-          <value>Anglican</value>
+          <value>Protestant</value>
         </configuration>
       </configurationGroup>
     </configurationGroup>
