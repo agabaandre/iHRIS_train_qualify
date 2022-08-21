@@ -198,6 +198,7 @@ class iHRIS_PageFormMakeOffer extends iHRIS_PageFormParentPerson
 
             $this->old_position = $this->factory->createContainer($this->old_person_position->getField('position')->getDBValue());
             @$this->old_position->populate();
+            //lead
             //$this->old_position->statusOnly();
 
             if ($this->isPost()) {
