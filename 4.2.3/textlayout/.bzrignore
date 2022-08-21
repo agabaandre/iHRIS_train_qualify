@@ -1,6 +1,0 @@
-./**/local
-packaging/.bazaar
-packaging/.bzr.log
-packaging/.gnupg
-packaging/builds/*
-builds
