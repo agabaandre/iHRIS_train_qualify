@@ -592,7 +592,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="religion" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/religion">
-     <version>4.3.9.4</version>
+     <version>4.3.9.5</version>
       <displayName>The field 'religion'</displayName>
       <configuration name="formfield">
         <displayName>The form field type</displayName>
@@ -600,7 +600,7 @@
       </configuration>
       <configuration name="headers" type="delimited" locale="en_US">
         <displayName>The headers for this field.</displayName>
-        <version>4.3.9.4</version>
+        <version>4.3.9.5</version>
         <value>default:Religion</value>
       </configuration>
        <configuration name="required" type="boolean">
