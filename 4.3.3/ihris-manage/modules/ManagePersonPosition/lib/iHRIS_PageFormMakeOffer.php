@@ -192,8 +192,8 @@ class iHRIS_PageFormMakeOffer extends iHRIS_PageFormParentPerson
         $this->getParent()->populateLast(array("person_position" => "start_date"));
         $this->old_person_position = $this->getParent()->getLastPosition();
 
-        //if ( $this->getParent()->isActive() && $this->old_person_position instanceof iHRIS_PersonPosition ) {
-        if (!empty($this->old_person_position) && $this->old_person_position instanceof iHRIS_PersonPosition) {
+        if ($this->getParent()->isActive() && $this->old_person_position instanceof iHRIS_PersonPosition) {
+            // if (!empty($this->old_person_position) && $this->old_person_position instanceof iHRIS_PersonPosition) {
 
 
             $this->old_position = $this->factory->createContainer($this->old_person_position->getField('position')->getDBValue());
