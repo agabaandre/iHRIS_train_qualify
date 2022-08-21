@@ -4,7 +4,7 @@
   <metadata>
     <displayName>Uganda data for Countries</displayName>
     <description>Data for form: country</description>
-    <version>4.2.1</version>
+    <version>4.3.3</version>
     <requirement name="Geography">
       <atLeast version="4.1" />
     </requirement>
@@ -15,10 +15,10 @@
   <configurationGroup name="Uganda-standard-data-country" path="/I2CE/formsData/forms/country">
     <displayName>Form data: country</displayName>
     <configuration name="read_only" path="/modules/forms/forms/country/read_only" type="boolean">
-      <version>4.2.0</version>
+      <version>4.3.3</version>
       <value>true</value>
     </configuration>
-    <!--<configurationGroup name="AF">
+    <configurationGroup name="AF">
       <displayName>AF</displayName>
       <configuration name="last_modified">
         <displayName>Last Modified</displayName>
@@ -6513,7 +6513,7 @@
           <value>1</value>
         </configuration>
       </configurationGroup>
-    </configurationGroup><!--
+    </configurationGroup>
     <configurationGroup name="UA">
       <displayName>UA</displayName>
       <configuration name="last_modified">
@@ -7180,6 +7180,6 @@
           <value>0</value>
         </configuration>
       </configurationGroup>
-    </configurationGroup>-->
+    </configurationGroup>
   </configurationGroup>
 </I2CEConfiguration>
