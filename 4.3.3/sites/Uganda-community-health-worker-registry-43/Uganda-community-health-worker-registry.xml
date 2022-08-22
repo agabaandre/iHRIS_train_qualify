@@ -23,6 +23,7 @@
     <requirement name="UserAccess">
       <atLeast version="4.2" />
     </requirement>
+    <enable name="CSVUpload" />
     <enable name="accident" />
     <enable name="MobileMoney" />
     <enable name="ReportArchiver" />
