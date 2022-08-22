@@ -1,17 +1,27 @@
 <div id="siteContent">
     <h1>Configure System</h1>
 
-  <div task='can_edit_database_lists'>
-    <h2><a href="lists" class="adminDatabase">Administer Database</a></h2>
-    <p>
-    <!-- Create and update standard lists of data for selection in system menus. -->
-    Administer positions and create and update dropdown menus.
-    </p>
+    <div task='can_edit_database_lists'>
+        <h2><a href="lists" class="adminDatabase">Administer Database</a></h2>
+        <p>
+            <!-- Create and update standard lists of data for selection in system menus. -->
+            Administer positions and create and update dropdown menus.
+        </p>
+        <hr/>
+    </div>
+    <span type='module' name='CSVUpload' ifenabled='true'>
+	 <div task='can_configure_modules'>
+	  
+	  <h2><a href="upload_csv">Upload Records/Data from CSV</a></h2>
+	  <p>
+	Upload Records/Data From a CSV
+	  </p>
       <hr/>
-  </div>
+    </div>
+  </span>
 
 
-  <span type='module' name='admin' ifenabled='true'>
+    <span type='module' name='admin' ifenabled='true'>
     <div task='can_configure_modules'>
       <h2><a href="admin/modules" class="adminDatabase">Configure Modules</a></h2>
       <p>
@@ -21,7 +31,7 @@
     </div>
   </span>
 
-  <span type='module' name='page-builder' ifenabled='true'>
+    <span type='module' name='page-builder' ifenabled='true'>
     <div task='can_build_pages'>
       <h2><a href="PageBuilder" class="adminDatabase">Page Builder</a></h2>
       <p>
@@ -31,7 +41,7 @@
     </div>
   </span>
 
-  <span type='module' name='form-builder' ifenabled='true'>
+    <span type='module' name='form-builder' ifenabled='true'>
     <div task='can_build_forms'>
       <h2>Forms Builder</h2>
       <p>
@@ -46,7 +56,7 @@
   </span>
 
 
-  <span type='module' name='formRelationships' ifenabled='true'>
+    <span type='module' name='formRelationships' ifenabled='true'>
     <div role='admin'>
       <h2><a href="form_relationship_import" class="searchRecords"> Import Form Relationship Data</a></h2>
       <p>
@@ -57,7 +67,7 @@
   </span>
 
 
-  <span type='module' name='CustomReports' ifenabled='true'>
+    <span type='module' name='CustomReports' ifenabled='true'>
     <span task='custom_reports_can_edit_reportViews'>
         <h2><a name="manage_reports" class="adminDatabase">Manage Reports</a></h2>
       <p>
@@ -79,11 +89,11 @@
       </ul>
       <hr />
     </span>
-  </span>
+    </span>
 
 
 
-  <span type='module' name='magicDataBrowser' ifenabled='true'>
+    <span type='module' name='magicDataBrowser' ifenabled='true'>
     <div task='can_view_magic_data_browser'>
       <h2><a href="magicDataBrowser/show" class="searchRecords">Browse Magic Data</a></h2>
       <p>
@@ -94,7 +104,7 @@
   </span>
 
 
-  <span type='module' name='SVS' ifenabled='true'>
+    <span type='module' name='SVS' ifenabled='true'>
     <div task='SVS_allow_RetreieveValueSet'>
       <h2><a href="SVS/config" class="searchRecords">Shared Value Sets</a></h2>
       <p>
@@ -105,7 +115,7 @@
   </span>
 
 
-  <span type='module' name='csd_cache' ifenabled='true'>
+    <span type='module' name='csd_cache' ifenabled='true'>
     <div task='csd_cache_admin'>
       <h2><a href="csd_cache" class="searchRecords">Care Services Discovery</a></h2>
       <p>
@@ -116,7 +126,7 @@
   </span>
 
 
-  <span type='module' name='csd-infoman-storage' ifenabled='true'>
+    <span type='module' name='csd-infoman-storage' ifenabled='true'>
     <div role='admin'>
       <h2><a href="remote_directory_selector/edit" class="searchRecords"> InterLinked Health Worker Registry</a></h2>
       <p>
@@ -130,7 +140,7 @@
 
 
 
-  <span type='module' name='tasks-roles' ifenabled='true'>
+    <span type='module' name='tasks-roles' ifenabled='true'>
     <div task='tasks_and_roles_can_access'>
       <h2><a href="tasks-roles" class="adminDatabase">Tasks and Roles</a></h2>
       <p>
@@ -142,7 +152,7 @@
   </span>
 
 
-  <span type='module' name='localeSelector' ifenabled='true'>
+    <span type='module' name='localeSelector' ifenabled='true'>
     <div task='locales_can_edit_site_locale'>
       <h2><a href="localeSelector/edit" class="adminDatabase">Manage Locales</a></h2>
       <p>
@@ -154,7 +164,7 @@
 
 
 
-  <span type='module' name='BackgroundProcess' ifenabled='true'>
+    <span type='module' name='BackgroundProcess' ifenabled='true'>
     <div task='can_view_background_processes'>
       <h2><a href="BackgroundProcess" class="searchRecords">Background Processes</a></h2>
       <p>
@@ -165,7 +175,7 @@
   </span>
 
 
-  <span type='module' name='formBrowser' ifenabled='true'>
+    <span type='module' name='formBrowser' ifenabled='true'>
     <div task='can_view_form_browser'>
       <h2><a href="formBrowser/showForm" class="searchRecords">Browse Forms</a></h2>
       <p>
@@ -175,7 +185,7 @@
     </div>
   </span>
 
-  <span type='module' ifenabled='true' name='DHIS_Metadata'>
+    <span type='module' ifenabled='true' name='DHIS_Metadata'>
     <div role='admin'>
       <h2><a href="dhis_metadata">Manage DHIS2 MetaData</a></h2>
       <p>
@@ -187,7 +197,7 @@
   </span>
 
 
-  <span type='module' name='CachedForms' ifenabled='true'>
+    <span type='module' name='CachedForms' ifenabled='true'>
     <div task='cached_forms_can_administer'>
       <h2><a href="CachedForms" class="adminDatabase">Cached Forms</a></h2>
       <p>
@@ -196,17 +206,16 @@
       <hr/>
     </div>
   </span>
-  
-  <div task='can_create_or_edit_users'>
 
-    <h2><a href="user" class="adminDatabase">Administer Users</a></h2>
-    <p>
-    Create, update and disable user accounts to enforce secure access to the system.
-    Access is limited to the System Administrator.
-    </p>
-      <hr/>
-  </div>
-  <span type='module' name='UserStatistics' ifenabled='true'>
+    <div task='can_create_or_edit_users'>
+
+        <h2><a href="user" class="adminDatabase">Administer Users</a></h2>
+        <p>
+            Create, update and disable user accounts to enforce secure access to the system. Access is limited to the System Administrator.
+        </p>
+        <hr/>
+    </div>
+    <span type='module' name='UserStatistics' ifenabled='true'>
 	<div task="can_view_user_statistics">
 	  <h2><a href="UserStatistics" class="searchRecords">User Statistics</a></h2>
       View data entry statistics for users.
