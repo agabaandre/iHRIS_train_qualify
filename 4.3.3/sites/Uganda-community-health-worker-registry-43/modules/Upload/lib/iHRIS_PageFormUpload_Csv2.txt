@@ -465,7 +465,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
                         $person_position->getField('employment_terms')->setFromDB($employment_terms);
 
-
                         $person_position->getField('dofa_date')->setFromDB($dofa_date);
                         $person_position->getField('start_date')->setFromDB($start_date);
 

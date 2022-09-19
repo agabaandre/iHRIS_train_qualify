@@ -461,7 +461,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         // Now we create the position.
         $position = $this->factory->createContainer("position");
 
-        $position->getField('job')->setFromDB($job);
+        //$position->getField('job')->setFromDB($job);
         $position->title = $this->current[$key]['row']['Position'];
         $position->getField('facility')->setFromDB($facility);
         // $position->getField('facility_office')->setFromDB($facility_office);
