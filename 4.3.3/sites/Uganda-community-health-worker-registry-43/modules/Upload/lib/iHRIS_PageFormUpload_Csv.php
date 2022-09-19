@@ -436,7 +436,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             }
         } else {
             $created = true;
-            $person = $this->factory->createContainer("person");
+            $person = $this->factory->createContainer("personsss");
             $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
@@ -449,7 +449,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person->getField("religion")->setFromDB($religion);
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
-            // $person->getField("birth_date")->setFromDB($birth_date);
+            $person->getField("birth_date")->setFromDB($birth_date);
             // print_r($person);
             // $person->setParent($person_id);
             // $person->save($this->user);
@@ -459,7 +459,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         }
 
         // Now we create the position.
-        $position = $this->factory->createContainer("position");
+        $position = $this->factory->createContainer("person_position");
 
         $position->getField('job')->setFromDB($job);
         $position->title = $this->current[$key]['row']['Position'];
