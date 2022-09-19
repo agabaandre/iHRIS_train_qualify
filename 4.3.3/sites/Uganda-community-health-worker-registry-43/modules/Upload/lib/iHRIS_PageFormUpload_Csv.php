@@ -468,7 +468,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
         $position->save($this->user);
         $person_position = $this->factory->createContainer("person_position");
-        $person_position->setParent($person_id);
+        $person_position->setParent($person->getNameId());
         $person_position->getField("position")->setFromDB($position->getNameId());
         $person_position->getField("start_date")->setFromDB($start_date);
         $person_position->getField("dofa_date")->setFromDB($dofa_date);
