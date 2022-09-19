@@ -151,7 +151,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $dofa_date = $this->arrange_date($d_date);
         $district = $this->lookupList("district", $this->current[$key]['row']['Residence District'], 'name');
         $home_district = $this->lookupList("district", $this->current[$key]['row']['Home District'], 'name');
-        $job = $this->lookupList("job", $this->current[$key]['row']['Position'], 'title');
+        $job = $this->lookupList("job", $this->current[$key]['row']['Position']);
         $facility = $this->lookupList("facility", $this->current[$key]['row']['Facility'], 'name');
         $employment_terms = $this->lookupList("employment_terms", $this->current[$key]['row']['Terms of Employment']);
         //$facility_office = $this->lookupList("facility_office", $this->current[$key]['row']['Facility Office']);
