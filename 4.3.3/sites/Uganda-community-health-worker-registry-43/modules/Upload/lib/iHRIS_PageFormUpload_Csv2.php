@@ -145,7 +145,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV {
 
        // $d_date= sprintf( "%02d/%02d/%04d",  $day, $d_month, $year);
 
-	$d_date= date('d/m/Y',strtotime($d_date));
+	    $d_date= date('d/m/Y',strtotime($d_date));
      
        // $d_date = $d_date->format('d/m/Y'); 
 
