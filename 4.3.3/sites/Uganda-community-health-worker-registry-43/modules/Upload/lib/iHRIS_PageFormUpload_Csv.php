@@ -436,7 +436,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             }
         } else {
             $created = true;
-            $person = $this->factory->createContainer("personsss");
+            $person = $this->factory->createContainer("persons");
             $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
