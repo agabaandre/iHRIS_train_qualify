@@ -156,7 +156,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $employment_terms = $this->lookupList("employment_terms", $this->current[$key]['row']['Terms of Employment']);
         //$facility_office = $this->lookupList("facility_office", $this->current[$key]['row']['Facility Office']);
         $marital_status = $this->lookupList("marital_status", $this->current[$key]['row']['Marital Status']);
-        $religion = $this->lookupList("religion", $this->current[$key]['row']['Relgion']);
+        $religion = $this->lookupList("religion", $this->current[$key]['row']['Religion']);
 
 
         $gender = false;
