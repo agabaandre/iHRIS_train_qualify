@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 /*
  * © Copyright 2012 IntraHealth International, Inc.
  * 
