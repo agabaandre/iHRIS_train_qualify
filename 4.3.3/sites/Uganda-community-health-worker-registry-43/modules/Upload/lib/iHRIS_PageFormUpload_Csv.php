@@ -447,11 +447,12 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
             // $person->getField("birth_date")->setFromDB($birth_date);
-            $person->setParent($person_id);
-            $person->save($this->user);
+            print_r($person);
+            // $person->setParent($person_id);
+            // $person->save($this->user);
 
-            $person->cleanup();
-            unset($person);
+            // $person->cleanup();
+            // unset($person);
         }
 
         // Now we create the position.
