@@ -451,7 +451,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
             $person->getField("birth_date")->setFromDB($birth_date);
             // print_r($person);
-            // $person->setParent($person_id);
+            $person->setParent($person_id);
             $person->save($this->user);
 
             $person->cleanup();
@@ -468,7 +468,8 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
         $position->save($this->user);
         $person_position = $this->factory->createContainer("person_position");
-        $person_position->setParent($person->getNameId());
+        //$person_position->setParent($person->getNameId());
+        $person_position->setParent($person_id);
         $person_position->getField("position")->setFromDB($position->getNameId());
         $person_position->getField("start_date")->setFromDB($start_date);
         $person_position->getField("dofa_date")->setFromDB($dofa_date);
