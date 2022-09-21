@@ -33,7 +33,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             }
             //$required_headers = array( 'ID Number', 'Status', 'Date/Time', 'VerifyCode', 'CardNo' );
             //$required_headers = array( 'Surname', 'Firstname','Othername','Gender','Birth Date','Marital Status','Position','Facility','Residence District','Home District','File Number','Employee/IPPS Number','Date of Current Appointment','Date of First Appointment','DSC Minute','Current Salary','Facility Office','Terms of Employment','Telephone Number', 'Email Address' );
-            $required_headers = array('National ID', 'Religion', 'Surname', 'Firstname', 'Othername', 'Gender', 'Birth Date', 'Marital Status', 'Position', 'Facility', 'Village Served', 'Recruitment Mechanism','Residence District', 'Home District', 'Date of Current Appointment', 'Date of First Appointment',  'Current Salary',  'Terms of Employment', 'Mobile Number', 'Telephone Number');
+            $required_headers = array('National ID', 'Religion', 'Surname', 'Firstname', 'Othername', 'Gender', 'Birth Date', 'Marital Status', 'Position', 'Facility', 'Village Served', 'Recruitment Mechanism', 'Residence District', 'Home District', 'Date of Current Appointment', 'Date of First Appointment',  'Current Salary',  'Terms of Employment', 'Mobile Number', 'Telephone Number');
             $invalid_headers = array();
             foreach ($required_headers as $header) {
                 if (!in_array($header, $this->current['upload_csv']['header'])) {
