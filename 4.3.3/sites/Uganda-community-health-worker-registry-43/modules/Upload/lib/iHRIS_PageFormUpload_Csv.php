@@ -502,17 +502,29 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
             $person_village = $this->factory->createContainer("person_village");
             //$person_position->setParent($person->getNameId());
-            $person_village->setParent($person_id);
+            $person_village->setParent($person->getNameId());
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
+
+            $person_money = $this->factory->createContainer("mobile_money");
+            //$person_position->setParent($person->getNameId());
+            $person_money->setParent($person->getNameId());
+            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            $person_money->save($this->user);
+
+
+            $person_money->cleanup();
             $person_village->cleanup();
             $position->cleanup();
             $salary->cleanup();
+            $person->cleanup();
             unset($salary);
             unset($position);
             unset($person_village);
             unset($person_position);
-            $person->cleanup();
+
             unset($person);
             return true;
         }
