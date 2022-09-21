@@ -154,6 +154,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $job = $this->lookupList("job", $this->current[$key]['row']['Position'], 'title');
         $facility = $this->lookupList("facility", $this->current[$key]['row']['Facility'], 'name');
         $village = $this->lookupList("village", $this->current[$key]['row']['Village Served'], 'name');
+        $recruit_mech = $this->lookupList("recruit_mech", $this->current[$key]['row']['Recruitment Mechanism'], 'name');
         $employment_terms = $this->lookupList("employment_terms", $this->current[$key]['row']['Terms of Employment']);
         //$facility_office = $this->lookupList("facility_office", $this->current[$key]['row']['Facility Office']);
         $marital_status = $this->lookupList("marital_status", $this->current[$key]['row']['Marital Status']);
@@ -462,27 +463,28 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             // print_r($person);
             //$id$person->setParent($person_id);
             $save = $person->save($this->user);
-            if (!$save) {
-                I2CE::raiseError("Unable to save person for provider upload.");
-                return false;
-            }
-            $person_id = $person->getNameID();
+            // if (!$save) {
+            //     I2CE::raiseError("Unable to save person for provider upload.");
+            //     return false;
+            // }
+            // $person_id = $person->getNameID();
 
 
             // Now we create the position.
             $position = $this->factory->createContainer("position");
-
             $position->getField('job')->setFromDB($job);
             $position->getField('title')->setFromDB($this->current[$key]['row']['Position']);
             $position->getField('facility')->setFromDB($facility);
             $position->getField('status')->setFromDB('position_status|closed');
             $position->save($this->user);
+
             $person_position = $this->factory->createContainer("person_position");
-            //$person_position->setParent($person->getNameId());
-            $person_position->setParent($person_id);
+            $person_position->setParent($person->getNameId());
+            //$person_position->setParent($person_id);
             $person_position->getField("position")->setFromDB($position->getNameId());
             $person_position->getField("start_date")->setFromDB($start_date);
             $person_position->getField("dofa_date")->setFromDB($dofa_date);
+            $person_position->getField("recruit_mech")->setFromDB($recruit_mech);
             if ($employment_terms) {
                 $person_position->getField("employment_terms")->setFromDB($employment_terms);
             }
@@ -496,8 +498,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
                 $salary->getField('start_date')->setFromDB($start_date);
                 $salary->getField('salary')->setFromDB('currency|UGX=' . $Current_Salary);
                 $salary->save($this->user);
-                $salary->cleanup();
-                unset($salary);
             }
 
             $person_village = $this->factory->createContainer("person_village");
@@ -507,6 +507,8 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->save($this->user);
             $person_village->cleanup();
             $position->cleanup();
+            $salary->cleanup();
+            unset($salary);
             unset($position);
             unset($person_village);
             unset($person_position);
