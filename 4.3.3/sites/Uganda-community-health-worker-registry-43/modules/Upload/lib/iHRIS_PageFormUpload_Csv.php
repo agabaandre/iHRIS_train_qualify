@@ -461,9 +461,11 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             if ($gender) :
                 $person->getField("gender")->setFromDB($gender);
             endif;
-            if (!empty($marital_status)) :
+            if (!empty($marital_status)) {
+                $person->getField("marital_status")->setFromDB('Single');
+            } else {
                 $person->getField("marital_status")->setFromDB($marital_status);
-            endif;
+            }
             $person->getField("religion")->setFromDB($religion);
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
@@ -508,16 +510,16 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
 
-            $person_money = $this->factory->createContainer("mobile_money");
-            //$person_position->setParent($person->getNameId());
-            $person_money->setParent($person->getNameId());
-            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
-            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
-            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
-            $person_money->save($this->user);
+            // $person_money = $this->factory->createContainer("mobile_money");
+            // //$person_position->setParent($person->getNameId());
+            // $person_money->setParent($person->getNameId());
+            // $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            // $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            // $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            // $person_money->save($this->user);
 
 
-            $person_money->cleanup();
+            // $person_money->cleanup();
             $person_village->cleanup();
             $position->cleanup();
             $salary->cleanup();
