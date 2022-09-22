@@ -447,15 +447,23 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         } else {
             $created = true;
             $person = $this->factory->createContainer("person");
-            $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
+            if ($this->current[$key]['row']['National ID']) :
+                $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
+            endif;
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
             $person->getfield('othername')->setFromDB($this->current[$key]['row']['Othername']);
-            $person->getField('birth_date')->setFromDB($b_date);
+            if ($b_date) :
+                $person->getField('birth_date')->setFromDB($b_date);
+            endif;
             $person->getField('residence')->setFromDB($district);
             $person->getField('home_district')->setFromDB($home_district);
-            $person->getField("gender")->setFromDB($gender);
-            $person->getField("marital_status")->setFromDB($marital_status);
+            if ($gender) :
+                $person->getField("gender")->setFromDB($gender);
+            endif;
+            if ($marital_status) :
+                $person->getField("marital_status")->setFromDB($marital_status);
+            endif;
             $person->getField("religion")->setFromDB($religion);
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
@@ -463,12 +471,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             // print_r($person);
             //$id$person->setParent($person_id);
             $save = $person->save($this->user);
-            // if (!$save) {
-            //     I2CE::raiseError("Unable to save person for provider upload.");
-            //     return false;
-            // }
-            // $person_id = $person->getNameID();
-
 
             // Now we create the position.
             $position = $this->factory->createContainer("position");
