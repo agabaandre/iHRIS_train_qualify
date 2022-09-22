@@ -174,21 +174,22 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
 
         if (!$person_id) {
-            $find_pers = array(
-                'operator' => 'AND',
-                'operand' => array(
+            // $find_pers = array(
+            //     'operator' => 'AND',
+            //     'operand' => array(
 
-                    0 => array(
-                        'operator' => 'FIELD_LIMIT',
-                        'style' => 'lowerequals',
-                        'field' => 'national_id',
-                        'data' => array(
-                            'value' => $this->current[$key]['row']['National ID'],
-                        ),
-                    ),
-                ),
-            );
-            $person_id = I2CE_FormStorage::search("person", false, $find_pers, array(), true);
+            //         0 => array(
+            //             'operator' => 'FIELD_LIMIT',
+            //             'style' => 'lowerequals',
+            //             'field' => 'national_id',
+            //             'data' => array(
+            //                 'value' => $this->current[$key]['row']['National ID'],
+            //             ),
+            //         ),
+            //     ),
+            // );
+            // $person_id = I2CE_FormStorage::search("person", false, $find_pers, array(), true);
+            $person = "";
         }
 
         if ($person_id) {
