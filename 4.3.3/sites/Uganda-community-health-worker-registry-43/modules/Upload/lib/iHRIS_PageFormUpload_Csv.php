@@ -145,7 +145,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
         $d_date = $this->current[$key]['row']['Date of First Appointment'];
         $d_date = date('d/m/Y', strtotime($d_date));
-
         $birth_date = $this->arrange_date($b_date);
         $start_date = $this->arrange_date($s_date);
         $dofa_date = $this->arrange_date($d_date);
@@ -447,9 +446,9 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         } else {
             $created = true;
             $person = $this->factory->createContainer("person");
-            if (!empty($this->current[$key]['row']['National ID'])) :
-                $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
-            endif;
+            // if (!empty($this->current[$key]['row']['National ID'])) :
+            //     $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
+            // endif;
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
             $person->getfield('othername')->setFromDB($this->current[$key]['row']['Othername']);
@@ -458,7 +457,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             endif;
             $person->getField('residence')->setFromDB($district);
             $person->getField('home_district')->setFromDB($home_district);
-            if ($gender) :
+            if (!empty($gender)) :
                 $person->getField("gender")->setFromDB($gender);
             endif;
             if (!empty($marital_status)) {
@@ -510,16 +509,16 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
 
-            // $person_money = $this->factory->createContainer("mobile_money");
-            // //$person_position->setParent($person->getNameId());
-            // $person_money->setParent($person->getNameId());
-            // $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
-            // $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
-            // $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
-            // $person_money->save($this->user);
+            $person_money = $this->factory->createContainer("mobile_money");
+            //$person_position->setParent($person->getNameId());
+            $person_money->setParent($person->getNameId());
+            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            $person_money->save($this->user);
 
 
-            // $person_money->cleanup();
+            $person_money->cleanup();
             $person_village->cleanup();
             $position->cleanup();
             $salary->cleanup();
