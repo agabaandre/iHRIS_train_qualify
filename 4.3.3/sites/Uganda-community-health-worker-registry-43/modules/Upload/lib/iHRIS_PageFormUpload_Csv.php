@@ -447,13 +447,13 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         } else {
             $created = true;
             $person = $this->factory->createContainer("person");
-            if ($this->current[$key]['row']['National ID']) :
+            if (!empty($this->current[$key]['row']['National ID'])) :
                 $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
             endif;
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
             $person->getfield('othername')->setFromDB($this->current[$key]['row']['Othername']);
-            if ($b_date) :
+            if (!empty($b_date)) :
                 $person->getField('birth_date')->setFromDB($b_date);
             endif;
             $person->getField('residence')->setFromDB($district);
@@ -461,7 +461,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             if ($gender) :
                 $person->getField("gender")->setFromDB($gender);
             endif;
-            if ($marital_status) :
+            if (!empty($marital_status)) :
                 $person->getField("marital_status")->setFromDB($marital_status);
             endif;
             $person->getField("religion")->setFromDB($religion);
@@ -487,14 +487,14 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_position->getField("start_date")->setFromDB($start_date);
             $person_position->getField("dofa_date")->setFromDB($dofa_date);
             $person_position->getField("recruit_mech")->setFromDB($recruit_mech);
-            if ($employment_terms) {
+            if (!empty($employment_terms)) {
                 $person_position->getField("employment_terms")->setFromDB($employment_terms);
             }
             $person_position->save($this->user);
 
 
             $person_position->save($this->user);
-            if ($start_date) {
+            if (!empty($start_date)) {
                 $salary = $this->factory->createContainer("salary");
                 $salary->setParent($person_position->getNameId());
                 $salary->getField('start_date')->setFromDB($start_date);
