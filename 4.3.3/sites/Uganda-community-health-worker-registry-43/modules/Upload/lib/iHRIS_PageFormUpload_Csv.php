@@ -449,7 +449,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             if (!empty($this->current[$key]['row']['National ID'])) {
                 $person->getfield('national_id')->setFromDB($this->current[$key]['row']['National ID']);
             } else {
-                $person->getfield('national_id')->setFromDB('CM82');
+                $person->getfield('national_id')->setFromDB('no national_id');
             }
             $person->getfield('surname')->setFromDB($this->current[$key]['row']['Surname']);
             $person->getfield('firstname')->setFromDB($this->current[$key]['row']['Firstname']);
