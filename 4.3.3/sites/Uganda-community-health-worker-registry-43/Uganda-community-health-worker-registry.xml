@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.8.8.9.3</version>
+    <version>4.3.8.8.9.4</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -84,6 +84,8 @@
     <enable name="CustomReports_CrossTab" />
     <enable name="ihris-manage-mcsd-update-supplier-chwr" />
     <enable name="ihris-manage-csd-PersonPosition" />
+    <enable name="ihris-manage-PersonPosition" />
+    
     <path name="classes">
       <value>./lib</value>
     </path>
