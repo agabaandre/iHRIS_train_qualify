@@ -53,9 +53,7 @@ global $user;
 $user = new I2CE_User(1, false, false, false);
 // $db = MDB2::singleton();
 $db = I2CE::PDO();
-if ($db) {
-    die($db->getMessage());
-}
+
 $form_factory = I2CE_FormFactory::instance();
 
 echo "Memory Limit: " . ini_get("memory_limit") . "\n";
