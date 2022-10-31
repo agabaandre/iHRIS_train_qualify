@@ -1,5 +1,7 @@
 <?php
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 /**
  * The best way to run this is:
  * php import_facility_ug.php 2> convert.log
@@ -14,8 +16,10 @@
  * region needs country first since it uses country as a map for a field.
  *
  * 
- *
+ * 0772522248
+ * generation. christopher
  */
+
  global $dictionary;
 $dictionary = array();
  
@@ -36,7 +40,7 @@ if (file_exists(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'pages/local' . DIRECT
 	require_once( dirname(__FILE__) . DIRECTORY_SEPARATOR . 'pages/config.values.php');
 }
 
-$i2ce_site_i2ce_path = "/var/lib/iHRIS/releases/4.2/i2ce";
+$i2ce_site_i2ce_path = "/var/lib/iHRIS/releases/4.3/i2ce";
 
 require_once ($i2ce_site_i2ce_path . DIRECTORY_SEPARATOR . 'I2CE_config.inc.php');
 
@@ -53,7 +57,7 @@ global $user;
 $user = new I2CE_User(1, false, false, false);
 // $db = MDB2::singleton();
 $db = I2CE::PDO();
-if ($db )  {
+if ( PEAR::isError( $db ) ) {
 	die( $db->getMessage() );
 }
 $form_factory = I2CE_FormFactory::instance();

@@ -53,9 +53,9 @@ unset($i2ce_site_module_config);
 global $user;
 
 $user = new I2CE_User(1, false, false, false);
-$db = MDB2::singleton();
-if ( PEAR::isError( $db ) ) {
-	die( $db->getMessage() );
+$db = I2CE::PDO();
+if (!$db ) {
+	die( $db->error() );
 }
 $form_factory = I2CE_FormFactory::instance();
 
@@ -225,12 +225,12 @@ while ( ( $data = fgetcsv( $fh ) ) !== false ) {
 	if ( $data[iHRIS_TRAINING] != "" && $data[iHRIS_TRAINING_SCHOOL] != "" ){
 		  if(!array_key_exists( ucwords(strtolower($data[iHRIS_TRAINING_SCHOOL])), $cache['trainingprovider'] ) )
 				{
-				$ownership_id = find_or_create((($data[iHRIS_OWNERSHIP]))), "ownership",false,true);
-			    $trainingprovider_id = find_or_create($data[iHRIS_TRAINING_SCHOOL]), "trainingprovider",array(
-                            "name" => $data[iHRIS_TRAINING_SCHOOL]),
+				$ownership_id = find_or_create((($data[iHRIS_OWNERSHIP])), "ownership",false,true);
+			    $trainingprovider_id = find_or_create(($data[iHRIS_TRAINING_SCHOOL]), "trainingprovider",array(
+                            "name" => $data[iHRIS_TRAINING_SCHOOL],
                             "trainingprovider_type" => "trainingprovider_type|training_institution",
                             "ownership" => $ownership_id,
-                            "address" => $data[iHRIS_ADDRESS] ), true );
+                            "address" => $data[iHRIS_ADDRESS] ), true);
 			}else{
 				$trainingprovider_id = find_or_create(ucwords(strtolower($data[iHRIS_TRAINING_SCHOOL])), "trainingprovider");
 				}
@@ -278,7 +278,7 @@ while ( ( $data = fgetcsv( $fh ) ) !== false ) {
     $provider_instance->getField("start_date")->setFromDB( $start_date );
     $provider_instance->getField("end_date")->setFromDB( $end_date );
    // $provider_instance->set = $data[iHRIS_SET];
-    $provider_instance->location = $data[iHRIS_TRAINING_SCHOOL]);
+    $provider_instance->location = $data[iHRIS_TRAINING_SCHOOL];
     $provider_instance->save( $user );
     
     echo "Row $row; created " . $provider_instance->getId() . "\n";
