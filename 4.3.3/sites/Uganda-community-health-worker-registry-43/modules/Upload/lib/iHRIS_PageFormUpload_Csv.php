@@ -141,12 +141,27 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $b_date = date('d/m/Y', strtotime($b_date));
 
         $s_date = $this->current[$key]['row']['Date of Current Appointment'];
+
+        if (!empty($s_date)) {
+            $s_date = $this->current[$key]['row']['Date of Current Appointment'];
+        } else {
+            $s_date = '2011-12-01';
+        }
+
+
         $s_date = date('d/m/Y', strtotime($s_date));
 
+
         $d_date = $this->current[$key]['row']['Date of First Appointment'];
+        if (!empty($d_date)) {
+            $d_date = $this->current[$key]['row']['Date of First Appointment'];
+        } else {
+            $d_date = '2011-01-01';
+        }
         $d_date = date('d/m/Y', strtotime($d_date));
         $birth_date = $this->arrange_date($b_date);
         $start_date = $this->arrange_date($s_date);
+
         $dofa_date = $this->arrange_date($d_date);
         $district = $this->lookupList("district", $this->current[$key]['row']['Residence District'], 'name');
         $home_district = $this->lookupList("district", $this->current[$key]['row']['Home District'], 'name');
