@@ -60,7 +60,9 @@ class iHRIS_PersonPosition extends I2CE_Form {
                     ),
                 )                
             );
-        $pers_pos = I2CE_FormStorage::listFields('person_position',array(),true,$where,array('-start_date'),1);        
+        $pers_pos = I2CE_FormStorage::listFields('person_position',array(),true,$where,array('-start_date'),1); 
+        I2CE::raiseError("Count: ");
+        I2CE::raiseError(count($pers_pos));       
         if (!is_array($pers_pos) || count($pers_pos) !== 1) {
             return array();
         }        
