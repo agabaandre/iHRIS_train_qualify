@@ -13,8 +13,8 @@
       <value>./configs</value>
     </path>
     <requirement name="CustomReports">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
+      <atLeast version="4.2" />
+      <lessThan version="4.5" />
     </requirement>
     <enable name="CustomReports_Visualization" />
     <enable name="CustomReports_Export" />
