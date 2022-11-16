@@ -32,6 +32,7 @@
 
 class iHRIS_Module_PersonPosition extends I2CE_Module{
 
+
     /**
      * Return the array of hooks available in this module.
      * @return array
@@ -285,6 +286,7 @@ class iHRIS_Module_PersonPosition extends I2CE_Module{
     }
 
     public static function getMethods() {
+        I2CE::raiseError("123455 raeched");
         return array(
             'iHRIS_PageView->action_person_position' => 'action_person_position',
             'iHRIS_Person->getLastPosition' => 'getLastPosition',
