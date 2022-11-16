@@ -41,8 +41,6 @@ class iHRIS_PersonPosition extends I2CE_Form {
      * @return array
      */
     static public function getIds( $position ) {
-        //test error
-        I2CE::raiseError("1010101010101010");
         $where = array(
             'operator'=>'AND',
             'operand'=>array(
