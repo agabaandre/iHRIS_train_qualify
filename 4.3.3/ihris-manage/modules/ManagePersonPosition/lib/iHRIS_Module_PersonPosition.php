@@ -365,8 +365,10 @@ class iHRIS_Module_PersonPosition extends I2CE_Module{
         }
         $template=$page->getTemplate();
         if (  ($lastPos = $this->getLastPosition($person)) instanceof iHRIS_PersonPosition) {
-            $person->addChildForm($lastPos);
-            $childNode = $page->appendChildTemplate('person_position','siteContent');
+
+            print_r("I am here");
+            // $person->addChildForm($lastPos);
+            // $childNode = $page->appendChildTemplate('person_position','siteContent');
         } else {
             $childNode = $page->addLastChildForm('person_position','start_date', 'siteContent');
         }
