@@ -358,9 +358,7 @@ class iHRIS_Module_PersonPosition extends I2CE_Module{
 
 
     public function action_person_position($page) {
-        I2CE::raiseError('1111');
         if (!$page instanceof iHRIS_PageView) {
-            I2CE::raiseError('2222');
             return false;
         }
         $person = $page->getPerson();
@@ -369,26 +367,20 @@ class iHRIS_Module_PersonPosition extends I2CE_Module{
         }
         $template=$page->getTemplate();
         if (  ($lastPos = $this->getLastPosition($person)) instanceof iHRIS_PersonPosition) {
-            I2CE::raiseError('333');
             $person->addChildForm($lastPos);
             $childNode = $page->appendChildTemplate('person_position','siteContent');
         } else {
-            I2CE::raiseError('444');
             $childNode = $page->addLastChildForm('person_position','start_date', 'siteContent');
         }
         if (!array_key_exists('person_position',$person->children) || !is_array($person->children['person_position']) 
             || count($person->children['person_position']) != 1) {
-                I2CE::raiseError('555');
             return true;
         }
         reset($person->children['person_position']);        
         $pers_pos = current($person->children['person_position']);
-        I2CE::raiseError('1111');        
         if ( !$pers_pos instanceof iHRIS_PersonPosition)  {
-            I2CE::raiseError('666');
             return true;
         }
-        I2CE::raiseError('777');
         $pers_pos->getField( "position" )->setHref( "view_position?id=" );
         return $childNode;
     }
