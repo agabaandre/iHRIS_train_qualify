@@ -140,29 +140,29 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $b_date = $this->current[$key]['row']['Birth Date'];
         $b_date = date('d/m/Y', strtotime($b_date));
 
-        $s_date = $this->current[$key]['row']['Date of Current Appointment'];
+        $us_date = $this->current[$key]['row']['Date of Current Appointment'];
 
-        if (!empty($s_date)) {
-            $s_date = $this->current[$key]['row']['Date of Current Appointment'];
+        if (!empty($us_date)) {
+            $us_date = $this->current[$key]['row']['Date of Current Appointment'];
         } else {
-            $s_date = '2011-12-01';
+            $us_date = '01/01/2011';
         }
 
 
-        $s_date = date('d/m/Y', strtotime($s_date));
+        $fs_date = date('d/m/Y', strtotime($us_date));
 
 
-        $d_date = $this->current[$key]['row']['Date of First Appointment'];
-        if (!empty($d_date)) {
-            $d_date = $this->current[$key]['row']['Date of First Appointment'];
+        $ud_date = $this->current[$key]['row']['Date of First Appointment'];
+        if (!empty($ud_date)) {
+            $ud_date = $this->current[$key]['row']['Date of First Appointment'];
         } else {
-            $d_date = '2011-01-01';
+            $ud_date = '01/01/2011';
         }
-        $d_date = date('d/m/Y', strtotime($d_date));
+        $fd_date = date('d/m/Y', strtotime($ud_date));
         $birth_date = $this->arrange_date($b_date);
-        $start_date = $this->arrange_date($s_date);
+        $start_date = $this->arrange_date($fs_date);
 
-        $dofa_date = $this->arrange_date($d_date);
+        $dofa_date = $this->arrange_date($fd_date);
         $district = $this->lookupList("district", $this->current[$key]['row']['Residence District'], 'name');
         $home_district = $this->lookupList("district", $this->current[$key]['row']['Home District'], 'name');
         $job = $this->lookupList("job", $this->current[$key]['row']['Position'], 'title');
@@ -525,16 +525,16 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
 
-            $person_money = $this->factory->createContainer("mobile_money");
+            // $person_money = $this->factory->createContainer("mobile_money");
             //$person_position->setParent($person->getNameId());
-            $person_money->setParent($person->getNameId());
-            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
-            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
-            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
-            $person_money->save($this->user);
+            // $person_money->setParent($person->getNameId());
+            // $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            // $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            // $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            // $person_money->save($this->user);
 
 
-            $person_money->cleanup();
+            // $person_money->cleanup();
             $person_village->cleanup();
             $position->cleanup();
             $salary->cleanup();
