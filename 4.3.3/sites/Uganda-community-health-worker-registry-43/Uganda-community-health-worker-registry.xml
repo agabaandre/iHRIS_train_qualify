@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.9.0</version>
+    <version>4.3.9.1</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -25,7 +25,7 @@
     </requirement>
     <enable name="CSVUpload" />
     <enable name="accident" />
-    <enable name="MobileMoney" />
+    <!-- <enable name="MobileMoney" /> -->
     <enable name="ReportArchiver" />
     <enable name="dependents" />
     <enable name="disciplinary_action" />
