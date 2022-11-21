@@ -9,7 +9,7 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.8.9.1</version>
+    <version>4.3.8.9.2</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -61,6 +61,7 @@
     <enable name="ihris-manage-PositionTree" />
     <enable name="SampleOpenLayers" />
     <enable name="ihris-manage-MassDeleteFacility" />
+    <enable name="ihris-manage-PersonPosition" />
     <enable name="ihris-common-MassDeletePerson" />
     <enable name="ihris-manage-MultiPosition" />
     <enable name="ihris-manage-AutoList" />
