@@ -162,6 +162,10 @@
               <span task='person_can_edit_child_form_person_position' ifset="person_position:end_date"
                 ifvalue="!0000-00-00 00:00:00" type="form" name="person:id" href="make_offer?parent=">Set
                 Position</span>||
+                <span task='person_can_edit_child_form_person_position'>
+                  <span task='person_can_edit_child_form_person_position' type="form" name="person:id"
+                    href="history?form=person_position&show_edit&order_by:person_position:-start_date&id=">Manage Position(Departure/Transfer)</span>||
+                </span>
               <span type='module' name='PersonVillage' ifenabled='true'>
                 <span task='person_can_edit_child_form_person_village' type="form" name="person:id"
                   href="person_village?parent=">Add Village Served</span>||
@@ -178,12 +182,13 @@
                 <span task='person_can_edit_child_form_person_incentive' type="form" name="person:id"
                   href="person_incentive?parent=">Add Incentive/Tool Recieved</span>||
               </span>
+              
             </p>
             
 
             <div id="position">
 
-              <div id="person_position" task='person_can_view_child_form_person_position' />
+              <div id="person_position" />
               <br style="clear: both;" />
               <div id="salary" task='person_can_view_child_form_salary' />
               <br style="clear: both;" />
