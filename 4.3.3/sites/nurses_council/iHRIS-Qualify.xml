@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
-<I2CEConfiguration name="ihris-qualify-site-demo">
+<I2CEConfiguration name="ihris-qualify-site-unmc">
   <metadata>
     <displayName>iHRIS Qualify UNMC</displayName>
     <category>Site</category>
@@ -43,7 +43,7 @@
     </path>
     <priority>300</priority>
   </metadata>
-  <configurationGroup name="ihris-qualify-site-demo" path="/I2CE">
+  <configurationGroup name="ihris-qualify-site-unmc" path="/I2CE">
     <displayName>Nurses and Midwives Council</displayName>
     <status>advanced:false</status>
     <configurationGroup name='feedback'>
