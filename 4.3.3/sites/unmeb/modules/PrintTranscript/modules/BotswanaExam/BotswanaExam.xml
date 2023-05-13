@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="BotswanaTrainingExam">
+  <metadata>
+    <displayName>Training Course Exam</displayName>
+    <category>Application Component</category>
+    <className>Botswana_Module_TrainingExam</className>
+    <description>Makes exam result tracking available to training course module</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.1.9.7</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>   
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="training-exam">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>    
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="training-exam" path="/I2CE">
+    <version>4.1.9.7</version>
+    <configurationGroup name='evaluation-data' path='/I2CE/formsData/forms/evaluation'>
+		<configurationGroup name="pass">
+			<configuration name="last_modified">
+          <value>2014-05-17 11:35:00</value>
+			</configuration>
+			<configuration name="who">
+          <value>1</value>
+			</configuration>
+			<configurationGroup name="fields">
+          <configuration name="name">
+            <value>Pass</value>
+          </configuration>
+			</configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="fail">		
+			<configuration name="last_modified">
+	       <value>2014-05-17 11:35:00</value>
+			</configuration>
+			<configuration name="who">
+	       <value>1</value>
+			</configuration>
+			<configurationGroup name="fields">
+	       <configuration name="name">
+	         <value>Fail</value>
+	       </configuration>
+			</configurationGroup>            
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="forms" path="/modules/forms">
+      <version>4.1.9.7</version>
+      <configurationGroup name="forms">
+        <version>4.1.9.7</version>
+        <configurationGroup name="training_course_exam">
+          <version>4.1.9.7</version>
+          <configuration name="class" values="single">
+            <value>Botswana_Training_Course_Exam</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Training Course Exam</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="evaluation">
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Evaluation</value>
+          </configuration>
+          <configuration name="storage">
+	         <value>magicdata</value>
+	       </configuration>
+        </configurationGroup>        
+      </configurationGroup>
+
+      <!-- End of forms -->
+      <configurationGroup name="formClasses">
+        <version>4.1.9.7</version>
+        <configurationGroup name="Botswana_Training_Course_Exam">
+          <!--almost the same as a person competency, except there is a notes and a few of the fields are required -->
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_Training_Course_Exam</value>
+          </configuration>
+          <configurationGroup name="fields">            
+            <configurationGroup name="score">
+              <displayName>The field 'score'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>INT</value>
+              </configuration>              
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Score</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="evaluation">
+              <displayName>The field 'evaluation'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Evaluation</value>
+              </configuration>
+            </configurationGroup>
+                        
+          </configurationGroup>
+		  </configurationGroup>        
+      </configurationGroup>
+      <!-- End of formsClasse -->
+    </configurationGroup>
+    
+	 <configurationGroup name="page">
+	   <version>4.1.9.7</version>
+      <configurationGroup name="exam" path="/modules/training-course/page/exam">
+        <configuration name="class" values="single">
+          <value>Botswana_Page_FormExam</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="defaultHTMLFile" values="many">
+            <value>form_exams_empty.html</value>
+          </configuration>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Training Course Exam Results</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>person_scheduled_training_course</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_scheduled_training_course_can_edit_exam</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <!--End of /I2Ce/page -->        
+  </configurationGroup>
+</I2CEConfiguration>

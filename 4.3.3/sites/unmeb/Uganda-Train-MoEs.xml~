@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Uganda-train-site-moh">
+  <metadata>
+    <displayName>iHRIS Train Uganda MoES</displayName>
+    <category>Site</category>
+    <description>The Uganda Nurses and Midwives Examinations Board Site</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-manage</link>
+    <version>4.1.9.8</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-train">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <enable name="student-printed-form" />
+    <enable name="Uganda-manage-data" />
+    <enable name="CustomReports-full-search_provider" />
+    <enable name="CustomReports-full-search_person" />
+    <enable name="CustomReports-full-scheduled" />
+    <enable name="CustomReports-full-trainingproviders" />
+    <enable name="CustomReports-full-provider_training" />
+    <enable name="CustomReports-full-past_training" />
+    <enable name="CustomReports-full-output" />
+    <enable name="CustomReports-full-current_students" />
+    <enable name="CustomReports-full-former_students" />
+    <enable name="CustomReports-full-future_students" />
+    <enable name="CustomReports-full-marksheet" />
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <path name="pages">
+      <value>./pages</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="Uganda-train-site-moh" path="/I2CE">
+    <displayName>Uganda Nurses and Midwives Examination Board</displayName>
+    <status>advanced:false</status>
+    <configurationGroup name="feedback">
+      <displayName>Feedback Information</displayName>
+      <status>required:false</status>
+      <configuration name="email" path="to" values="single">
+        <displayName>Email Address</displayName>
+        <value>helpdesk.hris@health.go.ug</value>
+      </configuration>
+      <configuration name="subject" values="single">
+        <displayName>Subject Line</displayName>
+        <value>iHRIS Train Uganda MoES Feedback</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="template">
+      <displayName>Template Information</displayName>
+      <description>Various Default Information About The Templating System</description>
+      <status>advanced:false</status>
+      <status>required:true</status>
+      <configuration name="prefix_title" values="single" locale="en_US">
+        <displayName>Page title prefix</displayName>
+        <description>Page titile prefix</description>
+        <value>Uganda Nurses and Midwives Examination Board</value>
+      </configuration>
+    </configurationGroup>
+    
+    <configurationGroup name="formsData" path="formsData/forms">
+      <displayName>Forms Data</displayName>
+      <description>Form data saved in magic data</description>
+      <version>4.1.9.4</version>
+      <configurationGroup name="exam_type">
+         <version>4.1.9.4</version>
+        <displayName>Exam Type</displayName>
+        <description>The exam type form data</description>
+        <configurationGroup name="promotional">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Promotional</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="State Final">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:State Final</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="academic_year">
+         <version>4.1.9.4</version>
+        <displayName>Year of Study</displayName>
+        <description>The exam type form data</description>
+        <configurationGroup name="year_1">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Year 1-2</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="year_2">
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Year 2-3</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+     <configurationGroup name="paper_v" path="/I2CE/formsData/forms/paper/paper_v">
+            <version>4.1.9.6</version>
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper V</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paper_vi" path="/I2CE/formsData/forms/paper/paper_vi">
+           <version>4.1.9.6</version>
+          <configuration name="last_modified">
+            <value>2013-02-10 00:00:00</value>
+          </configuration>
+          <configuration name="fields" values="many" type="delimited" locale="en_US">
+            <value>name:Paper VI</value>
+          </configuration>
+        </configurationGroup>
+    <configurationGroup name="image" path="/modules/forms/formClasses/iHRIS_Photo/fields/image">
+      <version>4.1.8</version>
+     <configurationGroup name="meta">
+		 <version>4.1.8</version>
+       <configuration name="max_height">
+         <value>128</value>
+       </configuration>
+       <configuration name="max_width">
+         <value>136</value>
+       </configuration>
+     </configurationGroup>
+     <displayName>The field 'image'</displayName>
+     <configuration name="formfield">
+		 <version>4.1.8</version>
+       <displayName>The form field type</displayName>
+       <value>PASSPORT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+		 <version>4.1.8</version>
+       <displayName>The headers for this field.</displayName>
+       <value>default:Passport</value>
+     </configuration>
+   </configurationGroup>
+   
+    <configurationGroup name="funder" path="/modules/forms/formClasses/iHRIS_PersonInstance/fields/funder">
+       <version>4.1.5.17</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Sponsorship</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="exam_type" path="/modules/forms/forms/exam_type">
+          <displayName>exam_type</displayName>
+          <description>The'exam_type' Form</description>
+          <version>4.1.9.2</version>
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Exam Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+         <configurationGroup name="academic_year" path="/modules/forms/forms/academic_year">
+          <displayName>academic_year</displayName>
+          <description>The'academic_year' Form</description>
+          <version>4.1.9.2</version>
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Year Of Study</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+   <configurationGroup name="academic_year" path="/modules/forms/formClasses/iHRIS_ProviderInstance/fields/academic_year">
+       <version>4.1.9.2</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Year Of Study</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="exam_type" path="/modules/forms/formClasses/iHRIS_ProviderInstance/fields/exam_type">
+       <version>4.1.9.2</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Exam Type</value>
+     </configuration>
+   </configurationGroup> 
+   <configurationGroup name="set" path="/modules/forms/formClasses/iHRIS_ProviderInstance/fields/set">
+       <version>4.1.5.19</version>
+     <displayName>The field 'funder'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>STRING_LINE</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:SET</value>
+     </configuration>
+   </configurationGroup> 
+   <configurationGroup name="tribe" path="/modules/forms/forms/tribe">
+          <displayName> tribe</displayName>
+          <description>The  tribe Form</description>
+          <version>4.1.5.17</version>
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Tribe</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="religion" path="/modules/forms/forms/religion">
+          <displayName> religion</displayName>
+          <description>The  religion Form</description>
+         <version>4.1.5.17</version>
+          <configuration name="class" values="single">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <value>Religion</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+   <configurationGroup name="tribe" path="/modules/forms/formClasses/iHRIS_Demographic/fields/tribe">
+       <version>4.1.5.17</version>
+     <displayName>The field 'tribe'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Tribe</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="religion" path="/modules/forms/formClasses/iHRIS_Demographic/fields/religion">
+       <version>4.1.5.17</version>
+     <displayName>The field 'tribe'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>MAP</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Religion</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_a1" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_a1">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_a1'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section A1</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_b1" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_b1">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_b1'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section B1</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_c1" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_c1">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_c1'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section C1</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_a2" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_a2">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_a2'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section A2</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_b2" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_b2">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_b2'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section B2</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_c2" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_c2">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_c2'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section C2</value>
+     </configuration>
+   </configurationGroup>
+   <configurationGroup name="results_section_c3" path="/modules/forms/formClasses/iHRIS_PersonExam/fields/results_section_c3">
+     <version>4.1.9.9</version>
+     <displayName>The field 'results_section_c3'</displayName>
+     <configuration name="formfield">
+       <displayName>The form field type</displayName>
+       <value>FLOAT</value>
+     </configuration>
+     <configuration name="headers" type="delimited" locale="en_US">
+       <displayName>The headers for this field.</displayName>
+       <value>default:Section C3</value>
+     </configuration>
+   </configurationGroup>   
+    <configurationGroup name="custom_report_pdf_options" path="/modules/CustomReports/displays/PDF/display_options">
+      <displayName>PDF Options</displayName>
+      <configurationGroup name="header">
+        <displayName>Header Options</displayName>
+        <configuration name="text_prefix" locale="en_US">
+          <displayName>Header Text</displayName>
+          <value>Uganda Nurses and Midwives Examinations Board</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name='maani-charts'>
+      <displayName>Chart Configuration</displayName>
+      <description>configuration options for charts using the maani flash charts.</description>
+      <configuration name='license' values='single' path='/modules/maani-charts/license'>
+        <displayName>Maani License</displayName>
+        <description>Enter a license to enable full charting capability</description>
+        <status>overwrite:true</status>
+        <value>G1XHF6MC7ZL.HSK5T4Q79KLYCK07EK</value>
+      </configuration>
+    </configurationGroup>
+
+
+
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,62 @@
+<div id="list_display">
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li>
+	<a href="lists?type=scheduled_training_course&amp;field=training_course">Select Another Training</a>
+      </li>
+      <li task='can_edit_scheduled_training_course'>
+	<span type="form" name="scheduled_training_course:id"  href="lists?type=scheduled_training_course&amp;id=" >Update this Information</span>
+      </li>
+      <li task='can_edit_scheduled_training_course'>
+	<span type="form" name="scheduled_training_course:id"  href="editstudents?id=" >Add/Remove Participants</span>
+      </li>
+      <span type='module' ifenabled='true' name='training-exam'>
+	<li task='can_edit_scheduled_training_course'>
+	  <!--<span type="form" name="scheduled_training_course:id"  href="view_list?type=scheduled_training_course&amp;i2ce_template=participants_compact&amp;id=">Add Pre/Post-Test Scores</span>
+    <span type="form" name="scheduled_training_course:id"  href="view_list?type=scheduled_training_course&amp;i2ce_template=participants_compact&amp;id=">Manage All Student Exam Results</span>-->
+	</li>
+	<!--
+  <li>
+          <span type="form" name="scheduled_training_course:id"  href="view_list?type=scheduled_training_course&amp;i2ce_template=prepost&amp;id=">Pre/Post-Test Summary</span>
+	</li>
+	<li>
+          <span type="form" name="scheduled_training_course:id"  href="view_list?type=scheduled_training_course&amp;i2ce_template=mods&amp;id=">Class Modules</span>
+	</li>	-->
+	<li>
+          <span type="form" name="scheduled_training_course:id"  href="studentparticipants?id=">Download Participants List</span>
+	</li>
+	<li>
+    <span type="form" name="scheduled_training_course:id"  href="student_letters_pass?id=">Download Acknowledgement Letters (Pass)</span>
+	</li>	
+	<li>
+    <span type="form" name="scheduled_training_course:id"  href="student_letters_fail?id=">Download Acknowledgement Letters (Fail)</span>
+	</li>		
+	<li>
+          <span type="form" name="scheduled_training_course:id"  href="studentcertificates?id=">Download Certificates</span>
+	</li>
+	<li>
+          <span type="form" name="scheduled_training_course:id" href="view_list?type=scheduled_training_course&id=">Back to Training Logistics</span>
+	</li>
+      </span>
+
+
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable" >
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<th colspan="2">Pre&amp;Post Scores Sheet</th>
+      </tr>
+      <tr>
+	<td colspan='2'>
+	  <span id='participant_list'>
+	    <span type='form' name='scheduled_training_course->enrolledStudentsListCompact()'/>
+	  </span>
+	</td>	
+      </tr>
+    </table>
+    
+  </div> <!-- dataTable -->
+</div> <!-- list_display -->

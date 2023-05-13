@@ -1,0 +1,74 @@
+<div id="siteContent">
+  <h1 class='header'>Exam Results For Course</h1>
+  <h2><span type='form' name='person:surname' noedit="true"/>,<span type='form' name='person:firstname' noedit="true"/></h2>
+  <div id="error" />
+  <form method="post">
+    <table class="multiFormTable" border="0" cellpadding="0" cellspacing="0">
+      <span type='form' name='person_exam:id' />
+      <span type='form' name='person_exam:parent' />
+      <tr>
+	<th colspan="2">
+	  Exam Results
+	  -- 
+	  <span type='form' name='provider_instance:start_date' noedit='1'/>
+	  <span  ifset='true' name='passing_score'>
+	    -- 
+	    <span printf="'Passing Score: %d',$passing_score"/>
+	  </span>
+	</th>
+      </tr>
+      <tr>
+	<td>
+	  <span type="form" name="person_exam:try" showhead="default"></span>
+	</td>
+	<td>
+		<span type="form" name="person_exam:paper" showhead="default"></span>
+	</td>
+      </tr>
+      <tr>
+	<td>
+		<span type="form" name="person_exam:exam_date" showhead="default"></span>
+	</td>
+	 </tr>
+      <tr>
+	<td>
+	  <span type="form" name="person_exam:results_section_a1" showhead="default"></span>	  
+	</td>
+	<td>
+	  <span type="form" name="person_exam:results_section_a2" showhead="default"></span>	  
+	</td>
+	</tr>
+      <tr>
+      <td>
+	  <span type="form" name="person_exam:results_section_b1" showhead="default"></span>	  
+	</td>
+	<td>
+	  <span type="form" name="person_exam:results_section_b2" showhead="default"></span>	  
+	</td>
+	</tr>
+      <tr>
+      <td>
+	  <span type="form" name="person_exam:results_section_c1" showhead="default"></span>	  
+	</td>
+	<td>
+	  <span type="form" name="person_exam:results_section_c2" showhead="default"></span>	  
+	</td>
+	</tr>
+      <tr>
+      <td>
+	  <span type="form" name="person_exam:results_section_c3" showhead="default"></span>	  
+	</td>
+	<td>
+	  <span type="form" name="person_exam:results" showhead="default"></span>	  
+	</td>
+      </tr>
+      <tr class="submitCell">
+	<td colspan="2">
+	  <div id="button" />
+	</td>
+      </tr>
+
+    </table>
+  </form>
+
+</div>

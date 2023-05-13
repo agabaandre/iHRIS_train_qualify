@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="student-printed-form">
+  <metadata>
+    <displayName>Student Printed Forms</displayName>
+    <description>Student printed forms generated from the current_students report view.</description>
+    <version>4.2.1.3</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <!--<requirement name="ihris-manage-CustomReports-staff-reports">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>-->
+    <requirement name="CustomReports-PrintedReportsODT">
+      <atLeast version="4.2" />
+      <lessThan version="4.3" />
+    </requirement>
+    <path name="odt_templates">
+      <value>./odt_templates</value>
+    </path>
+  </metadata>
+  <configurationGroup name="student-printed-form" path="/modules/CustomReports/reportViews/current_students/printed_forms">
+    <version>4.1.7.3</version>
+    <configurationGroup name="student_form">
+      <version>4.1.7.3</version>
+      <configuration name="template">
+        <value>Card.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>Exam Card</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="studentPR_form">
+      <version>4.1.7.14</version>
+      <configuration name="template">
+        <value>PromotionalCard.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>Promotional Exam Card</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="studentalbum_table">
+      <version>4.1.7</version>
+      <configuration name="template">
+        <value>Album.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>Students Album</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+   <configurationGroup name="former-student-printed-form" path="/modules/CustomReports/reportViews/former_students/printed_forms">
+    <version>4.1.7.4</version>
+    <configurationGroup name="studentalbum_table">
+      <version>4.1.7.4</version>
+      <configuration name="template">
+        <value>Album.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>Students Album</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>1389250992
+  <configurationGroup name="studentpromotional-printed-form" path="/modules/CustomReports/reportViews/1389250992/printed_forms">
+        <version>4.1.7.18</version>
+        <configurationGroup name="promotionalstudent_table">
+		  <version>4.1.7.18</version>
+		  <configuration name="template">
+			<value>PromotionalResultBook.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Promotional Result Book</value>
+		  </configuration>
+		</configurationGroup>
+	</configurationGroup>
+    <configurationGroup name="studentmarksheet-printed-form" path="/modules/CustomReports/reportViews/marksheet/printed_forms">
+         <version>4.2.1.2</version>
+         <configurationGroup name="studentstate_table">
+		   <version>4.2.1.2</version>
+		  <configuration name="template">
+			<value>StateResultBook.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>State Result Book From 2015</value>
+		  </configuration>
+		</configurationGroup>       
+		<configurationGroup name="student_table">
+		  <version>4.1.7.20</version>
+		  <configuration name="template">
+			<value>StaffTableForm.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+		  <version>4.1.7.19</version>
+			<value>State Result Book Before 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCCN2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipCCN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CCN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCN2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipCN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCM2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipCM2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CM 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCMHN2015_table">
+		   <version>4.2.1.3</version>
+		  <configuration name="template">
+			<value>ResultSlipCMHN2016.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CMHN 2016</value>
+		  </configuration>
+		</configurationGroup>
+               
+		<configurationGroup name="studentslipDCN2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipDCN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DCN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDN2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipDN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDM2015_table">
+		  <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipDM2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DM 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDMHN2015_table">
+		   <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipDMHN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DMHN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDMHN2015_table">
+                   <version>4.2.1.3</version>
+                  <configuration name="template">
+                        <value>ResultSlipDMHN2016.odt</value>
+                  </configuration>
+                  <configuration name="displayName" locale="en_US">
+                        <value>Result Slip DMHN 2016</value>
+                  </configuration>
+                </configurationGroup>
+		<configurationGroup name="studentslipDPHN2015_table">
+		   <version>4.2.1.2</version>
+		  <configuration name="template">
+			<value>ResultSlipDPHN2015.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DPHN 2015</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCCN_table">
+		  <version>4.1.7.22</version>
+		  <configuration name="template">
+			<value>ResultSlipCCN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CCN</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCN_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipCN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CN</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCM_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipCM.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CM</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipCMHN_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipCMHN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip CMHN</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDCN_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipDCN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DCN</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDN_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipDN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DN</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDM_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipDM.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DM</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="studentslipDMHN_table">
+		  <version>4.1.7.12</version>
+		  <configuration name="template">
+			<value>ResultSlipDMHN.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Result Slip DMHN</value>
+		  </configuration>
+		</configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="certificate-printed-form" path="/modules/CustomReports/reportViews/certificate_report/printed_forms">
+		<configurationGroup name="student_table">
+		  <version>4.1.7.10</version>
+		  <configuration name="template">
+		    <version>4.1.7.10</version>
+			<value>Certificate.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Certificate</value>
+		  </configuration>
+		</configurationGroup>
+    </configurationGroup>
+</I2CEConfiguration>
