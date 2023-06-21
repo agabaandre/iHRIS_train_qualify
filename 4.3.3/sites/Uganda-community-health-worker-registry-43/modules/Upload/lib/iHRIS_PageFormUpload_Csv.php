@@ -116,7 +116,24 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             //Assign original Current Salary
             $Current_Salary = $this->current[$key]['row']['Current Salary'];
         }
-      
+        //Convert Date from 25 July 1975 to 25/06/1975 
+
+        /*        
+        $b_date = $this->current[$key]['row']['Birth Date'];
+        if ( !$b_date && (strpos($b_date, '/') === false)){
+        $b_date= date('d/m/Y',strtotime($b_date));     
+        }  
+	    
+        $s_date = $this->current[$key]['row']['Date of Current Appointment'];
+        if ( !$s_date && (strpos($s_date, '/') === false)){
+        $s_date= date('d/m/Y',strtotime($s_date));
+         }
+     
+        $d_date = $this->current[$key]['row']['Date of First Appointment'];
+        if (!$d_date &&  (strpos($d_date, '/') === false)){
+	    $d_date= date('d/m/Y',strtotime($d_date));
+         }
+        */
 
         $b_date = $this->current[$key]['row']['Birth Date'];
         $b_date = date('d/m/Y', strtotime($b_date));
@@ -142,6 +159,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $fd_date = date('d/m/Y', strtotime($ud_date));
         $birth_date = $this->arrange_date($b_date);
         $start_date = $this->arrange_date($fs_date);
+
         $dofa_date = $this->arrange_date($fd_date);
         $district = $this->lookupList("district", $this->current[$key]['row']['Residence District'], 'name');
         $home_district = $this->lookupList("district", $this->current[$key]['row']['Home District'], 'name');
@@ -169,6 +187,277 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
 
         if (!$person_id) {
+            // $find_pers = array(
+            //     'operator' => 'AND',
+            //     'operand' => array(
+
+            //         0 => array(
+            //             'operator' => 'FIELD_LIMIT',
+            //             'style' => 'lowerequals',
+            //             'field' => 'national_id',
+            //             'data' => array(
+            //                 'value' => $this->current[$key]['row']['National ID'],
+            //             ),
+            //         ),
+            //     ),
+            // );
+            // $person_id = I2CE_FormStorage::search("person", false, $find_pers, array(), true);
+            $person = "";
+        }
+
+        if ($person_id) {
+            echo "Work in Progress";
+            // $person_id = "person|" . $person_id;
+            // $person = $this->factory->createContainer($person_id);
+            // $person->populate();
+
+            // $person->getField("residence")->setFromDB($district);
+            // $person->getField("home_district")->setFromDB($home_district);
+            // $person->getField("religion")->setFromDB($religion);
+            // $person->getField("gender")->setFromDB($gender);
+            // $person->getField("marital_status")->setFromDB($marital_status);
+            // $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            // $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
+
+
+            // $person->save($this->user);
+
+
+            // // $person->cleanup();
+            // // unset($person);
+            // //Terms of Employment
+            // if ($this->current[$key]['row']['Position']) {
+
+            //     $where = array(
+            //         'operator' => 'AND',
+            //         'operand' => array(
+
+            //             0 => array(
+            //                 'operator' => 'FIELD_LIMIT',
+            //                 'style' => 'equals',
+            //                 'field' => 'parent',
+            //                 'data' => array(
+            //                     'value' => $person_id,
+            //                 ),
+            //             ),
+            //             1 => array(
+            //                 'operator' => 'FIELD_LIMIT',
+            //                 'field' => 'end_date',
+            //                 'style' => 'null',
+            //                 'data' => array()
+            //             ),
+
+            //         )
+            //     );
+
+            //     $person_position_form = $person->getChildIds('person_position', 'last_modified', $where, true);
+
+            //     $person_position_id = $person_position_form[0];
+
+            //     if ($person_position_id) {
+            //         //get position from person_position
+
+            //         $person_position = $this->factory->createContainer('person_position|' . $person_position_id);
+            //         $person_position->populate();
+
+            //         $existing_position = $person_position->getField('position')->getDBValue();
+            //         $existing_dofa_date = $person_position->getField('dofa_date')->getDBValue();
+            //         $existing_employment_terms = $person_position->getField('employment_terms')->getDBValue();
+            //         $existing_start_date = $person_position->getField('start_date')->getDBValue();
+
+            //         $position = $this->factory->createContainer($existing_position);
+            //         $position->populate();
+
+            //         $existing_job = $position->getField('job')->getDBValue();
+            //         $existing_title = $position->getField('title')->getDBValue();
+            //         $existing_facility = $position->getField('facility')->getDBValue();
+            //         // $existing_facility_office = $position->getField('facility_office')->getDBValue();
+            //         $existing_status = $position->getField('status')->getDBValue();
+
+
+            //         //compare job and facility with the ones under position
+
+            //         if ($existing_job == $job && $existing_facility == $facility) {
+
+            //             //if same
+            //             //update Date of First Appointment,Date of Current Appointment,Minute,Current Salary,Employement Terms
+
+            //             $person_position->getField('employment_terms')->setFromDB($employment_terms);
+            //             $person_position->getField('dofa_date')->setFromDB($dofa_date);
+            //             $person_position->getField('start_date')->setFromDB($start_date);
+
+            //             $person_position->save($this->user);
+            //             if ($Current_Salary) {
+            //                 $where = array(
+            //                     'operator' => 'AND',
+            //                     'operand' => array(
+
+            //                         0 => array(
+            //                             'operator' => 'FIELD_LIMIT',
+            //                             'style' => 'equals',
+            //                             'field' => 'parent',
+            //                             'data' => array(
+            //                                 'value' => $person_position->getNameID(),
+            //                             ),
+            //                         ),
+            //                     )
+            //                 );
+
+            //                 $salary_form = $person_position->getChildIds('salary', 'last_modified', $where, true);
+            //                 $salary_id = $salary_form[0];
+            //                 if ($salary_id) {
+            //                     $salary = $this->factory->createContainer("salary|" . $salary_id);
+            //                     $salary->populate();
+            //                 } else {
+            //                     $salary = $this->factory->createContainer("salary");
+            //                     $salary->setParent($person_position->getNameID());
+            //                 }
+            //                 $salary->getField('start_date')->setFromDB($start_date);
+            //                 $salary->getField('salary')->setFromDB('currency|UGX=' . $Current_Salary);
+            //                 $salary->save($this->user);
+            //                 $salary->cleanup();
+            //                 unset($salary);
+            //             }
+            //             $person_position->cleanup();
+            //             unset($person_position);
+            //         } else if ($existing_start_date > $start_date) {
+            //             //else if(import Date of Current Appointment < existing Date of Current Appointment)
+            //             //update job,department and facility for position
+
+            //             $position->getField('job')->setFromDB($job);
+            //             $position->title = $this->current[$key]['row']['Position'];
+            //             // $position->getField('facility_office')->setFromDB($facility_office);
+            //             $position->getField('facility')->setFromDB($facility);
+
+            //             $position->save($this->user);
+
+
+
+            //             //update DOFA,Date of Current Appointment,DSC Minute,Current Salary,Employement Terms for person position	
+            //             $person_position->getField('employment_terms')->setFromDB($employment_terms);
+
+            //             $person_position->getField('dofa_date')->setFromDB($dofa_date);
+            //             $person_position->getField('start_date')->setFromDB($start_date);
+
+            //             $person_position->save($this->user);
+            //             if ($Current_Salary) {
+            //                 $where = array(
+            //                     'operator' => 'AND',
+            //                     'operand' => array(
+
+            //                         0 => array(
+            //                             'operator' => 'FIELD_LIMIT',
+            //                             'style' => 'equals',
+            //                             'field' => 'parent',
+            //                             'data' => array(
+            //                                 'value' => $person_position->getNameID(),
+            //                             ),
+            //                         ),
+            //                     )
+            //                 );
+
+            //                 $salary_form = $person_position->getChildIds('salary', 'last_modified', $where, true);
+            //                 $salary_id = $salary_form[0];
+            //                 if ($salary_id) {
+            //                     $salary = $this->factory->createContainer("salary|" . $salary_id);
+            //                     $salary->populate();
+            //                 } else {
+            //                     $salary = $this->factory->createContainer("salary");
+            //                     $salary->setParent($person_position->getNameID());
+            //                 }
+            //                 $salary->getField('start_date')->setFromDB($start_date);
+            //                 $salary->getField('salary')->setFromDB('currency|UGX=' . $Current_Salary);
+            //                 $salary->save($this->user);
+            //                 $salary->cleanup();
+            //                 unset($salary);
+            //             }
+            //             $person_position->cleanup();
+            //             unset($person_position);
+
+            //             $position->cleanup();
+            //             unset($position);
+            //             } else {
+
+
+
+
+            //             //assign end date to person_position(one day less than import Date of Current Appointment)
+            //             $start_date = new DateTime($start_date);
+
+            //             $start_date = $start_date->format('Y-m-d');
+
+            //             $end_date = date('Y-m-d', strtotime($start_date . ' - 1 days'));
+
+
+
+            //             list($year, $month, $day) = explode('-', $end_date);
+
+            //             $new_end_date = sprintf("%04d-%02d-%02d", $year, $month, $day);
+
+            //             //$this->userMessage($new_end_date );
+
+            //             $person_position->getField('end_date')->setFromDB($new_end_date);
+
+            //             $person_position->save($this->user);
+
+            //             //discontinue current position (Status = discontinued)
+            //             $position->getField('status')->setFromDB('position_status|discontinued');
+            //             $position->save($this->user);
+
+            //             $person_position->cleanup();
+            //             unset($person_position);
+
+            //             $position->cleanup();
+            //             unset($position);
+
+
+            //             //Create new position and assign it
+            //             // Now we create the position.
+            //             $position = $this->factory->createContainer("position");
+
+            //             $position->getField('job')->setFromDB($job);
+            //             $position->title = $this->current[$key]['row']['Position'];
+            //             $position->getField('facility')->setFromDB($facility);
+            //             //$position->getField('facility_office')->setFromDB($facility_office);
+            //             // $position->getField('salary_grade')->setFromDB( $salary_grade_id );
+            //             $position->getField('status')->setFromDB('position_status|closed');
+
+            //             $position->save($this->user);
+            //             $person_position = $this->factory->createContainer("person_position");
+            //             $person_position->setParent($person_id);
+            //             $person_position->getField("position")->setFromDB($position->getNameId());
+            //             $person_position->getField("start_date")->setFromDB($start_date);
+            //             $person_position->getField("dofa_date")->setFromDB($dofa_date);
+            //             if ($employment_terms) {
+            //                 $person_position->getField("employment_terms")->setFromDB($employment_terms);
+            //             }
+
+
+            //             $person_position->save($this->user);
+            //             if ($start_date) {
+            //                 $salary = $this->factory->createContainer("salary");
+            //                 $salary->setParent($person_position->getNameId());
+            //                 $salary->getField('start_date')->setFromDB($start_date);
+            //                 $salary->getField('salary')->setFromDB('currency|UGX=' . $Current_Salary);
+            //                 $salary->save($this->user);
+            //                 $salary->cleanup();
+            //                 unset($salary);
+            //             }
+
+
+
+
+
+
+            //             $person_position->cleanup();
+            //             unset($person_position);
+
+            //             $position->cleanup();
+            //             unset($position);
+            //         }
+            //     }
+            // }
+        } else {
             $created = true;
             $person = $this->factory->createContainer("person");
             if ($this->current[$key]['row']['National ID']) {
@@ -194,9 +483,9 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
             $person->getField("birth_date")->setFromDB($birth_date);
-             print_r($person);
+            // print_r($person);
             //$id$person->setParent($person_id);
-            //$save = $person->save($this->user);
+            $save = $person->save($this->user);
 
             // Now we create the position.
             $position = $this->factory->createContainer("position");
@@ -217,7 +506,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
                 $person_position->getField("employment_terms")->setFromDB($employment_terms);
             }
             $person_position->save($this->user);
-            print_r($person_position);
+
 
             $person_position->save($this->user);
             if (!empty($start_date)) {
@@ -234,13 +523,13 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
 
-            $person_money = $this->factory->createContainer("mobile_money");
-            $person_position->setParent($person->getNameId());
-            $person_money->setParent($person->getNameId());
-            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
-            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
-            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
-            $person_money->save($this->user);
+            // $person_money = $this->factory->createContainer("mobile_money");
+            //$person_position->setParent($person->getNameId());
+            // $person_money->setParent($person->getNameId());
+            // $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            // $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            // $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            // $person_money->save($this->user);
 
 
             // $person_money->cleanup();
