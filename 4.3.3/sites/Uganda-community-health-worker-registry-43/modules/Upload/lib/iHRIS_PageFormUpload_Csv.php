@@ -116,24 +116,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             //Assign original Current Salary
             $Current_Salary = $this->current[$key]['row']['Current Salary'];
         }
-        //Convert Date from 25 July 1975 to 25/06/1975 
-
-        /*        
-        $b_date = $this->current[$key]['row']['Birth Date'];
-        if ( !$b_date && (strpos($b_date, '/') === false)){
-        $b_date= date('d/m/Y',strtotime($b_date));     
-        }  
-	    
-        $s_date = $this->current[$key]['row']['Date of Current Appointment'];
-        if ( !$s_date && (strpos($s_date, '/') === false)){
-        $s_date= date('d/m/Y',strtotime($s_date));
-         }
-     
-        $d_date = $this->current[$key]['row']['Date of First Appointment'];
-        if (!$d_date &&  (strpos($d_date, '/') === false)){
-	    $d_date= date('d/m/Y',strtotime($d_date));
-         }
-        */
+      
 
         $b_date = $this->current[$key]['row']['Birth Date'];
         $b_date = date('d/m/Y', strtotime($b_date));
@@ -159,7 +142,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
         $fd_date = date('d/m/Y', strtotime($ud_date));
         $birth_date = $this->arrange_date($b_date);
         $start_date = $this->arrange_date($fs_date);
-
         $dofa_date = $this->arrange_date($fd_date);
         $district = $this->lookupList("district", $this->current[$key]['row']['Residence District'], 'name');
         $home_district = $this->lookupList("district", $this->current[$key]['row']['Home District'], 'name');
@@ -187,26 +169,6 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
 
 
         if (!$person_id) {
-            // $find_pers = array(
-            //     'operator' => 'AND',
-            //     'operand' => array(
-
-            //         0 => array(
-            //             'operator' => 'FIELD_LIMIT',
-            //             'style' => 'lowerequals',
-            //             'field' => 'national_id',
-            //             'data' => array(
-            //                 'value' => $this->current[$key]['row']['National ID'],
-            //             ),
-            //         ),
-            //     ),
-            // );
-            // $person_id = I2CE_FormStorage::search("person", false, $find_pers, array(), true);
-            $person = "";
-        }
-
-        if (!$person_id) {
-         
             $created = true;
             $person = $this->factory->createContainer("person");
             if ($this->current[$key]['row']['National ID']) {
@@ -232,7 +194,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person->getField("mobile_phone")->setFromDB($this->current[$key]['row']['Mobile Number']);
             $person->getField("alt_telephone")->setFromDB($this->current[$key]['row']['Telephone Number']);
             $person->getField("birth_date")->setFromDB($birth_date);
-            // print_r($person);
+             print_r($person);
             //$id$person->setParent($person_id);
             //$save = $person->save($this->user);
 
@@ -254,7 +216,7 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             if (!empty($employment_terms)) {
                 $person_position->getField("employment_terms")->setFromDB($employment_terms);
             }
-            //$person_position->save($this->user);
+            $person_position->save($this->user);
             print_r($person_position);
 
             $person_position->save($this->user);
@@ -272,13 +234,13 @@ class iHRIS_PageFormUpload_Csv extends I2CE_PageFormCSV
             $person_village->getField("village")->setFromDB($village);
             $person_village->save($this->user);
 
-            // $person_money = $this->factory->createContainer("mobile_money");
-            //$person_position->setParent($person->getNameId());
-            // $person_money->setParent($person->getNameId());
-            // $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
-            // $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
-            // $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
-            // $person_money->save($this->user);
+            $person_money = $this->factory->createContainer("mobile_money");
+            $person_position->setParent($person->getNameId());
+            $person_money->setParent($person->getNameId());
+            $person_money->getField("mobile_phone_type")->setFromDB('Feature (Non-Smart)');
+            $person_money->getField("mobile_money_registration")->setFromDB($this->current[$key]['row']['Surname'] . ' ' . $this->current[$key]['row']['Firstname'] . $this->current[$key]['row']['Othername']);
+            $person_money->getField("mobile_money_no")->setFromDB($this->current[$key]['row']['Mobile Number']);
+            $person_money->save($this->user);
 
 
             // $person_money->cleanup();
